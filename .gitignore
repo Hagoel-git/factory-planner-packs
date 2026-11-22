@@ -1,0 +1,24 @@
+# Raw game dumps and local notes/sources (never committed)
+raw/
+
+# Icon resize scratch, loose PNG icons, and packed icon containers (never committed)
+.tmp_icons/
+icons/
+icons.pak
+
+# Generated converter diagnostic reports
+report.json
+
+# Local release archive staging
+dist/
+*.zip
+
+# Optional project-local Python virtual environment and bytecode caches
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

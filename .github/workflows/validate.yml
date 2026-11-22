@@ -1,0 +1,135 @@
+name: Validate Packs
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      tool_version:
+        description: "Override Factory Planner release tag for gamedata_tool (defaults to tool.version)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Reject committed raw dumps or binary icon assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          forbidden=$(find . -path './.git' -prune -o \
+            \( -path './raw/*' -o -path './.tmp_icons/*' -o -path './packs/*/icons/*' -o -path './packs/*.png' -o -path './packs/*.pak' -o -name 'icons.pak' \) \
+            -print)
+          if [ -n "$forbidden" ]; then
+            echo "::error::Binary icon assets or raw dumps must not be committed to git:"
+            echo "$forbidden"
+            exit 1
+          fi
+
+      - name: Resolve gamedata_tool version
+        id: tool_ver
+        shell: bash
+        run: |
+          set -euo pipefail
+          override="${{ inputs.tool_version }}"
+          if [ -n "$override" ]; then
+            tag="$override"
+          elif [ -f tool.version ]; then
+            tag="$(tr -d '[:space:]' < tool.version)"
+          else
+            echo "::error::Missing tool.version file"
+            exit 1
+          fi
+          if [ -z "$tag" ]; then
+            echo "::error::tool.version is empty"
+            exit 1
+          fi
+          echo "tag=${tag}" >> "$GITHUB_OUTPUT"
+          echo "Using gamedata_tool from Factory Planner release: ${tag}"
+
+      - name: Download gamedata_tool from Factory Planner release
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${{ steps.tool_ver.outputs.tag }}"
+          url="https://github.com/Hagoel-git/factory-planner/releases/download/${tag}/factory-planner-${tag}-linux-x64.tar.gz"
+          mkdir -p _tool
+          echo "Downloading ${url}..."
+          curl -fL "$url" -o _tool/release.tar.gz
+          tar -xzf _tool/release.tar.gz -C _tool
+          if [ ! -x _tool/gamedata_tool ]; then
+            echo "::error::gamedata_tool executable not found in ${url}"
+            ls -la _tool
+            exit 1
+          fi
+          LD_LIBRARY_PATH="_tool/lib:${LD_LIBRARY_PATH:-}" _tool/gamedata_tool --version
+
+      - name: Validate all packs and run eval cases
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          export LD_LIBRARY_PATH="${PWD}/_tool/lib:${LD_LIBRARY_PATH:-}"
+          TOOL="${PWD}/_tool/gamedata_tool"
+
+          manifests=(packs/*/*/game.json)
+          if [ "${#manifests[@]}" -eq 0 ]; then
+            echo "No packs found under packs/*/*/game.json — skipping pack validation."
+            exit 0
+          fi
+
+          failures=0
+          for manifest in "${manifests[@]}"; do
+            pkg_dir="$(dirname "$manifest")"
+            pkg_name="$(basename "$pkg_dir")"
+            game_id="$(basename "$(dirname "$pkg_dir")")"
+
+            echo "================================================================"
+            echo "Validating ${pkg_dir}..."
+            echo "================================================================"
+            if ! "$TOOL" validate "$pkg_dir" --no-icons --werror --timing; then
+              echo "::error::Validation failed for ${pkg_dir}"
+              failures=$((failures + 1))
+              continue
+            fi
+
+            # Prefer version-specific cases directory if present, else game-level cases/
+            cases_dir=""
+            if [ -d "converters/${game_id}/cases/${pkg_name}" ] && \
+               [ -n "$(find "converters/${game_id}/cases/${pkg_name}" -type f -name '*.json' -print -quit)" ]; then
+              cases_dir="converters/${game_id}/cases/${pkg_name}"
+            elif [ -d "converters/${game_id}/cases" ] && \
+                 [ -n "$(find "converters/${game_id}/cases" -type f -name '*.json' -print -quit)" ]; then
+              cases_dir="converters/${game_id}/cases"
+            fi
+
+            if [ -n "$cases_dir" ]; then
+              echo "Running eval cases from ${cases_dir}..."
+              if ! "$TOOL" eval "$pkg_dir" --cases "$cases_dir"; then
+                echo "::error::Eval cases failed for ${pkg_dir} (${cases_dir})"
+                failures=$((failures + 1))
+              fi
+            else
+              echo "::warning::No eval cases found for ${game_id} (expected converters/${game_id}/cases/*.json)"
+            fi
+          done
+
+          if [ "$failures" -ne 0 ]; then
+            echo "::error::${failures} pack check(s) failed."
+            exit 1
+          fi
+          echo "All ${#manifests[@]} pack(s) validated cleanly."

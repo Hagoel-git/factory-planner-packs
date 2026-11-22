@@ -1,0 +1,21 @@
+Factory Planner Packs — Third-Party Game Data & Assets Notice
+
+1. Repository contents (text only):
+   This Git repository contains converter scripts, GameData v4 templates,
+   regression test cases, and machine-readable JSON production metadata
+   (resource IDs, recipe ratios, machine parameters, and formulas) authored
+   for Factory Planner. No raw game dumps or graphical icon assets are stored
+   in Git.
+
+2. Third-party trademarks and game assets:
+   All game titles, item/fluid/machine names, logos, and any icon assets
+   bundled into optional GitHub Release archives (`icons.pak`) are the
+   property of their respective developers and publishers. Inclusion of a
+   game pack does not imply endorsement by or affiliation with the original
+   game creators.
+
+3. Takedown / redistribution requests:
+   Release archives redistribute resized game icons strictly for companion
+   planning convenience. If you are a rights holder and would like icons
+   removed from a release archive, please open an issue in this repository;
+   Factory Planner supports every pack in "no icons" mode without icons.
