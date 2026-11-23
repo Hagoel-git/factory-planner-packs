@@ -1,0 +1,1909 @@
+{
+  "recipes": [
+    {
+      "id": "additive-reconstructor-atrax",
+      "name": "Additive Reconstructor: Atrax",
+      "category": "additive-reconstructor",
+      "time": 600,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "crawler",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          40
+        ],
+        [
+          "graphite",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "atrax",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "additive-reconstructor-horizon",
+      "name": "Additive Reconstructor: Horizon",
+      "category": "additive-reconstructor",
+      "time": 600,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "flare",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          40
+        ],
+        [
+          "graphite",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "horizon",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "additive-reconstructor-mace",
+      "name": "Additive Reconstructor: Mace",
+      "category": "additive-reconstructor",
+      "time": 600,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "dagger",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          40
+        ],
+        [
+          "graphite",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "mace",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "additive-reconstructor-minke",
+      "name": "Additive Reconstructor: Minke",
+      "category": "additive-reconstructor",
+      "time": 600,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "risso",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          40
+        ],
+        [
+          "graphite",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "minke",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "additive-reconstructor-oxynoe",
+      "name": "Additive Reconstructor: Oxynoe",
+      "category": "additive-reconstructor",
+      "time": 600,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "retusa",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          40
+        ],
+        [
+          "graphite",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "oxynoe",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "additive-reconstructor-poly",
+      "name": "Additive Reconstructor: Poly",
+      "category": "additive-reconstructor",
+      "time": 600,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "mono",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          40
+        ],
+        [
+          "graphite",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "poly",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "additive-reconstructor-pulsar",
+      "name": "Additive Reconstructor: Pulsar",
+      "category": "additive-reconstructor",
+      "time": 600,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "nova",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          40
+        ],
+        [
+          "graphite",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "pulsar",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "air-factory-flare",
+      "name": "Air Factory: Flare",
+      "category": "air-factory",
+      "time": 900,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "silicon",
+          15
+        ]
+      ],
+      "out": [
+        [
+          "flare",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "air-factory-mono",
+      "name": "Air Factory: Mono",
+      "category": "air-factory",
+      "time": 2100,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "silicon",
+          30
+        ],
+        [
+          "lead",
+          15
+        ]
+      ],
+      "out": [
+        [
+          "mono",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "constructor-beryllium-wall-large",
+      "name": "Constructor: Large Beryllium Wall",
+      "category": "constructor",
+      "time": 144,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "beryllium",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "beryllium-wall-large",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "constructor-carbide-wall-large",
+      "name": "Constructor: Large Carbide Wall",
+      "category": "constructor",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "thorium",
+          24
+        ],
+        [
+          "carbide",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "carbide-wall-large",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "constructor-tungsten-wall-large",
+      "name": "Constructor: Large Tungsten Wall",
+      "category": "constructor",
+      "time": 180,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "tungsten",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "tungsten-wall-large",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "exponential-reconstructor-aegires",
+      "name": "Exponential Reconstructor: Aegires",
+      "category": "exponential-reconstructor",
+      "time": 5400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "cyerce",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          850
+        ],
+        [
+          "titanium",
+          750
+        ],
+        [
+          "plastanium",
+          650
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 60,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "aegires",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "exponential-reconstructor-antumbra",
+      "name": "Exponential Reconstructor: Antumbra",
+      "category": "exponential-reconstructor",
+      "time": 5400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "zenith",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          850
+        ],
+        [
+          "titanium",
+          750
+        ],
+        [
+          "plastanium",
+          650
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 60,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "antumbra",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "exponential-reconstructor-arkyid",
+      "name": "Exponential Reconstructor: Arkyid",
+      "category": "exponential-reconstructor",
+      "time": 5400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "spiroct",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          850
+        ],
+        [
+          "titanium",
+          750
+        ],
+        [
+          "plastanium",
+          650
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 60,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "arkyid",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "exponential-reconstructor-quad",
+      "name": "Exponential Reconstructor: Quad",
+      "category": "exponential-reconstructor",
+      "time": 5400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "mega",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          850
+        ],
+        [
+          "titanium",
+          750
+        ],
+        [
+          "plastanium",
+          650
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 60,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "quad",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "exponential-reconstructor-scepter",
+      "name": "Exponential Reconstructor: Scepter",
+      "category": "exponential-reconstructor",
+      "time": 5400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "fortress",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          850
+        ],
+        [
+          "titanium",
+          750
+        ],
+        [
+          "plastanium",
+          650
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 60,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "scepter",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "exponential-reconstructor-sei",
+      "name": "Exponential Reconstructor: Sei",
+      "category": "exponential-reconstructor",
+      "time": 5400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "bryde",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          850
+        ],
+        [
+          "titanium",
+          750
+        ],
+        [
+          "plastanium",
+          650
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 60,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "sei",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "exponential-reconstructor-vela",
+      "name": "Exponential Reconstructor: Vela",
+      "category": "exponential-reconstructor",
+      "time": 5400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "quasar",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          850
+        ],
+        [
+          "titanium",
+          750
+        ],
+        [
+          "plastanium",
+          650
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 60,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "vela",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ground-factory-crawler",
+      "name": "Ground Factory: Crawler",
+      "category": "ground-factory",
+      "time": 600,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "silicon",
+          8
+        ],
+        [
+          "coal",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "crawler",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ground-factory-dagger",
+      "name": "Ground Factory: Dagger",
+      "category": "ground-factory",
+      "time": 900,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "silicon",
+          10
+        ],
+        [
+          "lead",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "dagger",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ground-factory-nova",
+      "name": "Ground Factory: Nova",
+      "category": "ground-factory",
+      "time": 2400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "silicon",
+          30
+        ],
+        [
+          "lead",
+          20
+        ],
+        [
+          "titanium",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "nova",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mech-assembler-collaris",
+      "name": "Mech Assembler: Collaris",
+      "category": "mech-assembler",
+      "time": 10800,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false,
+        "extra_power": 210
+      },
+      "in": [
+        [
+          "cleroi",
+          6
+        ],
+        [
+          "carbide-wall-large",
+          20
+        ],
+        {
+          "res": "cyanogen",
+          "amount": 12,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "collaris",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mech-assembler-tecta",
+      "name": "Mech Assembler: Tecta",
+      "category": "mech-assembler",
+      "time": 4200,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "merui",
+          5
+        ],
+        [
+          "tungsten-wall-large",
+          12
+        ],
+        {
+          "res": "cyanogen",
+          "amount": 12,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "tecta",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mech-fabricator-merui",
+      "name": "Mech Fabricator: Merui",
+      "category": "mech-fabricator",
+      "time": 2400,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "beryllium",
+          50
+        ],
+        [
+          "silicon",
+          70
+        ]
+      ],
+      "out": [
+        [
+          "merui",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mech-refabricator-cleroi",
+      "name": "Mech Refabricator: Cleroi",
+      "category": "mech-refabricator",
+      "time": 2700,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "merui",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          50
+        ],
+        [
+          "tungsten",
+          40
+        ],
+        {
+          "res": "hydrogen",
+          "amount": 3,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "cleroi",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "multiplicative-reconstructor-bryde",
+      "name": "Multiplicative Reconstructor: Bryde",
+      "category": "multiplicative-reconstructor",
+      "time": 1800,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "minke",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          130
+        ],
+        [
+          "titanium",
+          80
+        ],
+        [
+          "metaglass",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "bryde",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "multiplicative-reconstructor-cyerce",
+      "name": "Multiplicative Reconstructor: Cyerce",
+      "category": "multiplicative-reconstructor",
+      "time": 1800,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "oxynoe",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          130
+        ],
+        [
+          "titanium",
+          80
+        ],
+        [
+          "metaglass",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "cyerce",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "multiplicative-reconstructor-fortress",
+      "name": "Multiplicative Reconstructor: Fortress",
+      "category": "multiplicative-reconstructor",
+      "time": 1800,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "mace",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          130
+        ],
+        [
+          "titanium",
+          80
+        ],
+        [
+          "metaglass",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "fortress",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "multiplicative-reconstructor-mega",
+      "name": "Multiplicative Reconstructor: Mega",
+      "category": "multiplicative-reconstructor",
+      "time": 1800,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "poly",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          130
+        ],
+        [
+          "titanium",
+          80
+        ],
+        [
+          "metaglass",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "mega",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "multiplicative-reconstructor-quasar",
+      "name": "Multiplicative Reconstructor: Quasar",
+      "category": "multiplicative-reconstructor",
+      "time": 1800,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "pulsar",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          130
+        ],
+        [
+          "titanium",
+          80
+        ],
+        [
+          "metaglass",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "quasar",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "multiplicative-reconstructor-spiroct",
+      "name": "Multiplicative Reconstructor: Spiroct",
+      "category": "multiplicative-reconstructor",
+      "time": 1800,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "atrax",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          130
+        ],
+        [
+          "titanium",
+          80
+        ],
+        [
+          "metaglass",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "spiroct",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "multiplicative-reconstructor-zenith",
+      "name": "Multiplicative Reconstructor: Zenith",
+      "category": "multiplicative-reconstructor",
+      "time": 1800,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "horizon",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          130
+        ],
+        [
+          "titanium",
+          80
+        ],
+        [
+          "metaglass",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "zenith",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "naval-factory-retusa",
+      "name": "Naval Factory: Retusa",
+      "category": "naval-factory",
+      "time": 2100,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "silicon",
+          15
+        ],
+        [
+          "titanium",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "retusa",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "naval-factory-risso",
+      "name": "Naval Factory: Risso",
+      "category": "naval-factory",
+      "time": 2700,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "silicon",
+          20
+        ],
+        [
+          "metaglass",
+          35
+        ]
+      ],
+      "out": [
+        [
+          "risso",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "prime-refabricator-anthicus",
+      "name": "Prime Refabricator: Anthicus",
+      "category": "prime-refabricator",
+      "time": 3600,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "cleroi",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "thorium",
+          80
+        ],
+        [
+          "silicon",
+          100
+        ],
+        {
+          "res": "nitrogen",
+          "amount": 10,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "anthicus",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "prime-refabricator-obviate",
+      "name": "Prime Refabricator: Obviate",
+      "category": "prime-refabricator",
+      "time": 3600,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "avert",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "thorium",
+          80
+        ],
+        [
+          "silicon",
+          100
+        ],
+        {
+          "res": "nitrogen",
+          "amount": 10,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "obviate",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "prime-refabricator-precept",
+      "name": "Prime Refabricator: Precept",
+      "category": "prime-refabricator",
+      "time": 3600,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "locus",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "thorium",
+          80
+        ],
+        [
+          "silicon",
+          100
+        ],
+        {
+          "res": "nitrogen",
+          "amount": 10,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "precept",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ship-assembler-disrupt",
+      "name": "Ship Assembler: Disrupt",
+      "category": "ship-assembler",
+      "time": 10800,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false,
+        "extra_power": 210
+      },
+      "in": [
+        [
+          "avert",
+          6
+        ],
+        [
+          "carbide-wall-large",
+          20
+        ],
+        {
+          "res": "cyanogen",
+          "amount": 12,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "disrupt",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ship-assembler-quell",
+      "name": "Ship Assembler: Quell",
+      "category": "ship-assembler",
+      "time": 3600,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "elude",
+          4
+        ],
+        [
+          "beryllium-wall-large",
+          12
+        ],
+        {
+          "res": "cyanogen",
+          "amount": 12,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "quell",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ship-fabricator-elude",
+      "name": "Ship Fabricator: Elude",
+      "category": "ship-fabricator",
+      "time": 2400,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "graphite",
+          50
+        ],
+        [
+          "silicon",
+          70
+        ]
+      ],
+      "out": [
+        [
+          "elude",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ship-refabricator-avert",
+      "name": "Ship Refabricator: Avert",
+      "category": "ship-refabricator",
+      "time": 3000,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "elude",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          60
+        ],
+        [
+          "tungsten",
+          40
+        ],
+        {
+          "res": "hydrogen",
+          "amount": 3,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "avert",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tank-assembler-conquer",
+      "name": "Tank Assembler: Conquer",
+      "category": "tank-assembler",
+      "time": 10800,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false,
+        "extra_power": 210
+      },
+      "in": [
+        [
+          "locus",
+          6
+        ],
+        [
+          "carbide-wall-large",
+          20
+        ],
+        {
+          "res": "cyanogen",
+          "amount": 9,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "conquer",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tank-assembler-vanquish",
+      "name": "Tank Assembler: Vanquish",
+      "category": "tank-assembler",
+      "time": 3000,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "stell",
+          4
+        ],
+        [
+          "tungsten-wall-large",
+          10
+        ],
+        {
+          "res": "cyanogen",
+          "amount": 9,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "vanquish",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tank-fabricator-stell",
+      "name": "Tank Fabricator: Stell",
+      "category": "tank-fabricator",
+      "time": 2100,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "beryllium",
+          40
+        ],
+        [
+          "silicon",
+          50
+        ]
+      ],
+      "out": [
+        [
+          "stell",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tank-refabricator-locus",
+      "name": "Tank Refabricator: Locus",
+      "category": "tank-refabricator",
+      "time": 1800,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "stell",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          40
+        ],
+        [
+          "tungsten",
+          30
+        ],
+        {
+          "res": "hydrogen",
+          "amount": 3,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "locus",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tetrative-reconstructor-corvus",
+      "name": "Tetrative Reconstructor: Corvus",
+      "category": "tetrative-reconstructor",
+      "time": 14400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "vela",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          1000
+        ],
+        [
+          "plastanium",
+          600
+        ],
+        [
+          "surge-alloy",
+          500
+        ],
+        [
+          "phase-fabric",
+          350
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 180,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "corvus",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tetrative-reconstructor-eclipse",
+      "name": "Tetrative Reconstructor: Eclipse",
+      "category": "tetrative-reconstructor",
+      "time": 14400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "antumbra",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          1000
+        ],
+        [
+          "plastanium",
+          600
+        ],
+        [
+          "surge-alloy",
+          500
+        ],
+        [
+          "phase-fabric",
+          350
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 180,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "eclipse",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tetrative-reconstructor-navanax",
+      "name": "Tetrative Reconstructor: Navanax",
+      "category": "tetrative-reconstructor",
+      "time": 14400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "aegires",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          1000
+        ],
+        [
+          "plastanium",
+          600
+        ],
+        [
+          "surge-alloy",
+          500
+        ],
+        [
+          "phase-fabric",
+          350
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 180,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "navanax",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tetrative-reconstructor-oct",
+      "name": "Tetrative Reconstructor: Oct",
+      "category": "tetrative-reconstructor",
+      "time": 14400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "quad",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          1000
+        ],
+        [
+          "plastanium",
+          600
+        ],
+        [
+          "surge-alloy",
+          500
+        ],
+        [
+          "phase-fabric",
+          350
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 180,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "oct",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tetrative-reconstructor-omura",
+      "name": "Tetrative Reconstructor: Omura",
+      "category": "tetrative-reconstructor",
+      "time": 14400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "sei",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          1000
+        ],
+        [
+          "plastanium",
+          600
+        ],
+        [
+          "surge-alloy",
+          500
+        ],
+        [
+          "phase-fabric",
+          350
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 180,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "omura",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tetrative-reconstructor-reign",
+      "name": "Tetrative Reconstructor: Reign",
+      "category": "tetrative-reconstructor",
+      "time": 14400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "scepter",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          1000
+        ],
+        [
+          "plastanium",
+          600
+        ],
+        [
+          "surge-alloy",
+          500
+        ],
+        [
+          "phase-fabric",
+          350
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 180,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "reign",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "tetrative-reconstructor-toxopid",
+      "name": "Tetrative Reconstructor: Toxopid",
+      "category": "tetrative-reconstructor",
+      "time": 14400,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "arkyid",
+          "amount": 1,
+          "attrs": {
+            "no_cost_scale": true
+          }
+        },
+        [
+          "silicon",
+          1000
+        ],
+        [
+          "plastanium",
+          600
+        ],
+        [
+          "surge-alloy",
+          500
+        ],
+        [
+          "phase-fabric",
+          350
+        ],
+        {
+          "res": "cryofluid",
+          "amount": 180,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "toxopid",
+          1
+        ]
+      ]
+    }
+  ]
+}

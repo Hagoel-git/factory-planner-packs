@@ -1,0 +1,455 @@
+{
+  "recipes": [
+    {
+      "id": "bore-beryllium",
+      "name": "Mine Beryllium (Wall)",
+      "machines": [
+        "plasma-bore",
+        "large-plasma-bore"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false,
+        "hardness": 3
+      },
+      "out": [
+        [
+          "beryllium",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "bore-graphite",
+      "name": "Mine Graphite (Wall)",
+      "machines": [
+        "plasma-bore",
+        "large-plasma-bore"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false,
+        "hardness": 0
+      },
+      "out": [
+        [
+          "graphite",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "bore-thorium",
+      "name": "Mine Thorium (Wall)",
+      "machines": [
+        "large-plasma-bore"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false,
+        "hardness": 4
+      },
+      "out": [
+        [
+          "thorium",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "bore-tungsten",
+      "name": "Mine Tungsten (Wall)",
+      "machines": [
+        "large-plasma-bore"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false,
+        "hardness": 5
+      },
+      "out": [
+        [
+          "tungsten",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "crush-sand",
+      "name": "Crush Sand (Wall)",
+      "category": "wall-crafter",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "sand",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mine-beryllium",
+      "name": "Mine Beryllium",
+      "machines": [
+        "pneumatic-drill",
+        "laser-drill",
+        "blast-drill",
+        "impact-drill",
+        "eruption-drill"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false,
+        "hardness": 3,
+        "is_beryllium": true
+      },
+      "out": [
+        [
+          "beryllium",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mine-coal",
+      "name": "Mine Coal",
+      "machines": [
+        "mechanical-drill",
+        "pneumatic-drill",
+        "laser-drill",
+        "blast-drill",
+        "impact-drill",
+        "eruption-drill"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "hardness": 2
+      },
+      "out": [
+        [
+          "coal",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mine-copper",
+      "name": "Mine Copper",
+      "machines": [
+        "mechanical-drill",
+        "pneumatic-drill",
+        "laser-drill",
+        "blast-drill",
+        "impact-drill",
+        "eruption-drill"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "hardness": 1
+      },
+      "out": [
+        [
+          "copper",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mine-lead",
+      "name": "Mine Lead",
+      "machines": [
+        "mechanical-drill",
+        "pneumatic-drill",
+        "laser-drill",
+        "blast-drill",
+        "impact-drill",
+        "eruption-drill"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "hardness": 1
+      },
+      "out": [
+        [
+          "lead",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mine-sand",
+      "name": "Mine Sand",
+      "machines": [
+        "mechanical-drill",
+        "pneumatic-drill",
+        "laser-drill",
+        "blast-drill",
+        "impact-drill",
+        "eruption-drill"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "both",
+        "is_debug": false,
+        "hardness": 0
+      },
+      "out": [
+        [
+          "sand",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mine-scrap",
+      "name": "Mine Scrap",
+      "machines": [
+        "mechanical-drill",
+        "pneumatic-drill",
+        "laser-drill",
+        "blast-drill",
+        "impact-drill",
+        "eruption-drill"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "hardness": 0
+      },
+      "out": [
+        [
+          "scrap",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mine-thorium",
+      "name": "Mine Thorium",
+      "machines": [
+        "laser-drill",
+        "blast-drill",
+        "eruption-drill"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "both",
+        "is_debug": false,
+        "hardness": 4
+      },
+      "out": [
+        [
+          "thorium",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mine-titanium",
+      "name": "Mine Titanium",
+      "machines": [
+        "pneumatic-drill",
+        "laser-drill",
+        "blast-drill",
+        "impact-drill",
+        "eruption-drill"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "hardness": 3
+      },
+      "out": [
+        [
+          "titanium",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "mine-tungsten",
+      "name": "Mine Tungsten",
+      "machines": [
+        "blast-drill",
+        "impact-drill",
+        "eruption-drill"
+      ],
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false,
+        "hardness": 5
+      },
+      "out": [
+        [
+          "tungsten",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "oil-extractor",
+      "name": "Oil Extractor",
+      "category": "oil-extractor",
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "oil",
+          15
+        ]
+      ],
+      "in": [
+        [
+          "sand",
+          1
+        ],
+        [
+          "water",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "pump-arkycite",
+      "name": "Pump Arkycite",
+      "category": "pump",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false,
+        "min_liquid_mult": 1,
+        "max_liquid_mult": 1
+      },
+      "out": [
+        [
+          "arkycite",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "pump-cryofluid",
+      "name": "Pump Cryofluid",
+      "category": "pump",
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "min_liquid_mult": 0.5,
+        "max_liquid_mult": 0.5
+      },
+      "out": [
+        [
+          "cryofluid",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "pump-oil",
+      "name": "Pump Oil",
+      "category": "pump",
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "min_liquid_mult": 1,
+        "max_liquid_mult": 1
+      },
+      "out": [
+        [
+          "oil",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "pump-slag",
+      "name": "Pump Slag",
+      "category": "pump",
+      "time": 60,
+      "attrs": {
+        "planet": "both",
+        "is_debug": false,
+        "min_liquid_mult": 1,
+        "max_liquid_mult": 1
+      },
+      "out": [
+        [
+          "slag",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "pump-water",
+      "name": "Pump Water",
+      "category": "pump",
+      "time": 60,
+      "attrs": {
+        "planet": "both",
+        "is_debug": false,
+        "min_liquid_mult": 1,
+        "max_liquid_mult": 1.5
+      },
+      "out": [
+        [
+          "water",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "vent-condenser",
+      "name": "Vent Condenser",
+      "category": "vent-condenser",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "water",
+          30
+        ]
+      ]
+    },
+    {
+      "id": "water-extractor",
+      "name": "Water Extractor",
+      "category": "water-extractor",
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "water",
+          6.6
+        ]
+      ]
+    }
+  ]
+}

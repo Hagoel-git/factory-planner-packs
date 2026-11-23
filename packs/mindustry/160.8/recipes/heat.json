@@ -1,0 +1,124 @@
+{
+  "recipes": [
+    {
+      "id": "electric-heater",
+      "name": "Electric Heater",
+      "category": "electric-heater",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "heat",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "heat-reactor",
+      "name": "Heat Reactor",
+      "category": "heat-reactor",
+      "time": 600,
+      "attrs": {
+        "planet": "both",
+        "is_debug": true
+      },
+      "out": [
+        [
+          "fissile-matter",
+          1
+        ],
+        [
+          "heat",
+          100
+        ]
+      ],
+      "in": [
+        [
+          "thorium",
+          3
+        ],
+        [
+          "nitrogen",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "oxidation-chamber",
+      "name": "Oxidation Chamber",
+      "category": "oxidation-chamber",
+      "time": 120,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "oxide",
+          1
+        ],
+        [
+          "heat",
+          10
+        ]
+      ],
+      "in": [
+        [
+          "beryllium",
+          1
+        ],
+        [
+          "ozone",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "phase-heater",
+      "name": "Phase Heater",
+      "category": "phase-heater",
+      "time": 480,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "heat",
+          120
+        ]
+      ],
+      "in": [
+        [
+          "phase-fabric",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "slag-heater",
+      "name": "Slag Heater",
+      "category": "slag-heater",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "heat",
+          8
+        ]
+      ],
+      "in": [
+        [
+          "slag",
+          40
+        ]
+      ]
+    }
+  ]
+}

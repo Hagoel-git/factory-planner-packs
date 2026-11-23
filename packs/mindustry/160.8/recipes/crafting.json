@@ -1,0 +1,697 @@
+{
+  "recipes": [
+    {
+      "id": "atmospheric-concentrator",
+      "name": "Atmospheric Concentrator",
+      "category": "atmospheric-concentrator",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "nitrogen",
+          16
+        ]
+      ]
+    },
+    {
+      "id": "blast-mixer",
+      "name": "Blast Mixer",
+      "category": "blast-mixer",
+      "time": 80,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "pyratite",
+          1
+        ],
+        [
+          "spore-pod",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "blast-compound",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "carbide-crucible",
+      "name": "Carbide Crucible",
+      "category": "carbide-crucible",
+      "time": 33.75,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "carbide",
+          1
+        ]
+      ],
+      "in": [
+        [
+          "tungsten",
+          2
+        ],
+        [
+          "graphite",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "coal-centrifuge",
+      "name": "Coal Centrifuge",
+      "category": "coal-centrifuge",
+      "time": 30,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "oil",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "coal",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "cryofluid-mixer",
+      "name": "Cryofluid Mixer",
+      "category": "cryofluid-mixer",
+      "time": 120,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "titanium",
+          1
+        ],
+        [
+          "water",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "cryofluid",
+          24
+        ]
+      ]
+    },
+    {
+      "id": "cultivator",
+      "name": "Cultivator",
+      "category": "cultivator",
+      "time": 100,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        {
+          "res": "water",
+          "amount": 18,
+          "attrs": {
+            "fixed_rate": true
+          }
+        }
+      ],
+      "out": [
+        [
+          "spore-pod",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "cyanogen-synthesizer",
+      "name": "Cyanogen Synthesizer",
+      "category": "cyanogen-synthesizer",
+      "time": 20,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "cyanogen",
+          4
+        ]
+      ],
+      "in": [
+        [
+          "graphite",
+          1
+        ],
+        [
+          "arkycite",
+          53.3333333333
+        ]
+      ]
+    },
+    {
+      "id": "disassembler",
+      "name": "Disassembler",
+      "category": "disassembler",
+      "time": 15,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "scrap",
+          1
+        ],
+        [
+          "slag",
+          1.8
+        ]
+      ],
+      "out": [
+        [
+          "sand",
+          1,
+          0.4
+        ],
+        [
+          "graphite",
+          1,
+          0.2
+        ],
+        [
+          "titanium",
+          1,
+          0.2
+        ],
+        [
+          "thorium",
+          1,
+          0.2
+        ]
+      ]
+    },
+    {
+      "id": "electrolyzer",
+      "name": "Electrolyzer",
+      "category": "electrolyzer",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "water",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "ozone",
+          4
+        ],
+        [
+          "hydrogen",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "graphite-press",
+      "name": "Graphite Press",
+      "category": "graphite-press",
+      "time": 90,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "coal",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "graphite",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "kiln",
+      "name": "Kiln",
+      "category": "kiln",
+      "time": 30,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "lead",
+          1
+        ],
+        [
+          "sand",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "metaglass",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "melter",
+      "name": "Melter",
+      "category": "melter",
+      "time": 10,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "scrap",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "slag",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "multi-press",
+      "name": "Multi-Press",
+      "category": "multi-press",
+      "time": 30,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "coal",
+          3
+        ],
+        [
+          "water",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "graphite",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "phase-synthesizer",
+      "name": "Phase Synthesizer",
+      "category": "phase-synthesizer",
+      "time": 30,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "phase-fabric",
+          1
+        ]
+      ],
+      "in": [
+        [
+          "thorium",
+          2
+        ],
+        [
+          "sand",
+          6
+        ],
+        [
+          "ozone",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "phase-weaver",
+      "name": "Phase Weaver",
+      "category": "phase-weaver",
+      "time": 120,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "thorium",
+          4
+        ],
+        [
+          "sand",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "phase-fabric",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "plastanium-compressor",
+      "name": "Plastanium Compressor",
+      "category": "plastanium-compressor",
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "titanium",
+          2
+        ],
+        [
+          "oil",
+          15
+        ]
+      ],
+      "out": [
+        [
+          "plastanium",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "pulverizer",
+      "name": "Pulverizer",
+      "category": "pulverizer",
+      "time": 40,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "scrap",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "sand",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "pyratite-mixer",
+      "name": "Pyratite Mixer",
+      "category": "pyratite-mixer",
+      "time": 80,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "coal",
+          1
+        ],
+        [
+          "lead",
+          2
+        ],
+        [
+          "sand",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "pyratite",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "separator",
+      "name": "Separator",
+      "category": "separator",
+      "time": 35,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "slag",
+          2.3333333333
+        ]
+      ],
+      "out": [
+        [
+          "copper",
+          1,
+          0.4166666667
+        ],
+        [
+          "lead",
+          1,
+          0.25
+        ],
+        [
+          "graphite",
+          1,
+          0.1666666667
+        ],
+        [
+          "titanium",
+          1,
+          0.1666666667
+        ]
+      ]
+    },
+    {
+      "id": "silicon-arc-furnace",
+      "name": "Silicon Arc Furnace",
+      "category": "silicon-arc-furnace",
+      "time": 50,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "graphite",
+          1
+        ],
+        [
+          "sand",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "silicon",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "silicon-crucible",
+      "name": "Silicon Crucible",
+      "category": "silicon-crucible",
+      "time": 90,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "coal",
+          4
+        ],
+        [
+          "sand",
+          6
+        ],
+        [
+          "pyratite",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "silicon",
+          8
+        ]
+      ]
+    },
+    {
+      "id": "silicon-smelter",
+      "name": "Silicon Smelter",
+      "category": "silicon-smelter",
+      "time": 40,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "coal",
+          1
+        ],
+        [
+          "sand",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "silicon",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "slag-centrifuge",
+      "name": "Slag Centrifuge",
+      "category": "slag-centrifuge",
+      "time": 120,
+      "attrs": {
+        "planet": "both",
+        "is_debug": true
+      },
+      "in": [
+        [
+          "sand",
+          1
+        ],
+        [
+          "slag",
+          80
+        ]
+      ],
+      "out": [
+        [
+          "gallium",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "spore-press",
+      "name": "Spore Press",
+      "category": "spore-press",
+      "time": 20,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "spore-pod",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "oil",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "surge-crucible",
+      "name": "Surge Crucible",
+      "category": "surge-crucible",
+      "time": 45,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "surge-alloy",
+          1
+        ]
+      ],
+      "in": [
+        [
+          "silicon",
+          3
+        ],
+        [
+          "slag",
+          120
+        ]
+      ]
+    },
+    {
+      "id": "surge-smelter",
+      "name": "Surge Smelter",
+      "category": "surge-smelter",
+      "time": 75,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "copper",
+          3
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "titanium",
+          2
+        ],
+        [
+          "silicon",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "surge-alloy",
+          1
+        ]
+      ]
+    }
+  ]
+}

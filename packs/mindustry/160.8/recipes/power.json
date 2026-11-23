@@ -1,0 +1,373 @@
+{
+  "recipes": [
+    {
+      "id": "chemical-combustion-chamber",
+      "name": "Chemical Combustion Chamber",
+      "category": "chemical-combustion-chamber",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "ozone",
+          2
+        ],
+        [
+          "arkycite",
+          40
+        ]
+      ]
+    },
+    {
+      "id": "combustion-generator-coal",
+      "name": "Combustion Generator: Coal",
+      "category": "combustion-generator",
+      "time": 120,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "power_mult": 1
+      },
+      "in": [
+        [
+          "coal",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "combustion-generator-pyratite",
+      "name": "Combustion Generator: Pyratite",
+      "category": "combustion-generator",
+      "time": 360,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "power_mult": 1.4
+      },
+      "in": [
+        [
+          "pyratite",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "combustion-generator-spore-pod",
+      "name": "Combustion Generator: Spore Pod",
+      "category": "combustion-generator",
+      "time": 120,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "power_mult": 1.15
+      },
+      "in": [
+        [
+          "spore-pod",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "differential-generator",
+      "name": "Differential Generator",
+      "category": "differential-generator",
+      "time": 220,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "pyratite",
+          1
+        ],
+        [
+          "cryofluid",
+          22
+        ]
+      ]
+    },
+    {
+      "id": "flux-reactor",
+      "name": "Flux Reactor",
+      "category": "flux-reactor",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "cyanogen",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "impact-reactor",
+      "name": "Impact Reactor",
+      "category": "impact-reactor",
+      "time": 140,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "blast-compound",
+          1
+        ],
+        [
+          "cryofluid",
+          35
+        ]
+      ]
+    },
+    {
+      "id": "neoplasia-reactor",
+      "name": "Neoplasia Reactor",
+      "category": "neoplasia-reactor",
+      "time": 180,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "phase-fabric",
+          1
+        ],
+        [
+          "arkycite",
+          240
+        ],
+        [
+          "water",
+          30
+        ]
+      ],
+      "out": [
+        [
+          "neoplasm",
+          60
+        ],
+        [
+          "heat",
+          180
+        ]
+      ]
+    },
+    {
+      "id": "pyrolysis-generator",
+      "name": "Pyrolysis Generator",
+      "category": "pyrolysis-generator",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "slag",
+          20
+        ],
+        [
+          "arkycite",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "water",
+          20
+        ]
+      ]
+    },
+    {
+      "id": "rtg-generator-fissile-matter",
+      "name": "RTG Generator: Fissile Matter",
+      "category": "rtg-generator",
+      "time": 840,
+      "attrs": {
+        "planet": "both",
+        "is_debug": true,
+        "power_mult": 1.5
+      },
+      "in": [
+        [
+          "fissile-matter",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "rtg-generator-phase-fabric",
+      "name": "RTG Generator: Phase Fabric",
+      "category": "rtg-generator",
+      "time": 12600,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "power_mult": 0.6
+      },
+      "in": [
+        [
+          "phase-fabric",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "rtg-generator-thorium",
+      "name": "RTG Generator: Thorium",
+      "category": "rtg-generator",
+      "time": 840,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "power_mult": 1
+      },
+      "in": [
+        [
+          "thorium",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "solar-power",
+      "name": "Solar Power",
+      "category": "solar",
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "power",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "steam-generator-coal",
+      "name": "Steam Generator: Coal",
+      "category": "steam-generator",
+      "time": 90,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "power_mult": 1
+      },
+      "in": [
+        [
+          "coal",
+          1
+        ],
+        [
+          "water",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "steam-generator-pyratite",
+      "name": "Steam Generator: Pyratite",
+      "category": "steam-generator",
+      "time": 270,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "power_mult": 1.4
+      },
+      "in": [
+        [
+          "pyratite",
+          1
+        ],
+        [
+          "water",
+          27
+        ]
+      ]
+    },
+    {
+      "id": "steam-generator-spore-pod",
+      "name": "Steam Generator: Spore Pod",
+      "category": "steam-generator",
+      "time": 90,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false,
+        "power_mult": 1.15
+      },
+      "in": [
+        [
+          "spore-pod",
+          1
+        ],
+        [
+          "water",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "thermal-generator",
+      "name": "Thermal Generator",
+      "category": "thermal-generator",
+      "time": 60,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "power",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "thorium-reactor",
+      "name": "Thorium Reactor",
+      "category": "thorium-reactor",
+      "time": 360,
+      "attrs": {
+        "planet": "serpulo",
+        "is_debug": false
+      },
+      "in": [
+        [
+          "thorium",
+          1
+        ],
+        [
+          "cryofluid",
+          14.4
+        ]
+      ]
+    },
+    {
+      "id": "turbine-condenser",
+      "name": "Turbine Condenser",
+      "category": "turbine-condenser",
+      "time": 60,
+      "attrs": {
+        "planet": "erekir",
+        "is_debug": false
+      },
+      "out": [
+        [
+          "water",
+          5
+        ]
+      ]
+    }
+  ]
+}

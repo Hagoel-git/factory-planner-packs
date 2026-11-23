@@ -1,0 +1,680 @@
+{
+  "resources": [
+    {
+      "id": "aegires",
+      "name": "Aegires",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "anthicus",
+      "name": "Anthicus",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "antumbra",
+      "name": "Antumbra",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "arkycite",
+      "name": "Arkycite",
+      "kind": "liquid"
+    },
+    {
+      "id": "arkyid",
+      "name": "Arkyid",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "atrax",
+      "name": "Atrax",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "avert",
+      "name": "Avert",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "beryllium",
+      "name": "Beryllium",
+      "kind": "item",
+      "tags": [
+        "erekir"
+      ]
+    },
+    {
+      "id": "beryllium-wall-large",
+      "name": "Large Beryllium Wall",
+      "kind": "payload",
+      "tags": [
+        "erekir",
+        "payload"
+      ]
+    },
+    {
+      "id": "blast-compound",
+      "name": "Blast Compound",
+      "kind": "item",
+      "tags": [
+        "serpulo"
+      ]
+    },
+    {
+      "id": "bryde",
+      "name": "Bryde",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "carbide",
+      "name": "Carbide",
+      "kind": "item",
+      "tags": [
+        "erekir"
+      ]
+    },
+    {
+      "id": "carbide-wall-large",
+      "name": "Large Carbide Wall",
+      "kind": "payload",
+      "tags": [
+        "erekir",
+        "payload"
+      ]
+    },
+    {
+      "id": "cleroi",
+      "name": "Cleroi",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "coal",
+      "name": "Coal",
+      "kind": "item",
+      "tags": [
+        "serpulo"
+      ]
+    },
+    {
+      "id": "collaris",
+      "name": "Collaris",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "conquer",
+      "name": "Conquer",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "kind": "item",
+      "tags": [
+        "serpulo"
+      ]
+    },
+    {
+      "id": "corvus",
+      "name": "Corvus",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "crawler",
+      "name": "Crawler",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "cryofluid",
+      "name": "Cryofluid",
+      "kind": "liquid"
+    },
+    {
+      "id": "cyanogen",
+      "name": "Cyanogen",
+      "kind": "gas"
+    },
+    {
+      "id": "cyerce",
+      "name": "Cyerce",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "disrupt",
+      "name": "Disrupt",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "eclipse",
+      "name": "Eclipse",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "elude",
+      "name": "Elude",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "fissile-matter",
+      "name": "Fissile Matter",
+      "kind": "item",
+      "tags": [
+        "debug",
+        "erekir"
+      ]
+    },
+    {
+      "id": "flare",
+      "name": "Flare",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "fortress",
+      "name": "Fortress",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "gallium",
+      "name": "Gallium",
+      "kind": "liquid",
+      "tags": [
+        "debug"
+      ]
+    },
+    {
+      "id": "graphite",
+      "name": "Graphite",
+      "kind": "item",
+      "tags": [
+        "erekir",
+        "serpulo"
+      ]
+    },
+    {
+      "id": "heat",
+      "name": "Heat",
+      "kind": "heat",
+      "tags": [
+        "erekir"
+      ]
+    },
+    {
+      "id": "horizon",
+      "name": "Horizon",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "hydrogen",
+      "name": "Hydrogen",
+      "kind": "gas"
+    },
+    {
+      "id": "lead",
+      "name": "Lead",
+      "kind": "item",
+      "tags": [
+        "serpulo"
+      ]
+    },
+    {
+      "id": "locus",
+      "name": "Locus",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "mace",
+      "name": "Mace",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "mega",
+      "name": "Mega",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "merui",
+      "name": "Merui",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "metaglass",
+      "name": "Metaglass",
+      "kind": "item",
+      "tags": [
+        "serpulo"
+      ]
+    },
+    {
+      "id": "minke",
+      "name": "Minke",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "mono",
+      "name": "Mono",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "navanax",
+      "name": "Navanax",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "neoplasm",
+      "name": "Neoplasm",
+      "kind": "liquid"
+    },
+    {
+      "id": "nitrogen",
+      "name": "Nitrogen",
+      "kind": "gas"
+    },
+    {
+      "id": "nova",
+      "name": "Nova",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "obviate",
+      "name": "Obviate",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "oct",
+      "name": "Oct",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "Oil",
+      "kind": "liquid"
+    },
+    {
+      "id": "omura",
+      "name": "Omura",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "oxide",
+      "name": "Oxide",
+      "kind": "item",
+      "tags": [
+        "erekir"
+      ]
+    },
+    {
+      "id": "oxynoe",
+      "name": "Oxynoe",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "ozone",
+      "name": "Ozone",
+      "kind": "gas"
+    },
+    {
+      "id": "phase-fabric",
+      "name": "Phase Fabric",
+      "kind": "item",
+      "tags": [
+        "erekir",
+        "serpulo"
+      ]
+    },
+    {
+      "id": "plastanium",
+      "name": "Plastanium",
+      "kind": "item",
+      "tags": [
+        "serpulo"
+      ]
+    },
+    {
+      "id": "poly",
+      "name": "Poly",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "power",
+      "name": "Power",
+      "kind": "power",
+      "tags": [
+        "power"
+      ]
+    },
+    {
+      "id": "precept",
+      "name": "Precept",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "pulsar",
+      "name": "Pulsar",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "pyratite",
+      "name": "Pyratite",
+      "kind": "item",
+      "tags": [
+        "serpulo"
+      ]
+    },
+    {
+      "id": "quad",
+      "name": "Quad",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "quasar",
+      "name": "Quasar",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "quell",
+      "name": "Quell",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "reign",
+      "name": "Reign",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "retusa",
+      "name": "Retusa",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "risso",
+      "name": "Risso",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "sand",
+      "name": "Sand",
+      "kind": "item",
+      "tags": [
+        "erekir",
+        "serpulo"
+      ]
+    },
+    {
+      "id": "scepter",
+      "name": "Scepter",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "scrap",
+      "name": "Scrap",
+      "kind": "item",
+      "tags": [
+        "serpulo"
+      ]
+    },
+    {
+      "id": "sei",
+      "name": "Sei",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "silicon",
+      "name": "Silicon",
+      "kind": "item",
+      "tags": [
+        "erekir",
+        "serpulo"
+      ]
+    },
+    {
+      "id": "slag",
+      "name": "Slag",
+      "kind": "liquid"
+    },
+    {
+      "id": "spiroct",
+      "name": "Spiroct",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "spore-pod",
+      "name": "Spore Pod",
+      "kind": "item",
+      "tags": [
+        "serpulo"
+      ]
+    },
+    {
+      "id": "stell",
+      "name": "Stell",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "surge-alloy",
+      "name": "Surge Alloy",
+      "kind": "item",
+      "tags": [
+        "erekir",
+        "serpulo"
+      ]
+    },
+    {
+      "id": "tecta",
+      "name": "Tecta",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "thorium",
+      "name": "Thorium",
+      "kind": "item",
+      "tags": [
+        "erekir",
+        "serpulo"
+      ]
+    },
+    {
+      "id": "titanium",
+      "name": "Titanium",
+      "kind": "item",
+      "tags": [
+        "serpulo"
+      ]
+    },
+    {
+      "id": "toxopid",
+      "name": "Toxopid",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "tungsten",
+      "name": "Tungsten",
+      "kind": "item",
+      "tags": [
+        "erekir"
+      ]
+    },
+    {
+      "id": "tungsten-wall-large",
+      "name": "Large Tungsten Wall",
+      "kind": "payload",
+      "tags": [
+        "erekir",
+        "payload"
+      ]
+    },
+    {
+      "id": "vanquish",
+      "name": "Vanquish",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "vela",
+      "name": "Vela",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "kind": "liquid"
+    },
+    {
+      "id": "zenith",
+      "name": "Zenith",
+      "kind": "unit",
+      "tags": [
+        "unit"
+      ]
+    }
+  ]
+}

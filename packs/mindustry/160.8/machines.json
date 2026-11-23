@@ -1,0 +1,1335 @@
+{
+  "machines": [
+    {
+      "id": "additive-reconstructor",
+      "name": "Additive Reconstructor",
+      "profile": "mindustry_unit",
+      "categories": [
+        "additive-reconstructor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 180,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "air-factory",
+      "name": "Air Factory",
+      "profile": "mindustry_unit",
+      "categories": [
+        "air-factory"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 72,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "atmospheric-concentrator",
+      "name": "Atmospheric Concentrator",
+      "profile": "mindustry_heat_crafter",
+      "categories": [
+        "atmospheric-concentrator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 120,
+        "planet": "erekir",
+        "is_debug": false,
+        "heat_req": 24,
+        "max_heat_eff": 1
+      }
+    },
+    {
+      "id": "blast-drill",
+      "name": "Airblast Drill",
+      "profile": "mindustry_drill",
+      "categories": [],
+      "speed": 1,
+      "attrs": {
+        "size": 4,
+        "power": 180,
+        "planet": "serpulo",
+        "is_debug": false,
+        "max_tiles": 16,
+        "drill_time": 280,
+        "hardness_mult": 50,
+        "beryllium_mult": 1,
+        "req_res": "",
+        "req_rate": 0,
+        "boost_mult": 3.24,
+        "boost_res": "water",
+        "boost_rate": 6
+      }
+    },
+    {
+      "id": "blast-mixer",
+      "name": "Blast Mixer",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "blast-mixer"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 24,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "carbide-crucible",
+      "name": "Carbide Crucible",
+      "profile": "mindustry_heat_crafter",
+      "categories": [
+        "carbide-crucible"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 120,
+        "planet": "erekir",
+        "is_debug": false,
+        "heat_req": 40,
+        "max_heat_eff": 1
+      }
+    },
+    {
+      "id": "chemical-combustion-chamber",
+      "name": "Chemical Combustion Chamber",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "chemical-combustion-chamber"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": -550,
+        "can_overdrive": true,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "cliff-crusher",
+      "name": "Cliff Crusher",
+      "profile": "mindustry_wall_crafter",
+      "categories": [
+        "wall-crafter"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 11,
+        "planet": "erekir",
+        "is_debug": false,
+        "drill_time": 110,
+        "tile_attr": "sand",
+        "min_tile_eff": 1,
+        "max_tile_eff": 200,
+        "req_res": "",
+        "req_rate": 0,
+        "boost_mult": 1,
+        "boost_res": "",
+        "boost_rate": 0
+      }
+    },
+    {
+      "id": "coal-centrifuge",
+      "name": "Coal Centrifuge",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "coal-centrifuge"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 42,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "combustion-generator",
+      "name": "Combustion Generator",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "combustion-generator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 1,
+        "power": -60,
+        "can_overdrive": true,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "constructor",
+      "name": "Constructor",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "constructor"
+      ],
+      "speed": 0.6,
+      "attrs": {
+        "size": 3,
+        "power": 150,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "cryofluid-mixer",
+      "name": "Cryofluid Mixer",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "cryofluid-mixer"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 60,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "cultivator",
+      "name": "Cultivator",
+      "profile": "mindustry_attribute_crafter",
+      "categories": [
+        "cultivator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 80,
+        "planet": "serpulo",
+        "is_debug": false,
+        "tile_attr": "spores",
+        "min_tile_eff": 100,
+        "max_tile_eff": 300,
+        "scales_yield": false
+      }
+    },
+    {
+      "id": "cyanogen-synthesizer",
+      "name": "Cyanogen Synthesizer",
+      "profile": "mindustry_heat_crafter",
+      "categories": [
+        "cyanogen-synthesizer"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 120,
+        "planet": "erekir",
+        "is_debug": false,
+        "heat_req": 20,
+        "max_heat_eff": 1
+      }
+    },
+    {
+      "id": "differential-generator",
+      "name": "Differential Generator",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "differential-generator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": -1080,
+        "can_overdrive": true,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "disassembler",
+      "name": "Disassembler",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "disassembler"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 240,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "electric-heater",
+      "name": "Electric Heater",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "electric-heater"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 100,
+        "can_overdrive": false,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "electrolyzer",
+      "name": "Electrolyzer",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "electrolyzer"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 60,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "eruption-drill",
+      "name": "Eruption Drill",
+      "profile": "mindustry_drill",
+      "categories": [],
+      "speed": 1,
+      "attrs": {
+        "size": 5,
+        "power": 360,
+        "planet": "erekir",
+        "is_debug": false,
+        "max_tiles": 25,
+        "drill_time": 281.25,
+        "hardness_mult": 0,
+        "beryllium_mult": 2,
+        "req_res": "hydrogen",
+        "req_rate": 4,
+        "boost_mult": 2,
+        "boost_res": "cyanogen",
+        "boost_rate": 0.75
+      }
+    },
+    {
+      "id": "exponential-reconstructor",
+      "name": "Exponential Reconstructor",
+      "profile": "mindustry_unit",
+      "categories": [
+        "exponential-reconstructor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 7,
+        "power": 780,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "flux-reactor",
+      "name": "Flux Reactor",
+      "profile": "mindustry_flux_reactor",
+      "categories": [
+        "flux-reactor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 5,
+        "power": -18000,
+        "planet": "erekir",
+        "is_debug": false,
+        "heat_req": 150,
+        "max_heat_eff": 1
+      }
+    },
+    {
+      "id": "graphite-press",
+      "name": "Graphite Press",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "graphite-press"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 0,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "ground-factory",
+      "name": "Ground Factory",
+      "profile": "mindustry_unit",
+      "categories": [
+        "ground-factory"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 72,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "heat-reactor",
+      "name": "Heat Reactor",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "heat-reactor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 0,
+        "can_overdrive": false,
+        "planet": "both",
+        "is_debug": true
+      }
+    },
+    {
+      "id": "impact-drill",
+      "name": "Impact Drill",
+      "profile": "mindustry_drill",
+      "categories": [],
+      "speed": 1,
+      "attrs": {
+        "size": 4,
+        "power": 160,
+        "planet": "erekir",
+        "is_debug": false,
+        "max_tiles": 16,
+        "drill_time": 720,
+        "hardness_mult": 0,
+        "beryllium_mult": 2,
+        "req_res": "water",
+        "req_rate": 10,
+        "boost_mult": 1.75,
+        "boost_res": "ozone",
+        "boost_rate": 3
+      }
+    },
+    {
+      "id": "impact-reactor",
+      "name": "Impact Reactor",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "impact-reactor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 4,
+        "power": -6300,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "impulse-pump",
+      "name": "Impulse Pump",
+      "profile": "mindustry_pump",
+      "categories": [
+        "pump"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 78,
+        "planet": "serpulo",
+        "is_debug": false,
+        "max_tiles": 9,
+        "pump_rate": 13.2,
+        "req_res": "",
+        "req_rate": 0
+      }
+    },
+    {
+      "id": "kiln",
+      "name": "Kiln",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "kiln"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 36,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "large-cliff-crusher",
+      "name": "Advanced Cliff Crusher",
+      "profile": "mindustry_wall_crafter",
+      "categories": [
+        "wall-crafter"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 60,
+        "planet": "erekir",
+        "is_debug": false,
+        "drill_time": 48,
+        "tile_attr": "sand",
+        "min_tile_eff": 1,
+        "max_tile_eff": 200,
+        "req_res": "hydrogen",
+        "req_rate": 1,
+        "boost_mult": 1.6,
+        "boost_res": "graphite",
+        "boost_rate": 0.75
+      }
+    },
+    {
+      "id": "large-plasma-bore",
+      "name": "Advanced Plasma Bore",
+      "profile": "mindustry_drill",
+      "categories": [],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 48,
+        "planet": "erekir",
+        "is_debug": false,
+        "max_tiles": 3,
+        "drill_time": 100,
+        "hardness_mult": 0,
+        "beryllium_mult": 1,
+        "req_res": "hydrogen",
+        "req_rate": 0.5,
+        "boost_mult": 2.5,
+        "boost_res": "nitrogen",
+        "boost_rate": 3
+      }
+    },
+    {
+      "id": "laser-drill",
+      "name": "Laser Drill",
+      "profile": "mindustry_drill",
+      "categories": [],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 66,
+        "planet": "serpulo",
+        "is_debug": false,
+        "max_tiles": 9,
+        "drill_time": 280,
+        "hardness_mult": 50,
+        "beryllium_mult": 1,
+        "req_res": "",
+        "req_rate": 0,
+        "boost_mult": 2.56,
+        "boost_res": "water",
+        "boost_rate": 4.8
+      }
+    },
+    {
+      "id": "mech-assembler",
+      "name": "Mech Assembler",
+      "profile": "mindustry_unit",
+      "categories": [
+        "mech-assembler"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 5,
+        "power": 180,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "mech-fabricator",
+      "name": "Mech Fabricator",
+      "profile": "mindustry_unit",
+      "categories": [
+        "mech-fabricator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 90,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "mech-refabricator",
+      "name": "Mech Refabricator",
+      "profile": "mindustry_unit",
+      "categories": [
+        "mech-refabricator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 150,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "mechanical-drill",
+      "name": "Mechanical Drill",
+      "profile": "mindustry_drill",
+      "categories": [],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 0,
+        "planet": "serpulo",
+        "is_debug": false,
+        "max_tiles": 4,
+        "drill_time": 600,
+        "hardness_mult": 50,
+        "beryllium_mult": 1,
+        "req_res": "",
+        "req_rate": 0,
+        "boost_mult": 2.56,
+        "boost_res": "water",
+        "boost_rate": 3
+      }
+    },
+    {
+      "id": "mechanical-pump",
+      "name": "Mechanical Pump",
+      "profile": "mindustry_pump",
+      "categories": [
+        "pump"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 1,
+        "power": 0,
+        "planet": "serpulo",
+        "is_debug": false,
+        "max_tiles": 1,
+        "pump_rate": 7,
+        "req_res": "",
+        "req_rate": 0
+      }
+    },
+    {
+      "id": "melter",
+      "name": "Melter",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "melter"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 1,
+        "power": 60,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "multi-press",
+      "name": "Multi-Press",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "multi-press"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 108,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "multiplicative-reconstructor",
+      "name": "Multiplicative Reconstructor",
+      "profile": "mindustry_unit",
+      "categories": [
+        "multiplicative-reconstructor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 5,
+        "power": 360,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "naval-factory",
+      "name": "Naval Factory",
+      "profile": "mindustry_unit",
+      "categories": [
+        "naval-factory"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 72,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "neoplasia-reactor",
+      "name": "Neoplasia Reactor",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "neoplasia-reactor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 5,
+        "power": -8400,
+        "can_overdrive": false,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "oil-extractor",
+      "name": "Oil Extractor",
+      "profile": "mindustry_solid_pump",
+      "categories": [
+        "oil-extractor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 180,
+        "planet": "serpulo",
+        "is_debug": false,
+        "tile_attr": "oil",
+        "min_tile_eff": 1,
+        "max_tile_eff": 200
+      }
+    },
+    {
+      "id": "oxidation-chamber",
+      "name": "Oxidation Chamber",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "oxidation-chamber"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 30,
+        "can_overdrive": false,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "phase-heater",
+      "name": "Phase Heater",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "phase-heater"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 0,
+        "can_overdrive": false,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "phase-synthesizer",
+      "name": "Phase Synthesizer",
+      "profile": "mindustry_heat_crafter",
+      "categories": [
+        "phase-synthesizer"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 480,
+        "planet": "erekir",
+        "is_debug": false,
+        "heat_req": 32,
+        "max_heat_eff": 1
+      }
+    },
+    {
+      "id": "phase-weaver",
+      "name": "Phase Weaver",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "phase-weaver"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 300,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "plasma-bore",
+      "name": "Plasma Bore",
+      "profile": "mindustry_drill",
+      "categories": [],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 9,
+        "planet": "erekir",
+        "is_debug": false,
+        "max_tiles": 2,
+        "drill_time": 160,
+        "hardness_mult": 0,
+        "beryllium_mult": 1,
+        "req_res": "",
+        "req_rate": 0,
+        "boost_mult": 2.5,
+        "boost_res": "hydrogen",
+        "boost_rate": 0.25
+      }
+    },
+    {
+      "id": "plastanium-compressor",
+      "name": "Plastanium Compressor",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "plastanium-compressor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 180,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "pneumatic-drill",
+      "name": "Pneumatic Drill",
+      "profile": "mindustry_drill",
+      "categories": [],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 0,
+        "planet": "serpulo",
+        "is_debug": false,
+        "max_tiles": 4,
+        "drill_time": 400,
+        "hardness_mult": 50,
+        "beryllium_mult": 1,
+        "req_res": "",
+        "req_rate": 0,
+        "boost_mult": 2.56,
+        "boost_res": "water",
+        "boost_rate": 3.5
+      }
+    },
+    {
+      "id": "prime-refabricator",
+      "name": "Prime Refabricator",
+      "profile": "mindustry_unit",
+      "categories": [
+        "prime-refabricator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 5,
+        "power": 270,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "pulverizer",
+      "name": "Pulverizer",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "pulverizer"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 1,
+        "power": 30,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "pyratite-mixer",
+      "name": "Pyratite Mixer",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "pyratite-mixer"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 12,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "pyrolysis-generator",
+      "name": "Pyrolysis Generator",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "pyrolysis-generator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": -1400,
+        "can_overdrive": true,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "reinforced-pump",
+      "name": "Reinforced Pump",
+      "profile": "mindustry_pump",
+      "categories": [
+        "pump"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 0,
+        "planet": "erekir",
+        "is_debug": false,
+        "max_tiles": 4,
+        "pump_rate": 20,
+        "req_res": "hydrogen",
+        "req_rate": 1.5
+      }
+    },
+    {
+      "id": "rotary-pump",
+      "name": "Rotary Pump",
+      "profile": "mindustry_pump",
+      "categories": [
+        "pump"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 18,
+        "planet": "serpulo",
+        "is_debug": false,
+        "max_tiles": 4,
+        "pump_rate": 12,
+        "req_res": "",
+        "req_rate": 0
+      }
+    },
+    {
+      "id": "rtg-generator",
+      "name": "RTG Generator",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "rtg-generator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": -270,
+        "can_overdrive": true,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "separator",
+      "name": "Separator",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "separator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 66,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "ship-assembler",
+      "name": "Ship Assembler",
+      "profile": "mindustry_unit",
+      "categories": [
+        "ship-assembler"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 5,
+        "power": 150,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "ship-fabricator",
+      "name": "Ship Fabricator",
+      "profile": "mindustry_unit",
+      "categories": [
+        "ship-fabricator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 90,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "ship-refabricator",
+      "name": "Ship Refabricator",
+      "profile": "mindustry_unit",
+      "categories": [
+        "ship-refabricator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 150,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "silicon-arc-furnace",
+      "name": "Silicon Arc Furnace",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "silicon-arc-furnace"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 300,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "silicon-crucible",
+      "name": "Silicon Crucible",
+      "profile": "mindustry_attribute_crafter",
+      "categories": [
+        "silicon-crucible"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 240,
+        "planet": "serpulo",
+        "is_debug": false,
+        "tile_attr": "heat",
+        "min_tile_eff": 100,
+        "max_tile_eff": 200,
+        "scales_yield": true
+      }
+    },
+    {
+      "id": "silicon-smelter",
+      "name": "Silicon Smelter",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "silicon-smelter"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 30,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "slag-centrifuge",
+      "name": "Slag Centrifuge",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "slag-centrifuge"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 2,
+        "planet": "both",
+        "is_debug": true
+      }
+    },
+    {
+      "id": "slag-heater",
+      "name": "Slag Heater",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "slag-heater"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 0,
+        "can_overdrive": false,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "solar-panel",
+      "name": "Solar Panel",
+      "profile": "mindustry_solar",
+      "categories": [
+        "solar"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 1,
+        "power": -7.2,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "solar-panel-large",
+      "name": "Large Solar Panel",
+      "profile": "mindustry_solar",
+      "categories": [
+        "solar"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": -96,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "spore-press",
+      "name": "Spore Press",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "spore-press"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 42,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "steam-generator",
+      "name": "Steam Generator",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "steam-generator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": -330,
+        "can_overdrive": true,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "surge-crucible",
+      "name": "Surge Crucible",
+      "profile": "mindustry_heat_crafter",
+      "categories": [
+        "surge-crucible"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 90,
+        "planet": "erekir",
+        "is_debug": false,
+        "heat_req": 40,
+        "max_heat_eff": 1
+      }
+    },
+    {
+      "id": "surge-smelter",
+      "name": "Surge Smelter",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "surge-smelter"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 240,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "tank-assembler",
+      "name": "Tank Assembler",
+      "profile": "mindustry_unit",
+      "categories": [
+        "tank-assembler"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 5,
+        "power": 150,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "tank-fabricator",
+      "name": "Tank Fabricator",
+      "profile": "mindustry_unit",
+      "categories": [
+        "tank-fabricator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 90,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "tank-refabricator",
+      "name": "Tank Refabricator",
+      "profile": "mindustry_unit",
+      "categories": [
+        "tank-refabricator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 180,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "tetrative-reconstructor",
+      "name": "Tetrative Reconstructor",
+      "profile": "mindustry_unit",
+      "categories": [
+        "tetrative-reconstructor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 9,
+        "power": 1500,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "thermal-generator",
+      "name": "Thermal Generator",
+      "profile": "mindustry_thermal",
+      "categories": [
+        "thermal-generator"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": -108,
+        "planet": "serpulo",
+        "is_debug": false,
+        "tile_attr": "thermal",
+        "min_tile_eff": 1,
+        "max_tile_eff": 340
+      }
+    },
+    {
+      "id": "thorium-reactor",
+      "name": "Thorium Reactor",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "thorium-reactor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": -900,
+        "planet": "serpulo",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "turbine-condenser",
+      "name": "Turbine Condenser",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "turbine-condenser"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": -180,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "vent-condenser",
+      "name": "Vent Condenser",
+      "profile": "mindustry_crafter",
+      "categories": [
+        "vent-condenser"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 3,
+        "power": 30,
+        "planet": "erekir",
+        "is_debug": false
+      }
+    },
+    {
+      "id": "water-extractor",
+      "name": "Water Extractor",
+      "profile": "mindustry_solid_pump",
+      "categories": [
+        "water-extractor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "size": 2,
+        "power": 90,
+        "planet": "serpulo",
+        "is_debug": false,
+        "tile_attr": "water",
+        "min_tile_eff": 1,
+        "max_tile_eff": 200
+      }
+    }
+  ]
+}

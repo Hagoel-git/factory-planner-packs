@@ -1,0 +1,29 @@
+{
+  "waive_warnings": [
+    {
+      "rule": "V-W-1",
+      "match": "options/planets/*",
+      "reason": "Planet filter dropdown options are text-only labels."
+    },
+    {
+      "rule": "V-W-1",
+      "match": "options/power_modes/*",
+      "reason": "Power modeling dropdown options are text-only labels."
+    },
+    {
+      "rule": "V-W-1",
+      "match": "options/overdrive_tiers/none",
+      "reason": "Unboosted 'None' overdrive option has no icon."
+    },
+    {
+      "rule": "V-W-1",
+      "match": "options/pump_floors/*",
+      "reason": "Liquid floor multiplier dropdown options are text-only labels."
+    },
+    {
+      "rule": "V-W-1",
+      "match": "options/tile_presets/*",
+      "reason": "Floor/wall tile efficiency dropdown presets are text-only labels."
+    }
+  ]
+}

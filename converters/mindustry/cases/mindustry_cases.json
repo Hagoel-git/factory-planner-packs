@@ -1,0 +1,826 @@
+[
+  {
+    "name": "separator: weighted chances + overdrive projector phase + fractional 1.5 machines",
+    "recipe": "separator",
+    "machine": "separator",
+    "params": {
+      "overdrive": "projector-phase"
+    },
+    "globals": {},
+    "machines": 1.5,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.25925925925925924,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "slag",
+          "amount": 2.3333333333333335
+        },
+        "out:0": {
+          "active": true,
+          "resource": "copper",
+          "amount": 0.4166666666666667
+        },
+        "out:1": {
+          "active": true,
+          "resource": "lead",
+          "amount": 0.25
+        },
+        "out:2": {
+          "active": true,
+          "resource": "graphite",
+          "amount": 0.16666666666666666
+        },
+        "out:3": {
+          "active": true,
+          "resource": "titanium",
+          "amount": 0.16666666666666666
+        }
+      },
+      "metric_coeffs": {
+        "power": 148.5
+      },
+      "metrics": {
+        "power": 222.75,
+        "footprint": 8.0
+      }
+    }
+  },
+  {
+    "name": "silicon-crucible: hotrock speed+yield boost + dome + partial utilization 0.05 machines",
+    "recipe": "silicon-crucible",
+    "machine": "silicon-crucible",
+    "params": {
+      "tile_preset": "crucible-hotrock",
+      "overdrive": "dome"
+    },
+    "globals": {},
+    "machines": 0.05,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.3582089552238806,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "coal",
+          "amount": 4.0
+        },
+        "in:1": {
+          "active": true,
+          "resource": "sand",
+          "amount": 6.0
+        },
+        "in:2": {
+          "active": true,
+          "resource": "pyratite",
+          "amount": 1.0
+        },
+        "out:0": {
+          "active": true,
+          "resource": "silicon",
+          "amount": 13.4
+        }
+      },
+      "metric_coeffs": {
+        "power": 600.0
+      },
+      "metrics": {
+        "power": 30.0,
+        "footprint": 9.0
+      }
+    }
+  },
+  {
+    "name": "cultivator: spore-moss 220% + projector 1.5x with fixed-rate water",
+    "recipe": "cultivator",
+    "machine": "cultivator",
+    "params": {
+      "tile_preset": "cultivator-spore-moss",
+      "overdrive": "projector"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.5050505050505051,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "water",
+          "amount": 13.636363636363637
+        },
+        "out:0": {
+          "active": true,
+          "resource": "spore-pod",
+          "amount": 1.0
+        }
+      },
+      "metric_coeffs": {
+        "power": 120.0
+      },
+      "metrics": {
+        "power": 120.0,
+        "footprint": 4.0
+      }
+    }
+  },
+  {
+    "name": "surge-crucible: 50% heat + overdrive dome (heat unscaled by overdrive, power unscaled by heat)",
+    "recipe": "surge-crucible",
+    "machine": "surge-crucible",
+    "params": {
+      "heat_pct": 50,
+      "overdrive": "dome"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.6,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "silicon",
+          "amount": 3.0
+        },
+        "in:1": {
+          "active": true,
+          "resource": "slag",
+          "amount": 120.0
+        },
+        "out:0": {
+          "active": true,
+          "resource": "surge-alloy",
+          "amount": 1.0
+        },
+        "xin:heat": {
+          "active": true,
+          "resource": "heat",
+          "amount": 12.0
+        }
+      },
+      "metric_coeffs": {
+        "power": 225.0
+      },
+      "metrics": {
+        "power": 225.0,
+        "footprint": 9.0
+      }
+    }
+  },
+  {
+    "name": "flux-reactor: 60% heat scales both cyanogen and power generation linearly",
+    "recipe": "flux-reactor",
+    "machine": "flux-reactor",
+    "params": {
+      "heat_pct": 60,
+      "overdrive": "none"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.6666666666666667,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "cyanogen",
+          "amount": 9.0
+        },
+        "xin:heat": {
+          "active": true,
+          "resource": "heat",
+          "amount": 150.0
+        }
+      },
+      "metric_coeffs": {
+        "power": -10800.0
+      },
+      "metrics": {
+        "power": -10800.0,
+        "footprint": 25.0
+      }
+    }
+  },
+  {
+    "name": "oxidation-chamber: HeatProducer canOverdrive=false ignores overdrive dome",
+    "recipe": "oxidation-chamber",
+    "machine": "oxidation-chamber",
+    "params": {
+      "overdrive": "dome"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 2.0,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "beryllium",
+          "amount": 1.0
+        },
+        "in:1": {
+          "active": true,
+          "resource": "ozone",
+          "amount": 4.0
+        },
+        "out:0": {
+          "active": true,
+          "resource": "oxide",
+          "amount": 1.0
+        },
+        "out:1": {
+          "active": true,
+          "resource": "heat",
+          "amount": 10.0
+        }
+      },
+      "metric_coeffs": {
+        "power": 30.0
+      },
+      "metrics": {
+        "power": 30.0,
+        "footprint": 9.0
+      }
+    }
+  },
+  {
+    "name": "mine-coal on mechanical-drill: unified mining recipe with hardness 2 and 4 tiles",
+    "recipe": "mine-coal",
+    "machine": "mechanical-drill",
+    "params": {
+      "ore_tiles_4": 4,
+      "boosted": false,
+      "overdrive": "none"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 2.9166666666666665,
+      "ports": {
+        "out:0": {
+          "active": true,
+          "resource": "coal",
+          "amount": 1.0
+        },
+        "xin:liquid": false,
+        "xin:booster": false
+      },
+      "metric_coeffs": {
+        "power": 0.0
+      },
+      "metrics": {
+        "power": 0.0,
+        "footprint": 4.0
+      }
+    }
+  },
+  {
+    "name": "mine-thorium on blast-drill: 12 ore tiles + squared water boost (1.8^2 = 3.24x)",
+    "recipe": "mine-thorium",
+    "machine": "blast-drill",
+    "params": {
+      "ore_tiles_16": 12,
+      "boosted": true,
+      "overdrive": "none"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.20576131687242796,
+      "ports": {
+        "out:0": {
+          "active": true,
+          "resource": "thorium",
+          "amount": 1.0
+        },
+        "xin:liquid": false,
+        "xin:booster": {
+          "active": true,
+          "resource": "water",
+          "amount": 1.2345679012345678
+        }
+      },
+      "metric_coeffs": {
+        "power": 180.0
+      },
+      "metrics": {
+        "power": 180.0,
+        "footprint": 16.0
+      }
+    }
+  },
+  {
+    "name": "mine-beryllium on impact-drill: BurstDrill 2x beryllium mult + linear ozone boost 1.75x + fixed water",
+    "recipe": "mine-beryllium",
+    "machine": "impact-drill",
+    "params": {
+      "ore_tiles_16": 16,
+      "boosted": true,
+      "overdrive": "none"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.21428571428571427,
+      "ports": {
+        "out:0": {
+          "active": true,
+          "resource": "beryllium",
+          "amount": 1.0
+        },
+        "xin:liquid": {
+          "active": true,
+          "resource": "water",
+          "amount": 2.142857142857143
+        },
+        "xin:booster": {
+          "active": true,
+          "resource": "ozone",
+          "amount": 0.6428571428571428
+        }
+      },
+      "metric_coeffs": {
+        "power": 160.0
+      },
+      "metrics": {
+        "power": 160.0,
+        "footprint": 16.0
+      }
+    }
+  },
+  {
+    "name": "crush-sand on large-cliff-crusher: dune wall 200% + graphite boost 1.6x + fixed hydrogen",
+    "recipe": "crush-sand",
+    "machine": "large-cliff-crusher",
+    "params": {
+      "tile_preset": "wall-dune",
+      "boosted": true,
+      "overdrive": "none"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.08333333333333333,
+      "ports": {
+        "out:0": {
+          "active": true,
+          "resource": "sand",
+          "amount": 1.0
+        },
+        "xin:liquid": {
+          "active": true,
+          "resource": "hydrogen",
+          "amount": 0.08333333333333333
+        },
+        "xin:booster": {
+          "active": true,
+          "resource": "graphite",
+          "amount": 0.0625
+        }
+      },
+      "metric_coeffs": {
+        "power": 60.0
+      },
+      "metrics": {
+        "power": 60.0,
+        "footprint": 9.0
+      }
+    }
+  },
+  {
+    "name": "pump-water on reinforced-pump: 3 tiles on deep-water (1.5x) with fixed hydrogen",
+    "recipe": "pump-water",
+    "machine": "reinforced-pump",
+    "params": {
+      "pump_tiles_4": 3,
+      "pump_floor": "deep-water",
+      "overdrive": "none"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.0,
+      "ports": {
+        "out:0": {
+          "active": true,
+          "resource": "water",
+          "amount": 90.0
+        },
+        "xin:liquid": {
+          "active": true,
+          "resource": "hydrogen",
+          "amount": 1.5
+        }
+      },
+      "metric_coeffs": {
+        "power": 0.0
+      },
+      "metrics": {
+        "power": 0.0,
+        "footprint": 4.0
+      }
+    }
+  },
+  {
+    "name": "oil-extractor: custom mixed tiles 175% (50% shale + 50% darksand)",
+    "recipe": "oil-extractor",
+    "machine": "oil-extractor",
+    "params": {
+      "tile_preset": "custom",
+      "tile_efficiency": 175,
+      "overdrive": "none"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.0,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "sand",
+          "amount": 1.0
+        },
+        "in:1": {
+          "active": true,
+          "resource": "water",
+          "amount": 9.0
+        },
+        "out:0": {
+          "active": true,
+          "resource": "oil",
+          "amount": 26.25
+        }
+      },
+      "metric_coeffs": {
+        "power": 180.0
+      },
+      "metrics": {
+        "power": 180.0,
+        "footprint": 9.0
+      }
+    }
+  },
+  {
+    "name": "thermal-generator: magmarock x4 (300%) + overdrive dome 2.5x outputs exact 810 u/s power",
+    "recipe": "thermal-generator",
+    "machine": "thermal-generator",
+    "params": {
+      "tile_preset": "thermal-magmarock",
+      "overdrive": "dome"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.4,
+      "ports": {
+        "out:0": {
+          "active": true,
+          "resource": "power",
+          "amount": 324.0
+        }
+      },
+      "metric_coeffs": {
+        "power": -810.0
+      },
+      "metrics": {
+        "power": -810.0,
+        "footprint": 4.0
+      }
+    }
+  },
+  {
+    "name": "solar-power on solar-panel-large: global solar_mult=0.7 + projector 1.5x outputs exact 100.8 u/s",
+    "recipe": "solar-power",
+    "machine": "solar-panel-large",
+    "params": {
+      "overdrive": "projector"
+    },
+    "globals": {
+      "solar_mult": 0.7
+    },
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.6666666666666666,
+      "ports": {
+        "out:0": {
+          "active": true,
+          "resource": "power",
+          "amount": 67.2
+        }
+      },
+      "metric_coeffs": {
+        "power": -100.8
+      },
+      "metrics": {
+        "power": -100.8,
+        "footprint": 9.0
+      }
+    }
+  },
+  {
+    "name": "rtg-generator on phase-fabric: 15x duration (210s) and 0.6 radioactivity power_mult",
+    "recipe": "rtg-generator-phase-fabric",
+    "machine": "rtg-generator",
+    "params": {
+      "overdrive": "none"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 210.0,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "phase-fabric",
+          "amount": 1.0
+        }
+      },
+      "metric_coeffs": {
+        "power": -162.0
+      },
+      "metrics": {
+        "power": -162.0,
+        "footprint": 4.0
+      }
+    }
+  },
+  {
+    "name": "tank-assembler conquer: Tier 1 module power (+210 u/s) + unit_build_speed=2 + unit_cost_mult=1.5",
+    "recipe": "tank-assembler-conquer",
+    "machine": "tank-assembler",
+    "params": {
+      "overdrive": "none"
+    },
+    "globals": {
+      "unit_build_speed": 2.0,
+      "unit_cost_mult": 1.5
+    },
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 90.0,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "locus",
+          "amount": 9.0
+        },
+        "in:1": {
+          "active": true,
+          "resource": "carbide-wall-large",
+          "amount": 30.0
+        },
+        "in:2": {
+          "active": true,
+          "resource": "cyanogen",
+          "amount": 1215.0
+        },
+        "out:0": {
+          "active": true,
+          "resource": "conquer",
+          "amount": 1.0
+        }
+      },
+      "metric_coeffs": {
+        "power": 360.0
+      },
+      "metrics": {
+        "power": 360.0,
+        "footprint": 25.0
+      }
+    }
+  },
+  {
+    "name": "additive-reconstructor mace: unit_cost_mult=1.5 keeps input unit dagger at 1.0",
+    "recipe": "additive-reconstructor-mace",
+    "machine": "additive-reconstructor",
+    "params": {
+      "overdrive": "none"
+    },
+    "globals": {
+      "unit_cost_mult": 1.5
+    },
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 10.0,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "dagger",
+          "amount": 1.0
+        },
+        "in:1": {
+          "active": true,
+          "resource": "silicon",
+          "amount": 60.0
+        },
+        "in:2": {
+          "active": true,
+          "resource": "graphite",
+          "amount": 60.0
+        },
+        "out:0": {
+          "active": true,
+          "resource": "mace",
+          "amount": 1.0
+        }
+      },
+      "metric_coeffs": {
+        "power": 180.0
+      },
+      "metrics": {
+        "power": 180.0,
+        "footprint": 9.0
+      }
+    }
+  },
+  {
+    "name": "constructor carbide-wall-large: Block.buildTime=60 ticks at buildSpeed=0.6",
+    "recipe": "constructor-carbide-wall-large",
+    "machine": "constructor",
+    "params": {
+      "overdrive": "none"
+    },
+    "globals": {},
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.6666666666666667,
+      "ports": {
+        "in:0": {
+          "active": true,
+          "resource": "thorium",
+          "amount": 24.0
+        },
+        "in:1": {
+          "active": true,
+          "resource": "carbide",
+          "amount": 24.0
+        },
+        "out:0": {
+          "active": true,
+          "resource": "carbide-wall-large",
+          "amount": 1.0
+        }
+      },
+      "metric_coeffs": {
+        "power": 150.0
+      },
+      "metrics": {
+        "power": 150.0,
+        "footprint": 9.0
+      }
+    }
+  },
+  {
+    "name": "power_mode=resource on surge-crucible: activates xin:power_in (90 u/s) and disables power metric",
+    "recipe": "surge-crucible",
+    "machine": "surge-crucible",
+    "params": {
+      "heat_pct": 50,
+      "overdrive": "dome"
+    },
+    "globals": {
+      "power_mode": "resource"
+    },
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.6,
+      "ports": {
+        "xin:heat": {
+          "active": true,
+          "resource": "heat",
+          "amount": 12.0
+        },
+        "xin:power_in": {
+          "active": true,
+          "resource": "power",
+          "amount": 135.0
+        },
+        "xout:power_out": false
+      },
+      "metric_coeffs": {
+        "power": {
+          "enabled": false
+        }
+      },
+      "metrics": {
+        "power": {
+          "enabled": false
+        },
+        "footprint": 9.0
+      }
+    }
+  },
+  {
+    "name": "power_mode=both on flux-reactor: activates xout:power_out (10800 u/s at 60% heat) and keeps power metric",
+    "recipe": "flux-reactor",
+    "machine": "flux-reactor",
+    "params": {
+      "heat_pct": 60,
+      "overdrive": "none"
+    },
+    "globals": {
+      "power_mode": "both"
+    },
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.6666666666666667,
+      "ports": {
+        "xin:power_in": false,
+        "xout:power_out": {
+          "active": true,
+          "resource": "power",
+          "amount": 18000.0
+        }
+      },
+      "metric_coeffs": {
+        "power": {
+          "enabled": true,
+          "coeff": -10800.0
+        }
+      },
+      "metrics": {
+        "power": {
+          "enabled": true,
+          "value": -10800.0
+        },
+        "footprint": 25.0
+      }
+    }
+  },
+  {
+    "name": "power_mode=both on solar-power: native out:0 outputs 96 u/s without duplicating xout:power_out",
+    "recipe": "solar-power",
+    "machine": "solar-panel-large",
+    "params": {
+      "overdrive": "none"
+    },
+    "globals": {
+      "power_mode": "both"
+    },
+    "machines": 1.0,
+    "tol": 1e-5,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.0,
+      "ports": {
+        "out:0": {
+          "active": true,
+          "resource": "power",
+          "amount": 96.0
+        },
+        "xin:power_in": false,
+        "xout:power_out": false
+      },
+      "metric_coeffs": {
+        "power": {
+          "enabled": true,
+          "coeff": -96.0
+        }
+      },
+      "metrics": {
+        "power": {
+          "enabled": true,
+          "value": -96.0
+        },
+        "footprint": 9.0
+      }
+    }
+  }
+]

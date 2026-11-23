@@ -1,0 +1,1107 @@
+{
+  "schema_version": 4,
+  "notes": "Mindustry 160.8 GameData v4 template. All formulas and constants are grounded directly in raw/mindustry/Mindustry-160.8/core/src/mindustry/.",
+  "game": {
+    "id": "mindustry",
+    "name": "Mindustry",
+    "data_version": "160.8",
+    "attrs": {
+      "hardness_drill_mult": 50
+    }
+  },
+  "units": {
+    "recipe_time": "tick",
+    "ticks_per_second": 60,
+    "default_rate": "s",
+    "notes": "Mindustry runs at 60 ticks/s (StatUnit.java, GenericCrafter.java:70, PowerGenerator.java:82, v160.8). All in-game rates display per second."
+  },
+  "resource_kinds": {
+    "item": {
+      "label": "Item",
+      "display_unit": "",
+      "display_scale": 1
+    },
+    "liquid": {
+      "label": "Liquid",
+      "display_unit": "",
+      "display_scale": 1
+    },
+    "gas": {
+      "label": "Gas",
+      "display_unit": "",
+      "display_scale": 1
+    },
+    "heat": {
+      "label": "Heat",
+      "display_unit": "Heat",
+      "display_scale": 1,
+      "notes": "Erekir heat flux modeled as a solver resource at /s scale (HeatProducer.java, HeatCrafter.java, VariableReactor.java, v160.8)."
+    },
+    "unit": {
+      "label": "Unit",
+      "display_unit": "",
+      "display_scale": 1
+    },
+    "payload": {
+      "label": "Block Payload",
+      "display_unit": "",
+      "display_scale": 1
+    },
+    "power": {
+      "label": "Power",
+      "display_unit": "u",
+      "display_scale": 1,
+      "notes": "Exact generated power output (u/s when project rate is /s) for 0-port generators (solar-panel, solar-panel-large, thermal-generator) to satisfy V-NUM-4 intuitively."
+    }
+  },
+  "attributes": {
+    "machine": {
+      "size": {
+        "type": "number",
+        "default": 1
+      },
+      "power": {
+        "type": "number",
+        "default": 0
+      },
+      "can_overdrive": {
+        "type": "bool",
+        "default": true
+      },
+      "planet": {
+        "type": "string",
+        "default": "both"
+      },
+      "is_debug": {
+        "type": "bool",
+        "default": false
+      },
+      "max_tiles": {
+        "type": "number",
+        "default": 1
+      },
+      "drill_time": {
+        "type": "number",
+        "default": 60
+      },
+      "hardness_mult": {
+        "type": "number",
+        "default": 0
+      },
+      "beryllium_mult": {
+        "type": "number",
+        "default": 1
+      },
+      "pump_rate": {
+        "type": "number",
+        "default": 1
+      },
+      "req_res": {
+        "type": "string",
+        "default": ""
+      },
+      "req_rate": {
+        "type": "number",
+        "default": 0
+      },
+      "boost_mult": {
+        "type": "number",
+        "default": 1
+      },
+      "boost_res": {
+        "type": "string",
+        "default": ""
+      },
+      "boost_rate": {
+        "type": "number",
+        "default": 0
+      },
+      "tile_attr": {
+        "type": "string",
+        "default": ""
+      },
+      "min_tile_eff": {
+        "type": "number",
+        "default": 100
+      },
+      "max_tile_eff": {
+        "type": "number",
+        "default": 100
+      },
+      "scales_yield": {
+        "type": "bool",
+        "default": false
+      },
+      "heat_req": {
+        "type": "number",
+        "default": 0
+      },
+      "max_heat_eff": {
+        "type": "number",
+        "default": 1
+      }
+    },
+    "recipe": {
+      "planet": {
+        "type": "string",
+        "default": "both"
+      },
+      "is_debug": {
+        "type": "bool",
+        "default": false
+      },
+      "hardness": {
+        "type": "number",
+        "default": 0
+      },
+      "is_beryllium": {
+        "type": "bool",
+        "default": false
+      },
+      "power_mult": {
+        "type": "number",
+        "default": 1
+      },
+      "extra_power": {
+        "type": "number",
+        "default": 0
+      },
+      "min_liquid_mult": {
+        "type": "number",
+        "default": 1
+      },
+      "max_liquid_mult": {
+        "type": "number",
+        "default": 1
+      }
+    },
+    "port": {
+      "fixed_rate": {
+        "type": "bool",
+        "default": false
+      },
+      "no_cost_scale": {
+        "type": "bool",
+        "default": false
+      }
+    },
+    "resource": {}
+  },
+  "option_sets": {
+    "planets": {
+      "notes": "Planet picker filter options (SerpuloTechTree.java, ErekirTechTree.java, Planets.java, v160.8).",
+      "attrs": {},
+      "options": [
+        {
+          "key": "all",
+          "label": "All (Mixtech)"
+        },
+        {
+          "key": "serpulo",
+          "label": "Serpulo"
+        },
+        {
+          "key": "erekir",
+          "label": "Erekir"
+        }
+      ]
+    },
+    "power_modes": {
+      "notes": "Project global toggle controlling whether power is tracked as a summary metric, solved via explicit power resource ports, or both.",
+      "attrs": {},
+      "options": [
+        {
+          "key": "metric",
+          "label": "Metric only (Summary & Tooltips)"
+        },
+        {
+          "key": "resource",
+          "label": "Solver resource (Power ports)"
+        },
+        {
+          "key": "both",
+          "label": "Both (Ports + Summary metric)"
+        }
+      ]
+    },
+    "overdrive_tiers": {
+      "notes": "Overdrive speed multipliers from OverdriveProjector.java:30-31 and Blocks.java:1946-1961 (v160.8): projector=1.5x, projector+phase=1.5+0.75=2.25x, dome=2.5x.",
+      "attrs": {
+        "mult": {
+          "type": "number",
+          "default": 1
+        }
+      },
+      "options": [
+        {
+          "key": "none",
+          "label": "None (1.0x)",
+          "attrs": {
+            "mult": 1
+          }
+        },
+        {
+          "key": "projector",
+          "label": "Overdrive Projector (1.5x)",
+          "attrs": {
+            "mult": 1.5
+          }
+        },
+        {
+          "key": "projector-phase",
+          "label": "Overdrive Projector + Phase (2.25x)",
+          "attrs": {
+            "mult": 2.25
+          }
+        },
+        {
+          "key": "dome",
+          "label": "Overdrive Dome (2.5x)",
+          "attrs": {
+            "mult": 2.5
+          }
+        }
+      ]
+    },
+    "pump_floors": {
+      "notes": "Floor liquidMultiplier values from Blocks.java liquid floors (v160.8): standard 1.0x (shallow/tainted water, tar, slag, arkycite), deep-water/deep-tainted-water 1.5x, pooled-cryofluid 0.5x.",
+      "attrs": {
+        "mult": {
+          "type": "number",
+          "default": 1
+        }
+      },
+      "options": [
+        {
+          "key": "standard",
+          "label": "Standard Floor (1.0x)",
+          "attrs": {
+            "mult": 1
+          }
+        },
+        {
+          "key": "deep-water",
+          "label": "Deep Water / Deep Tainted (1.5x)",
+          "attrs": {
+            "mult": 1.5
+          }
+        },
+        {
+          "key": "pooled-cryofluid",
+          "label": "Pooled Cryofluid (0.5x)",
+          "attrs": {
+            "mult": 0.5
+          }
+        }
+      ]
+    },
+    "tile_presets": {
+      "notes": "Tile attribute productivity presets computed directly from Blocks.java Floor/StaticWall attributes and AttributeCrafter/SolidPump/WallCrafter/ThermalGenerator formulas (v160.8).",
+      "attrs": {
+        "tile_attr": {
+          "type": "string",
+          "default": ""
+        },
+        "eff": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "options": [
+        {
+          "key": "crucible-normal",
+          "label": "Normal Floor (100%)",
+          "attrs": {
+            "tile_attr": "heat",
+            "eff": 100
+          }
+        },
+        {
+          "key": "crucible-hotrock",
+          "label": "Hotrock x9 (167.5%)",
+          "attrs": {
+            "tile_attr": "heat",
+            "eff": 167.5
+          }
+        },
+        {
+          "key": "crucible-magmarock",
+          "label": "Magmarock / Slag x9 (200%)",
+          "attrs": {
+            "tile_attr": "heat",
+            "eff": 200
+          }
+        },
+        {
+          "key": "cultivator-normal",
+          "label": "Normal Floor (100%)",
+          "attrs": {
+            "tile_attr": "spores",
+            "eff": 100
+          }
+        },
+        {
+          "key": "cultivator-darksand-tainted",
+          "label": "Darksand Tainted Water x4 (140%)",
+          "attrs": {
+            "tile_attr": "spores",
+            "eff": 140
+          }
+        },
+        {
+          "key": "cultivator-moss",
+          "label": "Moss / Tainted Water x4 (160%)",
+          "attrs": {
+            "tile_attr": "spores",
+            "eff": 160
+          }
+        },
+        {
+          "key": "cultivator-spore-moss",
+          "label": "Spore Moss x4 (220%)",
+          "attrs": {
+            "tile_attr": "spores",
+            "eff": 220
+          }
+        },
+        {
+          "key": "water-normal",
+          "label": "Normal Ground (100%)",
+          "attrs": {
+            "tile_attr": "water",
+            "eff": 100
+          }
+        },
+        {
+          "key": "water-mud",
+          "label": "Mud (200%)",
+          "attrs": {
+            "tile_attr": "water",
+            "eff": 200
+          }
+        },
+        {
+          "key": "water-ice",
+          "label": "Ice / Red Ice (140%)",
+          "attrs": {
+            "tile_attr": "water",
+            "eff": 140
+          }
+        },
+        {
+          "key": "water-ice-snow",
+          "label": "Ice Snow (130%)",
+          "attrs": {
+            "tile_attr": "water",
+            "eff": 130
+          }
+        },
+        {
+          "key": "water-snow",
+          "label": "Snow (120%)",
+          "attrs": {
+            "tile_attr": "water",
+            "eff": 120
+          }
+        },
+        {
+          "key": "water-grass",
+          "label": "Grass (110%)",
+          "attrs": {
+            "tile_attr": "water",
+            "eff": 110
+          }
+        },
+        {
+          "key": "water-basalt",
+          "label": "Basalt / Char (75%)",
+          "attrs": {
+            "tile_attr": "water",
+            "eff": 75
+          }
+        },
+        {
+          "key": "water-salt",
+          "label": "Salt (70%)",
+          "attrs": {
+            "tile_attr": "water",
+            "eff": 70
+          }
+        },
+        {
+          "key": "water-hotrock",
+          "label": "Hotrock (50%)",
+          "attrs": {
+            "tile_attr": "water",
+            "eff": 50
+          }
+        },
+        {
+          "key": "water-magmarock",
+          "label": "Magmarock (25%)",
+          "attrs": {
+            "tile_attr": "water",
+            "eff": 25
+          }
+        },
+        {
+          "key": "oil-shale",
+          "label": "Shale (200%)",
+          "attrs": {
+            "tile_attr": "oil",
+            "eff": 200
+          }
+        },
+        {
+          "key": "oil-darksand",
+          "label": "Dark Sand (150%)",
+          "attrs": {
+            "tile_attr": "oil",
+            "eff": 150
+          }
+        },
+        {
+          "key": "oil-sand",
+          "label": "Sand (70%)",
+          "attrs": {
+            "tile_attr": "oil",
+            "eff": 70
+          }
+        },
+        {
+          "key": "oil-salt",
+          "label": "Salt (30%)",
+          "attrs": {
+            "tile_attr": "oil",
+            "eff": 30
+          }
+        },
+        {
+          "key": "wall-stone",
+          "label": "Stone / Regolith / Rhyolite Wall (100%)",
+          "attrs": {
+            "tile_attr": "sand",
+            "eff": 100
+          }
+        },
+        {
+          "key": "wall-dune",
+          "label": "Dune / Sand Wall (200%)",
+          "attrs": {
+            "tile_attr": "sand",
+            "eff": 200
+          }
+        },
+        {
+          "key": "wall-red-yellow",
+          "label": "Red / Yellow Stone Wall (150%)",
+          "attrs": {
+            "tile_attr": "sand",
+            "eff": 150
+          }
+        },
+        {
+          "key": "wall-beryllic",
+          "label": "Beryllic Stone Wall (120%)",
+          "attrs": {
+            "tile_attr": "sand",
+            "eff": 120
+          }
+        },
+        {
+          "key": "wall-carbon",
+          "label": "Carbon Wall (70%)",
+          "attrs": {
+            "tile_attr": "sand",
+            "eff": 70
+          }
+        },
+        {
+          "key": "wall-ferric",
+          "label": "Ferric Stone Wall (50%)",
+          "attrs": {
+            "tile_attr": "sand",
+            "eff": 50
+          }
+        },
+        {
+          "key": "thermal-hotrock",
+          "label": "Hotrock x4 (200%)",
+          "attrs": {
+            "tile_attr": "thermal",
+            "eff": 200
+          }
+        },
+        {
+          "key": "thermal-magmarock",
+          "label": "Magmarock x4 (300%)",
+          "attrs": {
+            "tile_attr": "thermal",
+            "eff": 300
+          }
+        },
+        {
+          "key": "thermal-slag",
+          "label": "Molten Slag x4 (340%)",
+          "attrs": {
+            "tile_attr": "thermal",
+            "eff": 340
+          }
+        },
+        {
+          "key": "custom",
+          "label": "Custom / Mixed Tiles...",
+          "attrs": {
+            "tile_attr": "any",
+            "eff": 100
+          }
+        }
+      ]
+    }
+  },
+  "globals": {
+    "planet": {
+      "label": "Planet filter",
+      "tooltip": "Filter which planet's blocks and recipes appear in the picker (Serpulo, Erekir, or All for Mixtech).",
+      "type": "enum",
+      "option_set": "planets",
+      "default": "all",
+      "ui": {
+        "widget": "combo",
+        "group": "Scope"
+      }
+    },
+    "show_debug": {
+      "label": "Show debug/hidden content",
+      "tooltip": "Show unfinished/hidden blocks and recipes (Slag Centrifuge, Heat Reactor, Fissile Matter RTG) in the picker.",
+      "type": "bool",
+      "default": false,
+      "ui": {
+        "widget": "checkbox",
+        "group": "Scope"
+      }
+    },
+    "power_mode": {
+      "label": "Power modeling",
+      "tooltip": "Track power as a summary metric only (cleaner graph), as an explicit solver resource with power ports on every machine (auto-sizes power plants), or both.",
+      "type": "enum",
+      "option_set": "power_modes",
+      "default": "metric",
+      "ui": {
+        "widget": "combo",
+        "group": "Scope"
+      }
+    },
+    "solar_mult": {
+      "label": "Solar multiplier",
+      "tooltip": "Sector solar multiplier scaling Solar Panel power output (1.0x is standard daylight).",
+      "notes": "Scales SolarGenerator productionEfficiency per SolarGenerator.java:29 (v160.8).",
+      "type": "number",
+      "default": 1,
+      "min": "0",
+      "max": "10",
+      "step": 0.1,
+      "ui": {
+        "widget": "drag",
+        "format": "%.2gx",
+        "group": "Map rules"
+      }
+    },
+    "unit_build_speed": {
+      "label": "Unit build speed",
+      "tooltip": "Map rule multiplier for Unit Factory, Reconstructor, and Unit Assembler build speed.",
+      "notes": "Maps to state.rules.unitBuildSpeed (UnitFactory.java:411, Reconstructor.java:339, UnitAssembler.java:531, v160.8).",
+      "type": "number",
+      "default": 1,
+      "min": "0.05",
+      "max": "20",
+      "step": 0.1,
+      "ui": {
+        "widget": "drag",
+        "format": "%.2gx",
+        "group": "Map rules"
+      }
+    },
+    "unit_cost_mult": {
+      "label": "Unit cost multiplier",
+      "tooltip": "Map rule multiplier for item, liquid, and payload costs in unit production.",
+      "notes": "Maps to state.rules.unitCost (UnitFactory.java:109, Reconstructor.java:155, UnitAssembler.java:179, v160.8).",
+      "type": "number",
+      "default": 1,
+      "min": "0.05",
+      "max": "10",
+      "step": 0.1,
+      "ui": {
+        "widget": "drag",
+        "format": "%.2gx",
+        "group": "Map rules"
+      }
+    }
+  },
+  "parameters": {
+    "overdrive": {
+      "label": "Overdrive",
+      "tooltip": "Speed boost from an Overdrive Projector or Overdrive Dome. Scales production speed, continuous liquid flow, and power draw or generation.",
+      "notes": "Hidden on HeatProducer and HeaterGenerator where canOverdrive=false (HeatProducer.java:23, HeaterGenerator.java:22, v160.8).",
+      "type": "enum",
+      "option_set": "overdrive_tiers",
+      "default": "none",
+      "visible_if": "machine.can_overdrive",
+      "ui": {
+        "widget": "combo",
+        "placement": "panel"
+      }
+    },
+    "boosted": {
+      "label": "Liquid / item booster",
+      "tooltip": "Supply the optional booster (water, ozone, cyanogen, hydrogen, nitrogen, or graphite) to speed up extraction.",
+      "notes": "Drill water boost scales as liquidBoostIntensity^2; BurstDrill, BeamDrill, and WallCrafter scale linearly (v160.8).",
+      "type": "bool",
+      "default": false,
+      "visible_if": "machine.boost_rate > 0",
+      "ui": {
+        "widget": "checkbox",
+        "placement": "panel",
+        "group": "Extraction"
+      }
+    },
+    "ore_tiles_2": {
+      "label": "Wall ore tiles",
+      "tooltip": "Number of facing wall ore tiles mined simultaneously (1 to 2).",
+      "notes": "BeamDrill.java:249 (v160.8).",
+      "type": "int",
+      "default": 2,
+      "min": "1",
+      "max": "2",
+      "visible_if": "machine.max_tiles == 2",
+      "ui": {
+        "widget": "stepper",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "ore_tiles_3": {
+      "label": "Wall ore tiles",
+      "tooltip": "Number of facing wall ore tiles mined simultaneously (1 to 3).",
+      "notes": "BeamDrill.java:249 (v160.8).",
+      "type": "int",
+      "default": 3,
+      "min": "1",
+      "max": "3",
+      "visible_if": "machine.max_tiles == 3",
+      "ui": {
+        "widget": "stepper",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "ore_tiles_4": {
+      "label": "Ore tiles",
+      "tooltip": "Number of matching ore tiles under this 2x2 drill (1 to 4).",
+      "notes": "Drill.java:305 (v160.8).",
+      "type": "int",
+      "default": 4,
+      "min": "1",
+      "max": "4",
+      "visible_if": "machine.max_tiles == 4",
+      "ui": {
+        "widget": "stepper",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "ore_tiles_9": {
+      "label": "Ore tiles",
+      "tooltip": "Number of matching ore tiles under this 3x3 drill (1 to 9).",
+      "notes": "Drill.java:305 (v160.8).",
+      "type": "int",
+      "default": 9,
+      "min": "1",
+      "max": "9",
+      "visible_if": "machine.max_tiles == 9",
+      "ui": {
+        "widget": "stepper",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "ore_tiles_16": {
+      "label": "Ore tiles",
+      "tooltip": "Number of matching ore tiles under this 4x4 drill (1 to 16).",
+      "notes": "Drill.java:305, BurstDrill.java:98 (v160.8).",
+      "type": "int",
+      "default": 16,
+      "min": "1",
+      "max": "16",
+      "visible_if": "machine.max_tiles == 16",
+      "ui": {
+        "widget": "stepper",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "ore_tiles_25": {
+      "label": "Ore tiles",
+      "tooltip": "Number of matching ore tiles under this 5x5 drill (1 to 25).",
+      "notes": "BurstDrill.java:98 (v160.8).",
+      "type": "int",
+      "default": 25,
+      "min": "1",
+      "max": "25",
+      "visible_if": "machine.max_tiles == 25",
+      "ui": {
+        "widget": "stepper",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "pump_tiles_4": {
+      "label": "Liquid tiles",
+      "tooltip": "Number of liquid tiles covered by this 2x2 pump (1 to 4).",
+      "notes": "Pump.java:149 (v160.8).",
+      "type": "int",
+      "default": 4,
+      "min": "1",
+      "max": "4",
+      "visible_if": "machine.max_tiles == 4",
+      "ui": {
+        "widget": "stepper",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "pump_tiles_9": {
+      "label": "Liquid tiles",
+      "tooltip": "Number of liquid tiles covered by this 3x3 pump (1 to 9).",
+      "notes": "Pump.java:149 (v160.8).",
+      "type": "int",
+      "default": 9,
+      "min": "1",
+      "max": "9",
+      "visible_if": "machine.max_tiles == 9",
+      "ui": {
+        "widget": "stepper",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "pump_floor": {
+      "label": "Liquid floor",
+      "tooltip": "Liquid tile type beneath the pump (deep water pumps 1.5x faster; pooled cryofluid pumps at 0.5x).",
+      "notes": "Floor liquidMultiplier in Blocks.java, Pump.java:149 (v160.8).",
+      "type": "enum",
+      "option_set": "pump_floors",
+      "allowed_if": "option.mult >= recipe.min_liquid_mult && option.mult <= recipe.max_liquid_mult",
+      "visible_if": "recipe.min_liquid_mult != 1 || recipe.max_liquid_mult != 1",
+      "ui": {
+        "widget": "combo",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "tile_preset": {
+      "label": "Floor / wall tile",
+      "tooltip": "Underlying floor or facing wall tile type. Choose 'Custom / Mixed Tiles...' to enter an exact efficiency percentage for mixed tiles.",
+      "type": "enum",
+      "option_set": "tile_presets",
+      "allowed_if": "option.tile_attr == machine.tile_attr || option.tile_attr == 'any'",
+      "ui": {
+        "widget": "combo",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "tile_efficiency": {
+      "label": "Custom tile efficiency",
+      "tooltip": "In-game placement efficiency percentage for mixed floor or wall tiles.",
+      "notes": "Matches in-game placement Efficiency % (AttributeCrafter.java:41, SolidPump.java:44, ThermalGenerator.java:73, WallCrafter.java:141, v160.8).",
+      "type": "number",
+      "default": 100,
+      "min": "machine.min_tile_eff",
+      "max": "machine.max_tile_eff",
+      "step": 5,
+      "unit": "%",
+      "visible_if": "param.tile_preset == 'custom'",
+      "ui": {
+        "widget": "drag",
+        "format": "%.4g%%",
+        "placement": "panel",
+        "group": "Tile placement"
+      }
+    },
+    "heat_pct": {
+      "label": "Supplied heat",
+      "tooltip": "Percentage of required heat supplied (1% to 100%). Scales crafting speed and liquid use; Flux Reactor power also scales with heat.",
+      "notes": "HeatCrafter.java:88-91, VariableReactor.java:131-143, ConsumePower.java:46 (v160.8).",
+      "type": "number",
+      "default": 100,
+      "min": "1",
+      "max": "100",
+      "step": 5,
+      "unit": "%",
+      "ui": {
+        "widget": "drag",
+        "format": "%.4g%%",
+        "placement": "panel",
+        "group": "Heat"
+      }
+    }
+  },
+  "metrics": {
+    "power": {
+      "label": "Power",
+      "unit": "u/s",
+      "format": "%.1f",
+      "display": [
+        "tooltip",
+        "totals"
+      ],
+      "aggregate": "sum",
+      "split_sign": true,
+      "is_rate": false,
+      "notes": "Mindustry power balance in units/s (consumption positive, generation negative; PowerGraph.java:100,112, v160.8). Impact Reactor reports net -6300 u/s (7800 gen - 1500 draw)."
+    },
+    "footprint": {
+      "label": "Footprint",
+      "unit": "tiles²",
+      "format": "%.0f",
+      "display": [
+        "tooltip",
+        "totals"
+      ],
+      "aggregate": "sum",
+      "split_sign": false,
+      "is_rate": false,
+      "notes": "Whole-building physical tile area: ceil(max(0, node.machines - 1e-6)) * machine.size^2."
+    }
+  },
+  "profiles": {
+    "mindustry_base": {
+      "notes": "Shared Mindustry 160.8 base profile: planet/debug picker visibility, Overdrive timeScale (BuildingComp.java:delta, PowerGraph.java:100,112), fixed-rate liquid support (ConsumeLiquid.java:31), switchable power resource ports + power metric via global.power_mode, and footprint metric.",
+      "visible_if": "(global.show_debug || !machine.is_debug) && (global.planet == 'all' || machine.planet == 'both' || machine.planet == global.planet)",
+      "recipe_visible_if": "(global.show_debug || !recipe.is_debug) && (global.planet == 'all' || recipe.planet == 'both' || recipe.planet == global.planet)",
+      "params": [
+        "overdrive"
+      ],
+      "let": {
+        "od": "if(machine.can_overdrive, param.overdrive.mult, 1)",
+        "net_power": "machine.power * recipe.power_mult * od",
+        "native_power_out": "false",
+        "use_power_ports": "global.power_mode == 'resource' || global.power_mode == 'both'",
+        "show_power_metric": "global.power_mode == 'metric' || global.power_mode == 'both'"
+      },
+      "craft_time": "recipe.time / (machine.speed * od)",
+      "input_amount": "if(port.fixed_rate, port.amount * od * craft_time, port.amount * port.chance)",
+      "output_amount": "port.amount * port.chance",
+      "extra_ports": [
+        {
+          "id": "power_in",
+          "dir": "in",
+          "resource": "power",
+          "amount": "max(0, net_power) * craft_time",
+          "enabled": "use_power_ports && net_power > 0"
+        },
+        {
+          "id": "power_out",
+          "dir": "out",
+          "resource": "power",
+          "amount": "max(0, -net_power) * craft_time",
+          "enabled": "use_power_ports && !native_power_out && net_power < 0"
+        }
+      ],
+      "metrics": {
+        "power": {
+          "enabled": "show_power_metric",
+          "per_machine": "net_power"
+        },
+        "footprint": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * machine.size ^ 2"
+        }
+      }
+    },
+    "mindustry_crafter": {
+      "extends": "mindustry_base",
+      "notes": "Standard crafters, separators, heat producers, constructor, vents, and steady-state fuel/coolant generators (GenericCrafter.java, Separator.java, HeatProducer.java, ConsumeGenerator.java, NuclearReactor.java, ImpactReactor.java, HeaterGenerator.java, BlockProducer.java, v160.8)."
+    },
+    "mindustry_attribute_crafter": {
+      "extends": "mindustry_base",
+      "notes": "AttributeCrafter (silicon-crucible, cultivator; AttributeCrafter.java:91-111, v160.8). Speed scales with tile_eff; silicon-crucible also scales item output yield (scales_yield=true); cultivator water input is fixed_rate=true.",
+      "params": [
+        "tile_preset",
+        "tile_efficiency"
+      ],
+      "let": {
+        "tile_eff": "if(param.tile_preset == 'custom', param.tile_efficiency, param.tile_preset.eff) / 100"
+      },
+      "craft_time": "recipe.time / (machine.speed * od * tile_eff)",
+      "output_amount": "port.amount * port.chance * if(machine.scales_yield, tile_eff, 1)"
+    },
+    "mindustry_heat_crafter": {
+      "extends": "mindustry_base",
+      "notes": "Erekir HeatCrafter (HeatCrafter.java:88-91, Blocks.java maxEfficiency=1f, v160.8). Speed and liquid consumption scale with heat_eff; heat input is steady-state supplied_heat (not scaled by overdrive); power draw does not scale with heat_eff.",
+      "params": [
+        "heat_pct"
+      ],
+      "let": {
+        "heat_eff": "min(param.heat_pct / 100, machine.max_heat_eff)",
+        "supplied_heat": "machine.heat_req * heat_eff"
+      },
+      "craft_time": "recipe.time / (machine.speed * od * heat_eff)",
+      "extra_ports": [
+        {
+          "id": "heat",
+          "dir": "in",
+          "resource": "heat",
+          "amount": "supplied_heat * craft_time"
+        }
+      ]
+    },
+    "mindustry_flux_reactor": {
+      "extends": "mindustry_heat_crafter",
+      "notes": "Erekir VariableReactor / Flux Reactor (VariableReactor.java:82,131-143, v160.8). Both cyanogen consumption and power generation scale linearly with clamp(heat / maxHeat, 0, 1).",
+      "let": {
+        "net_power": "machine.power * heat_eff * od"
+      }
+    },
+    "mindustry_drill": {
+      "extends": "mindustry_base",
+      "notes": "Shared ore-mining profile for Drill, BurstDrill, and BeamDrill (Drill.java:170-188,301-305; BurstDrill.java:53-55,94-99; BeamDrill.java:216-254, v160.8). Computes exact per-machine drill time from machine.drill_time, machine.hardness_mult, recipe.hardness, and beryllium_mult; machine-specific mandatory liquid (xin:liquid) and optional booster (xin:booster) consume at fixed /s * od.",
+      "params": [
+        "ore_tiles_2",
+        "ore_tiles_3",
+        "ore_tiles_4",
+        "ore_tiles_9",
+        "ore_tiles_16",
+        "ore_tiles_25",
+        "boosted"
+      ],
+      "let": {
+        "tiles": "if(machine.max_tiles == 25, param.ore_tiles_25, if(machine.max_tiles == 16, param.ore_tiles_16, if(machine.max_tiles == 9, param.ore_tiles_9, if(machine.max_tiles == 4, param.ore_tiles_4, if(machine.max_tiles == 3, param.ore_tiles_3, if(machine.max_tiles == 2, param.ore_tiles_2, 1))))))",
+        "boost": "if(param.boosted && machine.boost_rate > 0, machine.boost_mult, 1)",
+        "dmult": "if(recipe.is_beryllium, machine.beryllium_mult, 1)",
+        "base_time_s": "((machine.drill_time + machine.hardness_mult * recipe.hardness) / dmult) / game.ticks_per_second"
+      },
+      "craft_time": "base_time_s / (machine.speed * od * tiles * boost)",
+      "extra_ports": [
+        {
+          "id": "liquid",
+          "dir": "in",
+          "resource_expr": "machine.req_res",
+          "amount": "machine.req_rate * od * craft_time",
+          "enabled": "machine.req_rate > 0"
+        },
+        {
+          "id": "booster",
+          "dir": "in",
+          "resource_expr": "machine.boost_res",
+          "amount": "machine.boost_rate * od * craft_time",
+          "enabled": "param.boosted && machine.boost_rate > 0"
+        }
+      ]
+    },
+    "mindustry_wall_crafter": {
+      "extends": "mindustry_base",
+      "notes": "Shared wall-crushing profile for WallCrafter (cliff-crusher, large-cliff-crusher; WallCrafter.java:141-215, v160.8). Base time per sand = (drill_time / size) ticks; speed scales with wall tile_eff * boost * od; mandatory hydrogen (xin:liquid) and optional graphite booster (xin:booster) consume at fixed /s * od.",
+      "params": [
+        "tile_preset",
+        "tile_efficiency",
+        "boosted"
+      ],
+      "let": {
+        "tile_eff": "if(param.tile_preset == 'custom', param.tile_efficiency, param.tile_preset.eff) / 100",
+        "boost": "if(param.boosted && machine.boost_rate > 0, machine.boost_mult, 1)",
+        "base_time_s": "(machine.drill_time / machine.size) / game.ticks_per_second"
+      },
+      "craft_time": "base_time_s / (machine.speed * od * tile_eff * boost)",
+      "extra_ports": [
+        {
+          "id": "liquid",
+          "dir": "in",
+          "resource_expr": "machine.req_res",
+          "amount": "machine.req_rate * od * craft_time",
+          "enabled": "machine.req_rate > 0"
+        },
+        {
+          "id": "booster",
+          "dir": "in",
+          "resource_expr": "machine.boost_res",
+          "amount": "machine.boost_rate * od * craft_time",
+          "enabled": "param.boosted && machine.boost_rate > 0"
+        }
+      ]
+    },
+    "mindustry_pump": {
+      "extends": "mindustry_base",
+      "notes": "Shared pumping profile for Pump (mechanical-pump, rotary-pump, impulse-pump, reinforced-pump; Pump.java:149,162, v160.8). Output scales with machine.pump_rate * tiles * floor_mult * od; reinforced-pump hydrogen input (xin:liquid) stays fixed at 1.5 * od / s.",
+      "params": [
+        "pump_tiles_4",
+        "pump_tiles_9",
+        "pump_floor"
+      ],
+      "let": {
+        "tiles": "if(machine.max_tiles == 9, param.pump_tiles_9, if(machine.max_tiles == 4, param.pump_tiles_4, 1))",
+        "floor_mult": "param.pump_floor.mult"
+      },
+      "output_amount": "port.amount * port.chance * machine.pump_rate * tiles * floor_mult",
+      "extra_ports": [
+        {
+          "id": "liquid",
+          "dir": "in",
+          "resource_expr": "machine.req_res",
+          "amount": "machine.req_rate * od * craft_time",
+          "enabled": "machine.req_rate > 0"
+        }
+      ]
+    },
+    "mindustry_solid_pump": {
+      "extends": "mindustry_base",
+      "notes": "SolidPump and Fracker (water-extractor, oil-extractor; SolidPump.java:124-127, Fracker.java:32-38, v160.8). Output scales with tile_eff * od; oil-extractor sand and water inputs stay fixed at base rate * od.",
+      "params": [
+        "tile_preset",
+        "tile_efficiency"
+      ],
+      "let": {
+        "tile_eff": "if(param.tile_preset == 'custom', param.tile_efficiency, param.tile_preset.eff) / 100"
+      },
+      "output_amount": "port.amount * port.chance * tile_eff"
+    },
+    "mindustry_solar": {
+      "extends": "mindustry_base",
+      "notes": "Shared SolarGenerator profile (solar-panel, solar-panel-large; SolarGenerator.java:28-33, PowerGraph.java:100, v160.8). Outputs exact generated power (u/s when project rate is /s) on out:0; native_power_out=true prevents duplicating xout:power_out.",
+      "let": {
+        "net_power": "machine.power * global.solar_mult * od",
+        "native_power_out": "true"
+      },
+      "output_amount": "abs(machine.power) * global.solar_mult"
+    },
+    "mindustry_thermal": {
+      "extends": "mindustry_base",
+      "notes": "ThermalGenerator (thermal-generator; ThermalGenerator.java:88, PowerGraph.java:100, v160.8). Power and power output port scale with sumAttribute(heat) * od = tile_eff * od (100% = 108 u/s); native_power_out=true prevents duplicating xout:power_out.",
+      "params": [
+        "tile_preset",
+        "tile_efficiency"
+      ],
+      "let": {
+        "tile_eff": "if(param.tile_preset == 'custom', param.tile_efficiency, param.tile_preset.eff) / 100",
+        "net_power": "machine.power * tile_eff * od",
+        "native_power_out": "true"
+      },
+      "output_amount": "abs(machine.power) * tile_eff"
+    },
+    "mindustry_unit": {
+      "extends": "mindustry_base",
+      "notes": "UnitFactory, Reconstructor, and UnitAssembler (UnitFactory.java:109,411; Reconstructor.java:155,339; UnitAssembler.java:179,531; UnitAssemblerModule.java, v160.8). Speed scales with od * global.unit_build_speed; resource inputs scale with global.unit_cost_mult (excluding upgraded input unit on Reconstructor via no_cost_scale=true). Tier 1 assembler recipes add +210 u/s basic-assembler-module power via recipe.extra_power.",
+      "let": {
+        "net_power": "(machine.power + recipe.extra_power) * od"
+      },
+      "craft_time": "recipe.time / (machine.speed * od * global.unit_build_speed)",
+      "input_amount": "if(port.no_cost_scale, port.amount * port.chance, if(port.fixed_rate, port.amount * od * craft_time * global.unit_cost_mult, port.amount * port.chance * global.unit_cost_mult))"
+    }
+  },
+  "include": [
+    "resources.json",
+    "machines.json",
+    "waivers.json",
+    "recipes"
+  ]
+}

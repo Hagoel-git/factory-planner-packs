@@ -1,0 +1,6 @@
+{
+  "notes": "Data-only manual overrides applied by converters/mindustry/convert/build_pack.py.",
+  "exclude_blocks": [],
+  "rename_resources": {},
+  "rename_machines": {}
+}
