@@ -1,0 +1,134 @@
+{
+  "recipes": [
+    {
+      "id": "extract-coal",
+      "name": "Extract Coal",
+      "category": "miner",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "coal",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-ore-bauxite",
+      "name": "Extract Bauxite",
+      "category": "miner",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "ore-bauxite",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-ore-copper",
+      "name": "Extract Copper Ore",
+      "category": "miner",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "ore-copper",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-ore-gold",
+      "name": "Extract Caterium Ore",
+      "category": "miner",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "ore-gold",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-ore-iron",
+      "name": "Extract Iron Ore",
+      "category": "miner",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "ore-iron",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-ore-uranium",
+      "name": "Extract Uranium",
+      "category": "miner",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "ore-uranium",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-raw-quartz",
+      "name": "Extract Raw Quartz",
+      "category": "miner",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "raw-quartz",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-sam",
+      "name": "Extract SAM",
+      "category": "miner",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "sam",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-stone",
+      "name": "Extract Limestone",
+      "category": "miner",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "stone",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-sulfur",
+      "name": "Extract Sulfur",
+      "category": "miner",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "sulfur",
+          1
+        ]
+      ]
+    }
+  ]
+}

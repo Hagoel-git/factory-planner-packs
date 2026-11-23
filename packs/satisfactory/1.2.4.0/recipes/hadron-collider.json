@@ -1,0 +1,304 @@
+{
+  "recipes": [
+    {
+      "id": "alternate-dark-matter-crystallization",
+      "name": "Alternate: Dark Matter Crystallization",
+      "category": "hadron-collider",
+      "time": 3,
+      "in": [
+        [
+          "dark-energy",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "dark-matter",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 500,
+        "power_span": 1000
+      }
+    },
+    {
+      "id": "alternate-dark-matter-trap",
+      "name": "Alternate: Dark Matter Trap",
+      "category": "hadron-collider",
+      "time": 2,
+      "in": [
+        [
+          "time-crystal",
+          1
+        ],
+        [
+          "dark-energy",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "dark-matter",
+          2
+        ]
+      ],
+      "attrs": {
+        "min_power": 500,
+        "power_span": 1000
+      }
+    },
+    {
+      "id": "alternate-diamond-cloudy",
+      "name": "Alternate: Cloudy Diamonds",
+      "category": "hadron-collider",
+      "time": 3,
+      "in": [
+        [
+          "coal",
+          12
+        ],
+        [
+          "stone",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "diamond",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 250,
+        "power_span": 500
+      }
+    },
+    {
+      "id": "alternate-diamond-oil-based",
+      "name": "Alternate: Oil-Based Diamonds",
+      "category": "hadron-collider",
+      "time": 3,
+      "in": [
+        [
+          "liquid-oil",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "diamond",
+          2
+        ]
+      ],
+      "attrs": {
+        "min_power": 250,
+        "power_span": 500
+      }
+    },
+    {
+      "id": "alternate-diamond-petroleum",
+      "name": "Alternate: Petroleum Diamonds",
+      "category": "hadron-collider",
+      "time": 2,
+      "in": [
+        [
+          "petroleum-coke",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "diamond",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 250,
+        "power_span": 500
+      }
+    },
+    {
+      "id": "alternate-diamond-turbo",
+      "name": "Alternate: Turbo Diamonds",
+      "category": "hadron-collider",
+      "time": 3,
+      "in": [
+        [
+          "coal",
+          30
+        ],
+        [
+          "turbo-fuel",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "diamond",
+          3
+        ]
+      ],
+      "attrs": {
+        "min_power": 250,
+        "power_span": 500
+      }
+    },
+    {
+      "id": "alternate-instant-plutonium-cell",
+      "name": "Alternate: Instant Plutonium Cell",
+      "category": "hadron-collider",
+      "time": 120,
+      "in": [
+        [
+          "non-fissible-uranium",
+          150
+        ],
+        [
+          "aluminum-casing",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "plutonium-cell",
+          20
+        ]
+      ],
+      "attrs": {
+        "min_power": 250,
+        "power_span": 500
+      }
+    },
+    {
+      "id": "dark-matter",
+      "name": "Dark Matter Crystal",
+      "category": "hadron-collider",
+      "time": 2,
+      "in": [
+        [
+          "diamond",
+          1
+        ],
+        [
+          "dark-energy",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "dark-matter",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 500,
+        "power_span": 1000
+      }
+    },
+    {
+      "id": "diamond",
+      "name": "Diamonds",
+      "category": "hadron-collider",
+      "time": 2,
+      "in": [
+        [
+          "coal",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "diamond",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 250,
+        "power_span": 500
+      }
+    },
+    {
+      "id": "ficsonium",
+      "name": "Ficsonium",
+      "category": "hadron-collider",
+      "time": 6,
+      "in": [
+        [
+          "plutonium-waste",
+          1
+        ],
+        [
+          "singularity-cell",
+          1
+        ],
+        [
+          "dark-energy",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "ficsonium",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 500,
+        "power_span": 1000
+      }
+    },
+    {
+      "id": "plutonium",
+      "name": "Plutonium Pellet",
+      "category": "hadron-collider",
+      "time": 60,
+      "in": [
+        [
+          "non-fissible-uranium",
+          100
+        ],
+        [
+          "nuclear-waste",
+          25
+        ]
+      ],
+      "out": [
+        [
+          "plutonium-pellet",
+          30
+        ]
+      ],
+      "attrs": {
+        "min_power": 250,
+        "power_span": 500
+      }
+    },
+    {
+      "id": "space-elevator-part-9",
+      "name": "Nuclear Pasta",
+      "category": "hadron-collider",
+      "time": 120,
+      "in": [
+        [
+          "copper-dust",
+          200
+        ],
+        [
+          "pressure-conversion-cube",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-9",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 500,
+        "power_span": 1000
+      }
+    }
+  ]
+}

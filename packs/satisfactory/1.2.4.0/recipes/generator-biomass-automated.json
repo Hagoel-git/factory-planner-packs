@@ -1,0 +1,82 @@
+{
+  "recipes": [
+    {
+      "id": "burn-biomass-biofuel",
+      "name": "Burn Solid Biofuel (Biomass Burner)",
+      "category": "generator-biomass-automated",
+      "time": 15,
+      "in": [
+        [
+          "biofuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-biomass-generic-biomass",
+      "name": "Burn Biomass (Biomass Burner)",
+      "category": "generator-biomass-automated",
+      "time": 6,
+      "in": [
+        [
+          "generic-biomass",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-biomass-leaves",
+      "name": "Burn Leaves (Biomass Burner)",
+      "category": "generator-biomass-automated",
+      "time": 0.5,
+      "in": [
+        [
+          "leaves",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-biomass-mycelia",
+      "name": "Burn Mycelia (Biomass Burner)",
+      "category": "generator-biomass-automated",
+      "time": 0.666667,
+      "in": [
+        [
+          "mycelia",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-biomass-packaged-biofuel",
+      "name": "Burn Packaged Liquid Biofuel (Biomass Burner)",
+      "category": "generator-biomass-automated",
+      "time": 25,
+      "in": [
+        [
+          "packaged-biofuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-biomass-wood",
+      "name": "Burn Wood (Biomass Burner)",
+      "category": "generator-biomass-automated",
+      "time": 3.333333,
+      "in": [
+        [
+          "wood",
+          1
+        ]
+      ],
+      "out": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "waive_warnings": [
+    {
+      "rule": "V-W-1",
+      "match": "options/*_mults/*",
+      "reason": "Project global multiplier presets are text-only options without icons"
+    }
+  ]
+}

@@ -1,0 +1,1924 @@
+{
+  "recipes": [
+    {
+      "id": "sink-alien-power-fuel",
+      "name": "Sink: Alien Power Matrix",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 210
+      },
+      "in": [
+        [
+          "alien-power-fuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-aluminum-casing",
+      "name": "Sink: Aluminum Casing",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 393
+      },
+      "in": [
+        [
+          "aluminum-casing",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-aluminum-ingot",
+      "name": "Sink: Aluminum Ingot",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 131
+      },
+      "in": [
+        [
+          "aluminum-ingot",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-aluminum-plate",
+      "name": "Sink: Alclad Aluminum Sheet",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 266
+      },
+      "in": [
+        [
+          "aluminum-plate",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-aluminum-plate-reinforced",
+      "name": "Sink: Heat Sink",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 2804
+      },
+      "in": [
+        [
+          "aluminum-plate-reinforced",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-aluminum-scrap",
+      "name": "Sink: Aluminum Scrap",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 27
+      },
+      "in": [
+        [
+          "aluminum-scrap",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-battery",
+      "name": "Sink: Battery",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 465
+      },
+      "in": [
+        [
+          "battery",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-biofuel",
+      "name": "Sink: Solid Biofuel",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 48
+      },
+      "in": [
+        [
+          "biofuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-cable",
+      "name": "Sink: Cable",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 24
+      },
+      "in": [
+        [
+          "cable",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-cartridge-chaos",
+      "name": "Sink: Turbo Rifle Ammo",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 120
+      },
+      "in": [
+        [
+          "cartridge-chaos",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-cartridge-smart-projectile",
+      "name": "Sink: Homing Rifle Ammo",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 855
+      },
+      "in": [
+        [
+          "cartridge-smart-projectile",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-cartridge-standard",
+      "name": "Sink: Rifle Ammo",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 25
+      },
+      "in": [
+        [
+          "cartridge-standard",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-cement",
+      "name": "Sink: Concrete",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 12
+      },
+      "in": [
+        [
+          "cement",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-circuit-board",
+      "name": "Sink: Circuit Board",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 696
+      },
+      "in": [
+        [
+          "circuit-board",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-circuit-board-high-speed",
+      "name": "Sink: AI Limiter",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 920
+      },
+      "in": [
+        [
+          "circuit-board-high-speed",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-coal",
+      "name": "Sink: Coal",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 3
+      },
+      "in": [
+        [
+          "coal",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-compacted-coal",
+      "name": "Sink: Compacted Coal",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 28
+      },
+      "in": [
+        [
+          "compacted-coal",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-computer",
+      "name": "Sink: Computer",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 8352
+      },
+      "in": [
+        [
+          "computer",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-computer-super",
+      "name": "Sink: Supercomputer",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 97352
+      },
+      "in": [
+        [
+          "computer-super",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-cooling-system",
+      "name": "Sink: Cooling System",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 12006
+      },
+      "in": [
+        [
+          "cooling-system",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-copper-dust",
+      "name": "Sink: Copper Powder",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 72
+      },
+      "in": [
+        [
+          "copper-dust",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-copper-ingot",
+      "name": "Sink: Copper Ingot",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 6
+      },
+      "in": [
+        [
+          "copper-ingot",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-copper-sheet",
+      "name": "Sink: Copper Sheet",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 24
+      },
+      "in": [
+        [
+          "copper-sheet",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-crystal-oscillator",
+      "name": "Sink: Crystal Oscillator",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 3072
+      },
+      "in": [
+        [
+          "crystal-oscillator",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-dark-matter",
+      "name": "Sink: Dark Matter Crystal",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1780
+      },
+      "in": [
+        [
+          "dark-matter",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-diamond",
+      "name": "Sink: Diamonds",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 240
+      },
+      "in": [
+        [
+          "diamond",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-electromagnetic-control-rod",
+      "name": "Sink: Electromagnetic Control Rod",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 2560
+      },
+      "in": [
+        [
+          "electromagnetic-control-rod",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-fabric",
+      "name": "Sink: Fabric",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 140
+      },
+      "in": [
+        [
+          "fabric",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-ficsite-ingot",
+      "name": "Sink: Ficsite Ingot",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1936
+      },
+      "in": [
+        [
+          "ficsite-ingot",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-ficsite-mesh",
+      "name": "Sink: Ficsite Trigon",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1291
+      },
+      "in": [
+        [
+          "ficsite-mesh",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-filter",
+      "name": "Sink: Gas Filter",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 608
+      },
+      "in": [
+        [
+          "filter",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-fluid-canister",
+      "name": "Sink: Empty Canister",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 60
+      },
+      "in": [
+        [
+          "fluid-canister",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-fuel",
+      "name": "Sink: Packaged Fuel",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 270
+      },
+      "in": [
+        [
+          "fuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-gas-tank",
+      "name": "Sink: Empty Fluid Tank",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 170
+      },
+      "in": [
+        [
+          "gas-tank",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-generic-biomass",
+      "name": "Sink: Biomass",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 12
+      },
+      "in": [
+        [
+          "generic-biomass",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-gold-ingot",
+      "name": "Sink: Caterium Ingot",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 42
+      },
+      "in": [
+        [
+          "gold-ingot",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-gunpowder",
+      "name": "Sink: Black Powder",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 14
+      },
+      "in": [
+        [
+          "gunpowder",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-gunpowder-mk2",
+      "name": "Sink: Smokeless Powder",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 58
+      },
+      "in": [
+        [
+          "gunpowder-mk2",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-hazmat-filter",
+      "name": "Sink: Iodine-Infused Filter",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 2274
+      },
+      "in": [
+        [
+          "hazmat-filter",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-high-speed-connector",
+      "name": "Sink: High-Speed Connector",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 3776
+      },
+      "in": [
+        [
+          "high-speed-connector",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-high-speed-wire",
+      "name": "Sink: Quickwire",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 17
+      },
+      "in": [
+        [
+          "high-speed-wire",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-iron-ingot",
+      "name": "Sink: Iron Ingot",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 2
+      },
+      "in": [
+        [
+          "iron-ingot",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-iron-plate",
+      "name": "Sink: Iron Plate",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 6
+      },
+      "in": [
+        [
+          "iron-plate",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-iron-plate-reinforced",
+      "name": "Sink: Reinforced Iron Plate",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 120
+      },
+      "in": [
+        [
+          "iron-plate-reinforced",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-iron-rod",
+      "name": "Sink: Iron Rod",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 4
+      },
+      "in": [
+        [
+          "iron-rod",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-iron-screw",
+      "name": "Sink: Screws",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 2
+      },
+      "in": [
+        [
+          "iron-screw",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-item-descriptor-portable-miner",
+      "name": "Sink: Portable Miner",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 56
+      },
+      "in": [
+        [
+          "item-descriptor-portable-miner",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-leaves",
+      "name": "Sink: Leaves",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 3
+      },
+      "in": [
+        [
+          "leaves",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-modular-frame",
+      "name": "Sink: Modular Frame",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 408
+      },
+      "in": [
+        [
+          "modular-frame",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-modular-frame-fused",
+      "name": "Sink: Fused Modular Frame",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 62840
+      },
+      "in": [
+        [
+          "modular-frame-fused",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-modular-frame-heavy",
+      "name": "Sink: Heavy Modular Frame",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 10800
+      },
+      "in": [
+        [
+          "modular-frame-heavy",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-modular-frame-lightweight",
+      "name": "Sink: Radio Control Unit",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 32352
+      },
+      "in": [
+        [
+          "modular-frame-lightweight",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-motor",
+      "name": "Sink: Motor",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1520
+      },
+      "in": [
+        [
+          "motor",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-motor-lightweight",
+      "name": "Sink: Turbo Motor",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 240496
+      },
+      "in": [
+        [
+          "motor-lightweight",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-mycelia",
+      "name": "Sink: Mycelia",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 10
+      },
+      "in": [
+        [
+          "mycelia",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-nobelisk-cluster",
+      "name": "Sink: Cluster Nobelisk",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1376
+      },
+      "in": [
+        [
+          "nobelisk-cluster",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-nobelisk-explosive",
+      "name": "Sink: Nobelisk",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 152
+      },
+      "in": [
+        [
+          "nobelisk-explosive",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-nobelisk-gas",
+      "name": "Sink: Gas Nobelisk",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 544
+      },
+      "in": [
+        [
+          "nobelisk-gas",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-nobelisk-nuke",
+      "name": "Sink: Nuke Nobelisk",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 19600
+      },
+      "in": [
+        [
+          "nobelisk-nuke",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-nobelisk-shockwave",
+      "name": "Sink: Pulse Nobelisk",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1533
+      },
+      "in": [
+        [
+          "nobelisk-shockwave",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-nuclear-fuel-rod",
+      "name": "Sink: Uranium Fuel Rod",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 43468
+      },
+      "in": [
+        [
+          "nuclear-fuel-rod",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-ore-bauxite",
+      "name": "Sink: Bauxite",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 8
+      },
+      "in": [
+        [
+          "ore-bauxite",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-ore-copper",
+      "name": "Sink: Copper Ore",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 3
+      },
+      "in": [
+        [
+          "ore-copper",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-ore-gold",
+      "name": "Sink: Caterium Ore",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 7
+      },
+      "in": [
+        [
+          "ore-gold",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-ore-iron",
+      "name": "Sink: Iron Ore",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1
+      },
+      "in": [
+        [
+          "ore-iron",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-ore-uranium",
+      "name": "Sink: Uranium",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 35
+      },
+      "in": [
+        [
+          "ore-uranium",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-packaged-alumina",
+      "name": "Sink: Packaged Alumina Solution",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 160
+      },
+      "in": [
+        [
+          "packaged-alumina",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-packaged-biofuel",
+      "name": "Sink: Packaged Liquid Biofuel",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 370
+      },
+      "in": [
+        [
+          "packaged-biofuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-packaged-ionized-fuel",
+      "name": "Sink: Packaged Ionized Fuel",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 5246
+      },
+      "in": [
+        [
+          "packaged-ionized-fuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-packaged-nitric-acid",
+      "name": "Sink: Packaged Nitric Acid",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 412
+      },
+      "in": [
+        [
+          "packaged-nitric-acid",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-packaged-nitrogen-gas",
+      "name": "Sink: Packaged Nitrogen Gas",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 312
+      },
+      "in": [
+        [
+          "packaged-nitrogen-gas",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-packaged-oil",
+      "name": "Sink: Packaged Oil",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 180
+      },
+      "in": [
+        [
+          "packaged-oil",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-packaged-oil-residue",
+      "name": "Sink: Packaged Heavy Oil Residue",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 180
+      },
+      "in": [
+        [
+          "packaged-oil-residue",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-packaged-rocket-fuel",
+      "name": "Sink: Packaged Rocket Fuel",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1028
+      },
+      "in": [
+        [
+          "packaged-rocket-fuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-packaged-sulfuric-acid",
+      "name": "Sink: Packaged Sulfuric Acid",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 152
+      },
+      "in": [
+        [
+          "packaged-sulfuric-acid",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-packaged-water",
+      "name": "Sink: Packaged Water",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 130
+      },
+      "in": [
+        [
+          "packaged-water",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-petroleum-coke",
+      "name": "Sink: Petroleum Coke",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 20
+      },
+      "in": [
+        [
+          "petroleum-coke",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-plastic",
+      "name": "Sink: Plastic",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 75
+      },
+      "in": [
+        [
+          "plastic",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-plutonium-fuel-rod",
+      "name": "Sink: Plutonium Fuel Rod",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 153184
+      },
+      "in": [
+        [
+          "plutonium-fuel-rod",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-polymer-resin",
+      "name": "Sink: Polymer Resin",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 12
+      },
+      "in": [
+        [
+          "polymer-resin",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-pressure-conversion-cube",
+      "name": "Sink: Pressure Conversion Cube",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 255088
+      },
+      "in": [
+        [
+          "pressure-conversion-cube",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-quantum-oscillator",
+      "name": "Sink: Superposition Oscillator",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 37292
+      },
+      "in": [
+        [
+          "quantum-oscillator",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-quartz-crystal",
+      "name": "Sink: Quartz Crystal",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 50
+      },
+      "in": [
+        [
+          "quartz-crystal",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-raw-quartz",
+      "name": "Sink: Raw Quartz",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 15
+      },
+      "in": [
+        [
+          "raw-quartz",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-rebar-explosive",
+      "name": "Sink: Explosive Rebar",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 360
+      },
+      "in": [
+        [
+          "rebar-explosive",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-rebar-spreadshot",
+      "name": "Sink: Shatter Rebar",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 332
+      },
+      "in": [
+        [
+          "rebar-spreadshot",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-rebar-stunshot",
+      "name": "Sink: Stun Rebar",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 186
+      },
+      "in": [
+        [
+          "rebar-stunshot",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-rotor",
+      "name": "Sink: Rotor",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 140
+      },
+      "in": [
+        [
+          "rotor",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-rubber",
+      "name": "Sink: Rubber",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 60
+      },
+      "in": [
+        [
+          "rubber",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-sam",
+      "name": "Sink: SAM",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 20
+      },
+      "in": [
+        [
+          "sam",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-sam-fluctuator",
+      "name": "Sink: SAM Fluctuator",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1968
+      },
+      "in": [
+        [
+          "sam-fluctuator",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-sam-ingot",
+      "name": "Sink: Reanimated SAM",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 160
+      },
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-silica",
+      "name": "Sink: Silica",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 20
+      },
+      "in": [
+        [
+          "silica",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-singularity-cell",
+      "name": "Sink: Singularity Cell",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 114675
+      },
+      "in": [
+        [
+          "singularity-cell",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-1",
+      "name": "Sink: Smart Plating",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 520
+      },
+      "in": [
+        [
+          "space-elevator-part-1",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-10",
+      "name": "Sink: Biochemical Sculptor",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 301778
+      },
+      "in": [
+        [
+          "space-elevator-part-10",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-11",
+      "name": "Sink: Ballistic Warp Drive",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 2895334
+      },
+      "in": [
+        [
+          "space-elevator-part-11",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-12",
+      "name": "Sink: AI Expansion Server",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 597652
+      },
+      "in": [
+        [
+          "space-elevator-part-12",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-2",
+      "name": "Sink: Versatile Framework",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1176
+      },
+      "in": [
+        [
+          "space-elevator-part-2",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-3",
+      "name": "Sink: Automated Wiring",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 1440
+      },
+      "in": [
+        [
+          "space-elevator-part-3",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-4",
+      "name": "Sink: Modular Engine",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 9960
+      },
+      "in": [
+        [
+          "space-elevator-part-4",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-5",
+      "name": "Sink: Adaptive Control Unit",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 76368
+      },
+      "in": [
+        [
+          "space-elevator-part-5",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-6",
+      "name": "Sink: Magnetic Field Generator",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 11000
+      },
+      "in": [
+        [
+          "space-elevator-part-6",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-7",
+      "name": "Sink: Assembly Director System",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 500176
+      },
+      "in": [
+        [
+          "space-elevator-part-7",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-8",
+      "name": "Sink: Thermal Propulsion Rocket",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 728508
+      },
+      "in": [
+        [
+          "space-elevator-part-8",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-space-elevator-part-9",
+      "name": "Sink: Nuclear Pasta",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 538976
+      },
+      "in": [
+        [
+          "space-elevator-part-9",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-spiked-rebar",
+      "name": "Sink: Iron Rebar",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 8
+      },
+      "in": [
+        [
+          "spiked-rebar",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-stator",
+      "name": "Sink: Stator",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 240
+      },
+      "in": [
+        [
+          "stator",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-steel-ingot",
+      "name": "Sink: Steel Ingot",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 8
+      },
+      "in": [
+        [
+          "steel-ingot",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-steel-pipe",
+      "name": "Sink: Steel Pipe",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 24
+      },
+      "in": [
+        [
+          "steel-pipe",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-steel-plate",
+      "name": "Sink: Steel Beam",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 64
+      },
+      "in": [
+        [
+          "steel-plate",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-steel-plate-reinforced",
+      "name": "Sink: Encased Industrial Beam",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 528
+      },
+      "in": [
+        [
+          "steel-plate-reinforced",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-stone",
+      "name": "Sink: Limestone",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 2
+      },
+      "in": [
+        [
+          "stone",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-sulfur",
+      "name": "Sink: Sulfur",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 11
+      },
+      "in": [
+        [
+          "sulfur",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-temporal-processor",
+      "name": "Sink: Neural-Quantum Processor",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 248034
+      },
+      "in": [
+        [
+          "temporal-processor",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-time-crystal",
+      "name": "Sink: Time Crystal",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 960
+      },
+      "in": [
+        [
+          "time-crystal",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-turbo-fuel",
+      "name": "Sink: Packaged Turbofuel",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 570
+      },
+      "in": [
+        [
+          "turbo-fuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-uranium-cell",
+      "name": "Sink: Encased Uranium Cell",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 147
+      },
+      "in": [
+        [
+          "uranium-cell",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-wire",
+      "name": "Sink: Wire",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 6
+      },
+      "in": [
+        [
+          "wire",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "sink-wood",
+      "name": "Sink: Wood",
+      "category": "resource-sink",
+      "time": 1,
+      "attrs": {
+        "sink_points": 30
+      },
+      "in": [
+        [
+          "wood",
+          1
+        ]
+      ],
+      "out": []
+    }
+  ]
+}

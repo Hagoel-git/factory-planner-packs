@@ -1,0 +1,764 @@
+{
+  "recipes": [
+    {
+      "id": "alternate-caterium-ingot-leached",
+      "name": "Alternate: Leached Caterium Ingot",
+      "category": "oil-refinery",
+      "time": 10,
+      "in": [
+        [
+          "ore-gold",
+          9
+        ],
+        [
+          "sulfuric-acid",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "gold-ingot",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "alternate-coated-cable",
+      "name": "Alternate: Coated Cable",
+      "category": "oil-refinery",
+      "time": 8,
+      "in": [
+        [
+          "wire",
+          5
+        ],
+        [
+          "heavy-oil-residue",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "cable",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "alternate-copper-ingot-leached",
+      "name": "Alternate: Leached Copper Ingot",
+      "category": "oil-refinery",
+      "time": 12,
+      "in": [
+        [
+          "ore-copper",
+          9
+        ],
+        [
+          "sulfuric-acid",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "copper-ingot",
+          22
+        ]
+      ]
+    },
+    {
+      "id": "alternate-diluted-packaged-fuel",
+      "name": "Alternate: Diluted Packaged Fuel",
+      "category": "oil-refinery",
+      "time": 2,
+      "in": [
+        [
+          "heavy-oil-residue",
+          1
+        ],
+        [
+          "packaged-water",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "fuel",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-electro-aluminum-scrap",
+      "name": "Alternate: Electrode Aluminum Scrap",
+      "category": "oil-refinery",
+      "time": 4,
+      "in": [
+        [
+          "alumina-solution",
+          12
+        ],
+        [
+          "petroleum-coke",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "aluminum-scrap",
+          20
+        ],
+        [
+          "water",
+          7
+        ]
+      ]
+    },
+    {
+      "id": "alternate-heavy-oil-residue",
+      "name": "Alternate: Heavy Oil Residue",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "liquid-oil",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "heavy-oil-residue",
+          4
+        ],
+        [
+          "polymer-resin",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-iron-ingot-leached",
+      "name": "Alternate: Leached Iron Ingot",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "ore-iron",
+          5
+        ],
+        [
+          "sulfuric-acid",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "iron-ingot",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "alternate-plastic-1",
+      "name": "Alternate: Recycled Plastic",
+      "category": "oil-refinery",
+      "time": 12,
+      "in": [
+        [
+          "rubber",
+          6
+        ],
+        [
+          "liquid-fuel",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "plastic",
+          12
+        ]
+      ]
+    },
+    {
+      "id": "alternate-polyester-fabric",
+      "name": "Alternate: Polyester Fabric",
+      "category": "oil-refinery",
+      "time": 2,
+      "in": [
+        [
+          "polymer-resin",
+          1
+        ],
+        [
+          "water",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "fabric",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-polymer-resin",
+      "name": "Alternate: Polymer Resin",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "liquid-oil",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "polymer-resin",
+          13
+        ],
+        [
+          "heavy-oil-residue",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-pure-caterium-ingot",
+      "name": "Alternate: Pure Caterium Ingot",
+      "category": "oil-refinery",
+      "time": 5,
+      "in": [
+        [
+          "ore-gold",
+          2
+        ],
+        [
+          "water",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "gold-ingot",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-pure-copper-ingot",
+      "name": "Alternate: Pure Copper Ingot",
+      "category": "oil-refinery",
+      "time": 24,
+      "in": [
+        [
+          "ore-copper",
+          6
+        ],
+        [
+          "water",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "copper-ingot",
+          15
+        ]
+      ]
+    },
+    {
+      "id": "alternate-pure-iron-ingot",
+      "name": "Alternate: Pure Iron Ingot",
+      "category": "oil-refinery",
+      "time": 12,
+      "in": [
+        [
+          "ore-iron",
+          7
+        ],
+        [
+          "water",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "iron-ingot",
+          13
+        ]
+      ]
+    },
+    {
+      "id": "alternate-pure-quartz-crystal",
+      "name": "Alternate: Pure Quartz Crystal",
+      "category": "oil-refinery",
+      "time": 8,
+      "in": [
+        [
+          "raw-quartz",
+          9
+        ],
+        [
+          "water",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "quartz-crystal",
+          7
+        ]
+      ]
+    },
+    {
+      "id": "alternate-quartz-purified",
+      "name": "Alternate: Quartz Purification",
+      "category": "oil-refinery",
+      "time": 12,
+      "in": [
+        [
+          "raw-quartz",
+          24
+        ],
+        [
+          "nitric-acid",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "quartz-crystal",
+          15
+        ],
+        [
+          "dissolved-silica",
+          12
+        ]
+      ]
+    },
+    {
+      "id": "alternate-recycled-rubber",
+      "name": "Alternate: Recycled Rubber",
+      "category": "oil-refinery",
+      "time": 12,
+      "in": [
+        [
+          "plastic",
+          6
+        ],
+        [
+          "liquid-fuel",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "rubber",
+          12
+        ]
+      ]
+    },
+    {
+      "id": "alternate-sloppy-alumina",
+      "name": "Alternate: Sloppy Alumina",
+      "category": "oil-refinery",
+      "time": 3,
+      "in": [
+        [
+          "ore-bauxite",
+          10
+        ],
+        [
+          "water",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "alumina-solution",
+          12
+        ]
+      ]
+    },
+    {
+      "id": "alternate-steamed-copper-sheet",
+      "name": "Alternate: Steamed Copper Sheet",
+      "category": "oil-refinery",
+      "time": 8,
+      "in": [
+        [
+          "copper-ingot",
+          3
+        ],
+        [
+          "water",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "copper-sheet",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-turbo-heavy-fuel",
+      "name": "Alternate: Turbo Heavy Fuel",
+      "category": "oil-refinery",
+      "time": 8,
+      "in": [
+        [
+          "heavy-oil-residue",
+          5
+        ],
+        [
+          "compacted-coal",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "liquid-turbo-fuel",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "alternate-turbofuel",
+      "name": "Turbofuel",
+      "category": "oil-refinery",
+      "time": 16,
+      "in": [
+        [
+          "liquid-fuel",
+          6
+        ],
+        [
+          "compacted-coal",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "liquid-turbo-fuel",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "alternate-wet-concrete",
+      "name": "Alternate: Wet Concrete",
+      "category": "oil-refinery",
+      "time": 3,
+      "in": [
+        [
+          "stone",
+          6
+        ],
+        [
+          "water",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "cement",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "alumina-solution",
+      "name": "Alumina Solution",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "ore-bauxite",
+          12
+        ],
+        [
+          "water",
+          18
+        ]
+      ],
+      "out": [
+        [
+          "alumina-solution",
+          12
+        ],
+        [
+          "silica",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "aluminum-scrap",
+      "name": "Aluminum Scrap",
+      "category": "oil-refinery",
+      "time": 1,
+      "in": [
+        [
+          "alumina-solution",
+          4
+        ],
+        [
+          "coal",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "aluminum-scrap",
+          6
+        ],
+        [
+          "water",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "gunpowder-mk2",
+      "name": "Smokeless Powder",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "gunpowder",
+          2
+        ],
+        [
+          "heavy-oil-residue",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "gunpowder-mk2",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "ionized-fuel",
+      "name": "Ionized Fuel",
+      "category": "oil-refinery",
+      "time": 24,
+      "in": [
+        [
+          "rocket-fuel",
+          16
+        ],
+        [
+          "crystal-shard",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "ionized-fuel",
+          16
+        ],
+        [
+          "compacted-coal",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "liquid-biofuel",
+      "name": "Liquid Biofuel",
+      "category": "oil-refinery",
+      "time": 4,
+      "in": [
+        [
+          "biofuel",
+          6
+        ],
+        [
+          "water",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "liquid-biofuel",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "liquid-fuel",
+      "name": "Fuel",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "liquid-oil",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "liquid-fuel",
+          4
+        ],
+        [
+          "polymer-resin",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "petroleum-coke",
+      "name": "Petroleum Coke",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "heavy-oil-residue",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "petroleum-coke",
+          12
+        ]
+      ]
+    },
+    {
+      "id": "plastic",
+      "name": "Plastic",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "liquid-oil",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "plastic",
+          2
+        ],
+        [
+          "heavy-oil-residue",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "residual-fuel",
+      "name": "Residual Fuel",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "heavy-oil-residue",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "liquid-fuel",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "residual-plastic",
+      "name": "Residual Plastic",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "polymer-resin",
+          6
+        ],
+        [
+          "water",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "plastic",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "residual-rubber",
+      "name": "Residual Rubber",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "polymer-resin",
+          4
+        ],
+        [
+          "water",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "rubber",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "rubber",
+      "name": "Rubber",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "liquid-oil",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "rubber",
+          2
+        ],
+        [
+          "heavy-oil-residue",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "sulfuric-acid",
+      "name": "Sulfuric Acid",
+      "category": "oil-refinery",
+      "time": 6,
+      "in": [
+        [
+          "sulfur",
+          5
+        ],
+        [
+          "water",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "sulfuric-acid",
+          5
+        ]
+      ]
+    }
+  ]
+}

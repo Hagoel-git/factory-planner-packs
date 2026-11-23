@@ -1,0 +1,55 @@
+{
+  "recipes": [
+    {
+      "id": "burn-coal-coal",
+      "name": "Burn Coal (Coal-Powered Generator)",
+      "category": "generator-coal",
+      "time": 4,
+      "in": [
+        [
+          "coal",
+          1
+        ],
+        [
+          "water",
+          3
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-coal-compacted-coal",
+      "name": "Burn Compacted Coal (Coal-Powered Generator)",
+      "category": "generator-coal",
+      "time": 8.4,
+      "in": [
+        [
+          "compacted-coal",
+          1
+        ],
+        [
+          "water",
+          6.3
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-coal-petroleum-coke",
+      "name": "Burn Petroleum Coke (Coal-Powered Generator)",
+      "category": "generator-coal",
+      "time": 2.4,
+      "in": [
+        [
+          "petroleum-coke",
+          1
+        ],
+        [
+          "water",
+          1.8
+        ]
+      ],
+      "out": []
+    }
+  ]
+}

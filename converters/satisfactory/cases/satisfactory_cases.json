@@ -1,0 +1,416 @@
+[
+  {
+    "name": "constructor iron-plate 150% + 1 sloop (1.5 machines)",
+    "recipe": "iron-plate",
+    "machine": "constructor-mk1",
+    "params": {
+      "clock": 150,
+      "somersloops": 1
+    },
+    "globals": {},
+    "machines": 1.5,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 4,
+      "ports": {
+        "in:0": 3,
+        "out:0": 4
+      },
+      "metric_coeffs": {
+        "power": 27.3464
+      },
+      "metrics": {
+        "power": 41.0196,
+        "peak_power": 54.6928,
+        "shards": 2,
+        "sloops": 2
+      }
+    }
+  },
+  {
+    "name": "smelter iron-ingot 200% + 1 sloop override + globals",
+    "recipe": "ingot-iron",
+    "machine": "smelter-mk1",
+    "params": {
+      "clock": 200,
+      "somersloops": 1
+    },
+    "globals": {
+      "recipe_cost_mult": "x1_50",
+      "power_consumption_mult": "x2"
+    },
+    "machines": 1,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1,
+      "ports": {
+        "in:0": 2,
+        "out:0": 2
+      },
+      "metrics": {
+        "power": 80.0001,
+        "peak_power": 80.0001,
+        "shards": 2,
+        "sloops": 1
+      }
+    }
+  },
+  {
+    "name": "packager packaged-water exempt from recipe_cost_mult",
+    "recipe": "packaged-water",
+    "machine": "packager",
+    "params": {
+      "clock": 100
+    },
+    "globals": {
+      "recipe_cost_mult": "x0_25"
+    },
+    "machines": 1,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 2,
+      "ports": {
+        "in:0": 2,
+        "in:1": 2,
+        "out:0": 2
+      },
+      "metrics": {
+        "power": 10,
+        "peak_power": 10,
+        "shards": 0,
+        "sloops": 0
+      }
+    }
+  },
+  {
+    "name": "refinery residual-fuel fluid recipe_cost_mult=0.25",
+    "recipe": "residual-fuel",
+    "machine": "oil-refinery",
+    "params": {
+      "clock": 100,
+      "somersloops": 0
+    },
+    "globals": {
+      "recipe_cost_mult": "x0_25"
+    },
+    "machines": 1,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 6,
+      "ports": {
+        "in:0": 1.5,
+        "out:0": 4
+      },
+      "metrics": {
+        "power": 30,
+        "peak_power": 30
+      }
+    }
+  },
+  {
+    "name": "particle accelerator nuclear-pasta 250% + 4 sloops",
+    "recipe": "space-elevator-part-9",
+    "machine": "hadron-collider",
+    "params": {
+      "clock": 250,
+      "somersloops": 4
+    },
+    "globals": {},
+    "machines": 1,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 48,
+      "ports": {
+        "in:0": 200,
+        "in:1": 1,
+        "out:0": 2
+      },
+      "metrics": {
+        "power": 13431.002,
+        "peak_power": 20146.504,
+        "shards": 3,
+        "sloops": 4
+      }
+    }
+  },
+  {
+    "name": "quantum encoder synthetic-power-shard 2 sloops (1.5 machines)",
+    "recipe": "synthetic-power-shard",
+    "machine": "quantum-encoder",
+    "params": {
+      "clock": 100,
+      "somersloops": 2
+    },
+    "globals": {},
+    "machines": 1.5,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 12,
+      "ports": {
+        "out:0": 1.5,
+        "out:1": 18
+      },
+      "metric_coeffs": {
+        "power": 2250
+      },
+      "metrics": {
+        "power": 3375,
+        "peak_power": 9000,
+        "shards": 0,
+        "sloops": 4
+      }
+    }
+  },
+  {
+    "name": "miner-mk3 iron-ore pure 250%",
+    "recipe": "extract-ore-iron",
+    "machine": "miner-mk3",
+    "params": {
+      "purity": "pure",
+      "clock": 250
+    },
+    "globals": {},
+    "machines": 1,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.05,
+      "ports": {
+        "out:0": 1
+      },
+      "metrics": {
+        "power": 151.0988,
+        "peak_power": 151.0988,
+        "shards": 3
+      }
+    }
+  },
+  {
+    "name": "water-extractor 150% fractional machines",
+    "recipe": "extract-water",
+    "machine": "water-pump",
+    "params": {
+      "clock": 150
+    },
+    "globals": {},
+    "machines": 2.5,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.666667,
+      "ports": {
+        "out:0": 2
+      },
+      "metric_coeffs": {
+        "power": 34.183
+      },
+      "metrics": {
+        "power": 85.4575,
+        "peak_power": 102.549,
+        "shards": 3
+      }
+    }
+  },
+  {
+    "name": "resource-well nitrogen-gas pure 250% full well (6 nodes)",
+    "recipe": "extract-well-nitrogen-gas",
+    "machine": "fracking-extractor",
+    "params": {
+      "purity": "pure",
+      "clock": 250,
+      "well_nodes": 6
+    },
+    "globals": {},
+    "machines": 6,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.2,
+      "ports": {
+        "out:0": 1
+      },
+      "metric_coeffs": {
+        "power": 83.9438
+      },
+      "metrics": {
+        "power": 503.6626,
+        "peak_power": 503.6626,
+        "shards": 3
+      }
+    }
+  },
+  {
+    "name": "resource-well nitrogen-gas partial well (4 of 6 nodes)",
+    "recipe": "extract-well-nitrogen-gas",
+    "machine": "fracking-extractor",
+    "params": {
+      "purity": "pure",
+      "clock": 250,
+      "well_nodes": 6
+    },
+    "globals": {},
+    "machines": 4,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.2,
+      "ports": {
+        "out:0": 1
+      },
+      "metrics": {
+        "power": 335.7751,
+        "peak_power": 503.6626,
+        "shards": 3
+      }
+    }
+  },
+  {
+    "name": "nuclear uranium 250% (2 plants)",
+    "recipe": "burn-nuclear-nuclear-fuel-rod",
+    "machine": "generator-nuclear",
+    "params": {
+      "clock": 250
+    },
+    "globals": {},
+    "machines": 2,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 120,
+      "ports": {
+        "in:0": 1,
+        "in:1": 1200,
+        "out:0": 50
+      },
+      "metrics": {
+        "power": -12500,
+        "shards": 6
+      }
+    }
+  },
+  {
+    "name": "nuclear ficsonium 100% waste-free",
+    "recipe": "burn-nuclear-ficsonium-fuel-rod",
+    "machine": "generator-nuclear",
+    "params": {
+      "clock": 100
+    },
+    "globals": {},
+    "machines": 1,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 60,
+      "ports": {
+        "in:0": 1,
+        "in:1": 240
+      },
+      "metrics": {
+        "power": -2500,
+        "shards": 0
+      }
+    }
+  },
+  {
+    "name": "geothermal impure (3 generators)",
+    "recipe": "geothermal-power",
+    "machine": "generator-geo-thermal",
+    "params": {
+      "purity": "impure"
+    },
+    "globals": {},
+    "machines": 3,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1,
+      "ports": {
+        "out:0": 1
+      },
+      "metrics": {
+        "power": -300
+      }
+    }
+  },
+  {
+    "name": "awesome-sink ballistic-warp-drive mk4 + power_mult=2",
+    "recipe": "sink-space-elevator-part-11",
+    "machine": "resource-sink",
+    "params": {
+      "belt_tier": "mk4"
+    },
+    "globals": {
+      "power_consumption_mult": "x2"
+    },
+    "machines": 1,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.125,
+      "ports": {
+        "in:0": 1
+      },
+      "metric_coeffs": {
+        "sink_points": 2895334
+      },
+      "metrics": {
+        "power": 60,
+        "peak_power": 60,
+        "sink_points": 23162672
+      }
+    }
+  },
+  {
+    "name": "space-elevator phase-2 cost_mult=10 (0.5 machines -> 2h)",
+    "recipe": "space-elevator-phase-2",
+    "machine": "space-elevator",
+    "params": {},
+    "globals": {
+      "space_elevator_cost_mult": "x10"
+    },
+    "machines": 0.5,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 3600,
+      "ports": {
+        "in:0": 10000,
+        "in:1": 10000,
+        "in:2": 1000
+      },
+      "metrics": {
+        "completion_time_min": 120,
+        "completion_time_h": 2
+      }
+    }
+  },
+  {
+    "name": "awesome-sink 60/min on mk6 still draws 30 MW (1 physical sink)",
+    "recipe": "sink-iron-plate",
+    "machine": "resource-sink",
+    "params": {
+      "belt_tier": "mk6"
+    },
+    "globals": {},
+    "machines": 0.05,
+    "tol": 1e-3,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.05,
+      "ports": {
+        "in:0": 1
+      },
+      "metrics": {
+        "power": 30,
+        "peak_power": 30,
+        "sink_points": 6
+      }
+    }
+  }
+]

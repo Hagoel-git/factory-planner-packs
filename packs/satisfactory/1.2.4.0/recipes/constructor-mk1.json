@@ -1,0 +1,778 @@
+{
+  "recipes": [
+    {
+      "id": "alien-dna-capsule",
+      "name": "Alien DNA Capsule",
+      "category": "constructor-mk1",
+      "time": 6,
+      "in": [
+        [
+          "alien-protein",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "alien-dna-capsule",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-aluminum-rod",
+      "name": "Alternate: Aluminum Rod",
+      "category": "constructor-mk1",
+      "time": 8,
+      "in": [
+        [
+          "aluminum-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "iron-rod",
+          7
+        ]
+      ]
+    },
+    {
+      "id": "alternate-coal-1",
+      "name": "Alternate: Charcoal",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "wood",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "coal",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "alternate-coal-2",
+      "name": "Alternate: Biocoal",
+      "category": "constructor-mk1",
+      "time": 8,
+      "in": [
+        [
+          "generic-biomass",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "coal",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "alternate-screw",
+      "name": "Alternate: Cast Screws",
+      "category": "constructor-mk1",
+      "time": 24,
+      "in": [
+        [
+          "iron-ingot",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "iron-screw",
+          20
+        ]
+      ]
+    },
+    {
+      "id": "alternate-screw-2",
+      "name": "Alternate: Steel Screws",
+      "category": "constructor-mk1",
+      "time": 12,
+      "in": [
+        [
+          "steel-plate",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "iron-screw",
+          52
+        ]
+      ]
+    },
+    {
+      "id": "alternate-steel-beam-aluminum",
+      "name": "Alternate: Aluminum Beam",
+      "category": "constructor-mk1",
+      "time": 8,
+      "in": [
+        [
+          "aluminum-ingot",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "steel-plate",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-steel-canister",
+      "name": "Alternate: Steel Canister",
+      "category": "constructor-mk1",
+      "time": 6,
+      "in": [
+        [
+          "steel-ingot",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "fluid-canister",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "alternate-steel-pipe-iron",
+      "name": "Alternate: Iron Pipe",
+      "category": "constructor-mk1",
+      "time": 12,
+      "in": [
+        [
+          "iron-ingot",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "steel-pipe",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "alternate-steel-rod",
+      "name": "Alternate: Steel Rod",
+      "category": "constructor-mk1",
+      "time": 5,
+      "in": [
+        [
+          "steel-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "iron-rod",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "alternate-wire-1",
+      "name": "Alternate: Iron Wire",
+      "category": "constructor-mk1",
+      "time": 24,
+      "in": [
+        [
+          "iron-ingot",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "wire",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "alternate-wire-2",
+      "name": "Alternate: Caterium Wire",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "gold-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "wire",
+          8
+        ]
+      ]
+    },
+    {
+      "id": "aluminum-casing",
+      "name": "Aluminum Casing",
+      "category": "constructor-mk1",
+      "time": 2,
+      "in": [
+        [
+          "aluminum-ingot",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "aluminum-casing",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "biofuel",
+      "name": "Solid Biofuel",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "generic-biomass",
+          8
+        ]
+      ],
+      "out": [
+        [
+          "biofuel",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "biomass-alien-protein",
+      "name": "Biomass (Alien Protein)",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "alien-protein",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "generic-biomass",
+          100
+        ]
+      ]
+    },
+    {
+      "id": "biomass-leaves",
+      "name": "Biomass (Leaves)",
+      "category": "constructor-mk1",
+      "time": 5,
+      "in": [
+        [
+          "leaves",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "generic-biomass",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "biomass-mycelia",
+      "name": "Biomass (Mycelia)",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "mycelia",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "generic-biomass",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "biomass-wood",
+      "name": "Biomass (Wood)",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "wood",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "generic-biomass",
+          20
+        ]
+      ]
+    },
+    {
+      "id": "cable",
+      "name": "Cable",
+      "category": "constructor-mk1",
+      "time": 2,
+      "in": [
+        [
+          "wire",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "cable",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "concrete",
+      "name": "Concrete",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "stone",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "cement",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "copper-dust",
+      "name": "Copper Powder",
+      "category": "constructor-mk1",
+      "time": 6,
+      "in": [
+        [
+          "copper-ingot",
+          30
+        ]
+      ],
+      "out": [
+        [
+          "copper-dust",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "copper-sheet",
+      "name": "Copper Sheet",
+      "category": "constructor-mk1",
+      "time": 6,
+      "in": [
+        [
+          "copper-ingot",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "copper-sheet",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ficsite-mesh",
+      "name": "Ficsite Trigon",
+      "category": "constructor-mk1",
+      "time": 6,
+      "in": [
+        [
+          "ficsite-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "ficsite-mesh",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fluid-canister",
+      "name": "Empty Canister",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "plastic",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "fluid-canister",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "gas-tank",
+      "name": "Empty Fluid Tank",
+      "category": "constructor-mk1",
+      "time": 1,
+      "in": [
+        [
+          "aluminum-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "gas-tank",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ingot-sam",
+      "name": "Reanimated SAM",
+      "category": "constructor-mk1",
+      "time": 2,
+      "in": [
+        [
+          "sam",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "sam-ingot",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "iron-plate",
+      "name": "Iron Plate",
+      "category": "constructor-mk1",
+      "time": 6,
+      "in": [
+        [
+          "iron-ingot",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "iron-plate",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "iron-rod",
+      "name": "Iron Rod",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "iron-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "iron-rod",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "power-crystal-shard-1",
+      "name": "Power Shard (1)",
+      "category": "constructor-mk1",
+      "time": 8,
+      "in": [
+        [
+          "crystal",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "crystal-shard",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "power-crystal-shard-2",
+      "name": "Power Shard (2)",
+      "category": "constructor-mk1",
+      "time": 12,
+      "in": [
+        [
+          "crystal-mk2",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "crystal-shard",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "power-crystal-shard-3",
+      "name": "Power Shard (5)",
+      "category": "constructor-mk1",
+      "time": 24,
+      "in": [
+        [
+          "crystal-mk3",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "crystal-shard",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "protein-crab",
+      "name": "Hatcher Protein",
+      "category": "constructor-mk1",
+      "time": 3,
+      "in": [
+        [
+          "hatcher-parts",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "alien-protein",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "protein-hog",
+      "name": "Hog Protein",
+      "category": "constructor-mk1",
+      "time": 3,
+      "in": [
+        [
+          "hog-parts",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "alien-protein",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "protein-spitter",
+      "name": "Spitter Protein",
+      "category": "constructor-mk1",
+      "time": 3,
+      "in": [
+        [
+          "spitter-parts",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "alien-protein",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "protein-stinger",
+      "name": "Stinger Protein",
+      "category": "constructor-mk1",
+      "time": 3,
+      "in": [
+        [
+          "stinger-parts",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "alien-protein",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "quartz-crystal",
+      "name": "Quartz Crystal",
+      "category": "constructor-mk1",
+      "time": 8,
+      "in": [
+        [
+          "raw-quartz",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "quartz-crystal",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "quickwire",
+      "name": "Quickwire",
+      "category": "constructor-mk1",
+      "time": 5,
+      "in": [
+        [
+          "gold-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "high-speed-wire",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "screw",
+      "name": "Screws",
+      "category": "constructor-mk1",
+      "time": 6,
+      "in": [
+        [
+          "iron-rod",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "iron-screw",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "silica",
+      "name": "Silica",
+      "category": "constructor-mk1",
+      "time": 8,
+      "in": [
+        [
+          "raw-quartz",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "silica",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "spiked-rebar",
+      "name": "Iron Rebar",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "iron-rod",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "spiked-rebar",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "steel-beam",
+      "name": "Steel Beam",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "steel-ingot",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "steel-plate",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "steel-pipe",
+      "name": "Steel Pipe",
+      "category": "constructor-mk1",
+      "time": 6,
+      "in": [
+        [
+          "steel-ingot",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "steel-pipe",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "wire",
+      "name": "Wire",
+      "category": "constructor-mk1",
+      "time": 4,
+      "in": [
+        [
+          "copper-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "wire",
+          2
+        ]
+      ]
+    }
+  ]
+}

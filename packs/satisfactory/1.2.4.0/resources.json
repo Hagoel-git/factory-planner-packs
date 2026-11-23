@@ -1,0 +1,1232 @@
+{
+  "resources": [
+    {
+      "id": "alien-dna-capsule",
+      "name": "Alien DNA Capsule",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "alien-power-fuel",
+      "name": "Alien Power Matrix",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "alien-protein",
+      "name": "Alien Protein",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "alumina-solution",
+      "name": "Alumina Solution",
+      "kind": "fluid",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "aluminum-casing",
+      "name": "Aluminum Casing",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "aluminum-ingot",
+      "name": "Aluminum Ingot",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "aluminum-plate",
+      "name": "Alclad Aluminum Sheet",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "aluminum-plate-reinforced",
+      "name": "Heat Sink",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "aluminum-scrap",
+      "name": "Aluminum Scrap",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "battery",
+      "name": "Battery",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "biofuel",
+      "name": "Solid Biofuel",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "cable",
+      "name": "Cable",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "cartridge-chaos",
+      "name": "Turbo Rifle Ammo",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "cartridge-smart-projectile",
+      "name": "Homing Rifle Ammo",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "cartridge-standard",
+      "name": "Rifle Ammo",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "cement",
+      "name": "Concrete",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "circuit-board",
+      "name": "Circuit Board",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "circuit-board-high-speed",
+      "name": "AI Limiter",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "coal",
+      "name": "Coal",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "compacted-coal",
+      "name": "Compacted Coal",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "computer",
+      "name": "Computer",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "computer-super",
+      "name": "Supercomputer",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "cooling-system",
+      "name": "Cooling System",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "copper-dust",
+      "name": "Copper Powder",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "copper-ingot",
+      "name": "Copper Ingot",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "copper-sheet",
+      "name": "Copper Sheet",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "crystal",
+      "name": "Blue Power Slug",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "crystal-mk2",
+      "name": "Yellow Power Slug",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "crystal-mk3",
+      "name": "Purple Power Slug",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "crystal-oscillator",
+      "name": "Crystal Oscillator",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "crystal-shard",
+      "name": "Power Shard",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "dark-energy",
+      "name": "Dark Matter Residue",
+      "kind": "gas",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "dark-matter",
+      "name": "Dark Matter Crystal",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "diamond",
+      "name": "Diamonds",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "dissolved-silica",
+      "name": "Dissolved Silica",
+      "kind": "fluid",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "electromagnetic-control-rod",
+      "name": "Electromagnetic Control Rod",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "fabric",
+      "name": "Fabric",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "ficsite-ingot",
+      "name": "Ficsite Ingot",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "ficsite-mesh",
+      "name": "Ficsite Trigon",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "ficsonium",
+      "name": "Ficsonium",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "ficsonium-fuel-rod",
+      "name": "Ficsonium Fuel Rod",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "filter",
+      "name": "Gas Filter",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "fluid-canister",
+      "name": "Empty Canister",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "fuel",
+      "name": "Packaged Fuel",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "gas-tank",
+      "name": "Empty Fluid Tank",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "generic-biomass",
+      "name": "Biomass",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "geothermal-geyser",
+      "name": "Geothermal Geyser",
+      "kind": "item",
+      "tags": [
+        "synthetic"
+      ],
+      "attrs": {
+        "is_fluid": false
+      },
+      "notes": "Synthetic marker resource required by GameData v4 V-NUM-4 so Geothermal Generator recipes have >= 1 port."
+    },
+    {
+      "id": "gold-ingot",
+      "name": "Caterium Ingot",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "gunpowder",
+      "name": "Black Powder",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "gunpowder-mk2",
+      "name": "Smokeless Powder",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "hatcher-parts",
+      "name": "Hatcher Remains",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "hazmat-filter",
+      "name": "Iodine-Infused Filter",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "heavy-oil-residue",
+      "name": "Heavy Oil Residue",
+      "kind": "fluid",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "high-speed-connector",
+      "name": "High-Speed Connector",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "high-speed-wire",
+      "name": "Quickwire",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "hog-parts",
+      "name": "Hog Remains",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "ionized-fuel",
+      "name": "Ionized Fuel",
+      "kind": "gas",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "iron-ingot",
+      "name": "Iron Ingot",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "iron-plate",
+      "name": "Iron Plate",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "iron-plate-reinforced",
+      "name": "Reinforced Iron Plate",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "iron-rod",
+      "name": "Iron Rod",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "iron-screw",
+      "name": "Screws",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "item-descriptor-portable-miner",
+      "name": "Portable Miner",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "leaves",
+      "name": "Leaves",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "liquid-biofuel",
+      "name": "Liquid Biofuel",
+      "kind": "fluid",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "liquid-fuel",
+      "name": "Fuel",
+      "kind": "fluid",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "liquid-oil",
+      "name": "Crude Oil",
+      "kind": "fluid",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "liquid-turbo-fuel",
+      "name": "Turbofuel",
+      "kind": "fluid",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "modular-frame",
+      "name": "Modular Frame",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "modular-frame-fused",
+      "name": "Fused Modular Frame",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "modular-frame-heavy",
+      "name": "Heavy Modular Frame",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "modular-frame-lightweight",
+      "name": "Radio Control Unit",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "motor",
+      "name": "Motor",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "motor-lightweight",
+      "name": "Turbo Motor",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "mycelia",
+      "name": "Mycelia",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "nitric-acid",
+      "name": "Nitric Acid",
+      "kind": "fluid",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "nitrogen-gas",
+      "name": "Nitrogen Gas",
+      "kind": "gas",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "nobelisk-cluster",
+      "name": "Cluster Nobelisk",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "nobelisk-explosive",
+      "name": "Nobelisk",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "nobelisk-gas",
+      "name": "Gas Nobelisk",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "nobelisk-nuke",
+      "name": "Nuke Nobelisk",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "nobelisk-shockwave",
+      "name": "Pulse Nobelisk",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "non-fissible-uranium",
+      "name": "Non-Fissile Uranium",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "nuclear-fuel-rod",
+      "name": "Uranium Fuel Rod",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "nuclear-waste",
+      "name": "Uranium Waste",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "ore-bauxite",
+      "name": "Bauxite",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "ore-copper",
+      "name": "Copper Ore",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "ore-gold",
+      "name": "Caterium Ore",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "ore-iron",
+      "name": "Iron Ore",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "ore-uranium",
+      "name": "Uranium",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "packaged-alumina",
+      "name": "Packaged Alumina Solution",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "packaged-biofuel",
+      "name": "Packaged Liquid Biofuel",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "packaged-ionized-fuel",
+      "name": "Packaged Ionized Fuel",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "packaged-nitric-acid",
+      "name": "Packaged Nitric Acid",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "packaged-nitrogen-gas",
+      "name": "Packaged Nitrogen Gas",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "packaged-oil",
+      "name": "Packaged Oil",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "packaged-oil-residue",
+      "name": "Packaged Heavy Oil Residue",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "packaged-rocket-fuel",
+      "name": "Packaged Rocket Fuel",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "packaged-sulfuric-acid",
+      "name": "Packaged Sulfuric Acid",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "packaged-water",
+      "name": "Packaged Water",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "petroleum-coke",
+      "name": "Petroleum Coke",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "plastic",
+      "name": "Plastic",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "plutonium-cell",
+      "name": "Encased Plutonium Cell",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "plutonium-fuel-rod",
+      "name": "Plutonium Fuel Rod",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "plutonium-pellet",
+      "name": "Plutonium Pellet",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "plutonium-waste",
+      "name": "Plutonium Waste",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "polymer-resin",
+      "name": "Polymer Resin",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "pressure-conversion-cube",
+      "name": "Pressure Conversion Cube",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "quantum-energy",
+      "name": "Excited Photonic Matter",
+      "kind": "gas",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "quantum-oscillator",
+      "name": "Superposition Oscillator",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "quartz-crystal",
+      "name": "Quartz Crystal",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "raw-quartz",
+      "name": "Raw Quartz",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "rebar-explosive",
+      "name": "Explosive Rebar",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "rebar-spreadshot",
+      "name": "Shatter Rebar",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "rebar-stunshot",
+      "name": "Stun Rebar",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "rocket-fuel",
+      "name": "Rocket Fuel",
+      "kind": "gas",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "rotor",
+      "name": "Rotor",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "rubber",
+      "name": "Rubber",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "sam",
+      "name": "SAM",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "sam-fluctuator",
+      "name": "SAM Fluctuator",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "sam-ingot",
+      "name": "Reanimated SAM",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "silica",
+      "name": "Silica",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "singularity-cell",
+      "name": "Singularity Cell",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-1",
+      "name": "Smart Plating",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-10",
+      "name": "Biochemical Sculptor",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-11",
+      "name": "Ballistic Warp Drive",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-12",
+      "name": "AI Expansion Server",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-2",
+      "name": "Versatile Framework",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-3",
+      "name": "Automated Wiring",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-4",
+      "name": "Modular Engine",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-5",
+      "name": "Adaptive Control Unit",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-6",
+      "name": "Magnetic Field Generator",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-7",
+      "name": "Assembly Director System",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-8",
+      "name": "Thermal Propulsion Rocket",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "space-elevator-part-9",
+      "name": "Nuclear Pasta",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "spiked-rebar",
+      "name": "Iron Rebar",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "spitter-parts",
+      "name": "Spitter Remains",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "stator",
+      "name": "Stator",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "steel-ingot",
+      "name": "Steel Ingot",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "steel-pipe",
+      "name": "Steel Pipe",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "steel-plate",
+      "name": "Steel Beam",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "steel-plate-reinforced",
+      "name": "Encased Industrial Beam",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "stinger-parts",
+      "name": "Stinger Remains",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "stone",
+      "name": "Limestone",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "sulfur",
+      "name": "Sulfur",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "sulfuric-acid",
+      "name": "Sulfuric Acid",
+      "kind": "fluid",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "temporal-processor",
+      "name": "Neural-Quantum Processor",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "time-crystal",
+      "name": "Time Crystal",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "turbo-fuel",
+      "name": "Packaged Turbofuel",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "uranium-cell",
+      "name": "Encased Uranium Cell",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "kind": "fluid",
+      "attrs": {
+        "is_fluid": true
+      }
+    },
+    {
+      "id": "wire",
+      "name": "Wire",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    },
+    {
+      "id": "wood",
+      "name": "Wood",
+      "kind": "item",
+      "attrs": {
+        "is_fluid": false
+      }
+    }
+  ]
+}

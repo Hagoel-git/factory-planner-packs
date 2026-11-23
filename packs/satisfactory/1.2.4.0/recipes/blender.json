@@ -1,0 +1,498 @@
+{
+  "recipes": [
+    {
+      "id": "alternate-cooling-device",
+      "name": "Alternate: Cooling Device",
+      "category": "blender",
+      "time": 24,
+      "in": [
+        [
+          "aluminum-plate-reinforced",
+          4
+        ],
+        [
+          "motor",
+          1
+        ],
+        [
+          "nitrogen-gas",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "cooling-system",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-diluted-fuel",
+      "name": "Alternate: Diluted Fuel",
+      "category": "blender",
+      "time": 6,
+      "in": [
+        [
+          "heavy-oil-residue",
+          5
+        ],
+        [
+          "water",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "liquid-fuel",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "alternate-fertile-uranium",
+      "name": "Alternate: Fertile Uranium",
+      "category": "blender",
+      "time": 12,
+      "in": [
+        [
+          "ore-uranium",
+          5
+        ],
+        [
+          "nuclear-waste",
+          5
+        ],
+        [
+          "nitric-acid",
+          3
+        ],
+        [
+          "sulfuric-acid",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "non-fissible-uranium",
+          20
+        ],
+        [
+          "water",
+          8
+        ]
+      ]
+    },
+    {
+      "id": "alternate-heat-fused-frame",
+      "name": "Alternate: Heat-Fused Frame",
+      "category": "blender",
+      "time": 20,
+      "in": [
+        [
+          "modular-frame-heavy",
+          1
+        ],
+        [
+          "aluminum-ingot",
+          50
+        ],
+        [
+          "nitric-acid",
+          8
+        ],
+        [
+          "liquid-fuel",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame-fused",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-instant-scrap",
+      "name": "Alternate: Instant Scrap",
+      "category": "blender",
+      "time": 6,
+      "in": [
+        [
+          "ore-bauxite",
+          15
+        ],
+        [
+          "coal",
+          10
+        ],
+        [
+          "sulfuric-acid",
+          5
+        ],
+        [
+          "water",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "aluminum-scrap",
+          30
+        ],
+        [
+          "water",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "alternate-rocket-fuel-nitro",
+      "name": "Alternate: Nitro Rocket Fuel",
+      "category": "blender",
+      "time": 2.4,
+      "in": [
+        [
+          "liquid-fuel",
+          4
+        ],
+        [
+          "nitrogen-gas",
+          3
+        ],
+        [
+          "sulfur",
+          4
+        ],
+        [
+          "coal",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "rocket-fuel",
+          6
+        ],
+        [
+          "compacted-coal",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-silica-distilled",
+      "name": "Alternate: Distilled Silica",
+      "category": "blender",
+      "time": 6,
+      "in": [
+        [
+          "dissolved-silica",
+          12
+        ],
+        [
+          "stone",
+          5
+        ],
+        [
+          "water",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "silica",
+          27
+        ],
+        [
+          "water",
+          8
+        ]
+      ]
+    },
+    {
+      "id": "alternate-turbo-blend-fuel",
+      "name": "Alternate: Turbo Blend Fuel",
+      "category": "blender",
+      "time": 8,
+      "in": [
+        [
+          "liquid-fuel",
+          2
+        ],
+        [
+          "heavy-oil-residue",
+          4
+        ],
+        [
+          "sulfur",
+          3
+        ],
+        [
+          "petroleum-coke",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "liquid-turbo-fuel",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "battery",
+      "name": "Battery",
+      "category": "blender",
+      "time": 3,
+      "in": [
+        [
+          "sulfuric-acid",
+          2.5
+        ],
+        [
+          "alumina-solution",
+          2
+        ],
+        [
+          "aluminum-casing",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "battery",
+          1
+        ],
+        [
+          "water",
+          1.5
+        ]
+      ]
+    },
+    {
+      "id": "cartridge-chaos",
+      "name": "Turbo Rifle Ammo",
+      "category": "blender",
+      "time": 12,
+      "in": [
+        [
+          "cartridge-standard",
+          25
+        ],
+        [
+          "aluminum-casing",
+          3
+        ],
+        [
+          "liquid-turbo-fuel",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "cartridge-chaos",
+          50
+        ]
+      ]
+    },
+    {
+      "id": "cooling-system",
+      "name": "Cooling System",
+      "category": "blender",
+      "time": 10,
+      "in": [
+        [
+          "aluminum-plate-reinforced",
+          2
+        ],
+        [
+          "rubber",
+          2
+        ],
+        [
+          "water",
+          5
+        ],
+        [
+          "nitrogen-gas",
+          25
+        ]
+      ],
+      "out": [
+        [
+          "cooling-system",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "fused-modular-frame",
+      "name": "Fused Modular Frame",
+      "category": "blender",
+      "time": 40,
+      "in": [
+        [
+          "modular-frame-heavy",
+          1
+        ],
+        [
+          "aluminum-casing",
+          50
+        ],
+        [
+          "nitrogen-gas",
+          25
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame-fused",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "nitric-acid",
+      "name": "Nitric Acid",
+      "category": "blender",
+      "time": 6,
+      "in": [
+        [
+          "nitrogen-gas",
+          12
+        ],
+        [
+          "water",
+          3
+        ],
+        [
+          "iron-plate",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "nitric-acid",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "non-fissile-uranium",
+      "name": "Non-Fissile Uranium",
+      "category": "blender",
+      "time": 24,
+      "in": [
+        [
+          "nuclear-waste",
+          15
+        ],
+        [
+          "silica",
+          10
+        ],
+        [
+          "nitric-acid",
+          6
+        ],
+        [
+          "sulfuric-acid",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "non-fissible-uranium",
+          20
+        ],
+        [
+          "water",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "rocket-fuel",
+      "name": "Rocket Fuel",
+      "category": "blender",
+      "time": 6,
+      "in": [
+        [
+          "liquid-turbo-fuel",
+          6
+        ],
+        [
+          "nitric-acid",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "rocket-fuel",
+          10
+        ],
+        [
+          "compacted-coal",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "space-elevator-part-10",
+      "name": "Biochemical Sculptor",
+      "category": "blender",
+      "time": 120,
+      "in": [
+        [
+          "space-elevator-part-7",
+          1
+        ],
+        [
+          "ficsite-mesh",
+          80
+        ],
+        [
+          "water",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-10",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "uranium-cell",
+      "name": "Encased Uranium Cell",
+      "category": "blender",
+      "time": 12,
+      "in": [
+        [
+          "ore-uranium",
+          10
+        ],
+        [
+          "cement",
+          3
+        ],
+        [
+          "sulfuric-acid",
+          8
+        ]
+      ],
+      "out": [
+        [
+          "uranium-cell",
+          5
+        ],
+        [
+          "sulfuric-acid",
+          2
+        ]
+      ]
+    }
+  ]
+}

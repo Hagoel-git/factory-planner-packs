@@ -1,0 +1,17 @@
+{
+  "recipes": [
+    {
+      "id": "extract-liquid-oil",
+      "name": "Extract Crude Oil",
+      "category": "oil-pump",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "liquid-oil",
+          2
+        ]
+      ]
+    }
+  ]
+}

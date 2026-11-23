@@ -1,0 +1,125 @@
+{
+  "notes": "Hand-verified data overrides and synthetic definitions for Satisfactory v1.2.4.0 where raw en-US.json omits or misreports values.",
+  "machine_attr_overrides": {
+    "Build_SmelterMk1_C": {
+      "somersloop_slots": 1,
+      "notes": "en-US.json reports mProductionShardSlotSize=0 despite mCanChangeProductionBoost=True and mProductionShardBoostMultiplier=1.0; verified 1 Somersloop slot at https://satisfactory.wiki.gg/wiki/Smelter (v1.2.4.0)."
+    }
+  },
+  "synthetic_resources": [
+    {
+      "id": "geothermal-geyser",
+      "name": "Geothermal Geyser",
+      "kind": "item",
+      "tags": [
+        "synthetic"
+      ],
+      "attrs": {
+        "is_fluid": false
+      },
+      "notes": "Synthetic marker resource required by GameData v4 V-NUM-4 so Geothermal Generator recipes have >= 1 port."
+    }
+  ],
+  "space_elevator_phases": [
+    {
+      "id": "space-elevator-phase-1",
+      "name": "Phase 1: Distribution Platform",
+      "time": 3600,
+      "in": [
+        [
+          "Desc_SpaceElevatorPart_1_C",
+          50
+        ]
+      ],
+      "notes": "Deliverables from https://satisfactory.wiki.gg/wiki/Space_Elevator (v1.2.4.0); time=3600 s nominal phase duration (completion_time metrics compute 1 / node.crafts independent of recipe.time)."
+    },
+    {
+      "id": "space-elevator-phase-2",
+      "name": "Phase 2: Construction Dock",
+      "time": 3600,
+      "in": [
+        [
+          "Desc_SpaceElevatorPart_1_C",
+          1000
+        ],
+        [
+          "Desc_SpaceElevatorPart_2_C",
+          1000
+        ],
+        [
+          "Desc_SpaceElevatorPart_3_C",
+          100
+        ]
+      ],
+      "notes": "Deliverables from https://satisfactory.wiki.gg/wiki/Space_Elevator (v1.2.4.0)."
+    },
+    {
+      "id": "space-elevator-phase-3",
+      "name": "Phase 3: Main Assembly",
+      "time": 3600,
+      "in": [
+        [
+          "Desc_SpaceElevatorPart_2_C",
+          2500
+        ],
+        [
+          "Desc_SpaceElevatorPart_4_C",
+          500
+        ],
+        [
+          "Desc_SpaceElevatorPart_5_C",
+          100
+        ]
+      ],
+      "notes": "Deliverables from https://satisfactory.wiki.gg/wiki/Space_Elevator (v1.2.4.0)."
+    },
+    {
+      "id": "space-elevator-phase-4",
+      "name": "Phase 4: Propulsion",
+      "time": 3600,
+      "in": [
+        [
+          "Desc_SpaceElevatorPart_7_C",
+          500
+        ],
+        [
+          "Desc_SpaceElevatorPart_6_C",
+          500
+        ],
+        [
+          "Desc_SpaceElevatorPart_8_C",
+          250
+        ],
+        [
+          "Desc_SpaceElevatorPart_9_C",
+          100
+        ]
+      ],
+      "notes": "Deliverables from https://satisfactory.wiki.gg/wiki/Space_Elevator (v1.2.4.0)."
+    },
+    {
+      "id": "space-elevator-phase-5",
+      "name": "Phase 5: Assembly",
+      "time": 3600,
+      "in": [
+        [
+          "Desc_SpaceElevatorPart_9_C",
+          1000
+        ],
+        [
+          "Desc_SpaceElevatorPart_10_C",
+          1000
+        ],
+        [
+          "Desc_SpaceElevatorPart_12_C",
+          256
+        ],
+        [
+          "Desc_SpaceElevatorPart_11_C",
+          200
+        ]
+      ],
+      "notes": "Deliverables from https://satisfactory.wiki.gg/wiki/Space_Elevator (v1.2.4.0)."
+    }
+  ]
+}

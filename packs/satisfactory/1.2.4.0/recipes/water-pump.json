@@ -1,0 +1,17 @@
+{
+  "recipes": [
+    {
+      "id": "extract-water",
+      "name": "Extract Water",
+      "category": "water-pump",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "water",
+          2
+        ]
+      ]
+    }
+  ]
+}

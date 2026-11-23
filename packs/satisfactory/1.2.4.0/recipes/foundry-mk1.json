@@ -1,0 +1,312 @@
+{
+  "recipes": [
+    {
+      "id": "alternate-caterium-ingot-tempered",
+      "name": "Alternate: Tempered Caterium Ingot",
+      "category": "foundry-mk1",
+      "time": 8,
+      "in": [
+        [
+          "ore-gold",
+          6
+        ],
+        [
+          "petroleum-coke",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "gold-ingot",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-coke-steel-ingot",
+      "name": "Alternate: Coke Steel Ingot",
+      "category": "foundry-mk1",
+      "time": 12,
+      "in": [
+        [
+          "ore-iron",
+          15
+        ],
+        [
+          "petroleum-coke",
+          15
+        ]
+      ],
+      "out": [
+        [
+          "steel-ingot",
+          20
+        ]
+      ]
+    },
+    {
+      "id": "alternate-copper-alloy-ingot",
+      "name": "Alternate: Copper Alloy Ingot",
+      "category": "foundry-mk1",
+      "time": 6,
+      "in": [
+        [
+          "ore-copper",
+          5
+        ],
+        [
+          "ore-iron",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "copper-ingot",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "alternate-copper-ingot-tempered",
+      "name": "Alternate: Tempered Copper Ingot",
+      "category": "foundry-mk1",
+      "time": 12,
+      "in": [
+        [
+          "ore-copper",
+          5
+        ],
+        [
+          "petroleum-coke",
+          8
+        ]
+      ],
+      "out": [
+        [
+          "copper-ingot",
+          12
+        ]
+      ]
+    },
+    {
+      "id": "alternate-ingot-iron",
+      "name": "Alternate: Iron Alloy Ingot",
+      "category": "foundry-mk1",
+      "time": 12,
+      "in": [
+        [
+          "ore-iron",
+          8
+        ],
+        [
+          "ore-copper",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "iron-ingot",
+          15
+        ]
+      ]
+    },
+    {
+      "id": "alternate-ingot-steel-1",
+      "name": "Alternate: Solid Steel Ingot",
+      "category": "foundry-mk1",
+      "time": 3,
+      "in": [
+        [
+          "iron-ingot",
+          2
+        ],
+        [
+          "coal",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "steel-ingot",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-ingot-steel-2",
+      "name": "Alternate: Compacted Steel Ingot",
+      "category": "foundry-mk1",
+      "time": 24,
+      "in": [
+        [
+          "ore-iron",
+          2
+        ],
+        [
+          "compacted-coal",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "steel-ingot",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "alternate-iron-ingot-basic",
+      "name": "Alternate: Basic Iron Ingot",
+      "category": "foundry-mk1",
+      "time": 12,
+      "in": [
+        [
+          "ore-iron",
+          5
+        ],
+        [
+          "stone",
+          8
+        ]
+      ],
+      "out": [
+        [
+          "iron-ingot",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "alternate-quartz-fused",
+      "name": "Alternate: Fused Quartz Crystal",
+      "category": "foundry-mk1",
+      "time": 20,
+      "in": [
+        [
+          "raw-quartz",
+          25
+        ],
+        [
+          "coal",
+          12
+        ]
+      ],
+      "out": [
+        [
+          "quartz-crystal",
+          18
+        ]
+      ]
+    },
+    {
+      "id": "alternate-steel-beam-molded",
+      "name": "Alternate: Molded Beam",
+      "category": "foundry-mk1",
+      "time": 12,
+      "in": [
+        [
+          "steel-ingot",
+          24
+        ],
+        [
+          "cement",
+          16
+        ]
+      ],
+      "out": [
+        [
+          "steel-plate",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "alternate-steel-casted-plate",
+      "name": "Alternate: Steel Cast Plate",
+      "category": "foundry-mk1",
+      "time": 4,
+      "in": [
+        [
+          "iron-ingot",
+          1
+        ],
+        [
+          "steel-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "iron-plate",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-steel-pipe-molded",
+      "name": "Alternate: Molded Steel Pipe",
+      "category": "foundry-mk1",
+      "time": 6,
+      "in": [
+        [
+          "steel-ingot",
+          5
+        ],
+        [
+          "cement",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "steel-pipe",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "ingot-aluminum",
+      "name": "Aluminum Ingot",
+      "category": "foundry-mk1",
+      "time": 4,
+      "in": [
+        [
+          "aluminum-scrap",
+          6
+        ],
+        [
+          "silica",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "aluminum-ingot",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "ingot-steel",
+      "name": "Steel Ingot",
+      "category": "foundry-mk1",
+      "time": 4,
+      "in": [
+        [
+          "ore-iron",
+          3
+        ],
+        [
+          "coal",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "steel-ingot",
+          3
+        ]
+      ]
+    }
+  ]
+}

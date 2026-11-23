@@ -1,0 +1,69 @@
+{
+  "recipes": [
+    {
+      "id": "burn-fuel-ionized-fuel",
+      "name": "Burn Ionized Fuel (Fuel-Powered Generator)",
+      "category": "generator-fuel",
+      "time": 20,
+      "in": [
+        [
+          "ionized-fuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-fuel-liquid-biofuel",
+      "name": "Burn Liquid Biofuel (Fuel-Powered Generator)",
+      "category": "generator-fuel",
+      "time": 3,
+      "in": [
+        [
+          "liquid-biofuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-fuel-liquid-fuel",
+      "name": "Burn Fuel (Fuel-Powered Generator)",
+      "category": "generator-fuel",
+      "time": 3,
+      "in": [
+        [
+          "liquid-fuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-fuel-liquid-turbo-fuel",
+      "name": "Burn Turbofuel (Fuel-Powered Generator)",
+      "category": "generator-fuel",
+      "time": 8,
+      "in": [
+        [
+          "liquid-turbo-fuel",
+          1
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-fuel-rocket-fuel",
+      "name": "Burn Rocket Fuel (Fuel-Powered Generator)",
+      "category": "generator-fuel",
+      "time": 14.4,
+      "in": [
+        [
+          "rocket-fuel",
+          1
+        ]
+      ],
+      "out": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "recipes": [
+    {
+      "id": "geothermal-power",
+      "name": "Geothermal Power",
+      "category": "generator-geo-thermal",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "geothermal-geyser",
+          1
+        ]
+      ]
+    }
+  ]
+}

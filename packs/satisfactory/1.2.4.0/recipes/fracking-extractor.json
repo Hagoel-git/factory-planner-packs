@@ -1,0 +1,43 @@
+{
+  "recipes": [
+    {
+      "id": "extract-well-liquid-oil",
+      "name": "Extract Crude Oil (Resource Well)",
+      "category": "fracking-extractor",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "liquid-oil",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-well-nitrogen-gas",
+      "name": "Extract Nitrogen Gas (Resource Well)",
+      "category": "fracking-extractor",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "nitrogen-gas",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "extract-well-water",
+      "name": "Extract Water (Resource Well)",
+      "category": "fracking-extractor",
+      "time": 1,
+      "in": [],
+      "out": [
+        [
+          "water",
+          1
+        ]
+      ]
+    }
+  ]
+}

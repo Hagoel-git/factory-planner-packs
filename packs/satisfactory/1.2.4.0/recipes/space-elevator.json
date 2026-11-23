@@ -1,0 +1,114 @@
+{
+  "recipes": [
+    {
+      "id": "space-elevator-phase-1",
+      "name": "Phase 1: Distribution Platform",
+      "category": "space-elevator",
+      "time": 3600,
+      "in": [
+        [
+          "space-elevator-part-1",
+          50
+        ]
+      ],
+      "out": [],
+      "notes": "Deliverables from https://satisfactory.wiki.gg/wiki/Space_Elevator (v1.2.4.0); time=3600 s nominal phase duration (completion_time metrics compute 1 / node.crafts independent of recipe.time)."
+    },
+    {
+      "id": "space-elevator-phase-2",
+      "name": "Phase 2: Construction Dock",
+      "category": "space-elevator",
+      "time": 3600,
+      "in": [
+        [
+          "space-elevator-part-1",
+          1000
+        ],
+        [
+          "space-elevator-part-2",
+          1000
+        ],
+        [
+          "space-elevator-part-3",
+          100
+        ]
+      ],
+      "out": [],
+      "notes": "Deliverables from https://satisfactory.wiki.gg/wiki/Space_Elevator (v1.2.4.0)."
+    },
+    {
+      "id": "space-elevator-phase-3",
+      "name": "Phase 3: Main Assembly",
+      "category": "space-elevator",
+      "time": 3600,
+      "in": [
+        [
+          "space-elevator-part-2",
+          2500
+        ],
+        [
+          "space-elevator-part-4",
+          500
+        ],
+        [
+          "space-elevator-part-5",
+          100
+        ]
+      ],
+      "out": [],
+      "notes": "Deliverables from https://satisfactory.wiki.gg/wiki/Space_Elevator (v1.2.4.0)."
+    },
+    {
+      "id": "space-elevator-phase-4",
+      "name": "Phase 4: Propulsion",
+      "category": "space-elevator",
+      "time": 3600,
+      "in": [
+        [
+          "space-elevator-part-7",
+          500
+        ],
+        [
+          "space-elevator-part-6",
+          500
+        ],
+        [
+          "space-elevator-part-8",
+          250
+        ],
+        [
+          "space-elevator-part-9",
+          100
+        ]
+      ],
+      "out": [],
+      "notes": "Deliverables from https://satisfactory.wiki.gg/wiki/Space_Elevator (v1.2.4.0)."
+    },
+    {
+      "id": "space-elevator-phase-5",
+      "name": "Phase 5: Assembly",
+      "category": "space-elevator",
+      "time": 3600,
+      "in": [
+        [
+          "space-elevator-part-9",
+          1000
+        ],
+        [
+          "space-elevator-part-10",
+          1000
+        ],
+        [
+          "space-elevator-part-12",
+          256
+        ],
+        [
+          "space-elevator-part-11",
+          200
+        ]
+      ],
+      "out": [],
+      "notes": "Deliverables from https://satisfactory.wiki.gg/wiki/Space_Elevator (v1.2.4.0)."
+    }
+  ]
+}

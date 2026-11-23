@@ -1,0 +1,641 @@
+{
+  "recipes": [
+    {
+      "id": "alternate-diamond-pink",
+      "name": "Alternate: Pink Diamonds",
+      "category": "converter",
+      "time": 4,
+      "in": [
+        [
+          "coal",
+          8
+        ],
+        [
+          "quartz-crystal",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "diamond",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "alternate-ionized-fuel-dark",
+      "name": "Alternate: Dark-Ion Fuel",
+      "category": "converter",
+      "time": 3,
+      "in": [
+        [
+          "packaged-rocket-fuel",
+          12
+        ],
+        [
+          "dark-matter",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "ionized-fuel",
+          10
+        ],
+        [
+          "compacted-coal",
+          2
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "bauxite-caterium",
+      "name": "Bauxite (Caterium)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "ore-gold",
+          15
+        ]
+      ],
+      "out": [
+        [
+          "ore-bauxite",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "bauxite-copper",
+      "name": "Bauxite (Copper)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "ore-copper",
+          18
+        ]
+      ],
+      "out": [
+        [
+          "ore-bauxite",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "caterium-copper",
+      "name": "Caterium Ore (Copper)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "ore-copper",
+          15
+        ]
+      ],
+      "out": [
+        [
+          "ore-gold",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "caterium-quartz",
+      "name": "Caterium Ore (Quartz)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "raw-quartz",
+          12
+        ]
+      ],
+      "out": [
+        [
+          "ore-gold",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "coal-iron",
+      "name": "Coal (Iron)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "ore-iron",
+          18
+        ]
+      ],
+      "out": [
+        [
+          "coal",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "coal-limestone",
+      "name": "Coal (Limestone)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "stone",
+          36
+        ]
+      ],
+      "out": [
+        [
+          "coal",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "copper-quartz",
+      "name": "Copper Ore (Quartz)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "raw-quartz",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "ore-copper",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "copper-sulfur",
+      "name": "Copper Ore (Sulfur)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "sulfur",
+          12
+        ]
+      ],
+      "out": [
+        [
+          "ore-copper",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "dark-energy",
+      "name": "Dark Matter Residue",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "dark-energy",
+          10
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "ficsite-ingot-al",
+      "name": "Ficsite Ingot (Aluminum)",
+      "category": "converter",
+      "time": 2,
+      "in": [
+        [
+          "sam-ingot",
+          2
+        ],
+        [
+          "aluminum-ingot",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "ficsite-ingot",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "ficsite-ingot-cat",
+      "name": "Ficsite Ingot (Caterium)",
+      "category": "converter",
+      "time": 4,
+      "in": [
+        [
+          "sam-ingot",
+          3
+        ],
+        [
+          "gold-ingot",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "ficsite-ingot",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "ficsite-ingot-iron",
+      "name": "Ficsite Ingot (Iron)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          4
+        ],
+        [
+          "iron-ingot",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "ficsite-ingot",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "iron-limestone",
+      "name": "Iron Ore (Limestone)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "stone",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "ore-iron",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "limestone-sulfur",
+      "name": "Limestone (Sulfur)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "sulfur",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "stone",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "nitrogen-bauxite",
+      "name": "Nitrogen Gas (Bauxite)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "ore-bauxite",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "nitrogen-gas",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "nitrogen-caterium",
+      "name": "Nitrogen Gas (Caterium)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "ore-gold",
+          12
+        ]
+      ],
+      "out": [
+        [
+          "nitrogen-gas",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "quantum-energy",
+      "name": "Excited Photonic Matter",
+      "category": "converter",
+      "time": 3,
+      "in": [],
+      "out": [
+        [
+          "quantum-energy",
+          10
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "quartz-bauxite",
+      "name": "Raw Quartz (Bauxite)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "ore-bauxite",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "raw-quartz",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "quartz-coal",
+      "name": "Raw Quartz (Coal)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "coal",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "raw-quartz",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "sulfur-coal",
+      "name": "Sulfur (Coal)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "coal",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "sulfur",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "sulfur-iron",
+      "name": "Sulfur (Iron)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "ore-iron",
+          30
+        ]
+      ],
+      "out": [
+        [
+          "sulfur",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "time-crystal",
+      "name": "Time Crystal",
+      "category": "converter",
+      "time": 10,
+      "in": [
+        [
+          "diamond",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "time-crystal",
+          1
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    },
+    {
+      "id": "uranium-bauxite",
+      "name": "Uranium Ore (Bauxite)",
+      "category": "converter",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          1
+        ],
+        [
+          "ore-bauxite",
+          48
+        ]
+      ],
+      "out": [
+        [
+          "ore-uranium",
+          12
+        ]
+      ],
+      "attrs": {
+        "min_power": 100,
+        "power_span": 300
+      }
+    }
+  ]
+}

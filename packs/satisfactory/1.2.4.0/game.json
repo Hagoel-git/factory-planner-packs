@@ -1,0 +1,739 @@
+{
+  "schema_version": 4,
+  "game": {
+    "id": "satisfactory",
+    "name": "Satisfactory",
+    "data_version": "1.2.4.0",
+    "notes": "Generated from Satisfactory v1.2.4.0 en-US.json (CommunityResources Docs) with formulas verified against https://satisfactory.wiki.gg/."
+  },
+  "units": {
+    "recipe_time": "s",
+    "default_rate": "min"
+  },
+  "resource_kinds": {
+    "item": {
+      "label": "Item",
+      "display_unit": "",
+      "display_scale": 1
+    },
+    "fluid": {
+      "label": "Fluid",
+      "display_unit": "m³",
+      "display_scale": 1
+    },
+    "gas": {
+      "label": "Gas",
+      "display_unit": "m³",
+      "display_scale": 1
+    }
+  },
+  "attributes": {
+    "machine": {
+      "power": {
+        "type": "number",
+        "default": 0
+      },
+      "power_exp": {
+        "type": "number",
+        "default": 1.321929
+      },
+      "somersloop_slots": {
+        "type": "number",
+        "default": 0
+      }
+    },
+    "recipe": {
+      "min_power": {
+        "type": "number",
+        "default": 0
+      },
+      "power_span": {
+        "type": "number",
+        "default": 0
+      },
+      "sink_points": {
+        "type": "number",
+        "default": 0
+      }
+    },
+    "resource": {
+      "is_fluid": {
+        "type": "bool",
+        "default": false
+      }
+    }
+  },
+  "option_sets": {
+    "node_purity": {
+      "notes": "Purity multipliers (0.5x/1x/2x) verified from https://satisfactory.wiki.gg/wiki/Miner, /wiki/Oil_Extractor, /wiki/Resource_Well_Pressurizer, /wiki/Geothermal_Generator (Satisfactory v1.2.4.0).",
+      "attrs": {
+        "mult": {
+          "type": "number",
+          "default": 1
+        }
+      },
+      "options": [
+        {
+          "key": "impure",
+          "label": "Impure (0.5x)",
+          "attrs": {
+            "mult": 0.5
+          }
+        },
+        {
+          "key": "normal",
+          "label": "Normal (1x)",
+          "attrs": {
+            "mult": 1
+          }
+        },
+        {
+          "key": "pure",
+          "label": "Pure (2x)",
+          "attrs": {
+            "mult": 2
+          }
+        }
+      ]
+    },
+    "belt_tiers": {
+      "notes": "Belt speeds (mSpeed / 2 items/min) from raw/satisfactory/en-US.json FGBuildableConveyorBelt (v1.2.4.0) and https://satisfactory.wiki.gg/wiki/AWESOME_Sink.",
+      "attrs": {
+        "rate_per_min": {
+          "type": "number",
+          "default": 60
+        }
+      },
+      "options": [
+        {
+          "key": "mk1",
+          "label": "Mk.1 (60/min)",
+          "attrs": {
+            "rate_per_min": 60
+          }
+        },
+        {
+          "key": "mk2",
+          "label": "Mk.2 (120/min)",
+          "attrs": {
+            "rate_per_min": 120
+          }
+        },
+        {
+          "key": "mk3",
+          "label": "Mk.3 (270/min)",
+          "attrs": {
+            "rate_per_min": 270
+          }
+        },
+        {
+          "key": "mk4",
+          "label": "Mk.4 (480/min)",
+          "attrs": {
+            "rate_per_min": 480
+          }
+        },
+        {
+          "key": "mk5",
+          "label": "Mk.5 (780/min)",
+          "attrs": {
+            "rate_per_min": 780
+          }
+        },
+        {
+          "key": "mk6",
+          "label": "Mk.6 (1200/min)",
+          "attrs": {
+            "rate_per_min": 1200
+          }
+        }
+      ]
+    },
+    "space_elevator_cost_mults": {
+      "notes": "Satisfactory 1.2 Game Modes Space Elevator Deliverable Cost Multiplier presets (v1.2.4.0).",
+      "attrs": {
+        "mult": {
+          "type": "number",
+          "default": 1
+        }
+      },
+      "options": [
+        {
+          "key": "x0_25",
+          "label": "0.25",
+          "attrs": {
+            "mult": 0.25
+          }
+        },
+        {
+          "key": "x0_50",
+          "label": "0.50",
+          "attrs": {
+            "mult": 0.5
+          }
+        },
+        {
+          "key": "x0_75",
+          "label": "0.75",
+          "attrs": {
+            "mult": 0.75
+          }
+        },
+        {
+          "key": "x1",
+          "label": "1 (Default)",
+          "attrs": {
+            "mult": 1
+          }
+        },
+        {
+          "key": "x2",
+          "label": "2",
+          "attrs": {
+            "mult": 2
+          }
+        },
+        {
+          "key": "x5",
+          "label": "5",
+          "attrs": {
+            "mult": 5
+          }
+        },
+        {
+          "key": "x10",
+          "label": "10",
+          "attrs": {
+            "mult": 10
+          }
+        },
+        {
+          "key": "x25",
+          "label": "25",
+          "attrs": {
+            "mult": 25
+          }
+        },
+        {
+          "key": "x50",
+          "label": "50",
+          "attrs": {
+            "mult": 50
+          }
+        },
+        {
+          "key": "x100",
+          "label": "100",
+          "attrs": {
+            "mult": 100
+          }
+        }
+      ]
+    },
+    "recipe_cost_mults": {
+      "notes": "Satisfactory 1.2 Game Modes Recipe Parts Cost Multiplier presets (v1.2.4.0).",
+      "attrs": {
+        "mult": {
+          "type": "number",
+          "default": 1
+        }
+      },
+      "options": [
+        {
+          "key": "x0_25",
+          "label": "0.25",
+          "attrs": {
+            "mult": 0.25
+          }
+        },
+        {
+          "key": "x0_50",
+          "label": "0.50",
+          "attrs": {
+            "mult": 0.5
+          }
+        },
+        {
+          "key": "x0_75",
+          "label": "0.75",
+          "attrs": {
+            "mult": 0.75
+          }
+        },
+        {
+          "key": "x1",
+          "label": "1 (Default)",
+          "attrs": {
+            "mult": 1
+          }
+        },
+        {
+          "key": "x1_25",
+          "label": "1.25",
+          "attrs": {
+            "mult": 1.25
+          }
+        },
+        {
+          "key": "x1_50",
+          "label": "1.50",
+          "attrs": {
+            "mult": 1.5
+          }
+        },
+        {
+          "key": "x1_75",
+          "label": "1.75",
+          "attrs": {
+            "mult": 1.75
+          }
+        },
+        {
+          "key": "x2",
+          "label": "2",
+          "attrs": {
+            "mult": 2
+          }
+        }
+      ]
+    },
+    "power_consumption_mults": {
+      "notes": "Satisfactory 1.2 Game Modes Power Consumption Multiplier presets (v1.2.4.0).",
+      "attrs": {
+        "mult": {
+          "type": "number",
+          "default": 1
+        }
+      },
+      "options": [
+        {
+          "key": "x0_25",
+          "label": "0.25",
+          "attrs": {
+            "mult": 0.25
+          }
+        },
+        {
+          "key": "x0_50",
+          "label": "0.50",
+          "attrs": {
+            "mult": 0.5
+          }
+        },
+        {
+          "key": "x0_75",
+          "label": "0.75",
+          "attrs": {
+            "mult": 0.75
+          }
+        },
+        {
+          "key": "x1",
+          "label": "1 (Default)",
+          "attrs": {
+            "mult": 1
+          }
+        },
+        {
+          "key": "x2",
+          "label": "2",
+          "attrs": {
+            "mult": 2
+          }
+        },
+        {
+          "key": "x5",
+          "label": "5",
+          "attrs": {
+            "mult": 5
+          }
+        }
+      ]
+    }
+  },
+  "globals": {
+    "space_elevator_cost_mult": {
+      "label": "Space Elevator Deliverable Cost Multiplier",
+      "type": "enum",
+      "option_set": "space_elevator_cost_mults",
+      "default": "x1",
+      "tooltip": "Satisfactory 1.2 Game Mode setting. Scales Space Elevator deliverable quantities.",
+      "ui": {
+        "widget": "combo"
+      },
+      "notes": "Satisfactory 1.2 Game Modes setting (v1.2.4.0) verified via https://satisfactory.wiki.gg/."
+    },
+    "recipe_cost_mult": {
+      "label": "Recipe Parts Cost Multiplier",
+      "type": "enum",
+      "option_set": "recipe_cost_mults",
+      "default": "x1",
+      "tooltip": "Satisfactory 1.2 Game Mode setting. Scales crafting recipe input amounts (excluding Packager).",
+      "ui": {
+        "widget": "combo"
+      },
+      "notes": "Satisfactory 1.2 Game Modes setting (v1.2.4.0) verified via https://satisfactory.wiki.gg/."
+    },
+    "power_consumption_mult": {
+      "label": "Power Consumption Multiplier",
+      "type": "enum",
+      "option_set": "power_consumption_mults",
+      "default": "x1",
+      "tooltip": "Satisfactory 1.2 Game Mode setting. Scales power consumption of all power-consuming buildings.",
+      "ui": {
+        "widget": "combo"
+      },
+      "notes": "Satisfactory 1.2 Game Modes setting (v1.2.4.0) verified via https://satisfactory.wiki.gg/."
+    }
+  },
+  "parameters": {
+    "clock": {
+      "label": "Clock speed",
+      "type": "number",
+      "default": 100,
+      "min": "1",
+      "max": "250",
+      "step": 0.0001,
+      "unit": "%",
+      "ui": {
+        "widget": "drag",
+        "format": "%.4g%%",
+        "placement": "panel"
+      },
+      "notes": "Clock speed range 1%-250% verified from https://satisfactory.wiki.gg/wiki/Clock_speed (v1.2.4.0)."
+    },
+    "somersloops": {
+      "label": "Somersloops",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "machine.somersloop_slots",
+      "visible_if": "machine.somersloop_slots > 0",
+      "ui": {
+        "widget": "stepper",
+        "placement": "panel"
+      },
+      "notes": "Production Amplifier Somersloop slots per building verified from https://satisfactory.wiki.gg/wiki/Production_amplifier (v1.2.4.0)."
+    },
+    "purity": {
+      "label": "Purity",
+      "type": "enum",
+      "option_set": "node_purity",
+      "default": "normal",
+      "ui": {
+        "widget": "combo",
+        "placement": "panel"
+      }
+    },
+    "well_nodes": {
+      "label": "Well satellite nodes",
+      "type": "int",
+      "default": 6,
+      "min": "1",
+      "max": "12",
+      "step": 1,
+      "tooltip": "Number of Resource Well Extractors sharing one 150 MW Resource Well Pressurizer.",
+      "ui": {
+        "widget": "stepper",
+        "placement": "panel"
+      },
+      "notes": "Resource Well Pressurizer consumes 150 MW shared across connected satellite nodes; verified from https://satisfactory.wiki.gg/wiki/Resource_Well_Pressurizer (v1.2.4.0)."
+    },
+    "belt_tier": {
+      "label": "Input belt",
+      "type": "enum",
+      "option_set": "belt_tiers",
+      "default": "mk6",
+      "ui": {
+        "widget": "combo",
+        "placement": "panel"
+      }
+    }
+  },
+  "metrics": {
+    "power": {
+      "label": "Power",
+      "unit": "MW",
+      "format": "%.2f",
+      "display": [
+        "tooltip",
+        "totals"
+      ],
+      "aggregate": "sum",
+      "split_sign": true,
+      "is_rate": false
+    },
+    "peak_power": {
+      "label": "Peak power",
+      "unit": "MW",
+      "format": "%.2f",
+      "display": [
+        "tooltip",
+        "totals"
+      ],
+      "aggregate": "sum",
+      "split_sign": false,
+      "is_rate": false
+    },
+    "shards": {
+      "label": "Power shards",
+      "unit": "",
+      "format": "%.0f",
+      "display": [
+        "tooltip",
+        "totals"
+      ],
+      "aggregate": "sum",
+      "split_sign": false,
+      "is_rate": false
+    },
+    "sloops": {
+      "label": "Somersloops",
+      "unit": "",
+      "format": "%.0f",
+      "display": [
+        "tooltip",
+        "totals"
+      ],
+      "aggregate": "sum",
+      "split_sign": false,
+      "is_rate": false
+    },
+    "sink_points": {
+      "label": "Sink points",
+      "unit": "pts",
+      "format": "%.0f",
+      "display": [
+        "body",
+        "tooltip",
+        "totals"
+      ],
+      "aggregate": "sum",
+      "split_sign": false,
+      "is_rate": true
+    },
+    "completion_time_min": {
+      "label": "Time to complete",
+      "unit": "min",
+      "format": "%.1f",
+      "display": [
+        "body",
+        "tooltip"
+      ],
+      "aggregate": "max",
+      "split_sign": false,
+      "is_rate": false
+    },
+    "completion_time_h": {
+      "label": "Time to complete (h)",
+      "unit": "h",
+      "format": "%.2f",
+      "display": [
+        "body",
+        "tooltip"
+      ],
+      "aggregate": "max",
+      "split_sign": false,
+      "is_rate": false
+    }
+  },
+  "profiles": {
+    "sf_production": {
+      "notes": "Standard manufacturer profile: speed linear with clock (c = clock/100); Somersloop amp = 1 + sloops/slots multiplies outputs only; average power = machine.power * amp^2 * c^machine.power_exp * global.power_consumption_mult.mult; peak_power uses ceil(node.machines); Recipe Parts Cost Multiplier rounds integer items (>=1) or mL fluids (>=0.001 m3). Sources: raw/satisfactory/en-US.json (v1.2.4.0), https://satisfactory.wiki.gg/wiki/Clock_speed, /wiki/Production_amplifier.",
+      "params": [
+        "clock",
+        "somersloops"
+      ],
+      "let": {
+        "c": "param.clock / 100",
+        "amp": "if(machine.somersloop_slots > 0, 1 + param.somersloops / machine.somersloop_slots, 1)",
+        "shards_per_machine": "clamp(ceil((param.clock - 100) / 50), 0, 3)",
+        "pwr": "machine.power * amp ^ 2 * c ^ machine.power_exp * global.power_consumption_mult.mult"
+      },
+      "craft_time": "recipe.time / (machine.speed * c)",
+      "input_amount": "if(port.resource.is_fluid, max(0.001, round(port.amount * 1000 * global.recipe_cost_mult.mult) / 1000), max(1, round(port.amount * global.recipe_cost_mult.mult))) * port.chance",
+      "output_amount": "port.amount * port.chance * amp",
+      "metrics": {
+        "power": {
+          "per_machine": "pwr"
+        },
+        "peak_power": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * pwr"
+        },
+        "shards": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * shards_per_machine"
+        },
+        "sloops": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * param.somersloops"
+        }
+      }
+    },
+    "sf_packager": {
+      "notes": "Packager profile: inherits sf_production, but exempt from global.recipe_cost_mult.mult (verified in-game Satisfactory v1.2.4.0 so packaging/unpackaging cannot duplicate fluids or canisters).",
+      "extends": "sf_production",
+      "input_amount": "port.amount * port.chance"
+    },
+    "sf_variable_power": {
+      "notes": "Variable-power manufacturers (Particle Accelerator, Converter, Quantum Encoder): avg_power = min_power + power_span/2, peak_power = ceil(max(0, node.machines - 1e-6)) * (min_power + power_span), scaled by amp^2 * c^power_exp * global.power_consumption_mult.mult. Sources: raw/satisfactory/en-US.json mVariablePowerConsumptionConstant/Factor (v1.2.4.0), https://satisfactory.wiki.gg/wiki/Particle_Accelerator, /wiki/Converter, /wiki/Quantum_Encoder.",
+      "extends": "sf_production",
+      "let": {
+        "scale": "amp ^ 2 * c ^ machine.power_exp * global.power_consumption_mult.mult",
+        "pwr": "(recipe.min_power + recipe.power_span / 2) * scale",
+        "peak_pwr": "(recipe.min_power + recipe.power_span) * scale"
+      },
+      "metrics": {
+        "power": {
+          "per_machine": "pwr"
+        },
+        "peak_power": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * peak_pwr"
+        }
+      }
+    },
+    "sf_extractor": {
+      "notes": "Miners Mk.1-3 and Oil Extractor: extraction scales linearly with purity multiplier (0.5/1/2) and clock; power scales by c^machine.power_exp * global.power_consumption_mult.mult; peak_power uses ceil(max(0, node.machines - 1e-6)). Sources: raw/satisfactory/en-US.json (v1.2.4.0), https://satisfactory.wiki.gg/wiki/Miner, /wiki/Oil_Extractor.",
+      "params": [
+        "purity",
+        "clock"
+      ],
+      "let": {
+        "c": "param.clock / 100",
+        "shards_per_machine": "clamp(ceil((param.clock - 100) / 50), 0, 3)",
+        "pwr": "machine.power * c ^ machine.power_exp * global.power_consumption_mult.mult"
+      },
+      "craft_time": "recipe.time / (machine.speed * param.purity.mult * c)",
+      "metrics": {
+        "power": {
+          "per_machine": "pwr"
+        },
+        "peak_power": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * pwr"
+        },
+        "shards": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * shards_per_machine"
+        }
+      }
+    },
+    "sf_water_extractor": {
+      "notes": "Water Extractor: no node purity (fixed 120 m3/min at 100% clock); power scales by c^machine.power_exp * global.power_consumption_mult.mult; peak_power uses ceil(max(0, node.machines - 1e-6)). Sources: raw/satisfactory/en-US.json Build_WaterPump_C (v1.2.4.0), https://satisfactory.wiki.gg/wiki/Water_Extractor.",
+      "params": [
+        "clock"
+      ],
+      "let": {
+        "c": "param.clock / 100",
+        "shards_per_machine": "clamp(ceil((param.clock - 100) / 50), 0, 3)",
+        "pwr": "machine.power * c ^ machine.power_exp * global.power_consumption_mult.mult"
+      },
+      "craft_time": "recipe.time / (machine.speed * c)",
+      "metrics": {
+        "power": {
+          "per_machine": "pwr"
+        },
+        "peak_power": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * pwr"
+        },
+        "shards": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * shards_per_machine"
+        }
+      }
+    },
+    "sf_resource_well": {
+      "notes": "Resource Well Extractor + Pressurizer: extraction scales with satellite node purity (30/60/120 m3/min at 100%) and Pressurizer clock; Pressurizer 150 MW * c^exp * power_consumption_mult is split evenly across well_nodes satellite extractors for avg power and ceil-rounded per Pressurizer for peak_power and shards. Sources: raw/satisfactory/en-US.json Build_FrackingSmasher_C & Build_FrackingExtractor_C (v1.2.4.0), https://satisfactory.wiki.gg/wiki/Resource_Well_Pressurizer.",
+      "params": [
+        "purity",
+        "clock",
+        "well_nodes"
+      ],
+      "let": {
+        "c": "param.clock / 100",
+        "shards_per_pressurizer": "clamp(ceil((param.clock - 100) / 50), 0, 3)",
+        "pwr_pressurizer": "machine.power * c ^ machine.power_exp * global.power_consumption_mult.mult",
+        "pwr": "pwr_pressurizer / param.well_nodes"
+      },
+      "craft_time": "recipe.time / (machine.speed * param.purity.mult * c)",
+      "metrics": {
+        "power": {
+          "per_machine": "pwr"
+        },
+        "peak_power": {
+          "value": "ceil(max(0, node.machines / param.well_nodes - 1e-6)) * pwr_pressurizer"
+        },
+        "shards": {
+          "value": "ceil(max(0, node.machines / param.well_nodes - 1e-6)) * shards_per_pressurizer"
+        }
+      }
+    },
+    "sf_generator": {
+      "notes": "Fuel-consuming power generators (Biomass Burner, Coal, Fuel, Nuclear): linear clock scaling for both power output (-machine.power * c) and fuel/water/waste rates (Satisfactory 1.0+ linear Nuclear scaling). Sources: raw/satisfactory/en-US.json (v1.2.4.0), https://satisfactory.wiki.gg/wiki/Clock_speed, /wiki/Nuclear_Power_Plant.",
+      "params": [
+        "clock"
+      ],
+      "let": {
+        "c": "param.clock / 100",
+        "shards_per_machine": "clamp(ceil((param.clock - 100) / 50), 0, 3)"
+      },
+      "craft_time": "recipe.time / (machine.speed * c)",
+      "metrics": {
+        "power": {
+          "per_machine": "-machine.power * c"
+        },
+        "shards": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * shards_per_machine"
+        }
+      }
+    },
+    "sf_geothermal": {
+      "notes": "Geothermal Generator: average power output by geyser purity (100/200/400 MW avg = -200 * purity.mult), no overclocking, uses synthetic geothermal-geyser source item (V-NUM-4 requires >= 1 port). Sources: raw/satisfactory/en-US.json Build_GeneratorGeoThermal_C (v1.2.4.0), https://satisfactory.wiki.gg/wiki/Geothermal_Generator.",
+      "params": [
+        "purity"
+      ],
+      "craft_time": "recipe.time",
+      "metrics": {
+        "power": {
+          "per_machine": "-machine.power * param.purity.mult"
+        }
+      }
+    },
+    "sf_sink": {
+      "notes": "AWESOME Sink: consumes solid items with mResourceSinkPoints > 0 at selected belt throughput (60 / rate_per_min s per item). An active Sink draws a full 30 MW * global.power_consumption_mult.mult per physical machine (ceil(max(0, node.machines - 1e-6))) regardless of belt utilization, and generates recipe.sink_points per item sunk. Sources: raw/satisfactory/en-US.json Build_ResourceSink_C (v1.2.4.0), https://satisfactory.wiki.gg/wiki/AWESOME_Sink.",
+      "params": [
+        "belt_tier"
+      ],
+      "let": {
+        "pwr": "machine.power * global.power_consumption_mult.mult"
+      },
+      "craft_time": "60 / param.belt_tier.rate_per_min",
+      "metrics": {
+        "power": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * pwr"
+        },
+        "peak_power": {
+          "value": "ceil(max(0, node.machines - 1e-6)) * pwr"
+        },
+        "sink_points": {
+          "per_craft": "recipe.sink_points"
+        }
+      }
+    },
+    "sf_space_elevator": {
+      "notes": "Space Elevator Phase 1-5 deliverable sinks: input quantities scale by global.space_elevator_cost_mult.mult (rounded to >= 1 item); post-solve completion_time_min = 1 / (node.crafts * 60) and completion_time_h = 1 / (node.crafts * 3600) report phase completion time at solved input flow. Sources: https://satisfactory.wiki.gg/wiki/Space_Elevator (Satisfactory v1.2.4.0).",
+      "params": [],
+      "craft_time": "recipe.time",
+      "input_amount": "max(1, round(port.amount * global.space_elevator_cost_mult.mult))",
+      "metrics": {
+        "completion_time_min": {
+          "value": "if(node.crafts > 0, 1 / (node.crafts * 60), 0)"
+        },
+        "completion_time_h": {
+          "value": "if(node.crafts > 0, 1 / (node.crafts * 3600), 0)"
+        }
+      }
+    }
+  },
+  "include": [
+    "resources.json",
+    "machines.json",
+    "recipes",
+    "waivers.json"
+  ]
+}

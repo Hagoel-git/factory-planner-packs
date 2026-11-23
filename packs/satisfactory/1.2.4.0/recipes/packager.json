@@ -1,0 +1,532 @@
+{
+  "recipes": [
+    {
+      "id": "fuel",
+      "name": "Packaged Fuel",
+      "category": "packager",
+      "time": 3,
+      "in": [
+        [
+          "liquid-fuel",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "fuel",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "packaged-alumina",
+      "name": "Packaged Alumina Solution",
+      "category": "packager",
+      "time": 1,
+      "in": [
+        [
+          "alumina-solution",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "packaged-alumina",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "packaged-biofuel",
+      "name": "Packaged Liquid Biofuel",
+      "category": "packager",
+      "time": 3,
+      "in": [
+        [
+          "liquid-biofuel",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "packaged-biofuel",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "packaged-crude-oil",
+      "name": "Packaged Oil",
+      "category": "packager",
+      "time": 4,
+      "in": [
+        [
+          "liquid-oil",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "packaged-oil",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "packaged-ionized-fuel",
+      "name": "Packaged Ionized Fuel",
+      "category": "packager",
+      "time": 3,
+      "in": [
+        [
+          "ionized-fuel",
+          4
+        ],
+        [
+          "gas-tank",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "packaged-ionized-fuel",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "packaged-nitric-acid",
+      "name": "Packaged Nitric Acid",
+      "category": "packager",
+      "time": 2,
+      "in": [
+        [
+          "nitric-acid",
+          1
+        ],
+        [
+          "gas-tank",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "packaged-nitric-acid",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "packaged-nitrogen",
+      "name": "Packaged Nitrogen Gas",
+      "category": "packager",
+      "time": 1,
+      "in": [
+        [
+          "nitrogen-gas",
+          4
+        ],
+        [
+          "gas-tank",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "packaged-nitrogen-gas",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "packaged-oil-residue",
+      "name": "Packaged Heavy Oil Residue",
+      "category": "packager",
+      "time": 4,
+      "in": [
+        [
+          "heavy-oil-residue",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "packaged-oil-residue",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "packaged-rocket-fuel",
+      "name": "Packaged Rocket Fuel",
+      "category": "packager",
+      "time": 1,
+      "in": [
+        [
+          "rocket-fuel",
+          2
+        ],
+        [
+          "gas-tank",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "packaged-rocket-fuel",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "packaged-sulfuric-acid",
+      "name": "Packaged Sulfuric Acid",
+      "category": "packager",
+      "time": 3,
+      "in": [
+        [
+          "sulfuric-acid",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "packaged-sulfuric-acid",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "packaged-turbo-fuel",
+      "name": "Packaged Turbofuel",
+      "category": "packager",
+      "time": 6,
+      "in": [
+        [
+          "liquid-turbo-fuel",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "turbo-fuel",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "packaged-water",
+      "name": "Packaged Water",
+      "category": "packager",
+      "time": 2,
+      "in": [
+        [
+          "water",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "packaged-water",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-alumina",
+      "name": "Unpackage Alumina Solution",
+      "category": "packager",
+      "time": 1,
+      "in": [
+        [
+          "packaged-alumina",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "alumina-solution",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-bio-fuel",
+      "name": "Unpackage Liquid Biofuel",
+      "category": "packager",
+      "time": 2,
+      "in": [
+        [
+          "packaged-biofuel",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "liquid-biofuel",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-fuel",
+      "name": "Unpackage Fuel",
+      "category": "packager",
+      "time": 2,
+      "in": [
+        [
+          "fuel",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "liquid-fuel",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-ionized-fuel",
+      "name": "Unpackage Ionized Fuel",
+      "category": "packager",
+      "time": 3,
+      "in": [
+        [
+          "packaged-ionized-fuel",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "ionized-fuel",
+          4
+        ],
+        [
+          "gas-tank",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-nitric-acid",
+      "name": "Unpackage Nitric Acid",
+      "category": "packager",
+      "time": 3,
+      "in": [
+        [
+          "packaged-nitric-acid",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "nitric-acid",
+          1
+        ],
+        [
+          "gas-tank",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-nitrogen",
+      "name": "Unpackage Nitrogen Gas",
+      "category": "packager",
+      "time": 1,
+      "in": [
+        [
+          "packaged-nitrogen-gas",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "nitrogen-gas",
+          4
+        ],
+        [
+          "gas-tank",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-oil",
+      "name": "Unpackage Oil",
+      "category": "packager",
+      "time": 2,
+      "in": [
+        [
+          "packaged-oil",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "liquid-oil",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-oil-residue",
+      "name": "Unpackage Heavy Oil Residue",
+      "category": "packager",
+      "time": 6,
+      "in": [
+        [
+          "packaged-oil-residue",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "heavy-oil-residue",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-rocket-fuel",
+      "name": "Unpackage Rocket Fuel",
+      "category": "packager",
+      "time": 1,
+      "in": [
+        [
+          "packaged-rocket-fuel",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "rocket-fuel",
+          2
+        ],
+        [
+          "gas-tank",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-sulfuric-acid",
+      "name": "Unpackage Sulfuric Acid",
+      "category": "packager",
+      "time": 1,
+      "in": [
+        [
+          "packaged-sulfuric-acid",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "sulfuric-acid",
+          1
+        ],
+        [
+          "fluid-canister",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-turbo-fuel",
+      "name": "Unpackage Turbofuel",
+      "category": "packager",
+      "time": 6,
+      "in": [
+        [
+          "turbo-fuel",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "liquid-turbo-fuel",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "unpackage-water",
+      "name": "Unpackage Water",
+      "category": "packager",
+      "time": 1,
+      "in": [
+        [
+          "packaged-water",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "water",
+          2
+        ],
+        [
+          "fluid-canister",
+          2
+        ]
+      ]
+    }
+  ]
+}

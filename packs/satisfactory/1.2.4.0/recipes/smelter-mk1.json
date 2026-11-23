@@ -1,0 +1,76 @@
+{
+  "recipes": [
+    {
+      "id": "ingot-caterium",
+      "name": "Caterium Ingot",
+      "category": "smelter-mk1",
+      "time": 4,
+      "in": [
+        [
+          "ore-gold",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "gold-ingot",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ingot-copper",
+      "name": "Copper Ingot",
+      "category": "smelter-mk1",
+      "time": 2,
+      "in": [
+        [
+          "ore-copper",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "copper-ingot",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "ingot-iron",
+      "name": "Iron Ingot",
+      "category": "smelter-mk1",
+      "time": 2,
+      "in": [
+        [
+          "ore-iron",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "iron-ingot",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "pure-aluminum-ingot",
+      "name": "Alternate: Pure Aluminum Ingot",
+      "category": "smelter-mk1",
+      "time": 2,
+      "in": [
+        [
+          "aluminum-scrap",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "aluminum-ingot",
+          1
+        ]
+      ]
+    }
+  ]
+}

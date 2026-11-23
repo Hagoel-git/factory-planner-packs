@@ -1,0 +1,318 @@
+{
+  "machines": [
+    {
+      "id": "assembler-mk1",
+      "name": "Assembler",
+      "profile": "sf_production",
+      "categories": [
+        "assembler-mk1"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 15,
+        "power_exp": 1.321929,
+        "somersloop_slots": 2
+      }
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "profile": "sf_production",
+      "categories": [
+        "blender"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 75,
+        "power_exp": 1.321929,
+        "somersloop_slots": 4
+      }
+    },
+    {
+      "id": "constructor-mk1",
+      "name": "Constructor",
+      "profile": "sf_production",
+      "categories": [
+        "constructor-mk1"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 4,
+        "power_exp": 1.321929,
+        "somersloop_slots": 1
+      }
+    },
+    {
+      "id": "converter",
+      "name": "Converter",
+      "profile": "sf_variable_power",
+      "categories": [
+        "converter"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 0,
+        "power_exp": 1.321929,
+        "somersloop_slots": 2
+      }
+    },
+    {
+      "id": "foundry-mk1",
+      "name": "Foundry",
+      "profile": "sf_production",
+      "categories": [
+        "foundry-mk1"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 16,
+        "power_exp": 1.321929,
+        "somersloop_slots": 2
+      }
+    },
+    {
+      "id": "fracking-extractor",
+      "name": "Resource Well Extractor",
+      "profile": "sf_resource_well",
+      "categories": [
+        "fracking-extractor"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 150,
+        "power_exp": 1.321929
+      }
+    },
+    {
+      "id": "generator-biomass-automated",
+      "name": "Biomass Burner",
+      "profile": "sf_generator",
+      "categories": [
+        "generator-biomass-automated"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 30
+      }
+    },
+    {
+      "id": "generator-coal",
+      "name": "Coal-Powered Generator",
+      "profile": "sf_generator",
+      "categories": [
+        "generator-coal"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 75
+      }
+    },
+    {
+      "id": "generator-fuel",
+      "name": "Fuel-Powered Generator",
+      "profile": "sf_generator",
+      "categories": [
+        "generator-fuel"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 250
+      }
+    },
+    {
+      "id": "generator-geo-thermal",
+      "name": "Geothermal Generator",
+      "profile": "sf_geothermal",
+      "categories": [
+        "generator-geo-thermal"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 200
+      }
+    },
+    {
+      "id": "generator-nuclear",
+      "name": "Nuclear Power Plant",
+      "profile": "sf_generator",
+      "categories": [
+        "generator-nuclear"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 2500
+      }
+    },
+    {
+      "id": "hadron-collider",
+      "name": "Particle Accelerator",
+      "profile": "sf_variable_power",
+      "categories": [
+        "hadron-collider"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 0,
+        "power_exp": 1.321929,
+        "somersloop_slots": 4
+      }
+    },
+    {
+      "id": "manufacturer-mk1",
+      "name": "Manufacturer",
+      "profile": "sf_production",
+      "categories": [
+        "manufacturer-mk1"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 55,
+        "power_exp": 1.321929,
+        "somersloop_slots": 4
+      }
+    },
+    {
+      "id": "miner-mk1",
+      "name": "Miner Mk.1",
+      "profile": "sf_extractor",
+      "categories": [
+        "miner"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 5,
+        "power_exp": 1.321929
+      }
+    },
+    {
+      "id": "miner-mk2",
+      "name": "Miner Mk.2",
+      "profile": "sf_extractor",
+      "categories": [
+        "miner"
+      ],
+      "speed": 2,
+      "attrs": {
+        "power": 15,
+        "power_exp": 1.321929
+      }
+    },
+    {
+      "id": "miner-mk3",
+      "name": "Miner Mk.3",
+      "profile": "sf_extractor",
+      "categories": [
+        "miner"
+      ],
+      "speed": 4,
+      "attrs": {
+        "power": 45,
+        "power_exp": 1.321929
+      }
+    },
+    {
+      "id": "oil-pump",
+      "name": "Oil Extractor",
+      "profile": "sf_extractor",
+      "categories": [
+        "oil-pump"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 40,
+        "power_exp": 1.321929
+      }
+    },
+    {
+      "id": "oil-refinery",
+      "name": "Refinery",
+      "profile": "sf_production",
+      "categories": [
+        "oil-refinery"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 30,
+        "power_exp": 1.321929,
+        "somersloop_slots": 2
+      }
+    },
+    {
+      "id": "packager",
+      "name": "Packager",
+      "profile": "sf_packager",
+      "categories": [
+        "packager"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 10,
+        "power_exp": 1.321929,
+        "somersloop_slots": 0
+      }
+    },
+    {
+      "id": "quantum-encoder",
+      "name": "Quantum Encoder",
+      "profile": "sf_variable_power",
+      "categories": [
+        "quantum-encoder"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 0,
+        "power_exp": 1.321929,
+        "somersloop_slots": 4
+      }
+    },
+    {
+      "id": "resource-sink",
+      "name": "AWESOME Sink",
+      "profile": "sf_sink",
+      "categories": [
+        "resource-sink"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 30
+      }
+    },
+    {
+      "id": "smelter-mk1",
+      "name": "Smelter",
+      "profile": "sf_production",
+      "categories": [
+        "smelter-mk1"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 4,
+        "power_exp": 1.321929,
+        "somersloop_slots": 1
+      }
+    },
+    {
+      "id": "space-elevator",
+      "name": "Space Elevator",
+      "profile": "sf_space_elevator",
+      "categories": [
+        "space-elevator"
+      ],
+      "speed": 1,
+      "attrs": {}
+    },
+    {
+      "id": "water-pump",
+      "name": "Water Extractor",
+      "profile": "sf_water_extractor",
+      "categories": [
+        "water-pump"
+      ],
+      "speed": 1,
+      "attrs": {
+        "power": 20,
+        "power_exp": 1.321929
+      }
+    }
+  ]
+}

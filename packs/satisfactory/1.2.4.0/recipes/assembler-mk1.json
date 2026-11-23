@@ -1,0 +1,1324 @@
+{
+  "recipes": [
+    {
+      "id": "ai-limiter",
+      "name": "AI Limiter",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "copper-sheet",
+          5
+        ],
+        [
+          "high-speed-wire",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "circuit-board-high-speed",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-adhered-iron-plate",
+      "name": "Alternate: Adhered Iron Plate",
+      "category": "assembler-mk1",
+      "time": 16,
+      "in": [
+        [
+          "iron-plate",
+          3
+        ],
+        [
+          "rubber",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "iron-plate-reinforced",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-ai-limiter-plastic",
+      "name": "Alternate: Plastic AI Limiter",
+      "category": "assembler-mk1",
+      "time": 15,
+      "in": [
+        [
+          "high-speed-wire",
+          30
+        ],
+        [
+          "plastic",
+          7
+        ]
+      ],
+      "out": [
+        [
+          "circuit-board-high-speed",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-alclad-casing",
+      "name": "Alternate: Alclad Casing",
+      "category": "assembler-mk1",
+      "time": 8,
+      "in": [
+        [
+          "aluminum-ingot",
+          20
+        ],
+        [
+          "copper-ingot",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "aluminum-casing",
+          15
+        ]
+      ]
+    },
+    {
+      "id": "alternate-automated-miner",
+      "name": "Alternate: Automated Miner",
+      "category": "assembler-mk1",
+      "time": 60,
+      "in": [
+        [
+          "steel-pipe",
+          4
+        ],
+        [
+          "iron-plate",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "item-descriptor-portable-miner",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-bolted-frame",
+      "name": "Alternate: Bolted Frame",
+      "category": "assembler-mk1",
+      "time": 24,
+      "in": [
+        [
+          "iron-plate-reinforced",
+          3
+        ],
+        [
+          "iron-screw",
+          56
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-cable-1",
+      "name": "Alternate: Insulated Cable",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "wire",
+          9
+        ],
+        [
+          "rubber",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "cable",
+          20
+        ]
+      ]
+    },
+    {
+      "id": "alternate-cable-2",
+      "name": "Alternate: Quickwire Cable",
+      "category": "assembler-mk1",
+      "time": 24,
+      "in": [
+        [
+          "high-speed-wire",
+          3
+        ],
+        [
+          "rubber",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "cable",
+          11
+        ]
+      ]
+    },
+    {
+      "id": "alternate-circuit-board-1",
+      "name": "Alternate: Silicon Circuit Board",
+      "category": "assembler-mk1",
+      "time": 24,
+      "in": [
+        [
+          "copper-sheet",
+          11
+        ],
+        [
+          "silica",
+          11
+        ]
+      ],
+      "out": [
+        [
+          "circuit-board",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "alternate-circuit-board-2",
+      "name": "Alternate: Caterium Circuit Board",
+      "category": "assembler-mk1",
+      "time": 48,
+      "in": [
+        [
+          "plastic",
+          10
+        ],
+        [
+          "high-speed-wire",
+          30
+        ]
+      ],
+      "out": [
+        [
+          "circuit-board",
+          7
+        ]
+      ]
+    },
+    {
+      "id": "alternate-coated-iron-canister",
+      "name": "Alternate: Coated Iron Canister",
+      "category": "assembler-mk1",
+      "time": 4,
+      "in": [
+        [
+          "iron-plate",
+          2
+        ],
+        [
+          "copper-sheet",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "fluid-canister",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "alternate-coated-iron-plate",
+      "name": "Alternate: Coated Iron Plate",
+      "category": "assembler-mk1",
+      "time": 8,
+      "in": [
+        [
+          "iron-ingot",
+          5
+        ],
+        [
+          "plastic",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "iron-plate",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "alternate-computer-2",
+      "name": "Alternate: Crystal Computer",
+      "category": "assembler-mk1",
+      "time": 36,
+      "in": [
+        [
+          "circuit-board",
+          3
+        ],
+        [
+          "crystal-oscillator",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "computer",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-concrete",
+      "name": "Alternate: Fine Concrete",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "silica",
+          3
+        ],
+        [
+          "stone",
+          12
+        ]
+      ],
+      "out": [
+        [
+          "cement",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "alternate-copper-rotor",
+      "name": "Alternate: Copper Rotor",
+      "category": "assembler-mk1",
+      "time": 16,
+      "in": [
+        [
+          "copper-sheet",
+          6
+        ],
+        [
+          "iron-screw",
+          52
+        ]
+      ],
+      "out": [
+        [
+          "rotor",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-electric-motor",
+      "name": "Alternate: Electric Motor",
+      "category": "assembler-mk1",
+      "time": 16,
+      "in": [
+        [
+          "electromagnetic-control-rod",
+          1
+        ],
+        [
+          "rotor",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "motor",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-electrode-circuit-board",
+      "name": "Alternate: Electrode Circuit Board",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "rubber",
+          4
+        ],
+        [
+          "petroleum-coke",
+          8
+        ]
+      ],
+      "out": [
+        [
+          "circuit-board",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-electromagnetic-control-rod-1",
+      "name": "Alternate: Electromagnetic Connection Rod",
+      "category": "assembler-mk1",
+      "time": 15,
+      "in": [
+        [
+          "stator",
+          2
+        ],
+        [
+          "high-speed-connector",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "electromagnetic-control-rod",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-encased-industrial-beam",
+      "name": "Alternate: Encased Industrial Pipe",
+      "category": "assembler-mk1",
+      "time": 15,
+      "in": [
+        [
+          "steel-pipe",
+          6
+        ],
+        [
+          "cement",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "steel-plate-reinforced",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-enriched-coal",
+      "name": "Alternate: Compacted Coal",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "coal",
+          5
+        ],
+        [
+          "sulfur",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "compacted-coal",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "alternate-fused-wire",
+      "name": "Alternate: Fused Wire",
+      "category": "assembler-mk1",
+      "time": 20,
+      "in": [
+        [
+          "copper-ingot",
+          4
+        ],
+        [
+          "gold-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "wire",
+          30
+        ]
+      ]
+    },
+    {
+      "id": "alternate-gunpowder-1",
+      "name": "Alternate: Fine Black Powder",
+      "category": "assembler-mk1",
+      "time": 8,
+      "in": [
+        [
+          "sulfur",
+          1
+        ],
+        [
+          "compacted-coal",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "gunpowder",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "alternate-heat-sink-1",
+      "name": "Alternate: Heat Exchanger",
+      "category": "assembler-mk1",
+      "time": 6,
+      "in": [
+        [
+          "aluminum-casing",
+          3
+        ],
+        [
+          "rubber",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "aluminum-plate-reinforced",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-modular-frame",
+      "name": "Alternate: Steeled Frame",
+      "category": "assembler-mk1",
+      "time": 60,
+      "in": [
+        [
+          "iron-plate-reinforced",
+          2
+        ],
+        [
+          "steel-pipe",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-oc-supercomputer",
+      "name": "Alternate: OC Supercomputer",
+      "category": "assembler-mk1",
+      "time": 20,
+      "in": [
+        [
+          "modular-frame-lightweight",
+          2
+        ],
+        [
+          "cooling-system",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "computer-super",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-plutonium-fuel-unit",
+      "name": "Alternate: Plutonium Fuel Unit",
+      "category": "assembler-mk1",
+      "time": 120,
+      "in": [
+        [
+          "plutonium-cell",
+          20
+        ],
+        [
+          "pressure-conversion-cube",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "plutonium-fuel-rod",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-quickwire",
+      "name": "Alternate: Fused Quickwire",
+      "category": "assembler-mk1",
+      "time": 8,
+      "in": [
+        [
+          "gold-ingot",
+          1
+        ],
+        [
+          "copper-ingot",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "high-speed-wire",
+          12
+        ]
+      ]
+    },
+    {
+      "id": "alternate-reinforced-iron-plate-1",
+      "name": "Alternate: Bolted Iron Plate",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "iron-plate",
+          18
+        ],
+        [
+          "iron-screw",
+          50
+        ]
+      ],
+      "out": [
+        [
+          "iron-plate-reinforced",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-reinforced-iron-plate-2",
+      "name": "Alternate: Stitched Iron Plate",
+      "category": "assembler-mk1",
+      "time": 32,
+      "in": [
+        [
+          "iron-plate",
+          10
+        ],
+        [
+          "wire",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "iron-plate-reinforced",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-rotor",
+      "name": "Alternate: Steel Rotor",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "steel-pipe",
+          2
+        ],
+        [
+          "wire",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "rotor",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-rubber-concrete",
+      "name": "Alternate: Rubber Concrete",
+      "category": "assembler-mk1",
+      "time": 6,
+      "in": [
+        [
+          "stone",
+          10
+        ],
+        [
+          "rubber",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "cement",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "alternate-silica",
+      "name": "Alternate: Cheap Silica",
+      "category": "assembler-mk1",
+      "time": 8,
+      "in": [
+        [
+          "raw-quartz",
+          3
+        ],
+        [
+          "stone",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "silica",
+          7
+        ]
+      ]
+    },
+    {
+      "id": "alternate-stator",
+      "name": "Alternate: Quickwire Stator",
+      "category": "assembler-mk1",
+      "time": 15,
+      "in": [
+        [
+          "steel-pipe",
+          4
+        ],
+        [
+          "high-speed-wire",
+          15
+        ]
+      ],
+      "out": [
+        [
+          "stator",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "aluminum-sheet",
+      "name": "Alclad Aluminum Sheet",
+      "category": "assembler-mk1",
+      "time": 6,
+      "in": [
+        [
+          "aluminum-ingot",
+          3
+        ],
+        [
+          "copper-ingot",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "aluminum-plate",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "cartridge",
+      "name": "Rifle Ammo",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "copper-sheet",
+          3
+        ],
+        [
+          "gunpowder-mk2",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "cartridge-standard",
+          15
+        ]
+      ]
+    },
+    {
+      "id": "cartridge-smart",
+      "name": "Homing Rifle Ammo",
+      "category": "assembler-mk1",
+      "time": 24,
+      "in": [
+        [
+          "cartridge-standard",
+          20
+        ],
+        [
+          "high-speed-connector",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "cartridge-smart-projectile",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "circuit-board",
+      "name": "Circuit Board",
+      "category": "assembler-mk1",
+      "time": 8,
+      "in": [
+        [
+          "copper-sheet",
+          2
+        ],
+        [
+          "plastic",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "circuit-board",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "electromagnetic-control-rod",
+      "name": "Electromagnetic Control Rod",
+      "category": "assembler-mk1",
+      "time": 30,
+      "in": [
+        [
+          "stator",
+          3
+        ],
+        [
+          "circuit-board-high-speed",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "electromagnetic-control-rod",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "encased-industrial-beam",
+      "name": "Encased Industrial Beam",
+      "category": "assembler-mk1",
+      "time": 10,
+      "in": [
+        [
+          "steel-plate",
+          3
+        ],
+        [
+          "cement",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "steel-plate-reinforced",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "fabric",
+      "name": "Fabric",
+      "category": "assembler-mk1",
+      "time": 4,
+      "in": [
+        [
+          "mycelia",
+          1
+        ],
+        [
+          "generic-biomass",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "fabric",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "gunpowder",
+      "name": "Black Powder",
+      "category": "assembler-mk1",
+      "time": 4,
+      "in": [
+        [
+          "coal",
+          1
+        ],
+        [
+          "sulfur",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "gunpowder",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "heat-sink",
+      "name": "Heat Sink",
+      "category": "assembler-mk1",
+      "time": 8,
+      "in": [
+        [
+          "aluminum-plate",
+          5
+        ],
+        [
+          "copper-sheet",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "aluminum-plate-reinforced",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "iron-plate-reinforced",
+      "name": "Reinforced Iron Plate",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "iron-plate",
+          6
+        ],
+        [
+          "iron-screw",
+          12
+        ]
+      ],
+      "out": [
+        [
+          "iron-plate-reinforced",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "modular-frame",
+      "name": "Modular Frame",
+      "category": "assembler-mk1",
+      "time": 60,
+      "in": [
+        [
+          "iron-plate-reinforced",
+          3
+        ],
+        [
+          "iron-rod",
+          12
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "motor",
+      "name": "Motor",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "rotor",
+          2
+        ],
+        [
+          "stator",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "motor",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "nobelisk",
+      "name": "Nobelisk",
+      "category": "assembler-mk1",
+      "time": 6,
+      "in": [
+        [
+          "gunpowder",
+          2
+        ],
+        [
+          "steel-pipe",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "nobelisk-explosive",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "nobelisk-cluster",
+      "name": "Cluster Nobelisk",
+      "category": "assembler-mk1",
+      "time": 24,
+      "in": [
+        [
+          "nobelisk-explosive",
+          3
+        ],
+        [
+          "gunpowder-mk2",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "nobelisk-cluster",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "nobelisk-gas",
+      "name": "Gas Nobelisk",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "nobelisk-explosive",
+          1
+        ],
+        [
+          "generic-biomass",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "nobelisk-gas",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "nobelisk-shockwave",
+      "name": "Pulse Nobelisk",
+      "category": "assembler-mk1",
+      "time": 60,
+      "in": [
+        [
+          "nobelisk-explosive",
+          5
+        ],
+        [
+          "crystal-oscillator",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "nobelisk-shockwave",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "plutonium-cell",
+      "name": "Encased Plutonium Cell",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "plutonium-pellet",
+          2
+        ],
+        [
+          "cement",
+          4
+        ]
+      ],
+      "out": [
+        [
+          "plutonium-cell",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "pressure-conversion-cube",
+      "name": "Pressure Conversion Cube",
+      "category": "assembler-mk1",
+      "time": 60,
+      "in": [
+        [
+          "modular-frame-fused",
+          1
+        ],
+        [
+          "modular-frame-lightweight",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "pressure-conversion-cube",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "rebar-spreadshot",
+      "name": "Shatter Rebar",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "spiked-rebar",
+          2
+        ],
+        [
+          "quartz-crystal",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "rebar-spreadshot",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "rebar-stunshot",
+      "name": "Stun Rebar",
+      "category": "assembler-mk1",
+      "time": 6,
+      "in": [
+        [
+          "spiked-rebar",
+          1
+        ],
+        [
+          "high-speed-wire",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "rebar-stunshot",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "rotor",
+      "name": "Rotor",
+      "category": "assembler-mk1",
+      "time": 15,
+      "in": [
+        [
+          "iron-rod",
+          5
+        ],
+        [
+          "iron-screw",
+          25
+        ]
+      ],
+      "out": [
+        [
+          "rotor",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "space-elevator-part-1",
+      "name": "Smart Plating",
+      "category": "assembler-mk1",
+      "time": 30,
+      "in": [
+        [
+          "iron-plate-reinforced",
+          1
+        ],
+        [
+          "rotor",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-1",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "space-elevator-part-2",
+      "name": "Versatile Framework",
+      "category": "assembler-mk1",
+      "time": 24,
+      "in": [
+        [
+          "modular-frame",
+          1
+        ],
+        [
+          "steel-plate",
+          12
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-2",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "space-elevator-part-3",
+      "name": "Automated Wiring",
+      "category": "assembler-mk1",
+      "time": 24,
+      "in": [
+        [
+          "stator",
+          1
+        ],
+        [
+          "cable",
+          20
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-3",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "space-elevator-part-6",
+      "name": "Magnetic Field Generator",
+      "category": "assembler-mk1",
+      "time": 120,
+      "in": [
+        [
+          "space-elevator-part-2",
+          5
+        ],
+        [
+          "electromagnetic-control-rod",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-6",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "space-elevator-part-7",
+      "name": "Assembly Director System",
+      "category": "assembler-mk1",
+      "time": 80,
+      "in": [
+        [
+          "space-elevator-part-5",
+          2
+        ],
+        [
+          "computer-super",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-7",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "stator",
+      "name": "Stator",
+      "category": "assembler-mk1",
+      "time": 12,
+      "in": [
+        [
+          "steel-pipe",
+          3
+        ],
+        [
+          "wire",
+          8
+        ]
+      ],
+      "out": [
+        [
+          "stator",
+          1
+        ]
+      ]
+    }
+  ]
+}

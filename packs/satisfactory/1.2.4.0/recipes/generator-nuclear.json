@@ -1,0 +1,65 @@
+{
+  "recipes": [
+    {
+      "id": "burn-nuclear-ficsonium-fuel-rod",
+      "name": "Burn Ficsonium Fuel Rod (Nuclear Power Plant)",
+      "category": "generator-nuclear",
+      "time": 60,
+      "in": [
+        [
+          "ficsonium-fuel-rod",
+          1
+        ],
+        [
+          "water",
+          240
+        ]
+      ],
+      "out": []
+    },
+    {
+      "id": "burn-nuclear-nuclear-fuel-rod",
+      "name": "Burn Uranium Fuel Rod (Nuclear Power Plant)",
+      "category": "generator-nuclear",
+      "time": 300,
+      "in": [
+        [
+          "nuclear-fuel-rod",
+          1
+        ],
+        [
+          "water",
+          1200
+        ]
+      ],
+      "out": [
+        [
+          "nuclear-waste",
+          50
+        ]
+      ]
+    },
+    {
+      "id": "burn-nuclear-plutonium-fuel-rod",
+      "name": "Burn Plutonium Fuel Rod (Nuclear Power Plant)",
+      "category": "generator-nuclear",
+      "time": 600,
+      "in": [
+        [
+          "plutonium-fuel-rod",
+          1
+        ],
+        [
+          "water",
+          2400
+        ]
+      ],
+      "out": [
+        [
+          "plutonium-waste",
+          10
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1038 @@
+{
+  "recipes": [
+    {
+      "id": "alternate-classic-battery",
+      "name": "Alternate: Classic Battery",
+      "category": "manufacturer-mk1",
+      "time": 8,
+      "in": [
+        [
+          "sulfur",
+          6
+        ],
+        [
+          "aluminum-plate",
+          7
+        ],
+        [
+          "plastic",
+          8
+        ],
+        [
+          "wire",
+          12
+        ]
+      ],
+      "out": [
+        [
+          "battery",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "alternate-computer-1",
+      "name": "Alternate: Caterium Computer",
+      "category": "manufacturer-mk1",
+      "time": 16,
+      "in": [
+        [
+          "circuit-board",
+          4
+        ],
+        [
+          "high-speed-wire",
+          14
+        ],
+        [
+          "rubber",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "computer",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-crystal-oscillator",
+      "name": "Alternate: Insulated Crystal Oscillator",
+      "category": "manufacturer-mk1",
+      "time": 32,
+      "in": [
+        [
+          "quartz-crystal",
+          10
+        ],
+        [
+          "rubber",
+          7
+        ],
+        [
+          "circuit-board-high-speed",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "crystal-oscillator",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-flexible-framework",
+      "name": "Alternate: Flexible Framework",
+      "category": "manufacturer-mk1",
+      "time": 16,
+      "in": [
+        [
+          "modular-frame",
+          1
+        ],
+        [
+          "steel-plate",
+          6
+        ],
+        [
+          "rubber",
+          8
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-2",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-heavy-flexible-frame",
+      "name": "Alternate: Heavy Flexible Frame",
+      "category": "manufacturer-mk1",
+      "time": 16,
+      "in": [
+        [
+          "modular-frame",
+          5
+        ],
+        [
+          "steel-plate-reinforced",
+          3
+        ],
+        [
+          "rubber",
+          20
+        ],
+        [
+          "iron-screw",
+          104
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame-heavy",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-high-speed-connector",
+      "name": "Alternate: Silicon High-Speed Connector",
+      "category": "manufacturer-mk1",
+      "time": 40,
+      "in": [
+        [
+          "high-speed-wire",
+          60
+        ],
+        [
+          "silica",
+          25
+        ],
+        [
+          "circuit-board",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "high-speed-connector",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-high-speed-wiring",
+      "name": "Alternate: Automated Speed Wiring",
+      "category": "manufacturer-mk1",
+      "time": 32,
+      "in": [
+        [
+          "stator",
+          2
+        ],
+        [
+          "wire",
+          40
+        ],
+        [
+          "high-speed-connector",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-3",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "alternate-modular-frame-heavy",
+      "name": "Alternate: Heavy Encased Frame",
+      "category": "manufacturer-mk1",
+      "time": 64,
+      "in": [
+        [
+          "modular-frame",
+          8
+        ],
+        [
+          "steel-plate-reinforced",
+          10
+        ],
+        [
+          "steel-pipe",
+          36
+        ],
+        [
+          "cement",
+          22
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame-heavy",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-motor-1",
+      "name": "Alternate: Rigor Motor",
+      "category": "manufacturer-mk1",
+      "time": 48,
+      "in": [
+        [
+          "rotor",
+          3
+        ],
+        [
+          "stator",
+          3
+        ],
+        [
+          "crystal-oscillator",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "motor",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "alternate-nuclear-fuel-rod-1",
+      "name": "Alternate: Uranium Fuel Unit",
+      "category": "manufacturer-mk1",
+      "time": 300,
+      "in": [
+        [
+          "uranium-cell",
+          100
+        ],
+        [
+          "electromagnetic-control-rod",
+          10
+        ],
+        [
+          "crystal-oscillator",
+          3
+        ],
+        [
+          "rotor",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "nuclear-fuel-rod",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-plastic-smart-plating",
+      "name": "Alternate: Plastic Smart Plating",
+      "category": "manufacturer-mk1",
+      "time": 24,
+      "in": [
+        [
+          "iron-plate-reinforced",
+          1
+        ],
+        [
+          "rotor",
+          1
+        ],
+        [
+          "plastic",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-1",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-radio-control-system",
+      "name": "Alternate: Radio Control System",
+      "category": "manufacturer-mk1",
+      "time": 40,
+      "in": [
+        [
+          "crystal-oscillator",
+          1
+        ],
+        [
+          "circuit-board",
+          10
+        ],
+        [
+          "aluminum-casing",
+          60
+        ],
+        [
+          "rubber",
+          30
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame-lightweight",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-radio-control-unit-1",
+      "name": "Alternate: Radio Connection Unit",
+      "category": "manufacturer-mk1",
+      "time": 16,
+      "in": [
+        [
+          "aluminum-plate-reinforced",
+          4
+        ],
+        [
+          "high-speed-connector",
+          2
+        ],
+        [
+          "quartz-crystal",
+          12
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame-lightweight",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-super-state-computer",
+      "name": "Alternate: Super-State Computer",
+      "category": "manufacturer-mk1",
+      "time": 25,
+      "in": [
+        [
+          "computer",
+          3
+        ],
+        [
+          "electromagnetic-control-rod",
+          1
+        ],
+        [
+          "battery",
+          10
+        ],
+        [
+          "wire",
+          25
+        ]
+      ],
+      "out": [
+        [
+          "computer-super",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "alternate-turbo-motor-1",
+      "name": "Alternate: Turbo Electric Motor",
+      "category": "manufacturer-mk1",
+      "time": 64,
+      "in": [
+        [
+          "motor",
+          7
+        ],
+        [
+          "modular-frame-lightweight",
+          9
+        ],
+        [
+          "electromagnetic-control-rod",
+          5
+        ],
+        [
+          "rotor",
+          7
+        ]
+      ],
+      "out": [
+        [
+          "motor-lightweight",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "alternate-turbo-pressure-motor",
+      "name": "Alternate: Turbo Pressure Motor",
+      "category": "manufacturer-mk1",
+      "time": 32,
+      "in": [
+        [
+          "motor",
+          4
+        ],
+        [
+          "pressure-conversion-cube",
+          1
+        ],
+        [
+          "packaged-nitrogen-gas",
+          24
+        ],
+        [
+          "stator",
+          8
+        ]
+      ],
+      "out": [
+        [
+          "motor-lightweight",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "alternate-uranium-cell-1",
+      "name": "Alternate: Infused Uranium Cell",
+      "category": "manufacturer-mk1",
+      "time": 12,
+      "in": [
+        [
+          "ore-uranium",
+          5
+        ],
+        [
+          "silica",
+          3
+        ],
+        [
+          "sulfur",
+          5
+        ],
+        [
+          "high-speed-wire",
+          15
+        ]
+      ],
+      "out": [
+        [
+          "uranium-cell",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "cartridge-chaos-packaged",
+      "name": "Turbo Rifle Ammo",
+      "category": "manufacturer-mk1",
+      "time": 12,
+      "in": [
+        [
+          "cartridge-standard",
+          25
+        ],
+        [
+          "aluminum-casing",
+          3
+        ],
+        [
+          "turbo-fuel",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "cartridge-chaos",
+          50
+        ]
+      ]
+    },
+    {
+      "id": "computer",
+      "name": "Computer",
+      "category": "manufacturer-mk1",
+      "time": 24,
+      "in": [
+        [
+          "circuit-board",
+          4
+        ],
+        [
+          "cable",
+          8
+        ],
+        [
+          "plastic",
+          16
+        ]
+      ],
+      "out": [
+        [
+          "computer",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "computer-super",
+      "name": "Supercomputer",
+      "category": "manufacturer-mk1",
+      "time": 32,
+      "in": [
+        [
+          "computer",
+          4
+        ],
+        [
+          "circuit-board-high-speed",
+          2
+        ],
+        [
+          "high-speed-connector",
+          3
+        ],
+        [
+          "plastic",
+          28
+        ]
+      ],
+      "out": [
+        [
+          "computer-super",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "crystal-oscillator",
+      "name": "Crystal Oscillator",
+      "category": "manufacturer-mk1",
+      "time": 120,
+      "in": [
+        [
+          "quartz-crystal",
+          36
+        ],
+        [
+          "cable",
+          28
+        ],
+        [
+          "iron-plate-reinforced",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "crystal-oscillator",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "filter-gas-mask",
+      "name": "Gas Filter",
+      "category": "manufacturer-mk1",
+      "time": 8,
+      "in": [
+        [
+          "fabric",
+          2
+        ],
+        [
+          "coal",
+          4
+        ],
+        [
+          "iron-plate",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "filter",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "filter-hazmat",
+      "name": "Iodine-Infused Filter",
+      "category": "manufacturer-mk1",
+      "time": 16,
+      "in": [
+        [
+          "filter",
+          1
+        ],
+        [
+          "high-speed-wire",
+          8
+        ],
+        [
+          "aluminum-casing",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "hazmat-filter",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "high-speed-connector",
+      "name": "High-Speed Connector",
+      "category": "manufacturer-mk1",
+      "time": 16,
+      "in": [
+        [
+          "high-speed-wire",
+          56
+        ],
+        [
+          "cable",
+          10
+        ],
+        [
+          "circuit-board",
+          1
+        ]
+      ],
+      "out": [
+        [
+          "high-speed-connector",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "modular-frame-heavy",
+      "name": "Heavy Modular Frame",
+      "category": "manufacturer-mk1",
+      "time": 30,
+      "in": [
+        [
+          "modular-frame",
+          5
+        ],
+        [
+          "steel-pipe",
+          20
+        ],
+        [
+          "steel-plate-reinforced",
+          5
+        ],
+        [
+          "iron-screw",
+          120
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame-heavy",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "motor-turbo",
+      "name": "Turbo Motor",
+      "category": "manufacturer-mk1",
+      "time": 32,
+      "in": [
+        [
+          "cooling-system",
+          4
+        ],
+        [
+          "modular-frame-lightweight",
+          2
+        ],
+        [
+          "motor",
+          4
+        ],
+        [
+          "rubber",
+          24
+        ]
+      ],
+      "out": [
+        [
+          "motor-lightweight",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "nobelisk-nuke",
+      "name": "Nuke Nobelisk",
+      "category": "manufacturer-mk1",
+      "time": 120,
+      "in": [
+        [
+          "nobelisk-explosive",
+          5
+        ],
+        [
+          "uranium-cell",
+          20
+        ],
+        [
+          "gunpowder-mk2",
+          10
+        ],
+        [
+          "circuit-board-high-speed",
+          6
+        ]
+      ],
+      "out": [
+        [
+          "nobelisk-nuke",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "nuclear-fuel-rod",
+      "name": "Uranium Fuel Rod",
+      "category": "manufacturer-mk1",
+      "time": 150,
+      "in": [
+        [
+          "uranium-cell",
+          50
+        ],
+        [
+          "steel-plate-reinforced",
+          3
+        ],
+        [
+          "electromagnetic-control-rod",
+          5
+        ]
+      ],
+      "out": [
+        [
+          "nuclear-fuel-rod",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "plutonium-fuel-rod",
+      "name": "Plutonium Fuel Rod",
+      "category": "manufacturer-mk1",
+      "time": 240,
+      "in": [
+        [
+          "plutonium-cell",
+          30
+        ],
+        [
+          "steel-plate",
+          18
+        ],
+        [
+          "electromagnetic-control-rod",
+          6
+        ],
+        [
+          "aluminum-plate-reinforced",
+          10
+        ]
+      ],
+      "out": [
+        [
+          "plutonium-fuel-rod",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "radio-control-unit",
+      "name": "Radio Control Unit",
+      "category": "manufacturer-mk1",
+      "time": 48,
+      "in": [
+        [
+          "aluminum-casing",
+          32
+        ],
+        [
+          "crystal-oscillator",
+          1
+        ],
+        [
+          "computer",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "modular-frame-lightweight",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "rebar-explosive",
+      "name": "Explosive Rebar",
+      "category": "manufacturer-mk1",
+      "time": 12,
+      "in": [
+        [
+          "spiked-rebar",
+          2
+        ],
+        [
+          "gunpowder-mk2",
+          2
+        ],
+        [
+          "steel-pipe",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "rebar-explosive",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "sam-fluctuator",
+      "name": "SAM Fluctuator",
+      "category": "manufacturer-mk1",
+      "time": 6,
+      "in": [
+        [
+          "sam-ingot",
+          6
+        ],
+        [
+          "wire",
+          5
+        ],
+        [
+          "steel-pipe",
+          3
+        ]
+      ],
+      "out": [
+        [
+          "sam-fluctuator",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "singularity-cell",
+      "name": "Singularity Cell",
+      "category": "manufacturer-mk1",
+      "time": 60,
+      "in": [
+        [
+          "space-elevator-part-9",
+          1
+        ],
+        [
+          "dark-matter",
+          20
+        ],
+        [
+          "iron-plate",
+          100
+        ],
+        [
+          "cement",
+          200
+        ]
+      ],
+      "out": [
+        [
+          "singularity-cell",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "space-elevator-part-11",
+      "name": "Ballistic Warp Drive",
+      "category": "manufacturer-mk1",
+      "time": 60,
+      "in": [
+        [
+          "space-elevator-part-8",
+          1
+        ],
+        [
+          "singularity-cell",
+          5
+        ],
+        [
+          "quantum-oscillator",
+          2
+        ],
+        [
+          "dark-matter",
+          40
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-11",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "space-elevator-part-4",
+      "name": "Modular Engine",
+      "category": "manufacturer-mk1",
+      "time": 60,
+      "in": [
+        [
+          "motor",
+          2
+        ],
+        [
+          "rubber",
+          15
+        ],
+        [
+          "space-elevator-part-1",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-4",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "space-elevator-part-5",
+      "name": "Adaptive Control Unit",
+      "category": "manufacturer-mk1",
+      "time": 60,
+      "in": [
+        [
+          "space-elevator-part-3",
+          5
+        ],
+        [
+          "circuit-board",
+          5
+        ],
+        [
+          "modular-frame-heavy",
+          1
+        ],
+        [
+          "computer",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-5",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "space-elevator-part-8",
+      "name": "Thermal Propulsion Rocket",
+      "category": "manufacturer-mk1",
+      "time": 120,
+      "in": [
+        [
+          "space-elevator-part-4",
+          5
+        ],
+        [
+          "motor-lightweight",
+          2
+        ],
+        [
+          "cooling-system",
+          6
+        ],
+        [
+          "modular-frame-fused",
+          2
+        ]
+      ],
+      "out": [
+        [
+          "space-elevator-part-8",
+          2
+        ]
+      ]
+    }
+  ]
+}
