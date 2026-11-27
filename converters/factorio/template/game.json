@@ -1,0 +1,1049 @@
+{
+  "schema_version": 4,
+  "notes": "Factorio 2.1.25 (Space Age + Quality + Elevated Rails) GameData v4 template. Primary sources: raw/factorio/2.1.25/prototype-api.json, raw/factorio/2.1.25/runtime-api.json, raw/factorio/2.1.25/script-output/data-raw-dump.json (Factorio 2.1.25). Secondary source: https://wiki.factorio.com/.",
+  "game": {
+    "id": "factorio",
+    "name": "Factorio",
+    "data_version": "2.1.25",
+    "attrs": {
+      "nutrients_mj": 2,
+      "bioflux_mj": 6
+    },
+    "notes": "nutrients fuel_value=2MJ, bioflux fuel_value=6MJ from data-raw-dump.json (Factorio 2.1.25)."
+  },
+  "units": {
+    "recipe_time": "s",
+    "default_rate": "s"
+  },
+  "resource_kinds": {
+    "item": {
+      "label": "Item",
+      "display_unit": "",
+      "display_scale": 1
+    },
+    "fluid": {
+      "label": "Fluid",
+      "display_unit": "",
+      "display_scale": 1
+    },
+    "heat": {
+      "label": "Heat",
+      "display_unit": "MW",
+      "display_scale": 1,
+      "rate_invariant": true
+    },
+    "power": {
+      "label": "Power",
+      "display_unit": "MW",
+      "display_scale": 1,
+      "rate_invariant": true
+    }
+  },
+  "attributes": {
+    "machine": {
+      "power": { "type": "number", "default": 0 },
+      "drain": { "type": "number", "default": 0 },
+      "heating_energy": { "type": "number", "default": 0 },
+      "module_slots": { "type": "number", "default": 0 },
+      "base_prod": { "type": "number", "default": 0 },
+      "allows_productivity": { "type": "bool", "default": false },
+      "allows_quality": { "type": "bool", "default": false },
+      "allows_beacons": { "type": "bool", "default": false },
+      "burner_cat": { "type": "string", "default": "" },
+      "burner_eff": { "type": "number", "default": 1 },
+      "pollution": { "type": "number", "default": 0 },
+      "spores": { "type": "number", "default": 0 },
+      "science_drain": { "type": "number", "default": 1 },
+      "max_neighbors": { "type": "number", "default": 0 },
+      "on_nauvis": { "type": "bool", "default": true },
+      "on_vulcanus": { "type": "bool", "default": true },
+      "on_gleba": { "type": "bool", "default": true },
+      "on_fulgora": { "type": "bool", "default": true },
+      "on_aquilo": { "type": "bool", "default": true },
+      "on_space": { "type": "bool", "default": true }
+    },
+    "recipe": {
+      "allows_productivity": { "type": "bool", "default": false },
+      "allows_quality": { "type": "bool", "default": true },
+      "max_prod": { "type": "number", "default": 3 },
+      "prod_tech": { "type": "string", "default": "" },
+      "is_auto_recycling": { "type": "bool", "default": false },
+      "is_infinite_fluid": { "type": "bool", "default": false },
+      "gen_mw": { "type": "number", "default": 0 },
+      "harvest_spores": { "type": "number", "default": 0 },
+      "on_nauvis": { "type": "bool", "default": true },
+      "on_vulcanus": { "type": "bool", "default": true },
+      "on_gleba": { "type": "bool", "default": true },
+      "on_fulgora": { "type": "bool", "default": true },
+      "on_aquilo": { "type": "bool", "default": true },
+      "on_space": { "type": "bool", "default": true }
+    },
+    "port": {
+      "is_heat": { "type": "bool", "default": false }
+    },
+    "resource": {
+      "fuel_mj": { "type": "number", "default": 0 },
+      "fuel_emissions_mult": { "type": "number", "default": 1 }
+    }
+  },
+  "tables": {
+    "beacon_profile": [
+      1, 0.7071, 0.5773, 0.5, 0.4472, 0.4082, 0.3779, 0.3535, 0.3333, 0.3162,
+      0.3015, 0.2886, 0.2773, 0.2672, 0.2581, 0.25, 0.2425, 0.2357, 0.2294, 0.2236,
+      0.2182, 0.2132, 0.2085, 0.2041, 0.2, 0.1961, 0.1924, 0.1889, 0.1856, 0.1825,
+      0.1796, 0.1767, 0.174, 0.1714, 0.169, 0.1666, 0.1643, 0.1622, 0.1601, 0.1581,
+      0.1561, 0.1543, 0.1524, 0.1507, 0.149, 0.1474, 0.1458, 0.1443, 0.1428, 0.1414,
+      0.14, 0.1386, 0.1373, 0.136, 0.1348, 0.1336, 0.1324, 0.1313, 0.1301, 0.129,
+      0.128, 0.127, 0.1259, 0.125, 0.124, 0.123, 0.1221, 0.1212, 0.1203, 0.1195,
+      0.1186, 0.1178, 0.117, 0.1162, 0.1154, 0.1147, 0.1139, 0.1132, 0.1125, 0.1118,
+      0.1111, 0.1104, 0.1097, 0.1091, 0.1084, 0.1078, 0.1072, 0.1066, 0.1059, 0.1054,
+      0.1048, 0.1042, 0.1036, 0.1031, 0.1025, 0.102, 0.1015, 0.101, 0.1005, 0.1
+    ]
+  },
+  "option_sets": {
+    "surfaces": {
+      "notes": "Playable surfaces from data-raw-dump.json (planet + surface, Factorio 2.1.25). Picker-only filter.",
+      "attrs": {},
+      "options": [
+        { "key": "all", "label": "All surfaces" },
+        { "key": "nauvis", "label": "Nauvis" },
+        { "key": "vulcanus", "label": "Vulcanus" },
+        { "key": "gleba", "label": "Gleba" },
+        { "key": "fulgora", "label": "Fulgora" },
+        { "key": "aquilo", "label": "Aquilo" },
+        { "key": "space-platform", "label": "Space platform" }
+      ]
+    },
+    "power_modes": {
+      "notes": "Switchable power modeling per GameData v4 cookbook.",
+      "attrs": {},
+      "options": [
+        { "key": "metric", "label": "Metric only" },
+        { "key": "resource", "label": "Resource (solver)" },
+        { "key": "both", "label": "Both" }
+      ]
+    },
+    "qualities": {
+      "notes": "Quality tiers from data-raw-dump.json (quality) and prototype-api.json (QualityPrototype.default_multiplier = 1 + 0.3 * level, BeaconPrototype.distribution_effectivity = 1.5 + 0.2 * level, Factorio 2.1.25).",
+      "attrs": {
+        "level": { "type": "number", "default": 0 },
+        "mult": { "type": "number", "default": 1 },
+        "beacon_eff": { "type": "number", "default": 1.5 }
+      },
+      "options": [
+        { "key": "normal",    "label": "Normal",    "tooltip": "1x base machine speed & module stats; 1.5x beacon efficiency", "attrs": { "level": 0, "mult": 1.0, "beacon_eff": 1.5 } },
+        { "key": "uncommon",  "label": "Uncommon",  "tooltip": "1.3x machine speed & positive module stats; 1.7x beacon efficiency", "attrs": { "level": 1, "mult": 1.3, "beacon_eff": 1.7 } },
+        { "key": "rare",      "label": "Rare",      "tooltip": "1.6x machine speed & positive module stats; 1.9x beacon efficiency", "attrs": { "level": 2, "mult": 1.6, "beacon_eff": 1.9 } },
+        { "key": "epic",      "label": "Epic",      "tooltip": "1.9x machine speed & positive module stats; 2.1x beacon efficiency", "attrs": { "level": 3, "mult": 1.9, "beacon_eff": 2.1 } },
+        { "key": "legendary", "label": "Legendary", "tooltip": "2.5x machine speed & positive module stats; 2.5x beacon efficiency", "attrs": { "level": 5, "mult": 2.5, "beacon_eff": 2.5 } }
+      ]
+    },
+    "modules": {
+      "notes": "Module effects from data-raw-dump.json (module, Factorio 2.1.25). Positive bonuses and negative consumption scale with quality (ModulePrototype.*_quality_multiplier); penalties stay 1x.",
+      "attrs": {
+        "speed_pos": { "type": "number", "default": 0 },
+        "speed_neg": { "type": "number", "default": 0 },
+        "prod":      { "type": "number", "default": 0 },
+        "cons_pos":  { "type": "number", "default": 0 },
+        "cons_neg":  { "type": "number", "default": 0 },
+        "pol_pos":   { "type": "number", "default": 0 },
+        "qual_pos":  { "type": "number", "default": 0 },
+        "qual_neg":  { "type": "number", "default": 0 }
+      },
+      "options": [
+        { "key": "speed-module",          "label": "Speed module",          "attrs": { "speed_pos": 0.2, "cons_pos": 0.5, "qual_neg": -0.01 } },
+        { "key": "speed-module-2",        "label": "Speed module 2",        "attrs": { "speed_pos": 0.3, "cons_pos": 0.6, "qual_neg": -0.015 } },
+        { "key": "speed-module-3",        "label": "Speed module 3",        "attrs": { "speed_pos": 0.5, "cons_pos": 0.7, "qual_neg": -0.025 } },
+        { "key": "productivity-module",   "label": "Productivity module",   "attrs": { "speed_neg": -0.05, "prod": 0.04, "cons_pos": 0.4, "pol_pos": 0.05 } },
+        { "key": "productivity-module-2", "label": "Productivity module 2", "attrs": { "speed_neg": -0.1,  "prod": 0.06, "cons_pos": 0.6, "pol_pos": 0.07 } },
+        { "key": "productivity-module-3", "label": "Productivity module 3", "attrs": { "speed_neg": -0.15, "prod": 0.1,  "cons_pos": 0.8, "pol_pos": 0.1 } },
+        { "key": "efficiency-module",     "label": "Efficiency module",     "attrs": { "cons_neg": -0.3 } },
+        { "key": "efficiency-module-2",   "label": "Efficiency module 2",   "attrs": { "cons_neg": -0.4 } },
+        { "key": "efficiency-module-3",   "label": "Efficiency module 3",   "attrs": { "cons_neg": -0.5 } },
+        { "key": "quality-module",        "label": "Quality module",        "attrs": { "speed_neg": -0.05, "qual_pos": 0.01 } },
+        { "key": "quality-module-2",      "label": "Quality module 2",      "attrs": { "speed_neg": -0.05, "qual_pos": 0.02 } },
+        { "key": "quality-module-3",      "label": "Quality module 3",      "attrs": { "speed_neg": -0.05, "qual_pos": 0.025 } }
+      ]
+    },
+    "research_speeds": {
+      "notes": "Cumulative laboratory-speed bonuses from data-raw-dump.json (research-speed-1..6: +20/+30/+40/+50/+50/+60%, Factorio 2.1.25).",
+      "attrs": {
+        "bonus": { "type": "number", "default": 0 }
+      },
+      "options": [
+        { "key": "lvl-0", "label": "Level 0 (+0%)",   "attrs": { "bonus": 0.0 } },
+        { "key": "lvl-1", "label": "Level 1 (+20%)",  "attrs": { "bonus": 0.2 } },
+        { "key": "lvl-2", "label": "Level 2 (+50%)",  "attrs": { "bonus": 0.5 } },
+        { "key": "lvl-3", "label": "Level 3 (+90%)",  "attrs": { "bonus": 0.9 } },
+        { "key": "lvl-4", "label": "Level 4 (+140%)", "attrs": { "bonus": 1.4 } },
+        { "key": "lvl-5", "label": "Level 5 (+190%)", "attrs": { "bonus": 1.9 } },
+        { "key": "lvl-6", "label": "Level 6 (+250%)", "attrs": { "bonus": 2.5 } }
+      ]
+    },
+    "solar_locations": {
+      "notes": "Planet surface averages (0.7 * solar-power / 100) and space orbit flat multipliers (solar_power_in_space / 100; default 1% at solar-system-edge) from data-raw-dump.json + prototype-api.json + https://wiki.factorio.com/Solar_panel (Factorio 2.1.25).",
+      "attrs": {
+        "solar_mult": { "type": "number", "default": 0.7 }
+      },
+      "options": [
+        { "key": "nauvis-surface",    "label": "Nauvis surface (42 kW base)",         "attrs": { "solar_mult": 0.7 } },
+        { "key": "vulcanus-surface",  "label": "Vulcanus surface (168 kW base)",      "attrs": { "solar_mult": 2.8 } },
+        { "key": "gleba-surface",     "label": "Gleba surface (21 kW base)",          "attrs": { "solar_mult": 0.35 } },
+        { "key": "fulgora-surface",   "label": "Fulgora surface (8.4 kW base)",       "attrs": { "solar_mult": 0.14 } },
+        { "key": "aquilo-surface",    "label": "Aquilo surface (0.42 kW base)",       "attrs": { "solar_mult": 0.007 } },
+        { "key": "nauvis-orbit",      "label": "Nauvis orbit (180 kW base)",          "attrs": { "solar_mult": 3.0 } },
+        { "key": "vulcanus-orbit",    "label": "Vulcanus orbit (360 kW base)",        "attrs": { "solar_mult": 6.0 } },
+        { "key": "gleba-orbit",       "label": "Gleba orbit (120 kW base)",           "attrs": { "solar_mult": 2.0 } },
+        { "key": "fulgora-orbit",     "label": "Fulgora orbit (72 kW base)",          "attrs": { "solar_mult": 1.2 } },
+        { "key": "aquilo-orbit",      "label": "Aquilo orbit (36 kW base)",           "attrs": { "solar_mult": 0.6 } },
+        { "key": "solar-system-edge", "label": "Solar system edge (0.6 kW base)",     "attrs": { "solar_mult": 0.01 } }
+      ]
+    },
+    "research_presets": {
+      "notes": "Technology unit cycle times and required science packs from data-raw-dump.json (technology, Factorio 2.1.25).",
+      "attrs": {
+        "is_custom":         { "type": "bool",   "default": false },
+        "cycle_time":        { "type": "number", "default": 60 },
+        "p_automation":      { "type": "bool",   "default": false },
+        "p_logistic":        { "type": "bool",   "default": false },
+        "p_military":        { "type": "bool",   "default": false },
+        "p_chemical":        { "type": "bool",   "default": false },
+        "p_production":      { "type": "bool",   "default": false },
+        "p_utility":         { "type": "bool",   "default": false },
+        "p_space":           { "type": "bool",   "default": false },
+        "p_metallurgic":     { "type": "bool",   "default": false },
+        "p_agricultural":    { "type": "bool",   "default": false },
+        "p_electromagnetic": { "type": "bool",   "default": false },
+        "p_cryogenic":       { "type": "bool",   "default": false },
+        "p_promethium":      { "type": "bool",   "default": false }
+      },
+      "options": [
+        {
+          "key": "all-12-research-prod",
+          "label": "Research productivity (All 12 packs, 120s)",
+          "attrs": {
+            "cycle_time": 120,
+            "p_automation": true, "p_logistic": true, "p_military": true, "p_chemical": true,
+            "p_production": true, "p_utility": true, "p_space": true, "p_metallurgic": true,
+            "p_agricultural": true, "p_electromagnetic": true, "p_cryogenic": true, "p_promethium": true
+          }
+        },
+        {
+          "key": "mining-steel-prod",
+          "label": "Mining / Steel productivity (4 packs, 60s)",
+          "attrs": {
+            "cycle_time": 60,
+            "p_automation": true, "p_logistic": true, "p_chemical": true, "p_production": true
+          }
+        },
+        {
+          "key": "vanilla-space-7",
+          "label": "Vanilla + Space (7 packs, 60s)",
+          "attrs": {
+            "cycle_time": 60,
+            "p_automation": true, "p_logistic": true, "p_military": true, "p_chemical": true,
+            "p_production": true, "p_utility": true, "p_space": true
+          }
+        },
+        {
+          "key": "lds-prod",
+          "label": "LDS productivity (5 packs, 60s)",
+          "attrs": {
+            "cycle_time": 60,
+            "p_automation": true, "p_logistic": true, "p_chemical": true, "p_production": true,
+            "p_metallurgic": true
+          }
+        },
+        {
+          "key": "plastic-rocket-fuel-prod",
+          "label": "Plastic / Rocket fuel prod. (5 packs, 60s)",
+          "attrs": {
+            "cycle_time": 60,
+            "p_automation": true, "p_logistic": true, "p_chemical": true, "p_production": true,
+            "p_agricultural": true
+          }
+        },
+        {
+          "key": "blue-circuit-scrap-prod",
+          "label": "Blue circuit / Scrap prod. (5 packs, 60s)",
+          "attrs": {
+            "cycle_time": 60,
+            "p_automation": true, "p_logistic": true, "p_chemical": true, "p_production": true,
+            "p_electromagnetic": true
+          }
+        },
+        {
+          "key": "rocket-part-prod",
+          "label": "Rocket part productivity (5 packs, 60s)",
+          "attrs": {
+            "cycle_time": 60,
+            "p_automation": true, "p_logistic": true, "p_chemical": true, "p_production": true,
+            "p_cryogenic": true
+          }
+        },
+        {
+          "key": "asteroid-prod",
+          "label": "Asteroid productivity (7 packs, 60s)",
+          "attrs": {
+            "cycle_time": 60,
+            "p_automation": true, "p_logistic": true, "p_chemical": true, "p_production": true,
+            "p_utility": true, "p_space": true, "p_agricultural": true
+          }
+        },
+        {
+          "key": "custom",
+          "label": "Custom packs & cycle time...",
+          "attrs": { "is_custom": true, "cycle_time": 60 }
+        }
+      ]
+    }
+  },
+  "globals": {
+    "surface": {
+      "label": "Surface filter",
+      "tooltip": "Filter machines and recipes in the picker by planet or space platform. Does not alter already-placed nodes.",
+      "type": "enum",
+      "option_set": "surfaces",
+      "default": "all",
+      "ui": { "widget": "combo", "group": "Picker" }
+    },
+    "show_recycling": {
+      "label": "Show item recycling",
+      "tooltip": "Show auto-generated item recycling recipes in the picker (Scrap recycling is always visible).",
+      "type": "bool",
+      "default": false,
+      "ui": { "widget": "checkbox", "group": "Picker" }
+    },
+    "power_mode": {
+      "label": "Power mode",
+      "tooltip": "Display electric power as a metric, wire it as a solver resource to auto-size power plants, or both.",
+      "type": "enum",
+      "option_set": "power_modes",
+      "default": "metric",
+      "ui": { "widget": "combo", "group": "Power" }
+    },
+    "mining_productivity": {
+      "label": "Mining productivity",
+      "tooltip": "Mining productivity research level (+10% output per level for all mining drills and pumpjacks, uncapped).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "1000",
+      "ui": { "widget": "stepper", "group": "Research" }
+    },
+    "research_productivity": {
+      "label": "Research productivity",
+      "tooltip": "Research productivity level (+10% effective science per level in labs and biolabs, uncapped).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "1000",
+      "ui": { "widget": "stepper", "group": "Research" }
+    },
+    "research_speed": {
+      "label": "Lab research speed",
+      "tooltip": "Lab research speed technology tier (multiplies lab speed alongside modules and beacons).",
+      "type": "enum",
+      "option_set": "research_speeds",
+      "default": "lvl-0",
+      "ui": { "widget": "combo", "group": "Research" }
+    },
+    "prod_steel": {
+      "label": "Steel plate productivity",
+      "tooltip": "Steel plate productivity level (+10% per level on Steel plate and Casting steel; total recipe productivity caps at +300%).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "30",
+      "ui": { "widget": "stepper", "group": "Recipe Productivity" }
+    },
+    "prod_lds": {
+      "label": "Low density structure prod.",
+      "tooltip": "Low density structure productivity level (+10% per level on Low density structure and Casting LDS; caps at +300%).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "30",
+      "ui": { "widget": "stepper", "group": "Recipe Productivity" }
+    },
+    "prod_plastic": {
+      "label": "Plastic bar productivity",
+      "tooltip": "Plastic bar productivity level (+10% per level on Plastic bar and Bioplastic; caps at +300%).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "30",
+      "ui": { "widget": "stepper", "group": "Recipe Productivity" }
+    },
+    "prod_processing_unit": {
+      "label": "Processing unit productivity",
+      "tooltip": "Processing unit productivity level (+10% per level on Processing unit; caps at +300%).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "30",
+      "ui": { "widget": "stepper", "group": "Recipe Productivity" }
+    },
+    "prod_rocket_fuel": {
+      "label": "Rocket fuel productivity",
+      "tooltip": "Rocket fuel productivity level (+10% per level on Rocket fuel, Rocket fuel from jelly, and Ammonia rocket fuel; caps at +300%).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "30",
+      "ui": { "widget": "stepper", "group": "Recipe Productivity" }
+    },
+    "prod_rocket_part": {
+      "label": "Rocket part productivity",
+      "tooltip": "Rocket part productivity level (+10% per level on Rocket part; caps at +300%).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "30",
+      "ui": { "widget": "stepper", "group": "Recipe Productivity" }
+    },
+    "prod_scrap": {
+      "label": "Scrap recycling productivity",
+      "tooltip": "Scrap recycling productivity level (+10% per level on Scrap recycling; caps at +300%).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "30",
+      "ui": { "widget": "stepper", "group": "Recipe Productivity" }
+    },
+    "prod_asteroid": {
+      "label": "Asteroid productivity",
+      "tooltip": "Asteroid productivity level (+10% per level on all six asteroid crushing recipes; caps at +300%).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "30",
+      "ui": { "widget": "stepper", "group": "Recipe Productivity" }
+    }
+  },
+  "parameters": {
+    "aquilo_heating": {
+      "label": "Aquilo heating",
+      "tooltip": "Enable when this building is placed on Aquilo to include its separate thermal heat-pipe thaw load in Aquilo thaw heat totals (distinct from electrical power).",
+      "type": "bool",
+      "default": false,
+      "visible_if": "machine.heating_energy > 0",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Environment" }
+    },
+    "quality": {
+      "label": "Building quality",
+      "tooltip": "Quality tier of this building (scales crafting speed, pumping speed, power generation, or heat throughput).",
+      "type": "enum",
+      "option_set": "qualities",
+      "default": "normal",
+      "ui": { "widget": "combo", "placement": "panel", "group": "Machine" }
+    },
+    "modules": {
+      "label": "Modules",
+      "tooltip": "Modules inserted directly into this machine.",
+      "type": "slots",
+      "option_set": "modules",
+      "count": "machine.module_slots",
+      "allowed_if": "(option.prod <= 0 || (recipe.allows_productivity && machine.allows_productivity)) && (option.qual_pos <= 0 || (recipe.allows_quality && machine.allows_quality))",
+      "visible_if": "machine.module_slots > 0",
+      "ui": { "widget": "slot_row", "placement": "body", "group": "Modules" }
+    },
+    "module_quality": {
+      "label": "Module quality",
+      "tooltip": "Quality tier of the modules slotted in this machine (scales beneficial effects; penalties remain unchanged).",
+      "type": "enum",
+      "option_set": "qualities",
+      "default": "normal",
+      "visible_if": "is_set(param.modules)",
+      "ui": { "widget": "combo", "placement": "panel", "group": "Modules" }
+    },
+    "beacon_count": {
+      "label": "Beacons",
+      "tooltip": "Number of beacons in range of this machine (diminishing returns apply automatically).",
+      "type": "int",
+      "default": 0,
+      "min": "0",
+      "max": "32",
+      "visible_if": "machine.allows_beacons",
+      "ui": { "widget": "stepper", "placement": "panel", "group": "Beacons" }
+    },
+    "beacon_quality": {
+      "label": "Beacon quality",
+      "tooltip": "Quality tier of the beacons affecting this machine (scales transmission efficiency from 1.5x to 2.5x).",
+      "type": "enum",
+      "option_set": "qualities",
+      "default": "normal",
+      "visible_if": "param.beacon_count > 0",
+      "ui": { "widget": "combo", "placement": "panel", "group": "Beacons" }
+    },
+    "beacon_modules": {
+      "label": "Beacon modules",
+      "tooltip": "Modules installed in each beacon affecting this machine (speed and efficiency modules only).",
+      "type": "slots",
+      "option_set": "modules",
+      "count": "2",
+      "allowed_if": "option.prod <= 0 && option.qual_pos <= 0",
+      "visible_if": "param.beacon_count > 0",
+      "ui": { "widget": "slot_row", "placement": "panel", "group": "Beacons" }
+    },
+    "beacon_module_quality": {
+      "label": "Beacon module quality",
+      "tooltip": "Quality tier of the modules installed inside the beacons.",
+      "type": "enum",
+      "option_set": "qualities",
+      "default": "normal",
+      "visible_if": "param.beacon_count > 0 && is_set(param.beacon_modules)",
+      "ui": { "widget": "combo", "placement": "panel", "group": "Beacons" }
+    },
+    "fuel": {
+      "label": "Fuel",
+      "tooltip": "Chemical fuel burned by this machine.",
+      "type": "resource_choice",
+      "tag": "chemical_fuel",
+      "default": "coal",
+      "visible_if": "machine.burner_cat == 'chemical'",
+      "ui": { "widget": "combo", "placement": "panel", "group": "Fuel" }
+    },
+    "steam_temp_165": {
+      "label": "Steam temperature",
+      "tooltip": "Choose 165 °C boiler steam or 500 °C heat-exchanger / Vulcanus steam.",
+      "type": "resource_choice",
+      "resources": ["steam-165c", "steam-500c"],
+      "default": "steam-165c",
+      "ui": { "widget": "combo", "placement": "panel", "group": "Fluid" }
+    },
+    "steam_temp_500": {
+      "label": "Steam temperature",
+      "tooltip": "Choose 500 °C heat-exchanger / Vulcanus steam or 165 °C boiler steam.",
+      "type": "resource_choice",
+      "resources": ["steam-500c", "steam-165c"],
+      "default": "steam-500c",
+      "ui": { "widget": "combo", "placement": "panel", "group": "Fluid" }
+    },
+    "patch_yield": {
+      "label": "Patch yield",
+      "tooltip": "Current yield percentage of the fluid deposit (minimum 20%).",
+      "type": "number",
+      "default": 100,
+      "min": "20",
+      "max": "10000",
+      "step": 1,
+      "unit": "%",
+      "visible_if": "recipe.is_infinite_fluid",
+      "ui": { "widget": "drag", "format": "%.4g%%", "placement": "panel", "group": "Deposit" }
+    },
+    "agri_plots": {
+      "label": "Plantable plots",
+      "tooltip": "Number of fertile 3x3 plots planted around each agricultural tower (47 leaves 1 plot for logistics; 48 is theoretical maximum).",
+      "type": "int",
+      "default": 47,
+      "min": "1",
+      "max": "48",
+      "ui": { "widget": "stepper", "placement": "panel", "group": "Agriculture" }
+    },
+    "reactor_neighbors": {
+      "label": "Neighbor bonus",
+      "tooltip": "Average number of active adjacent nuclear reactors (+100% heat output per neighbor without burning extra fuel; e.g. 2 for a 2x2 array).",
+      "type": "number",
+      "default": 0,
+      "min": "0",
+      "max": "4",
+      "step": 0.25,
+      "visible_if": "machine.max_neighbors > 0",
+      "ui": { "widget": "drag", "format": "%.3g", "placement": "panel", "group": "Reactor" }
+    },
+    "fusion_neighbors": {
+      "label": "Reactor neighbors",
+      "tooltip": "Average active neighbor bonus of the feeding fusion reactor (0–5, +100% plasma temperature per neighbor).",
+      "type": "number",
+      "default": 0,
+      "min": "0",
+      "max": "5",
+      "step": 0.25,
+      "ui": { "widget": "drag", "format": "%.3g", "placement": "panel", "group": "Fusion" }
+    },
+    "solar_location": {
+      "label": "Location",
+      "tooltip": "Planet surface (70% day/night average) or space platform orbit (constant 100% sunlight).",
+      "type": "enum",
+      "option_set": "solar_locations",
+      "default": "nauvis-surface",
+      "ui": { "widget": "combo", "placement": "panel", "group": "Solar" }
+    },
+    "research_preset": {
+      "label": "Technology preset",
+      "tooltip": "Choose an infinite technology preset or select Custom to configure packs and cycle time manually.",
+      "type": "enum",
+      "option_set": "research_presets",
+      "default": "all-12-research-prod",
+      "ui": { "widget": "combo", "placement": "panel", "group": "Research" }
+    },
+    "research_cycle_time": {
+      "label": "Cycle time",
+      "tooltip": "Base seconds per research unit for the custom technology.",
+      "type": "number",
+      "default": 60,
+      "min": "1",
+      "max": "600",
+      "step": 5,
+      "unit": "s",
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "drag", "format": "%.4g s", "placement": "panel", "group": "Research" }
+    },
+    "pack_automation": {
+      "label": "Automation science",
+      "type": "bool",
+      "default": true,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_logistic": {
+      "label": "Logistic science",
+      "type": "bool",
+      "default": true,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_military": {
+      "label": "Military science",
+      "type": "bool",
+      "default": false,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_chemical": {
+      "label": "Chemical science",
+      "type": "bool",
+      "default": true,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_production": {
+      "label": "Production science",
+      "type": "bool",
+      "default": true,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_utility": {
+      "label": "Utility science",
+      "type": "bool",
+      "default": false,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_space": {
+      "label": "Space science",
+      "type": "bool",
+      "default": false,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_metallurgic": {
+      "label": "Metallurgic science",
+      "type": "bool",
+      "default": false,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_agricultural": {
+      "label": "Agricultural science",
+      "type": "bool",
+      "default": false,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_electromagnetic": {
+      "label": "Electromagnetic science",
+      "type": "bool",
+      "default": false,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_cryogenic": {
+      "label": "Cryogenic science",
+      "type": "bool",
+      "default": false,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    },
+    "pack_promethium": {
+      "label": "Promethium science",
+      "type": "bool",
+      "default": false,
+      "visible_if": "param.research_preset.is_custom",
+      "ui": { "widget": "checkbox", "placement": "panel", "group": "Custom Science Packs" }
+    }
+  },
+  "metrics": {
+    "power": {
+      "label": "Electric power",
+      "unit": "MW",
+      "format": "%.3f",
+      "display": ["tooltip", "totals"],
+      "aggregate": "sum",
+      "split_sign": true,
+      "is_rate": false
+    },
+    "aquilo_heating": {
+      "label": "Aquilo thaw heat",
+      "unit": "MW",
+      "format": "%.3f",
+      "display": ["tooltip", "totals"],
+      "aggregate": "sum",
+      "split_sign": false,
+      "is_rate": false,
+      "notes": "Thermal heat-pipe load required to prevent buildings from freezing on Aquilo (EntityPrototype.heating_energy, Factorio 2.1.25). Plain MW unit enables case-sensitive SI auto-scaling; separate from electrical power; excludes heat pipes, inserters, and belts."
+    },
+    "pollution": {
+      "label": "Pollution",
+      "unit": "/min",
+      "format": "%.2f",
+      "display": ["tooltip", "totals"],
+      "aggregate": "sum",
+      "split_sign": true,
+      "positive_label": "Emitted",
+      "negative_label": "Absorbed",
+      "is_rate": false
+    },
+    "spores": {
+      "label": "Spores",
+      "unit": "/min",
+      "format": "%.2f",
+      "display": ["tooltip", "totals"],
+      "aggregate": "sum",
+      "split_sign": false,
+      "is_rate": false
+    },
+    "modules_count": {
+      "label": "Modules",
+      "unit": "",
+      "format": "%.0f",
+      "display": ["tooltip", "totals"],
+      "aggregate": "sum",
+      "split_sign": false,
+      "is_rate": false
+    },
+    "quality_chance": {
+      "label": "Quality chance",
+      "unit": "%",
+      "format": "%.1f",
+      "display": ["tooltip"],
+      "aggregate": "none",
+      "split_sign": false,
+      "is_rate": false
+    }
+  },
+  "profiles": {
+    "fa_base": {
+      "notes": "Shared base profile for picker filtering (global.surface, global.show_recycling), switchable power_mode ports/metrics, and Aquilo building thaw heat (Factorio 2.1.25).",
+      "params": ["aquilo_heating"],
+      "visible_if": "(global.surface == 'all') || (global.surface == 'nauvis' && machine.on_nauvis) || (global.surface == 'vulcanus' && machine.on_vulcanus) || (global.surface == 'gleba' && machine.on_gleba) || (global.surface == 'fulgora' && machine.on_fulgora) || (global.surface == 'aquilo' && machine.on_aquilo) || (global.surface == 'space-platform' && machine.on_space)",
+      "recipe_visible_if": "(global.show_recycling || !recipe.is_auto_recycling) && ((global.surface == 'all') || (global.surface == 'nauvis' && recipe.on_nauvis) || (global.surface == 'vulcanus' && recipe.on_vulcanus) || (global.surface == 'gleba' && recipe.on_gleba) || (global.surface == 'fulgora' && recipe.on_fulgora) || (global.surface == 'aquilo' && recipe.on_aquilo) || (global.surface == 'space-platform' && recipe.on_space))",
+      "let": {
+        "use_power_ports": "global.power_mode != 'metric'",
+        "use_power_metric": "global.power_mode != 'resource'",
+        "net_power": "0",
+        "native_power_out": "false",
+        "pol_rate": "0",
+        "spores_rate": "0",
+        "mod_count": "0",
+        "qual_pct": "0"
+      },
+      "extra_ports": [
+        {
+          "id": "power_in",
+          "dir": "in",
+          "resource": "power",
+          "amount": "net_power * craft_time",
+          "enabled": "use_power_ports && net_power > 0"
+        },
+        {
+          "id": "power_out",
+          "dir": "out",
+          "resource": "power",
+          "amount": "-net_power * craft_time",
+          "enabled": "use_power_ports && !native_power_out && net_power < 0"
+        }
+      ],
+      "metrics": {
+        "power": {
+          "enabled": "use_power_metric && abs(net_power) > 1e-9",
+          "per_machine": "net_power"
+        },
+        "aquilo_heating": {
+          "enabled": "param.aquilo_heating && machine.heating_energy > 0",
+          "value": "ceil(max(0, node.machines - 1e-6)) * machine.heating_energy"
+        },
+        "pollution": {
+          "enabled": "abs(pol_rate) > 1e-9",
+          "per_machine": "pol_rate"
+        },
+        "spores": {
+          "enabled": "spores_rate > 1e-9",
+          "per_machine": "spores_rate"
+        },
+        "modules_count": {
+          "enabled": "mod_count > 0",
+          "value": "ceil(max(0, node.machines - 1e-6)) * mod_count"
+        },
+        "quality_chance": {
+          "enabled": "qual_pct > 1e-9",
+          "value": "qual_pct"
+        }
+      }
+    },
+    "fa_crafter": {
+      "extends": "fa_base",
+      "notes": "All 17 crafting machines, furnaces, and rocket-silo. Sources: prototype-api.json (CraftingMachinePrototype, EffectReceiver, ModulePrototype, BeaconPrototype, QualityPrototype, RecipePrototype), data-raw-dump.json (Factorio 2.1.25), https://wiki.factorio.com/Beacon, https://wiki.factorio.com/Pollution.",
+      "params": [
+        "quality", "modules", "module_quality",
+        "beacon_count", "beacon_quality", "beacon_modules", "beacon_module_quality",
+        "fuel", "steam_temp_165", "steam_temp_500"
+      ],
+      "let": {
+        "q_mult": "param.quality.mult",
+        "mq_mult": "param.module_quality.mult",
+        "bmq_mult": "param.beacon_module_quality.mult",
+        "n_beacons": "param.beacon_count",
+        "bmul": "if(n_beacons > 0, n_beacons * param.beacon_quality.beacon_eff * lookup('beacon_profile', n_beacons - 1), 0)",
+        "s_mod": "sum(param.modules.speed_pos) * mq_mult + sum(param.modules.speed_neg)",
+        "s_bcn": "bmul * (sum(param.beacon_modules.speed_pos) * bmq_mult + sum(param.beacon_modules.speed_neg))",
+        "speed_mult": "max(0.2, 1 + s_mod + s_bcn)",
+        "e_mod": "sum(param.modules.cons_pos) + sum(param.modules.cons_neg) * mq_mult",
+        "e_bcn": "bmul * (sum(param.beacon_modules.cons_pos) + sum(param.beacon_modules.cons_neg) * bmq_mult)",
+        "energy_mult": "max(0.2, 1 + e_mod + e_bcn)",
+        "pol_mod": "sum(param.modules.pol_pos)",
+        "pol_bcn": "bmul * sum(param.beacon_modules.pol_pos)",
+        "pol_mult": "max(0.2, 1 + pol_mod + pol_bcn)",
+        "tech_prod": "if(recipe.prod_tech == 'steel', global.prod_steel * 0.1, if(recipe.prod_tech == 'lds', global.prod_lds * 0.1, if(recipe.prod_tech == 'plastic', global.prod_plastic * 0.1, if(recipe.prod_tech == 'processing-unit', global.prod_processing_unit * 0.1, if(recipe.prod_tech == 'rocket-fuel', global.prod_rocket_fuel * 0.1, if(recipe.prod_tech == 'rocket-part', global.prod_rocket_part * 0.1, if(recipe.prod_tech == 'scrap', global.prod_scrap * 0.1, if(recipe.prod_tech == 'asteroid', global.prod_asteroid * 0.1, 0))))))))",
+        "prod": "1 + clamp(machine.base_prod + sum(param.modules.prod) * mq_mult + tech_prod, 0, recipe.max_prod)",
+        "burner_power_mw": "if(machine.burner_cat != '', machine.power * energy_mult, 0)",
+        "net_power": "if(machine.burner_cat == '', machine.power * energy_mult + machine.drain, 0)",
+        "fuel_em": "if(machine.burner_cat == 'chemical', param.fuel.fuel_emissions_mult, 1)",
+        "pol_rate": "machine.pollution * energy_mult * pol_mult * fuel_em",
+        "mod_count": "count(param.modules)",
+        "raw_q": "sum(param.modules.qual_pos) * mq_mult + sum(param.modules.qual_neg) + bmul * sum(param.beacon_modules.qual_neg)",
+        "qual_pct": "if(machine.allows_quality && recipe.allows_quality, max(0, raw_q) * 100, 0)"
+      },
+      "craft_time": "recipe.time / (machine.speed * q_mult * speed_mult)",
+      "output_amount": "(port.catalyst + (port.amount - port.catalyst) * prod) * port.chance",
+      "extra_ports": [
+        {
+          "id": "fuel",
+          "dir": "in",
+          "resource_param": "fuel",
+          "amount": "burner_power_mw * craft_time / (machine.burner_eff * param.fuel.fuel_mj)",
+          "enabled": "machine.burner_cat == 'chemical'"
+        },
+        {
+          "id": "nutrients",
+          "dir": "in",
+          "resource": "nutrients",
+          "amount": "burner_power_mw * craft_time / (machine.burner_eff * game.nutrients_mj)",
+          "enabled": "machine.burner_cat == 'nutrients'"
+        },
+        {
+          "id": "food",
+          "dir": "in",
+          "resource": "bioflux",
+          "amount": "burner_power_mw * craft_time / (machine.burner_eff * game.bioflux_mj)",
+          "enabled": "machine.burner_cat == 'food'"
+        }
+      ]
+    },
+    "fa_miner": {
+      "extends": "fa_base",
+      "notes": "Burner/Electric/Big Mining Drills and Pumpjack. Speed does not scale with quality; mining_productivity is uncapped; infinite fluid patches scale by patch_yield/100 (confirmed in-game on Factorio 2.1.25: crude-oil 10/s, sulfuric-acid-geyser 10/s, fluorine-vent 1/s; finite lithium-brine flat 1/s). Drills have 0 auto-drain (prototype-api.json MiningDrillPrototype).",
+      "params": [
+        "modules", "module_quality",
+        "beacon_count", "beacon_quality", "beacon_modules", "beacon_module_quality",
+        "fuel", "patch_yield"
+      ],
+      "let": {
+        "mq_mult": "param.module_quality.mult",
+        "bmq_mult": "param.beacon_module_quality.mult",
+        "n_beacons": "param.beacon_count",
+        "bmul": "if(n_beacons > 0, n_beacons * param.beacon_quality.beacon_eff * lookup('beacon_profile', n_beacons - 1), 0)",
+        "s_mod": "sum(param.modules.speed_pos) * mq_mult + sum(param.modules.speed_neg)",
+        "s_bcn": "bmul * (sum(param.beacon_modules.speed_pos) * bmq_mult + sum(param.beacon_modules.speed_neg))",
+        "speed_mult": "max(0.2, 1 + s_mod + s_bcn)",
+        "e_mod": "sum(param.modules.cons_pos) + sum(param.modules.cons_neg) * mq_mult",
+        "e_bcn": "bmul * (sum(param.beacon_modules.cons_pos) + sum(param.beacon_modules.cons_neg) * bmq_mult)",
+        "energy_mult": "max(0.2, 1 + e_mod + e_bcn)",
+        "pol_mod": "sum(param.modules.pol_pos)",
+        "pol_bcn": "bmul * sum(param.beacon_modules.pol_pos)",
+        "pol_mult": "max(0.2, 1 + pol_mod + pol_bcn)",
+        "prod": "1 + max(0, sum(param.modules.prod) * mq_mult + global.mining_productivity * 0.1)",
+        "yield_mult": "if(recipe.is_infinite_fluid, param.patch_yield / 100, 1)",
+        "burner_power_mw": "if(machine.burner_cat != '', machine.power * energy_mult, 0)",
+        "net_power": "if(machine.burner_cat == '', machine.power * energy_mult, 0)",
+        "fuel_em": "if(machine.burner_cat == 'chemical', param.fuel.fuel_emissions_mult, 1)",
+        "pol_rate": "machine.pollution * energy_mult * pol_mult * fuel_em",
+        "mod_count": "count(param.modules)",
+        "raw_q": "sum(param.modules.qual_pos) * mq_mult + sum(param.modules.qual_neg) + bmul * sum(param.beacon_modules.qual_neg)",
+        "qual_pct": "if(machine.allows_quality && recipe.allows_quality, max(0, raw_q) * 100, 0)"
+      },
+      "craft_time": "recipe.time / (machine.speed * speed_mult)",
+      "output_amount": "port.amount * port.chance * yield_mult * prod",
+      "extra_ports": [
+        {
+          "id": "fuel",
+          "dir": "in",
+          "resource_param": "fuel",
+          "amount": "burner_power_mw * craft_time / (machine.burner_eff * param.fuel.fuel_mj)",
+          "enabled": "machine.burner_cat == 'chemical'"
+        }
+      ]
+    },
+    "fa_offshore": {
+      "extends": "fa_base",
+      "notes": "Offshore pump: pumping_speed = 20/tick = 1200/s at Normal, scaled by 1 + 0.3 * level (data-raw-dump.json, runtime-api.json LuaEntityPrototype.get_pumping_speed, Factorio 2.1.25). Void energy source (0 MW).",
+      "params": ["quality"],
+      "let": {
+        "q_mult": "param.quality.mult"
+      },
+      "craft_time": "recipe.time / (machine.speed * q_mult)"
+    },
+    "fa_agriculture": {
+      "extends": "fa_base",
+      "notes": "Agricultural tower: 1 seed -> harvest in growth_ticks/60 s divided by agri_plots (default 47, max 48). Active power 100 kW (0 idle drain). Spores = tower 4/min + harvest_emissions.spores * agri_plots * 60 / recipe.time (15 spores per Yumako/Jellystem harvest = 3 * agri_plots / min; 0 for Nauvis trees). Sources: data-raw-dump.json (agricultural-tower, plant), prototype-api.json, https://wiki.factorio.com/Agricultural_tower (Factorio 2.1.25).",
+      "params": ["agri_plots"],
+      "let": {
+        "net_power": "machine.power",
+        "spores_rate": "machine.spores + recipe.harvest_spores * param.agri_plots * 60 / recipe.time"
+      },
+      "craft_time": "recipe.time / param.agri_plots"
+    },
+    "fa_boiler": {
+      "extends": "fa_base",
+      "notes": "Boiler (1.8 MW chemical -> 60 steam-165c/s from 6 water/s, 30/min pollution) and Heat Exchanger (10 MW heat -> 103.09278 steam-500c/s from 10.30928 water/s). Throughput, fuel, and pollution scale by quality 1 + 0.3 * level (data-raw-dump.json, prototype-api.json BoilerPrototype, https://wiki.factorio.com/Quality, Factorio 2.1.25).",
+      "params": ["quality", "fuel"],
+      "let": {
+        "q_mult": "param.quality.mult",
+        "fuel_em": "if(machine.burner_cat == 'chemical', param.fuel.fuel_emissions_mult, 1)",
+        "pol_rate": "machine.pollution * q_mult * fuel_em"
+      },
+      "craft_time": "recipe.time / q_mult",
+      "extra_ports": [
+        {
+          "id": "fuel",
+          "dir": "in",
+          "resource_param": "fuel",
+          "amount": "machine.power * q_mult * craft_time / (machine.burner_eff * param.fuel.fuel_mj)",
+          "enabled": "machine.burner_cat == 'chemical'"
+        }
+      ]
+    },
+    "fa_generator": {
+      "extends": "fa_base",
+      "notes": "Steam Engine (30 steam-165c/s -> 0.9 MW) and Steam Turbine (60 steam-500c/s -> 5.82 MW, or 60 steam-165c/s -> 1.80 MW). Fluid usage and power output scale by quality 1 + 0.3 * level (data-raw-dump.json, runtime-api.json LuaEntityPrototype.get_max_power_output, https://wiki.factorio.com/Quality, Factorio 2.1.25).",
+      "params": ["quality"],
+      "let": {
+        "q_mult": "param.quality.mult",
+        "net_power": "-recipe.gen_mw * q_mult"
+      },
+      "craft_time": "recipe.time / q_mult"
+    },
+    "fa_reactor": {
+      "extends": "fa_base",
+      "notes": "Nuclear Reactor (40 MW * q_mult base, 1 uranium-fuel-cell / (200 / q_mult) s -> depleted cell + 40 * q_mult * (1 + neighbors) MW heat) and Heating Tower (40 MW * q_mult heat at 250% efficiency = 16 MW * q_mult chemical fuel, 100 * q_mult / min pollution). Sources: data-raw-dump.json, prototype-api.json ReactorPrototype, https://wiki.factorio.com/Nuclear_reactor, https://wiki.factorio.com/Heating_tower (Factorio 2.1.25).",
+      "params": ["quality", "fuel", "reactor_neighbors"],
+      "let": {
+        "q_mult": "param.quality.mult",
+        "fuel_em": "if(machine.burner_cat == 'chemical', param.fuel.fuel_emissions_mult, 1)",
+        "pol_rate": "machine.pollution * q_mult * fuel_em"
+      },
+      "craft_time": "recipe.time / q_mult",
+      "output_amount": "if(port.is_heat, port.amount * (1 + param.reactor_neighbors), port.amount)",
+      "extra_ports": [
+        {
+          "id": "fuel",
+          "dir": "in",
+          "resource_param": "fuel",
+          "amount": "machine.power * q_mult * craft_time / (machine.burner_eff * param.fuel.fuel_mj)",
+          "enabled": "machine.burner_cat == 'chemical'"
+        }
+      ]
+    },
+    "fa_fusion_reactor": {
+      "extends": "fa_base",
+      "notes": "Fusion Reactor: consumes 1 fusion-power-cell / (400 / q_mult) s and 4 * q_mult / s fluoroketone-cold -> 4 * q_mult / s fusion-plasma. Electric power_input is fixed at 10 MW regardless of quality (confirmed in-game on Factorio 2.1.25 with Legendary fusion reactor). Neighbor bonus plasma temperature is configured on fa_fusion_generator to guarantee 1:1 fluoroketone conservation.",
+      "params": ["quality"],
+      "let": {
+        "q_mult": "param.quality.mult",
+        "net_power": "machine.power"
+      },
+      "craft_time": "recipe.time / q_mult"
+    },
+    "fa_fusion_generator": {
+      "extends": "fa_base",
+      "notes": "Fusion Generator: outputs 50 * q_mult MW, consuming 2 * q_mult / (1 + fusion_neighbors) plasma/s and returning equal fluoroketone-hot/s (conserving fluoroketone 1:1 with the feeding Fusion Reactor across all qualities and neighbor bonuses 0..5). Sources: data-raw-dump.json, prototype-api.json FusionGeneratorPrototype, https://wiki.factorio.com/Fusion_generator (Factorio 2.1.25).",
+      "params": ["quality", "fusion_neighbors"],
+      "let": {
+        "q_mult": "param.quality.mult",
+        "net_power": "-recipe.gen_mw * q_mult"
+      },
+      "craft_time": "recipe.time / q_mult",
+      "input_amount": "port.amount / (1 + param.fusion_neighbors)",
+      "output_amount": "port.amount / (1 + param.fusion_neighbors)"
+    },
+    "fa_solar": {
+      "extends": "fa_base",
+      "notes": "Solar Panel: 60 kW * q_mult peak * solar_location.solar_mult (70% day/night average on planets, 100% flat in orbit). Outputs typed power (MW) directly on out:0 (native_power_out = true) and never double-emits xout:power_out. Decoupled from global.surface so multi-planet graphs never silently recalculate. Sources: data-raw-dump.json (solar-panel, planet, space-location), https://wiki.factorio.com/Solar_panel (Factorio 2.1.25).",
+      "params": ["quality", "solar_location"],
+      "let": {
+        "q_mult": "param.quality.mult",
+        "native_power_out": "true",
+        "net_power": "-machine.power * q_mult * param.solar_location.solar_mult"
+      },
+      "output_amount": "-net_power"
+    },
+    "fa_lab": {
+      "extends": "fa_base",
+      "notes": "Lab (speed 1, 60 kW, 2 slots, 100% drain) and Biolab (speed 2, 300 kW, 4 slots, 50% drain, 8/min pollution, Nauvis-only). Speed = base * q_mult * (1 + research_speed) * max(0.2, 1 + mod_speed + beacon_speed); research_productivity is uncapped; no quality modules allowed (prototype-api.json LabPrototype, https://wiki.factorio.com/Lab, Factorio 2.1.25).",
+      "params": [
+        "quality", "modules", "module_quality",
+        "beacon_count", "beacon_quality", "beacon_modules", "beacon_module_quality",
+        "research_preset", "research_cycle_time",
+        "pack_automation", "pack_logistic", "pack_military", "pack_chemical",
+        "pack_production", "pack_utility", "pack_space", "pack_metallurgic",
+        "pack_agricultural", "pack_electromagnetic", "pack_cryogenic", "pack_promethium"
+      ],
+      "let": {
+        "q_mult": "param.quality.mult",
+        "mq_mult": "param.module_quality.mult",
+        "bmq_mult": "param.beacon_module_quality.mult",
+        "n_beacons": "param.beacon_count",
+        "bmul": "if(n_beacons > 0, n_beacons * param.beacon_quality.beacon_eff * lookup('beacon_profile', n_beacons - 1), 0)",
+        "s_mod": "sum(param.modules.speed_pos) * mq_mult + sum(param.modules.speed_neg)",
+        "s_bcn": "bmul * (sum(param.beacon_modules.speed_pos) * bmq_mult + sum(param.beacon_modules.speed_neg))",
+        "speed_mult": "max(0.2, 1 + s_mod + s_bcn)",
+        "e_mod": "sum(param.modules.cons_pos) + sum(param.modules.cons_neg) * mq_mult",
+        "e_bcn": "bmul * (sum(param.beacon_modules.cons_pos) + sum(param.beacon_modules.cons_neg) * bmq_mult)",
+        "energy_mult": "max(0.2, 1 + e_mod + e_bcn)",
+        "pol_mod": "sum(param.modules.pol_pos)",
+        "pol_bcn": "bmul * sum(param.beacon_modules.pol_pos)",
+        "pol_mult": "max(0.2, 1 + pol_mod + pol_bcn)",
+        "lab_prod": "1 + max(0, sum(param.modules.prod) * mq_mult + global.research_productivity * 0.1)",
+        "base_cycle": "if(param.research_preset.is_custom, param.research_cycle_time, param.research_preset.cycle_time)",
+        "pack_count": "if(param.research_preset.is_custom, if(param.pack_automation, 1, 0) + if(param.pack_logistic, 1, 0) + if(param.pack_military, 1, 0) + if(param.pack_chemical, 1, 0) + if(param.pack_production, 1, 0) + if(param.pack_utility, 1, 0) + if(param.pack_space, 1, 0) + if(param.pack_metallurgic, 1, 0) + if(param.pack_agricultural, 1, 0) + if(param.pack_electromagnetic, 1, 0) + if(param.pack_cryogenic, 1, 0) + if(param.pack_promethium, 1, 0), 1)",
+        "net_power": "machine.power * energy_mult",
+        "pol_rate": "machine.pollution * energy_mult * pol_mult",
+        "mod_count": "count(param.modules)"
+      },
+      "requires": [
+        { "expr": "pack_count > 0", "message": "Enable at least one science pack" }
+      ],
+      "craft_time": "base_cycle / (machine.speed * q_mult * (1 + global.research_speed.bonus) * speed_mult)",
+      "input_amount": "port.amount * machine.science_drain",
+      "output_amount": "port.amount * lab_prod"
+    },
+    "fa_spoiling": {
+      "extends": "fa_base",
+      "notes": "Passive item spoiling conversions from ItemPrototype.spoil_result and spoil_ticks / 60 (Factorio 2.1.25). 0 MW, 0 pollution.",
+      "params": [],
+      "craft_time": "recipe.time"
+    }
+  }
+}

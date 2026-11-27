@@ -1,0 +1,85 @@
+{
+  "recipes": [
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false
+      },
+      "id": "research",
+      "in": [
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_automation, param.research_preset.p_automation)",
+          "res": "automation-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_logistic, param.research_preset.p_logistic)",
+          "res": "logistic-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_military, param.research_preset.p_military)",
+          "res": "military-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_chemical, param.research_preset.p_chemical)",
+          "res": "chemical-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_production, param.research_preset.p_production)",
+          "res": "production-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_utility, param.research_preset.p_utility)",
+          "res": "utility-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_space, param.research_preset.p_space)",
+          "res": "space-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_metallurgic, param.research_preset.p_metallurgic)",
+          "res": "metallurgic-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_agricultural, param.research_preset.p_agricultural)",
+          "res": "agricultural-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_electromagnetic, param.research_preset.p_electromagnetic)",
+          "res": "electromagnetic-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_cryogenic, param.research_preset.p_cryogenic)",
+          "res": "cryogenic-science-pack"
+        },
+        {
+          "amount": 1,
+          "enabled": "if(param.research_preset.is_custom, param.pack_promethium, param.research_preset.p_promethium)",
+          "res": "promethium-science-pack"
+        }
+      ],
+      "machines": [
+        "lab",
+        "biolab"
+      ],
+      "name": "Research",
+      "out": [
+        [
+          "science",
+          1
+        ]
+      ],
+      "time": 60
+    }
+  ]
+}

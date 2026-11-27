@@ -1,0 +1,130 @@
+{
+  "recipes": [
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "copper-plate",
+      "in": [
+        [
+          "copper-ore",
+          1
+        ]
+      ],
+      "machines": [
+        "electric-furnace",
+        "steel-furnace",
+        "stone-furnace"
+      ],
+      "name": "Copper plate",
+      "out": [
+        [
+          "copper-plate",
+          1
+        ]
+      ],
+      "time": 3.2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "iron-plate",
+      "in": [
+        [
+          "iron-ore",
+          1
+        ]
+      ],
+      "machines": [
+        "electric-furnace",
+        "steel-furnace",
+        "stone-furnace"
+      ],
+      "name": "Iron plate",
+      "out": [
+        [
+          "iron-plate",
+          1
+        ]
+      ],
+      "time": 3.2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "lithium-plate",
+      "in": [
+        [
+          "lithium",
+          1
+        ]
+      ],
+      "machines": [
+        "electric-furnace",
+        "steel-furnace",
+        "stone-furnace"
+      ],
+      "name": "Lithium plate",
+      "out": [
+        [
+          "lithium-plate",
+          1
+        ]
+      ],
+      "time": 6.4
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "steel"
+      },
+      "id": "steel-plate",
+      "in": [
+        [
+          "iron-plate",
+          5
+        ]
+      ],
+      "machines": [
+        "electric-furnace",
+        "steel-furnace",
+        "stone-furnace"
+      ],
+      "name": "Steel plate",
+      "out": [
+        [
+          "steel-plate",
+          1
+        ]
+      ],
+      "time": 16
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "stone-brick",
+      "in": [
+        [
+          "stone",
+          2
+        ]
+      ],
+      "machines": [
+        "electric-furnace",
+        "steel-furnace",
+        "stone-furnace"
+      ],
+      "name": "Stone brick",
+      "out": [
+        [
+          "stone-brick",
+          1
+        ]
+      ],
+      "time": 3.2
+    }
+  ]
+}

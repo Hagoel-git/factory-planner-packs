@@ -1,0 +1,473 @@
+{
+  "recipes": [
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false
+      },
+      "id": "advanced-oil-processing",
+      "in": [
+        [
+          "water",
+          50
+        ],
+        [
+          "crude-oil",
+          100
+        ]
+      ],
+      "machines": [
+        "oil-refinery"
+      ],
+      "name": "Advanced oil processing",
+      "out": [
+        [
+          "heavy-oil",
+          25
+        ],
+        [
+          "light-oil",
+          45
+        ],
+        [
+          "petroleum-gas",
+          55
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_vulcanus": false
+      },
+      "id": "advanced-thruster-fuel",
+      "in": [
+        [
+          "carbon",
+          2
+        ],
+        [
+          "calcite",
+          1
+        ],
+        [
+          "water",
+          100
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Advanced thruster fuel",
+      "out": [
+        [
+          "thruster-fuel",
+          1500
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_vulcanus": false
+      },
+      "id": "advanced-thruster-oxidizer",
+      "in": [
+        [
+          "iron-ore",
+          2
+        ],
+        [
+          "calcite",
+          1
+        ],
+        [
+          "water",
+          100
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Advanced thruster oxidizer",
+      "out": [
+        [
+          "thruster-oxidizer",
+          1500
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false
+      },
+      "id": "basic-oil-processing",
+      "in": [
+        [
+          "crude-oil",
+          100
+        ]
+      ],
+      "machines": [
+        "oil-refinery"
+      ],
+      "name": "Basic oil processing",
+      "out": [
+        [
+          "petroleum-gas",
+          45
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "coal-liquefaction",
+      "in": [
+        [
+          "coal",
+          10
+        ],
+        [
+          "heavy-oil",
+          25
+        ],
+        {
+          "amount": 50,
+          "resource_param": "steam_temp_165"
+        }
+      ],
+      "machines": [
+        "oil-refinery"
+      ],
+      "name": "Coal liquefaction",
+      "out": [
+        {
+          "amount": 90,
+          "catalyst": 25,
+          "res": "heavy-oil"
+        },
+        [
+          "light-oil",
+          20
+        ],
+        [
+          "petroleum-gas",
+          10
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "coal-synthesis",
+      "in": [
+        [
+          "carbon",
+          5
+        ],
+        [
+          "sulfur",
+          1
+        ],
+        [
+          "water",
+          10
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Coal synthesis",
+      "out": [
+        [
+          "coal",
+          1
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "id": "flamethrower-ammo",
+      "in": [
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "crude-oil",
+          100
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Flamethrower ammo",
+      "out": [
+        [
+          "flamethrower-ammo",
+          1
+        ]
+      ],
+      "time": 6
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "holmium-solution",
+      "in": [
+        [
+          "holmium-ore",
+          2
+        ],
+        [
+          "stone",
+          1
+        ],
+        [
+          "water",
+          10
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Holmium solution",
+      "out": [
+        [
+          "holmium-solution",
+          100
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "ice-melting",
+      "in": [
+        [
+          "ice",
+          1
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Ice melting",
+      "out": [
+        [
+          "water",
+          20
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false
+      },
+      "id": "lubricant",
+      "in": [
+        [
+          "heavy-oil",
+          10
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Lubricant",
+      "out": [
+        [
+          "lubricant",
+          10
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "simple-coal-liquefaction",
+      "in": [
+        [
+          "coal",
+          10
+        ],
+        [
+          "calcite",
+          2
+        ],
+        [
+          "sulfuric-acid",
+          25
+        ]
+      ],
+      "machines": [
+        "oil-refinery"
+      ],
+      "name": "Simple coal liquefaction",
+      "out": [
+        [
+          "heavy-oil",
+          50
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "solid-fuel-from-heavy-oil",
+      "in": [
+        [
+          "heavy-oil",
+          20
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Solid fuel from heavy oil",
+      "out": [
+        [
+          "solid-fuel",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "solid-fuel-from-light-oil",
+      "in": [
+        [
+          "light-oil",
+          10
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Solid fuel from light oil",
+      "out": [
+        [
+          "solid-fuel",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "solid-fuel-from-petroleum-gas",
+      "in": [
+        [
+          "petroleum-gas",
+          20
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Solid fuel from petroleum gas",
+      "out": [
+        [
+          "solid-fuel",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_vulcanus": false
+      },
+      "id": "thruster-fuel",
+      "in": [
+        [
+          "carbon",
+          2
+        ],
+        [
+          "water",
+          10
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Thruster fuel",
+      "out": [
+        [
+          "thruster-fuel",
+          75
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_vulcanus": false
+      },
+      "id": "thruster-oxidizer",
+      "in": [
+        [
+          "iron-ore",
+          2
+        ],
+        [
+          "water",
+          10
+        ]
+      ],
+      "machines": [
+        "chemical-plant"
+      ],
+      "name": "Thruster oxidizer",
+      "out": [
+        [
+          "thruster-oxidizer",
+          75
+        ]
+      ],
+      "time": 2
+    }
+  ]
+}

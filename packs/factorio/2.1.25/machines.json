@@ -1,0 +1,473 @@
+{
+  "machines": [
+    {
+      "attrs": {
+        "heating_energy": 0.1,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_space": false,
+        "on_vulcanus": false,
+        "power": 0.1,
+        "spores": 4
+      },
+      "id": "agricultural-tower",
+      "name": "Agricultural tower",
+      "profile": "fa_agriculture",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "drain": 0.0025,
+        "heating_energy": 0.1,
+        "pollution": 4,
+        "power": 0.075
+      },
+      "id": "assembling-machine-1",
+      "name": "Assembling machine 1",
+      "profile": "fa_crafter",
+      "speed": 0.5
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "drain": 0.005,
+        "heating_energy": 0.1,
+        "module_slots": 2,
+        "pollution": 3,
+        "power": 0.15
+      },
+      "id": "assembling-machine-2",
+      "name": "Assembling machine 2",
+      "profile": "fa_crafter",
+      "speed": 0.75
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "drain": 0.0125,
+        "heating_energy": 0.1,
+        "module_slots": 4,
+        "pollution": 2,
+        "power": 0.375
+      },
+      "id": "assembling-machine-3",
+      "name": "Assembling machine 3",
+      "profile": "fa_crafter",
+      "speed": 1.25
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "heating_energy": 0.2,
+        "module_slots": 4,
+        "pollution": 40,
+        "power": 0.3
+      },
+      "id": "big-mining-drill",
+      "name": "Big mining drill",
+      "profile": "fa_miner",
+      "speed": 2.5
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "base_prod": 0.5,
+        "burner_cat": "nutrients",
+        "heating_energy": 0.1,
+        "module_slots": 4,
+        "pollution": -1,
+        "power": 0.5
+      },
+      "id": "biochamber",
+      "name": "Biochamber",
+      "profile": "fa_crafter",
+      "speed": 2
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "module_slots": 4,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_space": false,
+        "on_vulcanus": false,
+        "pollution": 8,
+        "power": 0.3,
+        "science_drain": 0.5
+      },
+      "id": "biolab",
+      "name": "Biolab",
+      "profile": "fa_lab",
+      "speed": 2
+    },
+    {
+      "attrs": {
+        "burner_cat": "chemical",
+        "on_space": false,
+        "pollution": 30,
+        "power": 1.8
+      },
+      "id": "boiler",
+      "name": "Boiler",
+      "profile": "fa_boiler",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "burner_cat": "chemical",
+        "heating_energy": 0.05,
+        "on_space": false,
+        "pollution": 12,
+        "power": 0.15
+      },
+      "id": "burner-mining-drill",
+      "name": "Burner mining drill",
+      "profile": "fa_miner",
+      "speed": 0.25
+    },
+    {
+      "attrs": {
+        "burner_cat": "food",
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_space": false,
+        "on_vulcanus": false,
+        "pollution": -1,
+        "power": 0.1
+      },
+      "id": "captive-biter-spawner",
+      "name": "Captive biter spawner",
+      "profile": "fa_crafter",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "drain": 0.0116666667,
+        "heating_energy": 0.1,
+        "module_slots": 2,
+        "pollution": 4,
+        "power": 0.35
+      },
+      "id": "centrifuge",
+      "name": "Centrifuge",
+      "profile": "fa_crafter",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "drain": 0.007,
+        "heating_energy": 0.1,
+        "module_slots": 3,
+        "pollution": 4,
+        "power": 0.21
+      },
+      "id": "chemical-plant",
+      "name": "Chemical plant",
+      "profile": "fa_crafter",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "drain": 0.018,
+        "module_slots": 2,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_vulcanus": false,
+        "power": 0.54
+      },
+      "id": "crusher",
+      "name": "Crusher",
+      "profile": "fa_crafter",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "drain": 0.05,
+        "heating_energy": 0.1,
+        "module_slots": 8,
+        "pollution": 6,
+        "power": 1.5
+      },
+      "id": "cryogenic-plant",
+      "name": "Cryogenic plant",
+      "profile": "fa_crafter",
+      "speed": 2
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "drain": 0.006,
+        "heating_energy": 0.1,
+        "module_slots": 2,
+        "pollution": 1,
+        "power": 0.18
+      },
+      "id": "electric-furnace",
+      "name": "Electric furnace",
+      "profile": "fa_crafter",
+      "speed": 2
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "heating_energy": 0.1,
+        "module_slots": 3,
+        "pollution": 10,
+        "power": 0.09
+      },
+      "id": "electric-mining-drill",
+      "name": "Electric mining drill",
+      "profile": "fa_miner",
+      "speed": 0.5
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "base_prod": 0.5,
+        "drain": 0.0666666667,
+        "heating_energy": 0.1,
+        "module_slots": 5,
+        "pollution": 4,
+        "power": 2
+      },
+      "id": "electromagnetic-plant",
+      "name": "Electromagnetic plant",
+      "profile": "fa_crafter",
+      "speed": 2
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "allows_quality": true,
+        "base_prod": 0.5,
+        "drain": 0.0833333333,
+        "heating_energy": 0.3,
+        "module_slots": 4,
+        "pollution": 6,
+        "power": 2.5
+      },
+      "id": "foundry",
+      "name": "Foundry",
+      "profile": "fa_crafter",
+      "speed": 4
+    },
+    {
+      "attrs": {},
+      "id": "fusion-generator",
+      "name": "Fusion generator",
+      "profile": "fa_fusion_generator",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "power": 10
+      },
+      "id": "fusion-reactor",
+      "name": "Fusion reactor",
+      "profile": "fa_fusion_reactor",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "power": 10
+      },
+      "id": "heat-exchanger",
+      "name": "Heat exchanger",
+      "profile": "fa_boiler",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "burner_cat": "chemical",
+        "burner_eff": 2.5,
+        "on_space": false,
+        "pollution": 100,
+        "power": 40
+      },
+      "id": "heating-tower",
+      "name": "Heating tower",
+      "profile": "fa_reactor",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "heating_energy": 0.1,
+        "module_slots": 2,
+        "power": 0.06
+      },
+      "id": "lab",
+      "name": "Lab",
+      "profile": "fa_lab",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "max_neighbors": 4,
+        "power": 40
+      },
+      "id": "nuclear-reactor",
+      "name": "Nuclear reactor",
+      "profile": "fa_reactor",
+      "speed": 1
+    },
+    {
+      "attrs": {},
+      "id": "offshore-pump",
+      "name": "Offshore pump",
+      "profile": "fa_offshore",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "drain": 0.014,
+        "heating_energy": 0.2,
+        "module_slots": 3,
+        "pollution": 6,
+        "power": 0.42
+      },
+      "id": "oil-refinery",
+      "name": "Oil refinery",
+      "profile": "fa_crafter",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "heating_energy": 0.05,
+        "module_slots": 2,
+        "pollution": 10,
+        "power": 0.09
+      },
+      "id": "pumpjack",
+      "name": "Pumpjack",
+      "profile": "fa_miner",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_quality": true,
+        "drain": 0.006,
+        "heating_energy": 0.1,
+        "module_slots": 4,
+        "pollution": 2,
+        "power": 0.18
+      },
+      "id": "recycler",
+      "name": "Recycler",
+      "profile": "fa_crafter",
+      "speed": 0.5
+    },
+    {
+      "attrs": {
+        "allows_beacons": true,
+        "allows_productivity": true,
+        "drain": 0.0083333333,
+        "heating_energy": 0.3,
+        "module_slots": 4,
+        "on_space": false,
+        "power": 0.25
+      },
+      "id": "rocket-silo",
+      "name": "Rocket silo",
+      "profile": "fa_crafter",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "power": 0.06
+      },
+      "id": "solar-panel",
+      "name": "Solar panel",
+      "profile": "fa_solar",
+      "speed": 1
+    },
+    {
+      "attrs": {},
+      "id": "spoiling",
+      "name": "Spoiling",
+      "notes": "Passive item decay based on ItemPrototype.spoil_ticks and spoil_result (Factorio 2.1.25).",
+      "profile": "fa_spoiling",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "heating_energy": 0.05
+      },
+      "id": "steam-engine",
+      "name": "Steam engine",
+      "profile": "fa_generator",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "heating_energy": 0.05
+      },
+      "id": "steam-turbine",
+      "name": "Steam turbine",
+      "profile": "fa_generator",
+      "speed": 1
+    },
+    {
+      "attrs": {
+        "burner_cat": "chemical",
+        "on_space": false,
+        "pollution": 4,
+        "power": 0.09
+      },
+      "id": "steel-furnace",
+      "name": "Steel furnace",
+      "profile": "fa_crafter",
+      "speed": 2
+    },
+    {
+      "attrs": {
+        "burner_cat": "chemical",
+        "on_space": false,
+        "pollution": 2,
+        "power": 0.09
+      },
+      "id": "stone-furnace",
+      "name": "Stone furnace",
+      "profile": "fa_crafter",
+      "speed": 1
+    }
+  ]
+}

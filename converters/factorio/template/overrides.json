@@ -1,0 +1,7 @@
+{
+  "notes": "Data-only hand overrides for Factorio 2.1.25 converter. Leave empty unless fixing specific edge-case records.",
+  "exclude_recipes": [],
+  "resource_overrides": {},
+  "machine_overrides": {},
+  "recipe_overrides": {}
+}

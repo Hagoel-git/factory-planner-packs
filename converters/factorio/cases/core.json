@@ -1,0 +1,426 @@
+[
+  {
+    "name": "01: fa_crafter AM3 4x Prod3 + 8x Beacons (2x Speed3) electronic-circuit (fractional 1.5 machines)",
+    "recipe": "electronic-circuit",
+    "machine": "assembling-machine-3",
+    "params": {
+      "modules": ["productivity-module-3", "productivity-module-3", "productivity-module-3", "productivity-module-3"],
+      "beacon_count": 8,
+      "beacon_modules": ["speed-module-3", "speed-module-3"]
+    },
+    "machines": 1.5,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.086169754,
+      "ports": { "in:0": 1.0, "in:1": 3.0, "out:0": 1.4 },
+      "metric_coeffs": { "power": 3.81455, "pollution": 28.38864 },
+      "metrics": { "power": 5.721825, "pollution": 42.58296, "modules_count": 8 }
+    }
+  },
+  {
+    "name": "02: fa_crafter Legendary EM Plant 5x Leg Prod3 + 8x Leg Beacons (2x Leg Speed3) electronic-circuit",
+    "recipe": "electronic-circuit",
+    "machine": "electromagnetic-plant",
+    "params": {
+      "quality": "legendary",
+      "modules": ["productivity-module-3", "productivity-module-3", "productivity-module-3", "productivity-module-3", "productivity-module-3"],
+      "module_quality": "legendary",
+      "beacon_count": 8,
+      "beacon_quality": "legendary",
+      "beacon_modules": ["speed-module-3", "speed-module-3"],
+      "beacon_module_quality": "legendary"
+    },
+    "machines": 1.5,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.005578801,
+      "ports": { "out:0": 2.75 },
+      "metric_coeffs": { "power": 29.862667, "pollution": 89.388 },
+      "metrics": { "power": 44.794, "pollution": 134.082, "modules_count": 10 }
+    }
+  },
+  {
+    "name": "03: fa_crafter Foundry +300% prod cap + prod_steel + aquilo_heating (0.05 partial machine)",
+    "recipe": "casting-steel",
+    "machine": "foundry",
+    "params": {
+      "aquilo_heating": true,
+      "modules": ["productivity-module-3", "productivity-module-3", "productivity-module-3", "productivity-module-3"]
+    },
+    "globals": { "prod_steel": 25 },
+    "machines": 0.05,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 2.0,
+      "ports": { "in:0": 30.0, "out:0": 4.0 },
+      "metric_coeffs": { "power": 10.583333, "pollution": 35.28 },
+      "metrics": {
+        "power": 0.529167,
+        "pollution": 1.764,
+        "aquilo_heating": { "enabled": true, "value": 0.3 },
+        "modules_count": 4
+      }
+    }
+  },
+  {
+    "name": "04: fa_crafter Kovarex catalyst ignored_by_productivity in Centrifuge (2x Prod3)",
+    "recipe": "kovarex-enrichment-process",
+    "machine": "centrifuge",
+    "params": {
+      "modules": ["productivity-module-3", "productivity-module-3"]
+    },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 85.714286,
+      "ports": { "in:0": 40.0, "in:1": 5.0, "out:0": 41.2, "out:1": 2.0 },
+      "metric_coeffs": { "power": 0.921667, "pollution": 12.48 }
+    }
+  },
+  {
+    "name": "05: fa_crafter Biochamber nutrients fuel + negative pollution scaling (nutrients-from-bioflux)",
+    "recipe": "nutrients-from-bioflux",
+    "machine": "biochamber",
+    "params": {
+      "modules": ["productivity-module-3", "productivity-module-3", "speed-module-3", "speed-module-3"]
+    },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.588235,
+      "ports": {
+        "in:0": 5.0,
+        "out:0": 68.0,
+        "xin:nutrients": { "active": true, "resource": "nutrients", "amount": 0.588235 }
+      },
+      "metric_coeffs": { "power": { "enabled": false }, "pollution": -4.8 }
+    }
+  },
+  {
+    "name": "06: fa_crafter Recycler scrap-recycling shared_probability + prod_scrap + Leg Qual3 + Speed3 beacon",
+    "recipe": "scrap-recycling",
+    "machine": "recycler",
+    "params": {
+      "modules": ["quality-module-3", "quality-module-3", "quality-module-3", "quality-module-3"],
+      "module_quality": "legendary",
+      "beacon_count": 1,
+      "beacon_modules": ["speed-module-3", null]
+    },
+    "globals": { "prod_scrap": 5 },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.258065,
+      "ports": { "in:0": 1.0, "out:0": 0.3, "out:11": 0.015 },
+      "metric_coeffs": { "power": 0.375, "pollution": 4.1 },
+      "metrics": { "quality_chance": { "enabled": true, "value": 21.25 } }
+    }
+  },
+  {
+    "name": "07: fa_crafter Steel furnace chemical burner (solid-fuel 12 MJ) iron-plate",
+    "recipe": "iron-plate",
+    "machine": "steel-furnace",
+    "params": { "fuel": "solid-fuel" },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.6,
+      "ports": {
+        "in:0": 1.0,
+        "out:0": 1.0,
+        "xin:fuel": { "active": true, "resource": "solid-fuel", "amount": 0.012 }
+      },
+      "metric_coeffs": { "power": { "enabled": false }, "pollution": 4.0 }
+    }
+  },
+  {
+    "name": "08: fa_crafter Coal liquefaction port-bound steam_temp_165 + power_mode=resource",
+    "recipe": "coal-liquefaction",
+    "machine": "oil-refinery",
+    "globals": { "power_mode": "resource" },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 5.0,
+      "ports": {
+        "in:2": { "active": true, "resource": "steam-165c", "amount": 50.0 },
+        "out:0": 90.0,
+        "xin:power_in": { "active": true, "resource": "power", "amount": 2.17 }
+      },
+      "metrics": { "power": { "enabled": false } }
+    }
+  },
+  {
+    "name": "09: fa_miner Big mining drill uranium-ore + mining_productivity=10 (sulfuric-acid unaffected)",
+    "recipe": "mine-uranium-ore",
+    "machine": "big-mining-drill",
+    "globals": { "mining_productivity": 10 },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.8,
+      "ports": { "in:0": 1.0, "out:0": 2.0 },
+      "metric_coeffs": { "power": 0.3, "pollution": 40.0 }
+    }
+  },
+  {
+    "name": "10a: fa_miner Pumpjack fluorine-vent 300% yield +30% prod (in-game 2.1.25 check)",
+    "recipe": "pump-fluorine-vent",
+    "machine": "pumpjack",
+    "params": { "patch_yield": 300 },
+    "globals": { "mining_productivity": 3 },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.0,
+      "ports": { "out:0": 3.9 },
+      "metric_coeffs": { "power": 0.09, "pollution": 10.0 }
+    }
+  },
+  {
+    "name": "10b: fa_miner Pumpjack lithium-brine flat 1/s +30% prod (in-game 2.1.25 check)",
+    "recipe": "pump-lithium-brine",
+    "machine": "pumpjack",
+    "globals": { "mining_productivity": 3 },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.0,
+      "ports": { "out:0": 1.3 },
+      "metric_coeffs": { "power": 0.09, "pollution": 10.0 }
+    }
+  },
+  {
+    "name": "11: fa_offshore Legendary offshore-pump water (3000/s, 0 MW)",
+    "recipe": "offshore-water",
+    "machine": "offshore-pump",
+    "params": { "quality": "legendary" },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.4,
+      "ports": { "out:0": 1200.0 },
+      "metric_coeffs": { "power": { "enabled": false } }
+    }
+  },
+  {
+    "name": "12a: fa_agriculture Yumako tree 47 plots (2 towers -> 290 spores/min)",
+    "recipe": "grow-yumako-tree",
+    "machine": "agricultural-tower",
+    "params": { "agri_plots": 47 },
+    "machines": 2,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 6.382979,
+      "ports": { "in:0": 1.0, "out:0": 50.0 },
+      "metric_coeffs": { "power": 0.1, "spores": 145.0 },
+      "metrics": { "power": 0.2, "spores": 290.0 }
+    }
+  },
+  {
+    "name": "12b: fa_agriculture Nauvis tree-plant 47 plots (0 harvest spores -> 4 spores/min tower only)",
+    "recipe": "grow-tree-plant",
+    "machine": "agricultural-tower",
+    "params": { "agri_plots": 47 },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 12.765957,
+      "ports": { "in:0": 1.0, "out:0": 4.0 },
+      "metric_coeffs": { "power": 0.1, "spores": 4.0 }
+    }
+  },
+  {
+    "name": "13a: fa_boiler Coal boiler Normal (and Rare quality pollution scaling)",
+    "recipe": "boiler-steam-165c",
+    "machine": "boiler",
+    "params": { "quality": "rare", "fuel": "coal" },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.625,
+      "ports": {
+        "in:0": 6.0,
+        "out:0": 60.0,
+        "xin:fuel": { "active": true, "resource": "coal", "amount": 0.45 }
+      },
+      "metric_coeffs": { "pollution": 48.0 }
+    }
+  },
+  {
+    "name": "13b: fa_generator Steam turbine 500C with power_mode=both",
+    "recipe": "steam-turbine-500c",
+    "machine": "steam-turbine",
+    "globals": { "power_mode": "both" },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.0,
+      "ports": {
+        "in:0": 60.0,
+        "xout:power_out": { "active": true, "resource": "power", "amount": 5.82 }
+      },
+      "metric_coeffs": { "power": -5.82 }
+    }
+  },
+  {
+    "name": "13c: fa_boiler Heat exchanger 500C steam (10 MW rate-invariant heat input)",
+    "recipe": "heat-exchanger-steam-500c",
+    "machine": "heat-exchanger",
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.0,
+      "ports": {
+        "in:0": 10.309278,
+        "in:1": { "active": true, "resource": "heat", "amount": 10.0 },
+        "out:0": 103.092784
+      },
+      "metric_coeffs": { "power": { "enabled": false }, "pollution": { "enabled": false } }
+    }
+  },
+  {
+    "name": "14a: fa_reactor Nuclear reactor Normal 2x2 (neighbors=2 -> 120 MW heat)",
+    "recipe": "nuclear-reactor-heat",
+    "machine": "nuclear-reactor",
+    "params": { "reactor_neighbors": 2 },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 200.0,
+      "ports": { "in:0": 1.0, "out:0": 1.0, "out:1": 24000.0 }
+    }
+  },
+  {
+    "name": "14b: fa_reactor Heating tower Rare 250% efficiency coal",
+    "recipe": "heating-tower-heat",
+    "machine": "heating-tower",
+    "params": { "quality": "rare", "fuel": "coal" },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.625,
+      "ports": {
+        "out:0": 40.0,
+        "xin:fuel": { "active": true, "resource": "coal", "amount": 4.0 }
+      },
+      "metric_coeffs": { "pollution": 160.0 }
+    }
+  },
+  {
+    "name": "15a: fa_fusion_reactor Legendary fixed 10 MW electric (in-game 2.1.25 check)",
+    "recipe": "fusion-reactor-plasma",
+    "machine": "fusion-reactor",
+    "params": { "quality": "legendary" },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 160.0,
+      "ports": { "in:0": 1.0, "in:1": 1600.0, "out:0": 1600.0 },
+      "metric_coeffs": { "power": 10.0 }
+    }
+  },
+  {
+    "name": "15b: fa_fusion_generator 6x Legendary generators at reactor neighbors=2 (-750 MW, 10/s plasma)",
+    "recipe": "fusion-generator-power",
+    "machine": "fusion-generator",
+    "params": { "quality": "legendary", "fusion_neighbors": 2 },
+    "machines": 6,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 0.4,
+      "ports": { "in:0": 0.666667, "out:0": 0.666667 },
+      "metric_coeffs": { "power": -125.0 },
+      "metrics": { "power": -750.0 }
+    }
+  },
+  {
+    "name": "16: fa_solar Epic solar panel in Vulcanus orbit with power_mode=both (no double power_out)",
+    "recipe": "solar-power",
+    "machine": "solar-panel",
+    "params": { "quality": "epic", "solar_location": "vulcanus-orbit" },
+    "globals": { "power_mode": "both" },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 1.0,
+      "ports": { "out:0": 0.684, "xout:power_out": false },
+      "metric_coeffs": { "power": -0.684 }
+    }
+  },
+  {
+    "name": "17a: fa_lab Biolab mining-steel-prod + research_speed lvl-6 + research_prod 10 + 4x Prod3",
+    "recipe": "research",
+    "machine": "biolab",
+    "params": {
+      "research_preset": "mining-steel-prod",
+      "modules": ["productivity-module-3", "productivity-module-3", "productivity-module-3", "productivity-module-3"]
+    },
+    "globals": { "research_speed": "lvl-6", "research_productivity": 10 },
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 21.428571,
+      "ports": {
+        "in:0": 0.5,
+        "in:1": 0.5,
+        "in:2": false,
+        "in:3": 0.5,
+        "in:4": 0.5,
+        "in:5": false,
+        "out:0": 2.4
+      },
+      "metric_coeffs": { "power": 1.26, "pollution": 47.04 },
+      "metrics": { "modules_count": 4 }
+    }
+  },
+  {
+    "name": "17b: fa_lab Biolab custom 0 packs -> BLOCKED",
+    "recipe": "research",
+    "machine": "biolab",
+    "params": {
+      "research_preset": "custom",
+      "pack_automation": false,
+      "pack_logistic": false,
+      "pack_chemical": false,
+      "pack_production": false
+    },
+    "expect": { "status": "BLOCKED" }
+  },
+  {
+    "name": "18: fa_spoiling passive iron-bacteria -> iron-ore (60 s, 0 MW, 0 pollution)",
+    "recipe": "spoil-iron-bacteria",
+    "machine": "spoiling",
+    "machines": 1,
+    "tol": 1e-4,
+    "expect": {
+      "status": "OK",
+      "craft_time_s": 60.0,
+      "ports": { "in:0": 1.0, "out:0": 1.0 },
+      "metric_coeffs": { "power": { "enabled": false }, "pollution": { "enabled": false } }
+    }
+  }
+]

@@ -1,0 +1,461 @@
+{
+  "recipes": [
+    {
+      "attrs": {
+        "harvest_spores": 15,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "grow-jellystem",
+      "in": [
+        [
+          "jellynut-seed",
+          1
+        ]
+      ],
+      "machines": [
+        "agricultural-tower"
+      ],
+      "name": "Grow Jellystem",
+      "out": [
+        [
+          "jellynut",
+          50
+        ]
+      ],
+      "time": 300
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "grow-tree-plant",
+      "in": [
+        [
+          "tree-seed",
+          1
+        ]
+      ],
+      "machines": [
+        "agricultural-tower"
+      ],
+      "name": "Grow Tree",
+      "out": [
+        [
+          "wood",
+          4
+        ]
+      ],
+      "time": 600
+    },
+    {
+      "attrs": {
+        "harvest_spores": 15,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "grow-yumako-tree",
+      "in": [
+        [
+          "yumako-seed",
+          1
+        ]
+      ],
+      "machines": [
+        "agricultural-tower"
+      ],
+      "name": "Grow Yumako tree",
+      "out": [
+        [
+          "yumako",
+          50
+        ]
+      ],
+      "time": 300
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "mine-calcite",
+      "machines": [
+        "electric-mining-drill",
+        "big-mining-drill",
+        "burner-mining-drill"
+      ],
+      "name": "Mine Calcite",
+      "out": [
+        [
+          "calcite",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_space": false
+      },
+      "id": "mine-coal",
+      "machines": [
+        "electric-mining-drill",
+        "big-mining-drill",
+        "burner-mining-drill"
+      ],
+      "name": "Mine Coal",
+      "out": [
+        [
+          "coal",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "mine-copper-ore",
+      "machines": [
+        "electric-mining-drill",
+        "big-mining-drill",
+        "burner-mining-drill"
+      ],
+      "name": "Mine Copper ore",
+      "out": [
+        [
+          "copper-ore",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "mine-iron-ore",
+      "machines": [
+        "electric-mining-drill",
+        "big-mining-drill",
+        "burner-mining-drill"
+      ],
+      "name": "Mine Iron ore",
+      "out": [
+        [
+          "iron-ore",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "mine-scrap",
+      "machines": [
+        "electric-mining-drill",
+        "big-mining-drill",
+        "burner-mining-drill"
+      ],
+      "name": "Mine Scrap",
+      "out": [
+        [
+          "scrap",
+          1
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "mine-stone",
+      "machines": [
+        "electric-mining-drill",
+        "big-mining-drill",
+        "burner-mining-drill"
+      ],
+      "name": "Mine Stone",
+      "out": [
+        [
+          "stone",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "mine-tungsten-ore",
+      "machines": [
+        "big-mining-drill"
+      ],
+      "name": "Mine Tungsten ore",
+      "out": [
+        [
+          "tungsten-ore",
+          1
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "mine-uranium-ore",
+      "in": [
+        [
+          "sulfuric-acid",
+          1
+        ]
+      ],
+      "machines": [
+        "electric-mining-drill",
+        "big-mining-drill"
+      ],
+      "name": "Mine Uranium ore",
+      "out": [
+        [
+          "uranium-ore",
+          1
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_quality": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "offshore-ammoniacal-solution",
+      "machines": [
+        "offshore-pump"
+      ],
+      "name": "Pump Ammoniacal solution (offshore)",
+      "out": [
+        [
+          "ammoniacal-solution",
+          1200
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_quality": false,
+        "on_aquilo": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "offshore-heavy-oil",
+      "machines": [
+        "offshore-pump"
+      ],
+      "name": "Pump Heavy oil (offshore)",
+      "out": [
+        [
+          "heavy-oil",
+          1200
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_quality": false,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "offshore-lava",
+      "machines": [
+        "offshore-pump"
+      ],
+      "name": "Pump Lava (offshore)",
+      "out": [
+        [
+          "lava",
+          1200
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_quality": false,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "offshore-water",
+      "machines": [
+        "offshore-pump"
+      ],
+      "name": "Pump Water (offshore)",
+      "out": [
+        [
+          "water",
+          1200
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false,
+        "is_infinite_fluid": true,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "pump-crude-oil",
+      "machines": [
+        "pumpjack"
+      ],
+      "name": "Pump Crude oil",
+      "out": [
+        [
+          "crude-oil",
+          10
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false,
+        "is_infinite_fluid": true,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "pump-fluorine-vent",
+      "machines": [
+        "pumpjack"
+      ],
+      "name": "Pump Fluorine vent",
+      "out": [
+        [
+          "fluorine",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "pump-lithium-brine",
+      "machines": [
+        "pumpjack"
+      ],
+      "name": "Pump Lithium brine",
+      "out": [
+        [
+          "lithium-brine",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false,
+        "is_infinite_fluid": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "pump-sulfuric-acid-geyser",
+      "machines": [
+        "pumpjack"
+      ],
+      "name": "Pump Sulfuric acid geyser",
+      "out": [
+        [
+          "sulfuric-acid",
+          10
+        ]
+      ],
+      "time": 1
+    }
+  ]
+}

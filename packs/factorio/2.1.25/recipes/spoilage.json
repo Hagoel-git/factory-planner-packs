@@ -1,0 +1,204 @@
+{
+  "recipes": [
+    {
+      "id": "spoil-agricultural-science-pack",
+      "in": [
+        [
+          "agricultural-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "spoiling"
+      ],
+      "name": "Spoil Agricultural science pack",
+      "out": [
+        [
+          "spoilage",
+          1
+        ]
+      ],
+      "time": 3600
+    },
+    {
+      "id": "spoil-bioflux",
+      "in": [
+        [
+          "bioflux",
+          1
+        ]
+      ],
+      "machines": [
+        "spoiling"
+      ],
+      "name": "Spoil Bioflux",
+      "out": [
+        [
+          "spoilage",
+          1
+        ]
+      ],
+      "time": 7200
+    },
+    {
+      "id": "spoil-copper-bacteria",
+      "in": [
+        [
+          "copper-bacteria",
+          1
+        ]
+      ],
+      "machines": [
+        "spoiling"
+      ],
+      "name": "Spoil Copper bacteria",
+      "out": [
+        [
+          "copper-ore",
+          1
+        ]
+      ],
+      "time": 60
+    },
+    {
+      "id": "spoil-iron-bacteria",
+      "in": [
+        [
+          "iron-bacteria",
+          1
+        ]
+      ],
+      "machines": [
+        "spoiling"
+      ],
+      "name": "Spoil Iron bacteria",
+      "out": [
+        [
+          "iron-ore",
+          1
+        ]
+      ],
+      "time": 60
+    },
+    {
+      "id": "spoil-jelly",
+      "in": [
+        [
+          "jelly",
+          1
+        ]
+      ],
+      "machines": [
+        "spoiling"
+      ],
+      "name": "Spoil Jelly",
+      "out": [
+        [
+          "spoilage",
+          1
+        ]
+      ],
+      "time": 240
+    },
+    {
+      "id": "spoil-jellynut",
+      "in": [
+        [
+          "jellynut",
+          1
+        ]
+      ],
+      "machines": [
+        "spoiling"
+      ],
+      "name": "Spoil Jellynut",
+      "out": [
+        [
+          "spoilage",
+          1
+        ]
+      ],
+      "time": 3600
+    },
+    {
+      "id": "spoil-nutrients",
+      "in": [
+        [
+          "nutrients",
+          1
+        ]
+      ],
+      "machines": [
+        "spoiling"
+      ],
+      "name": "Spoil Nutrients",
+      "out": [
+        [
+          "spoilage",
+          1
+        ]
+      ],
+      "time": 300
+    },
+    {
+      "id": "spoil-raw-fish",
+      "in": [
+        [
+          "raw-fish",
+          1
+        ]
+      ],
+      "machines": [
+        "spoiling"
+      ],
+      "name": "Spoil Raw fish",
+      "out": [
+        [
+          "spoilage",
+          1
+        ]
+      ],
+      "time": 7550
+    },
+    {
+      "id": "spoil-yumako",
+      "in": [
+        [
+          "yumako",
+          1
+        ]
+      ],
+      "machines": [
+        "spoiling"
+      ],
+      "name": "Spoil Yumako",
+      "out": [
+        [
+          "spoilage",
+          1
+        ]
+      ],
+      "time": 3600
+    },
+    {
+      "id": "spoil-yumako-mash",
+      "in": [
+        [
+          "yumako-mash",
+          1
+        ]
+      ],
+      "machines": [
+        "spoiling"
+      ],
+      "name": "Spoil Yumako mash",
+      "out": [
+        [
+          "spoilage",
+          1
+        ]
+      ],
+      "time": 180
+    }
+  ]
+}

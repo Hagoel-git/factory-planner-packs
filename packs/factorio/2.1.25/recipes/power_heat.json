@@ -1,0 +1,210 @@
+{
+  "recipes": [
+    {
+      "attrs": {
+        "on_space": false
+      },
+      "id": "boiler-steam-165c",
+      "in": [
+        [
+          "water",
+          6
+        ]
+      ],
+      "machines": [
+        "boiler"
+      ],
+      "name": "Boil water (165 °C steam)",
+      "out": [
+        [
+          "steam-165c",
+          60
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "gen_mw": 50
+      },
+      "id": "fusion-generator-power",
+      "in": [
+        [
+          "fusion-plasma",
+          2
+        ]
+      ],
+      "machines": [
+        "fusion-generator"
+      ],
+      "name": "Fusion power",
+      "out": [
+        [
+          "fluoroketone-hot",
+          2
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "id": "fusion-reactor-plasma",
+      "in": [
+        [
+          "fusion-power-cell",
+          1
+        ],
+        [
+          "fluoroketone-cold",
+          1600
+        ]
+      ],
+      "machines": [
+        "fusion-reactor"
+      ],
+      "name": "Fusion plasma",
+      "out": [
+        [
+          "fusion-plasma",
+          1600
+        ]
+      ],
+      "time": 400
+    },
+    {
+      "id": "heat-exchanger-steam-500c",
+      "in": [
+        [
+          "water",
+          10.3092783505
+        ],
+        [
+          "heat",
+          10
+        ]
+      ],
+      "machines": [
+        "heat-exchanger"
+      ],
+      "name": "Heat exchanger (500 °C steam)",
+      "out": [
+        [
+          "steam-500c",
+          103.0927835052
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "on_space": false
+      },
+      "id": "heating-tower-heat",
+      "machines": [
+        "heating-tower"
+      ],
+      "name": "Heating tower heat",
+      "out": [
+        {
+          "amount": 40,
+          "attrs": {
+            "is_heat": true
+          },
+          "res": "heat"
+        }
+      ],
+      "time": 1
+    },
+    {
+      "id": "nuclear-reactor-heat",
+      "in": [
+        [
+          "uranium-fuel-cell",
+          1
+        ]
+      ],
+      "machines": [
+        "nuclear-reactor"
+      ],
+      "name": "Nuclear reactor heat",
+      "out": [
+        [
+          "depleted-uranium-fuel-cell",
+          1
+        ],
+        {
+          "amount": 8000,
+          "attrs": {
+            "is_heat": true
+          },
+          "res": "heat"
+        }
+      ],
+      "time": 200
+    },
+    {
+      "id": "solar-power",
+      "machines": [
+        "solar-panel"
+      ],
+      "name": "Solar power",
+      "out": [
+        [
+          "power",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "gen_mw": 0.9
+      },
+      "id": "steam-engine-165c",
+      "in": [
+        [
+          "steam-165c",
+          30
+        ]
+      ],
+      "machines": [
+        "steam-engine"
+      ],
+      "name": "Steam engine power (165 °C)",
+      "time": 1
+    },
+    {
+      "attrs": {
+        "gen_mw": 1.8
+      },
+      "id": "steam-turbine-165c",
+      "in": [
+        [
+          "steam-165c",
+          60
+        ]
+      ],
+      "machines": [
+        "steam-turbine"
+      ],
+      "name": "Steam turbine power (165 °C)",
+      "time": 1
+    },
+    {
+      "attrs": {
+        "gen_mw": 5.82
+      },
+      "id": "steam-turbine-500c",
+      "in": [
+        [
+          "steam-500c",
+          60
+        ]
+      ],
+      "machines": [
+        "steam-turbine"
+      ],
+      "name": "Steam turbine power (500 °C)",
+      "time": 1
+    }
+  ]
+}

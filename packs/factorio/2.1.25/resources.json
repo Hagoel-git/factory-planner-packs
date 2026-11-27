@@ -1,0 +1,1652 @@
+{
+  "resources": [
+    {
+      "id": "accumulator",
+      "kind": "item",
+      "name": "Accumulator"
+    },
+    {
+      "id": "active-provider-chest",
+      "kind": "item",
+      "name": "Active provider chest"
+    },
+    {
+      "id": "advanced-circuit",
+      "kind": "item",
+      "name": "Advanced circuit"
+    },
+    {
+      "id": "agricultural-science-pack",
+      "kind": "item",
+      "name": "Agricultural science pack"
+    },
+    {
+      "id": "agricultural-tower",
+      "kind": "item",
+      "name": "Agricultural tower"
+    },
+    {
+      "id": "ammonia",
+      "kind": "fluid",
+      "name": "Ammonia"
+    },
+    {
+      "id": "ammoniacal-solution",
+      "kind": "fluid",
+      "name": "Ammoniacal solution"
+    },
+    {
+      "id": "arithmetic-combinator",
+      "kind": "item",
+      "name": "Arithmetic combinator"
+    },
+    {
+      "id": "artificial-jellynut-soil",
+      "kind": "item",
+      "name": "Artificial jellynut soil"
+    },
+    {
+      "id": "artificial-yumako-soil",
+      "kind": "item",
+      "name": "Artificial yumako soil"
+    },
+    {
+      "id": "artillery-shell",
+      "kind": "item",
+      "name": "Artillery shell"
+    },
+    {
+      "id": "artillery-turret",
+      "kind": "item",
+      "name": "Artillery turret"
+    },
+    {
+      "id": "artillery-wagon",
+      "kind": "item",
+      "name": "Artillery wagon"
+    },
+    {
+      "id": "assembling-machine-1",
+      "kind": "item",
+      "name": "Assembling machine 1"
+    },
+    {
+      "id": "assembling-machine-2",
+      "kind": "item",
+      "name": "Assembling machine 2"
+    },
+    {
+      "id": "assembling-machine-3",
+      "kind": "item",
+      "name": "Assembling machine 3"
+    },
+    {
+      "id": "asteroid-collector",
+      "kind": "item",
+      "name": "Asteroid collector"
+    },
+    {
+      "id": "atomic-bomb",
+      "kind": "item",
+      "name": "Atomic bomb"
+    },
+    {
+      "id": "automation-science-pack",
+      "kind": "item",
+      "name": "Automation science pack"
+    },
+    {
+      "id": "barrel",
+      "kind": "item",
+      "name": "Barrel"
+    },
+    {
+      "id": "battery",
+      "kind": "item",
+      "name": "Battery"
+    },
+    {
+      "id": "battery-equipment",
+      "kind": "item",
+      "name": "Personal battery"
+    },
+    {
+      "id": "battery-mk2-equipment",
+      "kind": "item",
+      "name": "Personal battery MK2"
+    },
+    {
+      "id": "battery-mk3-equipment",
+      "kind": "item",
+      "name": "Personal battery MK3"
+    },
+    {
+      "id": "beacon",
+      "kind": "item",
+      "name": "Beacon"
+    },
+    {
+      "id": "belt-immunity-equipment",
+      "kind": "item",
+      "name": "Belt immunity equipment"
+    },
+    {
+      "id": "big-electric-pole",
+      "kind": "item",
+      "name": "Big electric pole"
+    },
+    {
+      "id": "big-mining-drill",
+      "kind": "item",
+      "name": "Big mining drill"
+    },
+    {
+      "id": "biochamber",
+      "kind": "item",
+      "name": "Biochamber"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 6
+      },
+      "id": "bioflux",
+      "kind": "item",
+      "name": "Bioflux"
+    },
+    {
+      "id": "biolab",
+      "kind": "item",
+      "name": "Biolab"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 6
+      },
+      "id": "biter-egg",
+      "kind": "item",
+      "name": "Biter egg",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "boiler",
+      "kind": "item",
+      "name": "Boiler"
+    },
+    {
+      "id": "buffer-chest",
+      "kind": "item",
+      "name": "Buffer chest"
+    },
+    {
+      "id": "bulk-inserter",
+      "kind": "item",
+      "name": "Bulk inserter"
+    },
+    {
+      "id": "burner-inserter",
+      "kind": "item",
+      "name": "Burner inserter"
+    },
+    {
+      "id": "burner-mining-drill",
+      "kind": "item",
+      "name": "Burner mining drill"
+    },
+    {
+      "id": "calcite",
+      "kind": "item",
+      "name": "Calcite"
+    },
+    {
+      "id": "cannon-shell",
+      "kind": "item",
+      "name": "Cannon shell"
+    },
+    {
+      "id": "captive-biter-spawner",
+      "kind": "item",
+      "name": "Captive biter spawner"
+    },
+    {
+      "id": "capture-robot-rocket",
+      "kind": "item",
+      "name": "Capture bot rocket"
+    },
+    {
+      "id": "car",
+      "kind": "item",
+      "name": "Car"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 2
+      },
+      "id": "carbon",
+      "kind": "item",
+      "name": "Carbon",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "carbon-fiber",
+      "kind": "item",
+      "name": "Carbon fiber"
+    },
+    {
+      "id": "carbonic-asteroid-chunk",
+      "kind": "item",
+      "name": "Carbonic asteroid chunk"
+    },
+    {
+      "id": "cargo-bay",
+      "kind": "item",
+      "name": "Cargo bay"
+    },
+    {
+      "id": "cargo-landing-pad",
+      "kind": "item",
+      "name": "Cargo landing pad"
+    },
+    {
+      "id": "cargo-wagon",
+      "kind": "item",
+      "name": "Cargo wagon"
+    },
+    {
+      "id": "centrifuge",
+      "kind": "item",
+      "name": "Centrifuge"
+    },
+    {
+      "id": "chemical-plant",
+      "kind": "item",
+      "name": "Chemical plant"
+    },
+    {
+      "id": "chemical-science-pack",
+      "kind": "item",
+      "name": "Chemical science pack"
+    },
+    {
+      "id": "cliff-explosives",
+      "kind": "item",
+      "name": "Cliff explosives"
+    },
+    {
+      "id": "cluster-grenade",
+      "kind": "item",
+      "name": "Cluster grenade"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 4
+      },
+      "id": "coal",
+      "kind": "item",
+      "name": "Coal",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "combat-shotgun",
+      "kind": "item",
+      "name": "Combat shotgun"
+    },
+    {
+      "id": "concrete",
+      "kind": "item",
+      "name": "Concrete"
+    },
+    {
+      "id": "constant-combinator",
+      "kind": "item",
+      "name": "Constant combinator"
+    },
+    {
+      "id": "construction-robot",
+      "kind": "item",
+      "name": "Construction robot"
+    },
+    {
+      "id": "copper-bacteria",
+      "kind": "item",
+      "name": "Copper bacteria"
+    },
+    {
+      "id": "copper-cable",
+      "kind": "item",
+      "name": "Copper cable"
+    },
+    {
+      "id": "copper-ore",
+      "kind": "item",
+      "name": "Copper ore"
+    },
+    {
+      "id": "copper-plate",
+      "kind": "item",
+      "name": "Copper plate"
+    },
+    {
+      "id": "crude-oil",
+      "kind": "fluid",
+      "name": "Crude oil"
+    },
+    {
+      "id": "crude-oil-barrel",
+      "kind": "item",
+      "name": "Crude oil barrel"
+    },
+    {
+      "id": "crusher",
+      "kind": "item",
+      "name": "Crusher"
+    },
+    {
+      "id": "cryogenic-plant",
+      "kind": "item",
+      "name": "Cryogenic plant"
+    },
+    {
+      "id": "cryogenic-science-pack",
+      "kind": "item",
+      "name": "Cryogenic science pack"
+    },
+    {
+      "id": "decider-combinator",
+      "kind": "item",
+      "name": "Decider combinator"
+    },
+    {
+      "id": "defender-capsule",
+      "kind": "item",
+      "name": "Defender capsule"
+    },
+    {
+      "id": "depleted-uranium-fuel-cell",
+      "kind": "item",
+      "name": "Depleted uranium fuel cell"
+    },
+    {
+      "id": "destroyer-capsule",
+      "kind": "item",
+      "name": "Destroyer capsule"
+    },
+    {
+      "id": "discharge-defense-equipment",
+      "kind": "item",
+      "name": "Discharge defense"
+    },
+    {
+      "id": "display-panel",
+      "kind": "item",
+      "name": "Display panel"
+    },
+    {
+      "id": "distractor-capsule",
+      "kind": "item",
+      "name": "Distractor capsule"
+    },
+    {
+      "id": "efficiency-module",
+      "kind": "item",
+      "name": "Efficiency module"
+    },
+    {
+      "id": "efficiency-module-2",
+      "kind": "item",
+      "name": "Efficiency module 2"
+    },
+    {
+      "id": "efficiency-module-3",
+      "kind": "item",
+      "name": "Efficiency module 3"
+    },
+    {
+      "id": "electric-engine-unit",
+      "kind": "item",
+      "name": "Electric engine unit"
+    },
+    {
+      "id": "electric-furnace",
+      "kind": "item",
+      "name": "Electric furnace"
+    },
+    {
+      "id": "electric-mining-drill",
+      "kind": "item",
+      "name": "Electric mining drill"
+    },
+    {
+      "id": "electrolyte",
+      "kind": "fluid",
+      "name": "Electrolyte"
+    },
+    {
+      "id": "electromagnetic-plant",
+      "kind": "item",
+      "name": "Electromagnetic plant"
+    },
+    {
+      "id": "electromagnetic-science-pack",
+      "kind": "item",
+      "name": "Electromagnetic science pack"
+    },
+    {
+      "id": "electronic-circuit",
+      "kind": "item",
+      "name": "Electronic circuit"
+    },
+    {
+      "id": "energy-shield-equipment",
+      "kind": "item",
+      "name": "Energy shield"
+    },
+    {
+      "id": "energy-shield-mk2-equipment",
+      "kind": "item",
+      "name": "Energy shield MK2"
+    },
+    {
+      "id": "engine-unit",
+      "kind": "item",
+      "name": "Engine unit"
+    },
+    {
+      "id": "exoskeleton-equipment",
+      "kind": "item",
+      "name": "Exoskeleton"
+    },
+    {
+      "id": "explosive-cannon-shell",
+      "kind": "item",
+      "name": "Explosive cannon shell"
+    },
+    {
+      "id": "explosive-rocket",
+      "kind": "item",
+      "name": "Explosive rocket"
+    },
+    {
+      "id": "explosive-uranium-cannon-shell",
+      "kind": "item",
+      "name": "Explosive uranium cannon shell"
+    },
+    {
+      "id": "explosives",
+      "kind": "item",
+      "name": "Explosives"
+    },
+    {
+      "id": "express-splitter",
+      "kind": "item",
+      "name": "Express splitter"
+    },
+    {
+      "id": "express-transport-belt",
+      "kind": "item",
+      "name": "Express transport belt"
+    },
+    {
+      "id": "express-underground-belt",
+      "kind": "item",
+      "name": "Express underground belt"
+    },
+    {
+      "id": "fast-inserter",
+      "kind": "item",
+      "name": "Fast inserter"
+    },
+    {
+      "id": "fast-splitter",
+      "kind": "item",
+      "name": "Fast splitter"
+    },
+    {
+      "id": "fast-transport-belt",
+      "kind": "item",
+      "name": "Fast transport belt"
+    },
+    {
+      "id": "fast-underground-belt",
+      "kind": "item",
+      "name": "Fast underground belt"
+    },
+    {
+      "id": "firearm-magazine",
+      "kind": "item",
+      "name": "Firearm magazine"
+    },
+    {
+      "id": "fission-reactor-equipment",
+      "kind": "item",
+      "name": "Portable fission reactor"
+    },
+    {
+      "id": "flamethrower",
+      "kind": "item",
+      "name": "Flamethrower"
+    },
+    {
+      "id": "flamethrower-ammo",
+      "kind": "item",
+      "name": "Flamethrower ammo"
+    },
+    {
+      "id": "flamethrower-turret",
+      "kind": "item",
+      "name": "Flamethrower turret"
+    },
+    {
+      "id": "fluid-wagon",
+      "kind": "item",
+      "name": "Fluid wagon"
+    },
+    {
+      "id": "fluorine",
+      "kind": "fluid",
+      "name": "Fluorine"
+    },
+    {
+      "id": "fluoroketone-cold",
+      "kind": "fluid",
+      "name": "Fluoroketone (Cold)"
+    },
+    {
+      "id": "fluoroketone-cold-barrel",
+      "kind": "item",
+      "name": "Fluoroketone (Cold) barrel"
+    },
+    {
+      "id": "fluoroketone-hot",
+      "kind": "fluid",
+      "name": "Fluoroketone (Hot)"
+    },
+    {
+      "id": "fluoroketone-hot-barrel",
+      "kind": "item",
+      "name": "Fluoroketone (Hot) barrel"
+    },
+    {
+      "id": "flying-robot-frame",
+      "kind": "item",
+      "name": "Flying robot frame"
+    },
+    {
+      "id": "foundation",
+      "kind": "item",
+      "name": "Foundation"
+    },
+    {
+      "id": "foundry",
+      "kind": "item",
+      "name": "Foundry"
+    },
+    {
+      "id": "fusion-generator",
+      "kind": "item",
+      "name": "Fusion generator"
+    },
+    {
+      "id": "fusion-plasma",
+      "kind": "fluid",
+      "name": "Plasma"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 40000
+      },
+      "id": "fusion-power-cell",
+      "kind": "item",
+      "name": "Fusion power cell"
+    },
+    {
+      "id": "fusion-reactor",
+      "kind": "item",
+      "name": "Fusion reactor"
+    },
+    {
+      "id": "fusion-reactor-equipment",
+      "kind": "item",
+      "name": "Portable fusion reactor"
+    },
+    {
+      "id": "gate",
+      "kind": "item",
+      "name": "Gate"
+    },
+    {
+      "id": "grenade",
+      "kind": "item",
+      "name": "Grenade"
+    },
+    {
+      "id": "gun-turret",
+      "kind": "item",
+      "name": "Gun turret"
+    },
+    {
+      "id": "hazard-concrete",
+      "kind": "item",
+      "name": "Hazard concrete"
+    },
+    {
+      "id": "heat",
+      "kind": "heat",
+      "name": "Heat"
+    },
+    {
+      "id": "heat-exchanger",
+      "kind": "item",
+      "name": "Heat exchanger"
+    },
+    {
+      "id": "heat-pipe",
+      "kind": "item",
+      "name": "Heat pipe"
+    },
+    {
+      "id": "heating-tower",
+      "kind": "item",
+      "name": "Heating tower"
+    },
+    {
+      "id": "heavy-armor",
+      "kind": "item",
+      "name": "Heavy armor"
+    },
+    {
+      "id": "heavy-oil",
+      "kind": "fluid",
+      "name": "Heavy oil"
+    },
+    {
+      "id": "heavy-oil-barrel",
+      "kind": "item",
+      "name": "Heavy oil barrel"
+    },
+    {
+      "id": "holmium-ore",
+      "kind": "item",
+      "name": "Holmium ore"
+    },
+    {
+      "id": "holmium-plate",
+      "kind": "item",
+      "name": "Holmium plate"
+    },
+    {
+      "id": "holmium-solution",
+      "kind": "fluid",
+      "name": "Holmium solution"
+    },
+    {
+      "id": "ice",
+      "kind": "item",
+      "name": "Ice"
+    },
+    {
+      "id": "ice-platform",
+      "kind": "item",
+      "name": "Ice platform"
+    },
+    {
+      "id": "inserter",
+      "kind": "item",
+      "name": "Inserter"
+    },
+    {
+      "id": "iron-bacteria",
+      "kind": "item",
+      "name": "Iron bacteria"
+    },
+    {
+      "id": "iron-chest",
+      "kind": "item",
+      "name": "Iron chest"
+    },
+    {
+      "id": "iron-gear-wheel",
+      "kind": "item",
+      "name": "Iron gear wheel"
+    },
+    {
+      "id": "iron-ore",
+      "kind": "item",
+      "name": "Iron ore"
+    },
+    {
+      "id": "iron-plate",
+      "kind": "item",
+      "name": "Iron plate"
+    },
+    {
+      "id": "iron-stick",
+      "kind": "item",
+      "name": "Iron stick"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 1
+      },
+      "id": "jelly",
+      "kind": "item",
+      "name": "Jelly",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "attrs": {
+        "fuel_mj": 10
+      },
+      "id": "jellynut",
+      "kind": "item",
+      "name": "Jellynut",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "attrs": {
+        "fuel_mj": 4
+      },
+      "id": "jellynut-seed",
+      "kind": "item",
+      "name": "Jellynut seed",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "lab",
+      "kind": "item",
+      "name": "Lab"
+    },
+    {
+      "id": "land-mine",
+      "kind": "item",
+      "name": "Land mine"
+    },
+    {
+      "id": "landfill",
+      "kind": "item",
+      "name": "Landfill"
+    },
+    {
+      "id": "landing-pad-unloading-bay",
+      "kind": "item",
+      "name": "Landing pad unloading bay"
+    },
+    {
+      "id": "laser-turret",
+      "kind": "item",
+      "name": "Laser turret"
+    },
+    {
+      "id": "lava",
+      "kind": "fluid",
+      "name": "Lava"
+    },
+    {
+      "id": "light-armor",
+      "kind": "item",
+      "name": "Light armor"
+    },
+    {
+      "id": "light-oil",
+      "kind": "fluid",
+      "name": "Light oil"
+    },
+    {
+      "id": "light-oil-barrel",
+      "kind": "item",
+      "name": "Light oil barrel"
+    },
+    {
+      "id": "lightning-collector",
+      "kind": "item",
+      "name": "Lightning collector"
+    },
+    {
+      "id": "lightning-rod",
+      "kind": "item",
+      "name": "Lightning rod"
+    },
+    {
+      "id": "lithium",
+      "kind": "item",
+      "name": "Lithium"
+    },
+    {
+      "id": "lithium-brine",
+      "kind": "fluid",
+      "name": "Lithium brine"
+    },
+    {
+      "id": "lithium-plate",
+      "kind": "item",
+      "name": "Lithium plate"
+    },
+    {
+      "id": "locomotive",
+      "kind": "item",
+      "name": "Locomotive"
+    },
+    {
+      "id": "logistic-robot",
+      "kind": "item",
+      "name": "Logistic robot"
+    },
+    {
+      "id": "logistic-science-pack",
+      "kind": "item",
+      "name": "Logistic science pack"
+    },
+    {
+      "id": "long-handed-inserter",
+      "kind": "item",
+      "name": "Long-handed inserter"
+    },
+    {
+      "id": "low-density-structure",
+      "kind": "item",
+      "name": "Low density structure"
+    },
+    {
+      "id": "lubricant",
+      "kind": "fluid",
+      "name": "Lubricant"
+    },
+    {
+      "id": "lubricant-barrel",
+      "kind": "item",
+      "name": "Lubricant barrel"
+    },
+    {
+      "id": "mech-armor",
+      "kind": "item",
+      "name": "Mech armor"
+    },
+    {
+      "id": "medium-electric-pole",
+      "kind": "item",
+      "name": "Medium electric pole"
+    },
+    {
+      "id": "metallic-asteroid-chunk",
+      "kind": "item",
+      "name": "Metallic asteroid chunk"
+    },
+    {
+      "id": "metallurgic-science-pack",
+      "kind": "item",
+      "name": "Metallurgic science pack"
+    },
+    {
+      "id": "military-science-pack",
+      "kind": "item",
+      "name": "Military science pack"
+    },
+    {
+      "id": "modular-armor",
+      "kind": "item",
+      "name": "Modular armor"
+    },
+    {
+      "id": "molten-copper",
+      "kind": "fluid",
+      "name": "Molten copper"
+    },
+    {
+      "id": "molten-iron",
+      "kind": "fluid",
+      "name": "Molten iron"
+    },
+    {
+      "id": "night-vision-equipment",
+      "kind": "item",
+      "name": "Nightvision"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 1210
+      },
+      "id": "nuclear-fuel",
+      "kind": "item",
+      "name": "Nuclear fuel",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "nuclear-reactor",
+      "kind": "item",
+      "name": "Nuclear reactor"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 2
+      },
+      "id": "nutrients",
+      "kind": "item",
+      "name": "Nutrients"
+    },
+    {
+      "id": "offshore-pump",
+      "kind": "item",
+      "name": "Offshore pump"
+    },
+    {
+      "id": "oil-refinery",
+      "kind": "item",
+      "name": "Oil refinery"
+    },
+    {
+      "id": "overgrowth-jellynut-soil",
+      "kind": "item",
+      "name": "Overgrowth jellynut soil"
+    },
+    {
+      "id": "overgrowth-yumako-soil",
+      "kind": "item",
+      "name": "Overgrowth yumako soil"
+    },
+    {
+      "id": "oxide-asteroid-chunk",
+      "kind": "item",
+      "name": "Oxide asteroid chunk"
+    },
+    {
+      "id": "passive-provider-chest",
+      "kind": "item",
+      "name": "Passive provider chest"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 5
+      },
+      "id": "pentapod-egg",
+      "kind": "item",
+      "name": "Pentapod egg",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "personal-laser-defense-equipment",
+      "kind": "item",
+      "name": "Personal laser defense"
+    },
+    {
+      "id": "personal-roboport-equipment",
+      "kind": "item",
+      "name": "Personal roboport"
+    },
+    {
+      "id": "personal-roboport-mk2-equipment",
+      "kind": "item",
+      "name": "Personal roboport MK2"
+    },
+    {
+      "id": "petroleum-gas",
+      "kind": "fluid",
+      "name": "Petroleum gas"
+    },
+    {
+      "id": "petroleum-gas-barrel",
+      "kind": "item",
+      "name": "Petroleum gas barrel"
+    },
+    {
+      "id": "piercing-rounds-magazine",
+      "kind": "item",
+      "name": "Piercing rounds magazine"
+    },
+    {
+      "id": "piercing-shotgun-shell",
+      "kind": "item",
+      "name": "Piercing shotgun shells"
+    },
+    {
+      "id": "pipe",
+      "kind": "item",
+      "name": "Pipe"
+    },
+    {
+      "id": "pipe-to-ground",
+      "kind": "item",
+      "name": "Pipe to ground"
+    },
+    {
+      "id": "plastic-bar",
+      "kind": "item",
+      "name": "Plastic bar"
+    },
+    {
+      "id": "poison-capsule",
+      "kind": "item",
+      "name": "Poison capsule"
+    },
+    {
+      "id": "power",
+      "kind": "power",
+      "name": "Electric power"
+    },
+    {
+      "id": "power-armor",
+      "kind": "item",
+      "name": "Power armor"
+    },
+    {
+      "id": "power-armor-mk2",
+      "kind": "item",
+      "name": "Power armor MK2"
+    },
+    {
+      "id": "power-switch",
+      "kind": "item",
+      "name": "Power switch"
+    },
+    {
+      "id": "processing-unit",
+      "kind": "item",
+      "name": "Processing unit"
+    },
+    {
+      "id": "production-science-pack",
+      "kind": "item",
+      "name": "Production science pack"
+    },
+    {
+      "id": "productivity-module",
+      "kind": "item",
+      "name": "Productivity module"
+    },
+    {
+      "id": "productivity-module-2",
+      "kind": "item",
+      "name": "Productivity module 2"
+    },
+    {
+      "id": "productivity-module-3",
+      "kind": "item",
+      "name": "Productivity module 3"
+    },
+    {
+      "id": "programmable-speaker",
+      "kind": "item",
+      "name": "Programmable speaker"
+    },
+    {
+      "id": "promethium-asteroid-chunk",
+      "kind": "item",
+      "name": "Promethium asteroid chunk"
+    },
+    {
+      "id": "promethium-science-pack",
+      "kind": "item",
+      "name": "Promethium science pack"
+    },
+    {
+      "id": "pump",
+      "kind": "item",
+      "name": "Pump"
+    },
+    {
+      "id": "pumpjack",
+      "kind": "item",
+      "name": "Pumpjack"
+    },
+    {
+      "id": "quality-module",
+      "kind": "item",
+      "name": "Quality module"
+    },
+    {
+      "id": "quality-module-2",
+      "kind": "item",
+      "name": "Quality module 2"
+    },
+    {
+      "id": "quality-module-3",
+      "kind": "item",
+      "name": "Quality module 3"
+    },
+    {
+      "id": "quantum-processor",
+      "kind": "item",
+      "name": "Quantum processor"
+    },
+    {
+      "id": "radar",
+      "kind": "item",
+      "name": "Radar"
+    },
+    {
+      "id": "rail",
+      "kind": "item",
+      "name": "Rail"
+    },
+    {
+      "id": "rail-chain-signal",
+      "kind": "item",
+      "name": "Rail chain signal"
+    },
+    {
+      "id": "rail-ramp",
+      "kind": "item",
+      "name": "Rail ramp"
+    },
+    {
+      "id": "rail-signal",
+      "kind": "item",
+      "name": "Rail signal"
+    },
+    {
+      "id": "rail-support",
+      "kind": "item",
+      "name": "Rail support"
+    },
+    {
+      "id": "railgun",
+      "kind": "item",
+      "name": "Railgun"
+    },
+    {
+      "id": "railgun-ammo",
+      "kind": "item",
+      "name": "Railgun ammo"
+    },
+    {
+      "id": "railgun-turret",
+      "kind": "item",
+      "name": "Railgun turret"
+    },
+    {
+      "id": "raw-fish",
+      "kind": "item",
+      "name": "Raw fish"
+    },
+    {
+      "id": "recycler",
+      "kind": "item",
+      "name": "Recycler"
+    },
+    {
+      "id": "refined-concrete",
+      "kind": "item",
+      "name": "Refined concrete"
+    },
+    {
+      "id": "refined-hazard-concrete",
+      "kind": "item",
+      "name": "Refined hazard concrete"
+    },
+    {
+      "id": "repair-pack",
+      "kind": "item",
+      "name": "Repair pack"
+    },
+    {
+      "id": "requester-chest",
+      "kind": "item",
+      "name": "Requester chest"
+    },
+    {
+      "id": "roboport",
+      "kind": "item",
+      "name": "Roboport"
+    },
+    {
+      "id": "rocket",
+      "kind": "item",
+      "name": "Rocket"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 100
+      },
+      "id": "rocket-fuel",
+      "kind": "item",
+      "name": "Rocket fuel",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "rocket-launcher",
+      "kind": "item",
+      "name": "Rocket launcher"
+    },
+    {
+      "id": "rocket-part",
+      "kind": "item",
+      "name": "Rocket part"
+    },
+    {
+      "id": "rocket-silo",
+      "kind": "item",
+      "name": "Rocket silo"
+    },
+    {
+      "id": "rocket-turret",
+      "kind": "item",
+      "name": "Rocket turret"
+    },
+    {
+      "id": "science",
+      "kind": "item",
+      "name": "Science"
+    },
+    {
+      "id": "scrap",
+      "kind": "item",
+      "name": "Scrap"
+    },
+    {
+      "id": "selector-combinator",
+      "kind": "item",
+      "name": "Selector combinator"
+    },
+    {
+      "id": "shotgun",
+      "kind": "item",
+      "name": "Shotgun"
+    },
+    {
+      "id": "shotgun-shell",
+      "kind": "item",
+      "name": "Shotgun shells"
+    },
+    {
+      "id": "slowdown-capsule",
+      "kind": "item",
+      "name": "Slowdown capsule"
+    },
+    {
+      "id": "small-electric-pole",
+      "kind": "item",
+      "name": "Small electric pole"
+    },
+    {
+      "id": "small-lamp",
+      "kind": "item",
+      "name": "Lamp"
+    },
+    {
+      "id": "solar-panel",
+      "kind": "item",
+      "name": "Solar panel"
+    },
+    {
+      "id": "solar-panel-equipment",
+      "kind": "item",
+      "name": "Portable solar panel"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 12
+      },
+      "id": "solid-fuel",
+      "kind": "item",
+      "name": "Solid fuel",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "space-platform-foundation",
+      "kind": "item",
+      "name": "Space platform foundation"
+    },
+    {
+      "id": "space-platform-starter-pack",
+      "kind": "item",
+      "name": "Space platform starter pack"
+    },
+    {
+      "id": "space-science-pack",
+      "kind": "item",
+      "name": "Space science pack"
+    },
+    {
+      "id": "speed-module",
+      "kind": "item",
+      "name": "Speed module"
+    },
+    {
+      "id": "speed-module-2",
+      "kind": "item",
+      "name": "Speed module 2"
+    },
+    {
+      "id": "speed-module-3",
+      "kind": "item",
+      "name": "Speed module 3"
+    },
+    {
+      "id": "spidertron",
+      "kind": "item",
+      "name": "Spidertron"
+    },
+    {
+      "id": "splitter",
+      "kind": "item",
+      "name": "Splitter"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 0.25
+      },
+      "id": "spoilage",
+      "kind": "item",
+      "name": "Spoilage",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "stack-inserter",
+      "kind": "item",
+      "name": "Stack inserter"
+    },
+    {
+      "id": "steam-165c",
+      "kind": "fluid",
+      "name": "Steam (165 °C)"
+    },
+    {
+      "id": "steam-500c",
+      "kind": "fluid",
+      "name": "Steam (500 °C)"
+    },
+    {
+      "id": "steam-engine",
+      "kind": "item",
+      "name": "Steam engine"
+    },
+    {
+      "id": "steam-turbine",
+      "kind": "item",
+      "name": "Steam turbine"
+    },
+    {
+      "id": "steel-chest",
+      "kind": "item",
+      "name": "Steel chest"
+    },
+    {
+      "id": "steel-furnace",
+      "kind": "item",
+      "name": "Steel furnace"
+    },
+    {
+      "id": "steel-plate",
+      "kind": "item",
+      "name": "Steel plate"
+    },
+    {
+      "id": "stone",
+      "kind": "item",
+      "name": "Stone"
+    },
+    {
+      "id": "stone-brick",
+      "kind": "item",
+      "name": "Stone brick"
+    },
+    {
+      "id": "stone-furnace",
+      "kind": "item",
+      "name": "Stone furnace"
+    },
+    {
+      "id": "stone-wall",
+      "kind": "item",
+      "name": "Wall"
+    },
+    {
+      "id": "storage-chest",
+      "kind": "item",
+      "name": "Storage chest"
+    },
+    {
+      "id": "storage-tank",
+      "kind": "item",
+      "name": "Storage tank"
+    },
+    {
+      "id": "submachine-gun",
+      "kind": "item",
+      "name": "Submachine gun"
+    },
+    {
+      "id": "substation",
+      "kind": "item",
+      "name": "Substation"
+    },
+    {
+      "id": "sulfur",
+      "kind": "item",
+      "name": "Sulfur"
+    },
+    {
+      "id": "sulfuric-acid",
+      "kind": "fluid",
+      "name": "Sulfuric acid"
+    },
+    {
+      "id": "sulfuric-acid-barrel",
+      "kind": "item",
+      "name": "Sulfuric acid barrel"
+    },
+    {
+      "id": "supercapacitor",
+      "kind": "item",
+      "name": "Supercapacitor"
+    },
+    {
+      "id": "superconductor",
+      "kind": "item",
+      "name": "Superconductor"
+    },
+    {
+      "id": "tank",
+      "kind": "item",
+      "name": "Tank"
+    },
+    {
+      "id": "tesla-ammo",
+      "kind": "item",
+      "name": "Tesla ammo"
+    },
+    {
+      "id": "tesla-turret",
+      "kind": "item",
+      "name": "Tesla turret"
+    },
+    {
+      "id": "teslagun",
+      "kind": "item",
+      "name": "Tesla gun"
+    },
+    {
+      "id": "thruster",
+      "kind": "item",
+      "name": "Thruster"
+    },
+    {
+      "id": "thruster-fuel",
+      "kind": "fluid",
+      "name": "Thruster fuel"
+    },
+    {
+      "id": "thruster-oxidizer",
+      "kind": "fluid",
+      "name": "Thruster oxidizer"
+    },
+    {
+      "id": "toolbelt-equipment",
+      "kind": "item",
+      "name": "Toolbelt equipment"
+    },
+    {
+      "id": "train-stop",
+      "kind": "item",
+      "name": "Train stop"
+    },
+    {
+      "id": "transport-belt",
+      "kind": "item",
+      "name": "Transport belt"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 0.1
+      },
+      "id": "tree-seed",
+      "kind": "item",
+      "name": "Tree seed",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "tungsten-carbide",
+      "kind": "item",
+      "name": "Tungsten carbide"
+    },
+    {
+      "id": "tungsten-ore",
+      "kind": "item",
+      "name": "Tungsten ore"
+    },
+    {
+      "id": "tungsten-plate",
+      "kind": "item",
+      "name": "Tungsten plate"
+    },
+    {
+      "id": "turbo-splitter",
+      "kind": "item",
+      "name": "Turbo splitter"
+    },
+    {
+      "id": "turbo-transport-belt",
+      "kind": "item",
+      "name": "Turbo transport belt"
+    },
+    {
+      "id": "turbo-underground-belt",
+      "kind": "item",
+      "name": "Turbo underground belt"
+    },
+    {
+      "id": "underground-belt",
+      "kind": "item",
+      "name": "Underground belt"
+    },
+    {
+      "id": "uranium-235",
+      "kind": "item",
+      "name": "Uranium-235"
+    },
+    {
+      "id": "uranium-238",
+      "kind": "item",
+      "name": "Uranium-238"
+    },
+    {
+      "id": "uranium-cannon-shell",
+      "kind": "item",
+      "name": "Uranium cannon shell"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 8000
+      },
+      "id": "uranium-fuel-cell",
+      "kind": "item",
+      "name": "Uranium fuel cell"
+    },
+    {
+      "id": "uranium-ore",
+      "kind": "item",
+      "name": "Uranium ore"
+    },
+    {
+      "id": "uranium-rounds-magazine",
+      "kind": "item",
+      "name": "Uranium rounds magazine"
+    },
+    {
+      "id": "utility-science-pack",
+      "kind": "item",
+      "name": "Utility science pack"
+    },
+    {
+      "id": "water",
+      "kind": "fluid",
+      "name": "Water"
+    },
+    {
+      "id": "water-barrel",
+      "kind": "item",
+      "name": "Water barrel"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 2
+      },
+      "id": "wood",
+      "kind": "item",
+      "name": "Wood",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "id": "wooden-chest",
+      "kind": "item",
+      "name": "Wooden chest"
+    },
+    {
+      "attrs": {
+        "fuel_mj": 2
+      },
+      "id": "yumako",
+      "kind": "item",
+      "name": "Yumako",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "attrs": {
+        "fuel_mj": 1
+      },
+      "id": "yumako-mash",
+      "kind": "item",
+      "name": "Yumako mash",
+      "tags": [
+        "chemical_fuel"
+      ]
+    },
+    {
+      "attrs": {
+        "fuel_mj": 4
+      },
+      "id": "yumako-seed",
+      "kind": "item",
+      "name": "Yumako seed",
+      "tags": [
+        "chemical_fuel"
+      ]
+    }
+  ]
+}

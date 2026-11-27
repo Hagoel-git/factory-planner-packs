@@ -1,0 +1,8177 @@
+{
+  "recipes": [
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "accumulator-recycling",
+      "in": [
+        [
+          "accumulator",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Accumulator recycling",
+      "out": [
+        [
+          "iron-plate",
+          0.5
+        ],
+        [
+          "battery",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "active-provider-chest-recycling",
+      "in": [
+        [
+          "active-provider-chest",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Active provider chest recycling",
+      "out": [
+        [
+          "steel-chest",
+          0.25
+        ],
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "advanced-circuit",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "advanced-circuit-recycling",
+      "in": [
+        [
+          "advanced-circuit",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Advanced circuit recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          0.5
+        ],
+        [
+          "plastic-bar",
+          0.5
+        ],
+        [
+          "copper-cable",
+          1
+        ]
+      ],
+      "time": 0.375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "agricultural-science-pack-recycling",
+      "in": [
+        [
+          "agricultural-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Agricultural science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "agricultural-science-pack"
+        }
+      ],
+      "time": 0.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "agricultural-tower-recycling",
+      "in": [
+        [
+          "agricultural-tower",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Agricultural tower recycling",
+      "out": [
+        [
+          "steel-plate",
+          2.5
+        ],
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "spoilage",
+          5
+        ],
+        [
+          "landfill",
+          0.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "arithmetic-combinator-recycling",
+      "in": [
+        [
+          "arithmetic-combinator",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Arithmetic combinator recycling",
+      "out": [
+        [
+          "copper-cable",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          1.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "artificial-jellynut-soil-recycling",
+      "in": [
+        [
+          "artificial-jellynut-soil",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Artificial jellynut soil recycling",
+      "out": [
+        [
+          "jellynut-seed",
+          0.05
+        ],
+        [
+          "nutrients",
+          1.25
+        ],
+        [
+          "landfill",
+          0.125
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "artificial-yumako-soil-recycling",
+      "in": [
+        [
+          "artificial-yumako-soil",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Artificial yumako soil recycling",
+      "out": [
+        [
+          "yumako-seed",
+          0.05
+        ],
+        [
+          "nutrients",
+          1.25
+        ],
+        [
+          "landfill",
+          0.125
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "artillery-shell-recycling",
+      "in": [
+        [
+          "artillery-shell",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Artillery shell recycling",
+      "out": [
+        [
+          "radar",
+          0.25
+        ],
+        [
+          "calcite",
+          0.25
+        ],
+        [
+          "tungsten-plate",
+          1
+        ],
+        [
+          "explosives",
+          2
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "artillery-turret-recycling",
+      "in": [
+        [
+          "artillery-turret",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Artillery turret recycling",
+      "out": [
+        [
+          "tungsten-plate",
+          15
+        ],
+        [
+          "refined-concrete",
+          15
+        ],
+        [
+          "iron-gear-wheel",
+          10
+        ],
+        [
+          "processing-unit",
+          2.5
+        ]
+      ],
+      "time": 2.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "artillery-wagon-recycling",
+      "in": [
+        [
+          "artillery-wagon",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Artillery wagon recycling",
+      "out": [
+        [
+          "engine-unit",
+          15
+        ],
+        [
+          "tungsten-plate",
+          15
+        ],
+        [
+          "refined-concrete",
+          15
+        ],
+        [
+          "iron-gear-wheel",
+          10
+        ],
+        [
+          "processing-unit",
+          2.5
+        ]
+      ],
+      "time": 0.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "assembling-machine-1-recycling",
+      "in": [
+        [
+          "assembling-machine-1",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Assembling machine 1 recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "iron-gear-wheel",
+          1.25
+        ],
+        [
+          "iron-plate",
+          2.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "assembling-machine-2-recycling",
+      "in": [
+        [
+          "assembling-machine-2",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Assembling machine 2 recycling",
+      "out": [
+        [
+          "steel-plate",
+          0.5
+        ],
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "iron-gear-wheel",
+          1.25
+        ],
+        [
+          "assembling-machine-1",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "assembling-machine-3-recycling",
+      "in": [
+        [
+          "assembling-machine-3",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Assembling machine 3 recycling",
+      "out": [
+        [
+          "assembling-machine-2",
+          0.5
+        ],
+        [
+          "speed-module",
+          1
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "asteroid-collector-recycling",
+      "in": [
+        [
+          "asteroid-collector",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Asteroid collector recycling",
+      "out": [
+        [
+          "low-density-structure",
+          5
+        ],
+        [
+          "electric-engine-unit",
+          2
+        ],
+        [
+          "processing-unit",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "atomic-bomb-recycling",
+      "in": [
+        [
+          "atomic-bomb",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Atomic bomb recycling",
+      "out": [
+        [
+          "processing-unit",
+          2.5
+        ],
+        [
+          "explosives",
+          2.5
+        ],
+        [
+          "uranium-235",
+          25
+        ]
+      ],
+      "time": 3.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "automation-science-pack-recycling",
+      "in": [
+        [
+          "automation-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Automation science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "automation-science-pack"
+        }
+      ],
+      "time": 0.3125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "barrel-recycling",
+      "in": [
+        [
+          "barrel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Barrel recycling",
+      "out": [
+        [
+          "steel-plate",
+          0.25
+        ]
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "battery-equipment-recycling",
+      "in": [
+        [
+          "battery-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Personal battery recycling",
+      "out": [
+        [
+          "battery",
+          1.25
+        ],
+        [
+          "steel-plate",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "battery-mk2-equipment-recycling",
+      "in": [
+        [
+          "battery-mk2-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Personal battery MK2 recycling",
+      "out": [
+        [
+          "battery-equipment",
+          2.5
+        ],
+        [
+          "processing-unit",
+          3.75
+        ],
+        [
+          "low-density-structure",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "battery-mk3-equipment-recycling",
+      "in": [
+        [
+          "battery-mk3-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Personal battery MK3 recycling",
+      "out": [
+        [
+          "battery-mk2-equipment",
+          1.25
+        ],
+        [
+          "supercapacitor",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "battery-recycling",
+      "in": [
+        [
+          "battery",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Battery recycling",
+      "out": [
+        [
+          "iron-plate",
+          0.25
+        ],
+        [
+          "copper-plate",
+          0.25
+        ]
+      ],
+      "time": 0.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "beacon-recycling",
+      "in": [
+        [
+          "beacon",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Beacon recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          5
+        ],
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "steel-plate",
+          2.5
+        ],
+        [
+          "copper-cable",
+          2.5
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "belt-immunity-equipment-recycling",
+      "in": [
+        [
+          "belt-immunity-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Belt immunity equipment recycling",
+      "out": [
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "steel-plate",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "big-electric-pole-recycling",
+      "in": [
+        [
+          "big-electric-pole",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Big electric pole recycling",
+      "out": [
+        [
+          "iron-stick",
+          2
+        ],
+        [
+          "steel-plate",
+          1.25
+        ],
+        [
+          "copper-cable",
+          1
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "big-mining-drill-recycling",
+      "in": [
+        [
+          "big-mining-drill",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Big mining drill recycling",
+      "out": [
+        [
+          "electric-mining-drill",
+          0.25
+        ],
+        [
+          "tungsten-carbide",
+          5
+        ],
+        [
+          "electric-engine-unit",
+          2.5
+        ],
+        [
+          "advanced-circuit",
+          2.5
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "biochamber-recycling",
+      "in": [
+        [
+          "biochamber",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Biochamber recycling",
+      "out": [
+        [
+          "nutrients",
+          1.25
+        ],
+        [
+          "pentapod-egg",
+          0.25
+        ],
+        [
+          "iron-plate",
+          5
+        ],
+        [
+          "electronic-circuit",
+          1.25
+        ],
+        [
+          "landfill",
+          0.25
+        ]
+      ],
+      "time": 1.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "bioflux-recycling",
+      "in": [
+        [
+          "bioflux",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Bioflux recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "bioflux"
+        }
+      ],
+      "time": 0.09375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "biolab-recycling",
+      "in": [
+        [
+          "biolab",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Biolab recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "biolab"
+        }
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "biter-egg-recycling",
+      "in": [
+        [
+          "biter-egg",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Biter egg recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "biter-egg"
+        }
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "boiler-recycling",
+      "in": [
+        [
+          "boiler",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Boiler recycling",
+      "out": [
+        [
+          "stone-furnace",
+          0.25
+        ],
+        [
+          "pipe",
+          1
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "buffer-chest-recycling",
+      "in": [
+        [
+          "buffer-chest",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Buffer chest recycling",
+      "out": [
+        [
+          "steel-chest",
+          0.25
+        ],
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "advanced-circuit",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "bulk-inserter-recycling",
+      "in": [
+        [
+          "bulk-inserter",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Bulk inserter recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          3.75
+        ],
+        [
+          "electronic-circuit",
+          3.75
+        ],
+        [
+          "advanced-circuit",
+          0.25
+        ],
+        [
+          "fast-inserter",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "burner-inserter-recycling",
+      "in": [
+        [
+          "burner-inserter",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Burner inserter recycling",
+      "out": [
+        [
+          "iron-plate",
+          0.25
+        ],
+        [
+          "iron-gear-wheel",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "burner-mining-drill-recycling",
+      "in": [
+        [
+          "burner-mining-drill",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Burner mining drill recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          0.75
+        ],
+        [
+          "stone-furnace",
+          0.25
+        ],
+        [
+          "iron-plate",
+          0.75
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "calcite-recycling",
+      "in": [
+        [
+          "calcite",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Calcite recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "calcite"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "cannon-shell-recycling",
+      "in": [
+        [
+          "cannon-shell",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Cannon shell recycling",
+      "out": [
+        [
+          "steel-plate",
+          0.5
+        ],
+        [
+          "plastic-bar",
+          0.5
+        ],
+        [
+          "explosives",
+          0.25
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "captive-biter-spawner-recycling",
+      "in": [
+        [
+          "captive-biter-spawner",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Captive biter spawner recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "captive-biter-spawner"
+        }
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "capture-robot-rocket-recycling",
+      "in": [
+        [
+          "capture-robot-rocket",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Capture bot rocket recycling",
+      "out": [
+        [
+          "flying-robot-frame",
+          0.25
+        ],
+        [
+          "steel-plate",
+          0.5
+        ],
+        [
+          "bioflux",
+          5
+        ],
+        [
+          "processing-unit",
+          0.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "car-recycling",
+      "in": [
+        [
+          "car",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Car recycling",
+      "out": [
+        [
+          "engine-unit",
+          2
+        ],
+        [
+          "iron-plate",
+          5
+        ],
+        [
+          "steel-plate",
+          1.25
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "carbon-fiber-recycling",
+      "in": [
+        [
+          "carbon-fiber",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Carbon fiber recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "carbon-fiber"
+        }
+      ],
+      "time": 0.3125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "carbon-recycling",
+      "in": [
+        [
+          "carbon",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Carbon recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "carbon"
+        }
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "carbonic-asteroid-chunk-recycling",
+      "in": [
+        [
+          "carbonic-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Carbonic asteroid chunk recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "carbonic-asteroid-chunk"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "cargo-bay-recycling",
+      "in": [
+        [
+          "cargo-bay",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Cargo bay recycling",
+      "out": [
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "low-density-structure",
+          5
+        ],
+        [
+          "processing-unit",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "cargo-landing-pad-recycling",
+      "in": [
+        [
+          "cargo-landing-pad",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Cargo landing pad recycling",
+      "out": [
+        [
+          "concrete",
+          50
+        ],
+        [
+          "steel-plate",
+          6.25
+        ],
+        [
+          "processing-unit",
+          2.5
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "cargo-wagon-recycling",
+      "in": [
+        [
+          "cargo-wagon",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Cargo wagon recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          2.5
+        ],
+        [
+          "iron-plate",
+          5
+        ],
+        [
+          "steel-plate",
+          5
+        ]
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "centrifuge-recycling",
+      "in": [
+        [
+          "centrifuge",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Centrifuge recycling",
+      "out": [
+        [
+          "concrete",
+          25
+        ],
+        [
+          "steel-plate",
+          12.5
+        ],
+        [
+          "advanced-circuit",
+          25
+        ],
+        [
+          "iron-gear-wheel",
+          25
+        ]
+      ],
+      "time": 0.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "chemical-plant-recycling",
+      "in": [
+        [
+          "chemical-plant",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Chemical plant recycling",
+      "out": [
+        [
+          "steel-plate",
+          1.25
+        ],
+        [
+          "iron-gear-wheel",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          1.25
+        ],
+        [
+          "pipe",
+          1.25
+        ]
+      ],
+      "time": 0.3125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "chemical-science-pack-recycling",
+      "in": [
+        [
+          "chemical-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Chemical science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "chemical-science-pack"
+        }
+      ],
+      "time": 0.75
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "cliff-explosives-recycling",
+      "in": [
+        [
+          "cliff-explosives",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Cliff explosives recycling",
+      "out": [
+        [
+          "explosives",
+          2.5
+        ],
+        [
+          "calcite",
+          2.5
+        ],
+        [
+          "grenade",
+          0.25
+        ],
+        [
+          "barrel",
+          0.25
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "cluster-grenade-recycling",
+      "in": [
+        [
+          "cluster-grenade",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Cluster grenade recycling",
+      "out": [
+        [
+          "grenade",
+          1.75
+        ],
+        [
+          "explosives",
+          1.25
+        ],
+        [
+          "steel-plate",
+          1.25
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "coal-recycling",
+      "in": [
+        [
+          "coal",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Coal recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "coal"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "combat-shotgun-recycling",
+      "in": [
+        [
+          "combat-shotgun",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Combat shotgun recycling",
+      "out": [
+        [
+          "steel-plate",
+          3.75
+        ],
+        [
+          "iron-gear-wheel",
+          1.25
+        ],
+        [
+          "copper-plate",
+          2.5
+        ],
+        [
+          "wood",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "concrete-recycling",
+      "in": [
+        [
+          "concrete",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Concrete recycling",
+      "out": [
+        [
+          "stone-brick",
+          0.125
+        ],
+        [
+          "iron-ore",
+          0.025
+        ]
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "constant-combinator-recycling",
+      "in": [
+        [
+          "constant-combinator",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Constant combinator recycling",
+      "out": [
+        [
+          "copper-cable",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          0.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "construction-robot-recycling",
+      "in": [
+        [
+          "construction-robot",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Construction robot recycling",
+      "out": [
+        [
+          "flying-robot-frame",
+          0.25
+        ],
+        [
+          "electronic-circuit",
+          0.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "copper-bacteria-recycling",
+      "in": [
+        [
+          "copper-bacteria",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Copper bacteria recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "copper-bacteria"
+        }
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "copper-cable-recycling",
+      "in": [
+        [
+          "copper-cable",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Copper cable recycling",
+      "out": [
+        [
+          "copper-plate",
+          0.125
+        ]
+      ],
+      "time": 0.015625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "copper-ore-recycling",
+      "in": [
+        [
+          "copper-ore",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Copper ore recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "copper-ore"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "copper-plate-recycling",
+      "in": [
+        [
+          "copper-plate",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Copper plate recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "copper-plate"
+        }
+      ],
+      "time": 0.2
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "crude-oil-barrel-recycling",
+      "in": [
+        [
+          "crude-oil-barrel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Crude oil barrel recycling",
+      "out": [
+        [
+          "barrel",
+          0.25
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "crusher-recycling",
+      "in": [
+        [
+          "crusher",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Crusher recycling",
+      "out": [
+        [
+          "low-density-structure",
+          5
+        ],
+        [
+          "steel-plate",
+          2.5
+        ],
+        [
+          "electric-engine-unit",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "cryogenic-plant-recycling",
+      "in": [
+        [
+          "cryogenic-plant",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Cryogenic plant recycling",
+      "out": [
+        [
+          "refined-concrete",
+          10
+        ],
+        [
+          "superconductor",
+          5
+        ],
+        [
+          "processing-unit",
+          5
+        ],
+        [
+          "lithium-plate",
+          5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "cryogenic-science-pack-recycling",
+      "in": [
+        [
+          "cryogenic-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Cryogenic science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "cryogenic-science-pack"
+        }
+      ],
+      "time": 1.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "decider-combinator-recycling",
+      "in": [
+        [
+          "decider-combinator",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Decider combinator recycling",
+      "out": [
+        [
+          "copper-cable",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          1.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "defender-capsule-recycling",
+      "in": [
+        [
+          "defender-capsule",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Defender capsule recycling",
+      "out": [
+        [
+          "piercing-rounds-magazine",
+          0.75
+        ],
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "iron-gear-wheel",
+          0.75
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "depleted-uranium-fuel-cell-recycling",
+      "in": [
+        [
+          "depleted-uranium-fuel-cell",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Depleted uranium fuel cell recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "depleted-uranium-fuel-cell"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "destroyer-capsule-recycling",
+      "in": [
+        [
+          "destroyer-capsule",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Destroyer capsule recycling",
+      "out": [
+        [
+          "distractor-capsule",
+          1
+        ],
+        [
+          "steel-plate",
+          1
+        ],
+        [
+          "processing-unit",
+          0.25
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "discharge-defense-equipment-recycling",
+      "in": [
+        [
+          "discharge-defense-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Discharge defense recycling",
+      "out": [
+        [
+          "processing-unit",
+          1.25
+        ],
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "laser-turret",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "display-panel-recycling",
+      "in": [
+        [
+          "display-panel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Display panel recycling",
+      "out": [
+        [
+          "iron-plate",
+          0.25
+        ],
+        [
+          "electronic-circuit",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "distractor-capsule-recycling",
+      "in": [
+        [
+          "distractor-capsule",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Distractor capsule recycling",
+      "out": [
+        [
+          "defender-capsule",
+          1
+        ],
+        [
+          "advanced-circuit",
+          0.75
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "efficiency-module-2-recycling",
+      "in": [
+        [
+          "efficiency-module-2",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Efficiency module 2 recycling",
+      "out": [
+        [
+          "efficiency-module",
+          1
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "processing-unit",
+          1.25
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "efficiency-module-3-recycling",
+      "in": [
+        [
+          "efficiency-module-3",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Efficiency module 3 recycling",
+      "out": [
+        [
+          "efficiency-module-2",
+          1
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "processing-unit",
+          1.25
+        ],
+        [
+          "spoilage",
+          1.25
+        ]
+      ],
+      "time": 3.75
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "efficiency-module-recycling",
+      "in": [
+        [
+          "efficiency-module",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Efficiency module recycling",
+      "out": [
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          1.25
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "electric-engine-unit-recycling",
+      "in": [
+        [
+          "electric-engine-unit",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Electric engine unit recycling",
+      "out": [
+        [
+          "engine-unit",
+          0.25
+        ],
+        [
+          "electronic-circuit",
+          0.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "electric-furnace-recycling",
+      "in": [
+        [
+          "electric-furnace",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Electric furnace recycling",
+      "out": [
+        [
+          "steel-plate",
+          2.5
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "stone-brick",
+          2.5
+        ]
+      ],
+      "time": 0.3125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "electric-mining-drill-recycling",
+      "in": [
+        [
+          "electric-mining-drill",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Electric mining drill recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "iron-gear-wheel",
+          1.25
+        ],
+        [
+          "iron-plate",
+          2.5
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "electromagnetic-plant-recycling",
+      "in": [
+        [
+          "electromagnetic-plant",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Electromagnetic plant recycling",
+      "out": [
+        [
+          "holmium-plate",
+          37.5
+        ],
+        [
+          "steel-plate",
+          12.5
+        ],
+        [
+          "processing-unit",
+          12.5
+        ],
+        [
+          "refined-concrete",
+          12.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "electromagnetic-science-pack-recycling",
+      "in": [
+        [
+          "electromagnetic-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Electromagnetic science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "electromagnetic-science-pack"
+        }
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "electronic-circuit-recycling",
+      "in": [
+        [
+          "electronic-circuit",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Electronic circuit recycling",
+      "out": [
+        [
+          "iron-plate",
+          0.25
+        ],
+        [
+          "copper-cable",
+          0.75
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "energy-shield-equipment-recycling",
+      "in": [
+        [
+          "energy-shield-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Energy shield recycling",
+      "out": [
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "steel-plate",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "energy-shield-mk2-equipment-recycling",
+      "in": [
+        [
+          "energy-shield-mk2-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Energy shield MK2 recycling",
+      "out": [
+        [
+          "energy-shield-equipment",
+          2.5
+        ],
+        [
+          "processing-unit",
+          1.25
+        ],
+        [
+          "low-density-structure",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "engine-unit-recycling",
+      "in": [
+        [
+          "engine-unit",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Engine unit recycling",
+      "out": [
+        [
+          "steel-plate",
+          0.25
+        ],
+        [
+          "iron-gear-wheel",
+          0.25
+        ],
+        [
+          "pipe",
+          0.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "exoskeleton-equipment-recycling",
+      "in": [
+        [
+          "exoskeleton-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Exoskeleton recycling",
+      "out": [
+        [
+          "processing-unit",
+          2.5
+        ],
+        [
+          "electric-engine-unit",
+          7.5
+        ],
+        [
+          "steel-plate",
+          5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "explosive-cannon-shell-recycling",
+      "in": [
+        [
+          "explosive-cannon-shell",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Explosive cannon shell recycling",
+      "out": [
+        [
+          "steel-plate",
+          0.5
+        ],
+        [
+          "plastic-bar",
+          0.5
+        ],
+        [
+          "explosives",
+          0.5
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "explosive-rocket-recycling",
+      "in": [
+        [
+          "explosive-rocket",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Explosive rocket recycling",
+      "out": [
+        [
+          "rocket",
+          0.25
+        ],
+        [
+          "explosives",
+          0.5
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "explosive-uranium-cannon-shell-recycling",
+      "in": [
+        [
+          "explosive-uranium-cannon-shell",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Explosive uranium cannon shell recycling",
+      "out": [
+        [
+          "explosive-cannon-shell",
+          0.25
+        ],
+        [
+          "uranium-238",
+          0.25
+        ]
+      ],
+      "time": 0.75
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "explosives-recycling",
+      "in": [
+        [
+          "explosives",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Explosives recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "explosives"
+        }
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "express-splitter-recycling",
+      "in": [
+        [
+          "express-splitter",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Express splitter recycling",
+      "out": [
+        [
+          "fast-splitter",
+          0.25
+        ],
+        [
+          "iron-gear-wheel",
+          2.5
+        ],
+        [
+          "advanced-circuit",
+          2.5
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "express-transport-belt-recycling",
+      "in": [
+        [
+          "express-transport-belt",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Express transport belt recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          2.5
+        ],
+        [
+          "fast-transport-belt",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "express-underground-belt-recycling",
+      "in": [
+        [
+          "express-underground-belt",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Express underground belt recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          10
+        ],
+        [
+          "fast-underground-belt",
+          0.25
+        ]
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fast-inserter-recycling",
+      "in": [
+        [
+          "fast-inserter",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Fast inserter recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          0.5
+        ],
+        [
+          "iron-plate",
+          0.5
+        ],
+        [
+          "inserter",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fast-splitter-recycling",
+      "in": [
+        [
+          "fast-splitter",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Fast splitter recycling",
+      "out": [
+        [
+          "splitter",
+          0.25
+        ],
+        [
+          "iron-gear-wheel",
+          2.5
+        ],
+        [
+          "electronic-circuit",
+          2.5
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fast-transport-belt-recycling",
+      "in": [
+        [
+          "fast-transport-belt",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Fast transport belt recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          1.25
+        ],
+        [
+          "transport-belt",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fast-underground-belt-recycling",
+      "in": [
+        [
+          "fast-underground-belt",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Fast underground belt recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          5
+        ],
+        [
+          "underground-belt",
+          0.25
+        ]
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "firearm-magazine-recycling",
+      "in": [
+        [
+          "firearm-magazine",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Firearm magazine recycling",
+      "out": [
+        [
+          "iron-plate",
+          1
+        ]
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fission-reactor-equipment-recycling",
+      "in": [
+        [
+          "fission-reactor-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Portable fission reactor recycling",
+      "out": [
+        [
+          "processing-unit",
+          50
+        ],
+        [
+          "low-density-structure",
+          12.5
+        ],
+        [
+          "uranium-fuel-cell",
+          1
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "flamethrower-ammo-recycling",
+      "in": [
+        [
+          "flamethrower-ammo",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Flamethrower ammo recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "flamethrower-ammo"
+        }
+      ],
+      "time": 0.375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "flamethrower-recycling",
+      "in": [
+        [
+          "flamethrower",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Flamethrower recycling",
+      "out": [
+        [
+          "steel-plate",
+          1.25
+        ],
+        [
+          "iron-gear-wheel",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "flamethrower-turret-recycling",
+      "in": [
+        [
+          "flamethrower-turret",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Flamethrower turret recycling",
+      "out": [
+        [
+          "steel-plate",
+          7.5
+        ],
+        [
+          "iron-gear-wheel",
+          3.75
+        ],
+        [
+          "pipe",
+          2.5
+        ],
+        [
+          "engine-unit",
+          1.25
+        ]
+      ],
+      "time": 1.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fluid-wagon-recycling",
+      "in": [
+        [
+          "fluid-wagon",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Fluid wagon recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          2.5
+        ],
+        [
+          "steel-plate",
+          4
+        ],
+        [
+          "pipe",
+          2
+        ],
+        [
+          "storage-tank",
+          0.25
+        ]
+      ],
+      "time": 0.09375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fluoroketone-cold-barrel-recycling",
+      "in": [
+        [
+          "fluoroketone-cold-barrel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Fluoroketone (Cold) barrel recycling",
+      "out": [
+        [
+          "barrel",
+          0.25
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fluoroketone-hot-barrel-recycling",
+      "in": [
+        [
+          "fluoroketone-hot-barrel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Fluoroketone (Hot) barrel recycling",
+      "out": [
+        [
+          "barrel",
+          0.25
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "flying-robot-frame-recycling",
+      "in": [
+        [
+          "flying-robot-frame",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Flying robot frame recycling",
+      "out": [
+        [
+          "electric-engine-unit",
+          0.25
+        ],
+        [
+          "battery",
+          0.5
+        ],
+        [
+          "steel-plate",
+          0.25
+        ],
+        [
+          "electronic-circuit",
+          0.75
+        ]
+      ],
+      "time": 1.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "foundation-recycling",
+      "in": [
+        [
+          "foundation",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Foundation recycling",
+      "out": [
+        [
+          "tungsten-plate",
+          1
+        ],
+        [
+          "lithium-plate",
+          1
+        ],
+        [
+          "carbon-fiber",
+          1
+        ],
+        [
+          "stone",
+          5
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "foundry-recycling",
+      "in": [
+        [
+          "foundry",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Foundry recycling",
+      "out": [
+        [
+          "tungsten-carbide",
+          12.5
+        ],
+        [
+          "steel-plate",
+          12.5
+        ],
+        [
+          "electronic-circuit",
+          7.5
+        ],
+        [
+          "refined-concrete",
+          5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fusion-generator-recycling",
+      "in": [
+        [
+          "fusion-generator",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Fusion generator recycling",
+      "out": [
+        [
+          "tungsten-plate",
+          25
+        ],
+        [
+          "superconductor",
+          25
+        ],
+        [
+          "quantum-processor",
+          12.5
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fusion-power-cell-recycling",
+      "in": [
+        [
+          "fusion-power-cell",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Fusion power cell recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "fusion-power-cell"
+        }
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fusion-reactor-equipment-recycling",
+      "in": [
+        [
+          "fusion-reactor-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Portable fusion reactor recycling",
+      "out": [
+        [
+          "fission-reactor-equipment",
+          0.25
+        ],
+        [
+          "fusion-power-cell",
+          2.5
+        ],
+        [
+          "tungsten-plate",
+          62.5
+        ],
+        [
+          "carbon-fiber",
+          25
+        ],
+        [
+          "supercapacitor",
+          6.25
+        ],
+        [
+          "quantum-processor",
+          62.5
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "fusion-reactor-recycling",
+      "in": [
+        [
+          "fusion-reactor",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Fusion reactor recycling",
+      "out": [
+        [
+          "tungsten-plate",
+          50
+        ],
+        [
+          "superconductor",
+          50
+        ],
+        [
+          "quantum-processor",
+          62.5
+        ]
+      ],
+      "time": 3.75
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "gate-recycling",
+      "in": [
+        [
+          "gate",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Gate recycling",
+      "out": [
+        [
+          "stone-wall",
+          0.25
+        ],
+        [
+          "steel-plate",
+          0.5
+        ],
+        [
+          "electronic-circuit",
+          0.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "grenade-recycling",
+      "in": [
+        [
+          "grenade",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Grenade recycling",
+      "out": [
+        [
+          "iron-plate",
+          1.25
+        ],
+        [
+          "coal",
+          2.5
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "gun-turret-recycling",
+      "in": [
+        [
+          "gun-turret",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Gun turret recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          2.5
+        ],
+        [
+          "copper-plate",
+          2.5
+        ],
+        [
+          "iron-plate",
+          5
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "hazard-concrete-recycling",
+      "in": [
+        [
+          "hazard-concrete",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Hazard concrete recycling",
+      "out": [
+        [
+          "stone-brick",
+          0.125
+        ],
+        [
+          "iron-ore",
+          0.025
+        ]
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "heat-exchanger-recycling",
+      "in": [
+        [
+          "heat-exchanger",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Heat exchanger recycling",
+      "out": [
+        [
+          "steel-plate",
+          2.5
+        ],
+        [
+          "copper-plate",
+          25
+        ],
+        [
+          "pipe",
+          2.5
+        ]
+      ],
+      "time": 0.1875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "heat-pipe-recycling",
+      "in": [
+        [
+          "heat-pipe",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Heat pipe recycling",
+      "out": [
+        [
+          "steel-plate",
+          2.5
+        ],
+        [
+          "copper-plate",
+          5
+        ]
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "heating-tower-recycling",
+      "in": [
+        [
+          "heating-tower",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Heating tower recycling",
+      "out": [
+        [
+          "boiler",
+          0.5
+        ],
+        [
+          "heat-pipe",
+          1.25
+        ],
+        [
+          "concrete",
+          5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "heavy-armor-recycling",
+      "in": [
+        [
+          "heavy-armor",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Heavy armor recycling",
+      "out": [
+        [
+          "copper-plate",
+          25
+        ],
+        [
+          "steel-plate",
+          12.5
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "heavy-oil-barrel-recycling",
+      "in": [
+        [
+          "heavy-oil-barrel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Heavy oil barrel recycling",
+      "out": [
+        [
+          "barrel",
+          0.25
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "holmium-ore-recycling",
+      "in": [
+        [
+          "holmium-ore",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Holmium ore recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "holmium-ore"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "holmium-plate-recycling",
+      "in": [
+        [
+          "holmium-plate",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Holmium plate recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "holmium-plate"
+        }
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "ice-platform-recycling",
+      "in": [
+        [
+          "ice-platform",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Ice platform recycling",
+      "out": [
+        [
+          "ice",
+          12.5
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "ice-recycling",
+      "in": [
+        [
+          "ice",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Ice recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "ice"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "inserter-recycling",
+      "in": [
+        [
+          "inserter",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Inserter recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          0.25
+        ],
+        [
+          "iron-gear-wheel",
+          0.25
+        ],
+        [
+          "iron-plate",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "iron-bacteria-recycling",
+      "in": [
+        [
+          "iron-bacteria",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Iron bacteria recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "iron-bacteria"
+        }
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "iron-chest-recycling",
+      "in": [
+        [
+          "iron-chest",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Iron chest recycling",
+      "out": [
+        [
+          "iron-plate",
+          2
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "iron-gear-wheel-recycling",
+      "in": [
+        [
+          "iron-gear-wheel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Iron gear wheel recycling",
+      "out": [
+        [
+          "iron-plate",
+          0.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "iron-ore-recycling",
+      "in": [
+        [
+          "iron-ore",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Iron ore recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "iron-ore"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "iron-plate-recycling",
+      "in": [
+        [
+          "iron-plate",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Iron plate recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "iron-plate"
+        }
+      ],
+      "time": 0.2
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "iron-stick-recycling",
+      "in": [
+        [
+          "iron-stick",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Iron stick recycling",
+      "out": [
+        [
+          "iron-plate",
+          0.125
+        ]
+      ],
+      "time": 0.015625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "jelly-recycling",
+      "in": [
+        [
+          "jelly",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Jelly recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "jelly"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "jellynut-recycling",
+      "in": [
+        [
+          "jellynut",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Jellynut recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "jellynut"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "jellynut-seed-recycling",
+      "in": [
+        [
+          "jellynut-seed",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Jellynut seed recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "jellynut-seed"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "lab-recycling",
+      "in": [
+        [
+          "lab",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Lab recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          2.5
+        ],
+        [
+          "iron-gear-wheel",
+          2.5
+        ],
+        [
+          "transport-belt",
+          1
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "land-mine-recycling",
+      "in": [
+        [
+          "land-mine",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Land mine recycling",
+      "out": [
+        [
+          "steel-plate",
+          0.0625
+        ],
+        [
+          "explosives",
+          0.125
+        ]
+      ],
+      "time": 0.078125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "landfill-recycling",
+      "in": [
+        [
+          "landfill",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Landfill recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "landfill"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "landing-pad-unloading-bay-recycling",
+      "in": [
+        [
+          "landing-pad-unloading-bay",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Landing pad unloading bay recycling",
+      "out": [
+        [
+          "cargo-bay",
+          0.25
+        ],
+        [
+          "steel-chest",
+          1
+        ],
+        [
+          "electric-engine-unit",
+          3.75
+        ],
+        [
+          "processing-unit",
+          2
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "laser-turret-recycling",
+      "in": [
+        [
+          "laser-turret",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Laser turret recycling",
+      "out": [
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "electronic-circuit",
+          5
+        ],
+        [
+          "battery",
+          3
+        ]
+      ],
+      "time": 1.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "light-armor-recycling",
+      "in": [
+        [
+          "light-armor",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Light armor recycling",
+      "out": [
+        [
+          "iron-plate",
+          10
+        ]
+      ],
+      "time": 0.1875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "light-oil-barrel-recycling",
+      "in": [
+        [
+          "light-oil-barrel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Light oil barrel recycling",
+      "out": [
+        [
+          "barrel",
+          0.25
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "lightning-collector-recycling",
+      "in": [
+        [
+          "lightning-collector",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Lightning collector recycling",
+      "out": [
+        [
+          "lightning-rod",
+          0.25
+        ],
+        [
+          "supercapacitor",
+          2
+        ],
+        [
+          "accumulator",
+          0.25
+        ]
+      ],
+      "time": 0.3125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "lightning-rod-recycling",
+      "in": [
+        [
+          "lightning-rod",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Lightning rod recycling",
+      "out": [
+        [
+          "copper-cable",
+          3
+        ],
+        [
+          "steel-plate",
+          2
+        ],
+        [
+          "stone-brick",
+          1
+        ]
+      ],
+      "time": 0.3125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "lithium-plate-recycling",
+      "in": [
+        [
+          "lithium-plate",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Lithium plate recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "lithium-plate"
+        }
+      ],
+      "time": 0.4
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "lithium-recycling",
+      "in": [
+        [
+          "lithium",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Lithium recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "lithium"
+        }
+      ],
+      "time": 0.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "locomotive-recycling",
+      "in": [
+        [
+          "locomotive",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Locomotive recycling",
+      "out": [
+        [
+          "engine-unit",
+          5
+        ],
+        [
+          "electronic-circuit",
+          2.5
+        ],
+        [
+          "steel-plate",
+          7.5
+        ]
+      ],
+      "time": 0.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "logistic-robot-recycling",
+      "in": [
+        [
+          "logistic-robot",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Logistic robot recycling",
+      "out": [
+        [
+          "flying-robot-frame",
+          0.25
+        ],
+        [
+          "advanced-circuit",
+          0.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "logistic-science-pack-recycling",
+      "in": [
+        [
+          "logistic-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Logistic science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "logistic-science-pack"
+        }
+      ],
+      "time": 0.375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "long-handed-inserter-recycling",
+      "in": [
+        [
+          "long-handed-inserter",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Long-handed inserter recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          0.25
+        ],
+        [
+          "iron-plate",
+          0.25
+        ],
+        [
+          "inserter",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "low-density-structure-recycling",
+      "in": [
+        [
+          "low-density-structure",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Low density structure recycling",
+      "out": [
+        [
+          "steel-plate",
+          0.5
+        ],
+        [
+          "copper-plate",
+          5
+        ],
+        [
+          "plastic-bar",
+          1.25
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "lubricant-barrel-recycling",
+      "in": [
+        [
+          "lubricant-barrel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Lubricant barrel recycling",
+      "out": [
+        [
+          "barrel",
+          0.25
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "mech-armor-recycling",
+      "in": [
+        [
+          "mech-armor",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Mech armor recycling",
+      "out": [
+        [
+          "power-armor-mk2",
+          0.25
+        ],
+        [
+          "holmium-plate",
+          50
+        ],
+        [
+          "processing-unit",
+          25
+        ],
+        [
+          "superconductor",
+          12.5
+        ],
+        [
+          "supercapacitor",
+          12.5
+        ]
+      ],
+      "time": 3.75
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "medium-electric-pole-recycling",
+      "in": [
+        [
+          "medium-electric-pole",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Medium electric pole recycling",
+      "out": [
+        [
+          "iron-stick",
+          1
+        ],
+        [
+          "steel-plate",
+          0.5
+        ],
+        [
+          "copper-cable",
+          0.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "metallic-asteroid-chunk-recycling",
+      "in": [
+        [
+          "metallic-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Metallic asteroid chunk recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "metallic-asteroid-chunk"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "metallurgic-science-pack-recycling",
+      "in": [
+        [
+          "metallurgic-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Metallurgic science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "metallurgic-science-pack"
+        }
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "military-science-pack-recycling",
+      "in": [
+        [
+          "military-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Military science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "military-science-pack"
+        }
+      ],
+      "time": 0.3125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "modular-armor-recycling",
+      "in": [
+        [
+          "modular-armor",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Modular armor recycling",
+      "out": [
+        [
+          "advanced-circuit",
+          7.5
+        ],
+        [
+          "steel-plate",
+          12.5
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "night-vision-equipment-recycling",
+      "in": [
+        [
+          "night-vision-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Nightvision recycling",
+      "out": [
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "steel-plate",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "nuclear-fuel-recycling",
+      "in": [
+        [
+          "nuclear-fuel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Nuclear fuel recycling",
+      "out": [
+        [
+          "uranium-235",
+          0.25
+        ],
+        [
+          "rocket-fuel",
+          0.25
+        ]
+      ],
+      "time": 5.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "nuclear-reactor-recycling",
+      "in": [
+        [
+          "nuclear-reactor",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Nuclear reactor recycling",
+      "out": [
+        [
+          "concrete",
+          125
+        ],
+        [
+          "steel-plate",
+          125
+        ],
+        [
+          "advanced-circuit",
+          125
+        ],
+        [
+          "copper-plate",
+          125
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "nutrients-recycling",
+      "in": [
+        [
+          "nutrients",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Nutrients recycling",
+      "out": [
+        [
+          "spoilage",
+          2.5
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "offshore-pump-recycling",
+      "in": [
+        [
+          "offshore-pump",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Offshore pump recycling",
+      "out": [
+        [
+          "pipe",
+          0.75
+        ],
+        [
+          "iron-gear-wheel",
+          0.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "oil-refinery-recycling",
+      "in": [
+        [
+          "oil-refinery",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Oil refinery recycling",
+      "out": [
+        [
+          "steel-plate",
+          3.75
+        ],
+        [
+          "iron-gear-wheel",
+          2.5
+        ],
+        [
+          "stone-brick",
+          2.5
+        ],
+        [
+          "electronic-circuit",
+          2.5
+        ],
+        [
+          "pipe",
+          2.5
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "overgrowth-jellynut-soil-recycling",
+      "in": [
+        [
+          "overgrowth-jellynut-soil",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Overgrowth jellynut soil recycling",
+      "out": [
+        [
+          "artificial-jellynut-soil",
+          0.5
+        ],
+        [
+          "jellynut-seed",
+          1.25
+        ],
+        [
+          "biter-egg",
+          2.5
+        ],
+        [
+          "spoilage",
+          12.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "overgrowth-yumako-soil-recycling",
+      "in": [
+        [
+          "overgrowth-yumako-soil",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Overgrowth yumako soil recycling",
+      "out": [
+        [
+          "artificial-yumako-soil",
+          0.5
+        ],
+        [
+          "yumako-seed",
+          1.25
+        ],
+        [
+          "biter-egg",
+          2.5
+        ],
+        [
+          "spoilage",
+          12.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "oxide-asteroid-chunk-recycling",
+      "in": [
+        [
+          "oxide-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Oxide asteroid chunk recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "oxide-asteroid-chunk"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "passive-provider-chest-recycling",
+      "in": [
+        [
+          "passive-provider-chest",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Passive provider chest recycling",
+      "out": [
+        [
+          "steel-chest",
+          0.25
+        ],
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "advanced-circuit",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "pentapod-egg-recycling",
+      "in": [
+        [
+          "pentapod-egg",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Pentapod egg recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "pentapod-egg"
+        }
+      ],
+      "time": 0.46875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "personal-laser-defense-equipment-recycling",
+      "in": [
+        [
+          "personal-laser-defense-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Personal laser defense recycling",
+      "out": [
+        [
+          "processing-unit",
+          5
+        ],
+        [
+          "low-density-structure",
+          1.25
+        ],
+        [
+          "laser-turret",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "personal-roboport-equipment-recycling",
+      "in": [
+        [
+          "personal-roboport-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Personal roboport recycling",
+      "out": [
+        [
+          "advanced-circuit",
+          2.5
+        ],
+        [
+          "iron-gear-wheel",
+          10
+        ],
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "battery",
+          11.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "personal-roboport-mk2-equipment-recycling",
+      "in": [
+        [
+          "personal-roboport-mk2-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Personal roboport MK2 recycling",
+      "out": [
+        [
+          "personal-roboport-equipment",
+          1.25
+        ],
+        [
+          "processing-unit",
+          12.5
+        ],
+        [
+          "superconductor",
+          12.5
+        ]
+      ],
+      "time": 1.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "petroleum-gas-barrel-recycling",
+      "in": [
+        [
+          "petroleum-gas-barrel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Petroleum gas barrel recycling",
+      "out": [
+        [
+          "barrel",
+          0.25
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "piercing-rounds-magazine-recycling",
+      "in": [
+        [
+          "piercing-rounds-magazine",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Piercing rounds magazine recycling",
+      "out": [
+        [
+          "firearm-magazine",
+          0.25
+        ],
+        [
+          "steel-plate",
+          0.125
+        ],
+        [
+          "copper-plate",
+          0.25
+        ]
+      ],
+      "time": 0.1875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "piercing-shotgun-shell-recycling",
+      "in": [
+        [
+          "piercing-shotgun-shell",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Piercing shotgun shells recycling",
+      "out": [
+        [
+          "shotgun-shell",
+          0.25
+        ],
+        [
+          "copper-plate",
+          0.25
+        ],
+        [
+          "steel-plate",
+          0.125
+        ]
+      ],
+      "time": 0.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "pipe-recycling",
+      "in": [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Pipe recycling",
+      "out": [
+        [
+          "iron-plate",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "pipe-to-ground-recycling",
+      "in": [
+        [
+          "pipe-to-ground",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Pipe to ground recycling",
+      "out": [
+        [
+          "pipe",
+          1.25
+        ],
+        [
+          "iron-plate",
+          0.625
+        ]
+      ],
+      "time": 0.015625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "plastic-bar-recycling",
+      "in": [
+        [
+          "plastic-bar",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Plastic bar recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "plastic-bar"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "poison-capsule-recycling",
+      "in": [
+        [
+          "poison-capsule",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Poison capsule recycling",
+      "out": [
+        [
+          "steel-plate",
+          0.75
+        ],
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "coal",
+          2.5
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "power-armor-mk2-recycling",
+      "in": [
+        [
+          "power-armor-mk2",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Power armor MK2 recycling",
+      "out": [
+        [
+          "efficiency-module",
+          25
+        ],
+        [
+          "speed-module",
+          25
+        ],
+        [
+          "processing-unit",
+          15
+        ],
+        [
+          "electric-engine-unit",
+          10
+        ],
+        [
+          "low-density-structure",
+          7.5
+        ]
+      ],
+      "time": 1.5625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "power-armor-recycling",
+      "in": [
+        [
+          "power-armor",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Power armor recycling",
+      "out": [
+        [
+          "processing-unit",
+          10
+        ],
+        [
+          "electric-engine-unit",
+          5
+        ],
+        [
+          "steel-plate",
+          10
+        ]
+      ],
+      "time": 1.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "power-switch-recycling",
+      "in": [
+        [
+          "power-switch",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Power switch recycling",
+      "out": [
+        [
+          "iron-plate",
+          1.25
+        ],
+        [
+          "copper-cable",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          0.5
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "processing-unit-recycling",
+      "in": [
+        [
+          "processing-unit",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Processing unit recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          5
+        ],
+        [
+          "advanced-circuit",
+          0.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "production-science-pack-recycling",
+      "in": [
+        [
+          "production-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Production science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "production-science-pack"
+        }
+      ],
+      "time": 0.4375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "productivity-module-2-recycling",
+      "in": [
+        [
+          "productivity-module-2",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Productivity module 2 recycling",
+      "out": [
+        [
+          "productivity-module",
+          1
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "processing-unit",
+          1.25
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "productivity-module-3-recycling",
+      "in": [
+        [
+          "productivity-module-3",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Productivity module 3 recycling",
+      "out": [
+        [
+          "productivity-module-2",
+          1
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "processing-unit",
+          1.25
+        ],
+        [
+          "biter-egg",
+          0.25
+        ]
+      ],
+      "time": 3.75
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "productivity-module-recycling",
+      "in": [
+        [
+          "productivity-module",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Productivity module recycling",
+      "out": [
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          1.25
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "programmable-speaker-recycling",
+      "in": [
+        [
+          "programmable-speaker",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Programmable speaker recycling",
+      "out": [
+        [
+          "iron-plate",
+          0.75
+        ],
+        [
+          "iron-stick",
+          1
+        ],
+        [
+          "copper-cable",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          1
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "promethium-asteroid-chunk-recycling",
+      "in": [
+        [
+          "promethium-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Promethium asteroid chunk recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "promethium-asteroid-chunk"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "promethium-science-pack-recycling",
+      "in": [
+        [
+          "promethium-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Promethium science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "promethium-science-pack"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "pump-recycling",
+      "in": [
+        [
+          "pump",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Pump recycling",
+      "out": [
+        [
+          "engine-unit",
+          0.25
+        ],
+        [
+          "steel-plate",
+          0.25
+        ],
+        [
+          "pipe",
+          0.25
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "pumpjack-recycling",
+      "in": [
+        [
+          "pumpjack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Pumpjack recycling",
+      "out": [
+        [
+          "steel-plate",
+          1.25
+        ],
+        [
+          "iron-gear-wheel",
+          2.5
+        ],
+        [
+          "electronic-circuit",
+          1.25
+        ],
+        [
+          "pipe",
+          2.5
+        ]
+      ],
+      "time": 0.3125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "quality-module-2-recycling",
+      "in": [
+        [
+          "quality-module-2",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Quality module 2 recycling",
+      "out": [
+        [
+          "quality-module",
+          1
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "processing-unit",
+          1.25
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "quality-module-3-recycling",
+      "in": [
+        [
+          "quality-module-3",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Quality module 3 recycling",
+      "out": [
+        [
+          "quality-module-2",
+          1
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "processing-unit",
+          1.25
+        ],
+        [
+          "superconductor",
+          0.25
+        ]
+      ],
+      "time": 3.75
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "quality-module-recycling",
+      "in": [
+        [
+          "quality-module",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Quality module recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          1.25
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "quantum-processor-recycling",
+      "in": [
+        [
+          "quantum-processor",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Quantum processor recycling",
+      "out": [
+        [
+          "tungsten-carbide",
+          0.25
+        ],
+        [
+          "processing-unit",
+          0.25
+        ],
+        [
+          "superconductor",
+          0.25
+        ],
+        [
+          "carbon-fiber",
+          0.25
+        ],
+        [
+          "lithium-plate",
+          0.5
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "radar-recycling",
+      "in": [
+        [
+          "radar",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Radar recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          1.25
+        ],
+        [
+          "iron-gear-wheel",
+          1.25
+        ],
+        [
+          "iron-plate",
+          2.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "rail-chain-signal-recycling",
+      "in": [
+        [
+          "rail-chain-signal",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Rail chain signal recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          0.25
+        ],
+        [
+          "iron-plate",
+          1.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "rail-ramp-recycling",
+      "in": [
+        [
+          "rail-ramp",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Rail ramp recycling",
+      "out": [
+        [
+          "refined-concrete",
+          25
+        ],
+        [
+          "rail",
+          2
+        ],
+        [
+          "steel-plate",
+          2.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "rail-recycling",
+      "in": [
+        [
+          "rail",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Rail recycling",
+      "out": [
+        [
+          "stone",
+          0.125
+        ],
+        [
+          "iron-stick",
+          0.125
+        ],
+        [
+          "steel-plate",
+          0.125
+        ]
+      ],
+      "time": 0.015625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "rail-signal-recycling",
+      "in": [
+        [
+          "rail-signal",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Rail signal recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          0.25
+        ],
+        [
+          "iron-plate",
+          1.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "rail-support-recycling",
+      "in": [
+        [
+          "rail-support",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Rail support recycling",
+      "out": [
+        [
+          "refined-concrete",
+          5
+        ],
+        [
+          "steel-plate",
+          2.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "railgun-ammo-recycling",
+      "in": [
+        [
+          "railgun-ammo",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Railgun ammo recycling",
+      "out": [
+        [
+          "steel-plate",
+          1.25
+        ],
+        [
+          "copper-cable",
+          2.5
+        ],
+        [
+          "explosives",
+          0.5
+        ]
+      ],
+      "time": 1.5625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "railgun-recycling",
+      "in": [
+        [
+          "railgun",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Railgun recycling",
+      "out": [
+        [
+          "tungsten-plate",
+          2.5
+        ],
+        [
+          "superconductor",
+          2.5
+        ],
+        [
+          "quantum-processor",
+          5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "railgun-turret-recycling",
+      "in": [
+        [
+          "railgun-turret",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Railgun turret recycling",
+      "out": [
+        [
+          "quantum-processor",
+          25
+        ],
+        [
+          "tungsten-plate",
+          7.5
+        ],
+        [
+          "superconductor",
+          12.5
+        ],
+        [
+          "carbon-fiber",
+          5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "raw-fish-recycling",
+      "in": [
+        [
+          "raw-fish",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Raw fish recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "raw-fish"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "recycler-recycling",
+      "in": [
+        [
+          "recycler",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Recycler recycling",
+      "out": [
+        [
+          "processing-unit",
+          1.5
+        ],
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "iron-gear-wheel",
+          10
+        ],
+        [
+          "concrete",
+          5
+        ]
+      ],
+      "time": 0.1875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "refined-concrete-recycling",
+      "in": [
+        [
+          "refined-concrete",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Refined concrete recycling",
+      "out": [
+        [
+          "concrete",
+          0.5
+        ],
+        [
+          "iron-stick",
+          0.2
+        ],
+        [
+          "steel-plate",
+          0.025
+        ]
+      ],
+      "time": 0.09375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "refined-hazard-concrete-recycling",
+      "in": [
+        [
+          "refined-hazard-concrete",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Refined hazard concrete recycling",
+      "out": [
+        [
+          "concrete",
+          0.5
+        ],
+        [
+          "iron-stick",
+          0.2
+        ],
+        [
+          "steel-plate",
+          0.025
+        ]
+      ],
+      "time": 0.09375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "repair-pack-recycling",
+      "in": [
+        [
+          "repair-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Repair pack recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          0.5
+        ],
+        [
+          "iron-gear-wheel",
+          0.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "requester-chest-recycling",
+      "in": [
+        [
+          "requester-chest",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Requester chest recycling",
+      "out": [
+        [
+          "steel-chest",
+          0.25
+        ],
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "advanced-circuit",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "roboport-recycling",
+      "in": [
+        [
+          "roboport",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Roboport recycling",
+      "out": [
+        [
+          "steel-plate",
+          11.25
+        ],
+        [
+          "iron-gear-wheel",
+          11.25
+        ],
+        [
+          "advanced-circuit",
+          11.25
+        ]
+      ],
+      "time": 0.3125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "rocket-fuel-recycling",
+      "in": [
+        [
+          "rocket-fuel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Rocket fuel recycling",
+      "out": [
+        [
+          "solid-fuel",
+          2.5
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "rocket-launcher-recycling",
+      "in": [
+        [
+          "rocket-launcher",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Rocket launcher recycling",
+      "out": [
+        [
+          "iron-plate",
+          1.25
+        ],
+        [
+          "iron-gear-wheel",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "rocket-recycling",
+      "in": [
+        [
+          "rocket",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Rocket recycling",
+      "out": [
+        [
+          "explosives",
+          0.25
+        ],
+        [
+          "iron-plate",
+          0.5
+        ]
+      ],
+      "time": 0.25
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "rocket-silo-recycling",
+      "in": [
+        [
+          "rocket-silo",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Rocket silo recycling",
+      "out": [
+        [
+          "steel-plate",
+          250
+        ],
+        [
+          "concrete",
+          250
+        ],
+        [
+          "pipe",
+          25
+        ],
+        [
+          "processing-unit",
+          50
+        ],
+        [
+          "electric-engine-unit",
+          50
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "rocket-turret-recycling",
+      "in": [
+        [
+          "rocket-turret",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Rocket turret recycling",
+      "out": [
+        [
+          "rocket-launcher",
+          1
+        ],
+        [
+          "processing-unit",
+          1
+        ],
+        [
+          "carbon-fiber",
+          5
+        ],
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "iron-gear-wheel",
+          5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "prod_tech": "scrap"
+      },
+      "id": "scrap-recycling",
+      "in": [
+        [
+          "scrap",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Scrap recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          1,
+          0.2
+        ],
+        [
+          "solid-fuel",
+          1,
+          0.07
+        ],
+        [
+          "concrete",
+          1,
+          0.06
+        ],
+        [
+          "ice",
+          1,
+          0.05
+        ],
+        [
+          "steel-plate",
+          1,
+          0.04
+        ],
+        [
+          "battery",
+          1,
+          0.04
+        ],
+        [
+          "stone",
+          1,
+          0.04
+        ],
+        [
+          "advanced-circuit",
+          1,
+          0.03
+        ],
+        [
+          "copper-cable",
+          1,
+          0.03
+        ],
+        [
+          "processing-unit",
+          1,
+          0.02
+        ],
+        [
+          "low-density-structure",
+          1,
+          0.01
+        ],
+        [
+          "holmium-ore",
+          1,
+          0.01
+        ]
+      ],
+      "time": 0.2
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "selector-combinator-recycling",
+      "in": [
+        [
+          "selector-combinator",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Selector combinator recycling",
+      "out": [
+        [
+          "advanced-circuit",
+          0.5
+        ],
+        [
+          "decider-combinator",
+          1.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "shotgun-recycling",
+      "in": [
+        [
+          "shotgun",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Shotgun recycling",
+      "out": [
+        [
+          "iron-plate",
+          3.75
+        ],
+        [
+          "iron-gear-wheel",
+          1.25
+        ],
+        [
+          "copper-plate",
+          2.5
+        ],
+        [
+          "wood",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "shotgun-shell-recycling",
+      "in": [
+        [
+          "shotgun-shell",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Shotgun shells recycling",
+      "out": [
+        [
+          "copper-plate",
+          0.5
+        ],
+        [
+          "iron-plate",
+          0.5
+        ]
+      ],
+      "time": 0.1875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "slowdown-capsule-recycling",
+      "in": [
+        [
+          "slowdown-capsule",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Slowdown capsule recycling",
+      "out": [
+        [
+          "steel-plate",
+          0.5
+        ],
+        [
+          "electronic-circuit",
+          0.5
+        ],
+        [
+          "coal",
+          1.25
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "small-electric-pole-recycling",
+      "in": [
+        [
+          "small-electric-pole",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Small electric pole recycling",
+      "out": [
+        [
+          "wood",
+          0.125
+        ],
+        [
+          "copper-cable",
+          0.25
+        ]
+      ],
+      "time": 0.015625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "small-lamp-recycling",
+      "in": [
+        [
+          "small-lamp",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Lamp recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          0.25
+        ],
+        [
+          "copper-cable",
+          0.75
+        ],
+        [
+          "iron-plate",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "solar-panel-equipment-recycling",
+      "in": [
+        [
+          "solar-panel-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Portable solar panel recycling",
+      "out": [
+        [
+          "solar-panel",
+          0.25
+        ],
+        [
+          "advanced-circuit",
+          0.5
+        ],
+        [
+          "steel-plate",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "solar-panel-recycling",
+      "in": [
+        [
+          "solar-panel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Solar panel recycling",
+      "out": [
+        [
+          "steel-plate",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          3.75
+        ],
+        [
+          "copper-plate",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "solid-fuel-recycling",
+      "in": [
+        [
+          "solid-fuel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Solid fuel recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "solid-fuel"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "space-platform-foundation-recycling",
+      "in": [
+        [
+          "space-platform-foundation",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Space platform foundation recycling",
+      "out": [
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "copper-cable",
+          5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "space-platform-starter-pack-recycling",
+      "in": [
+        [
+          "space-platform-starter-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Space platform starter pack recycling",
+      "out": [
+        [
+          "space-platform-foundation",
+          15
+        ],
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "processing-unit",
+          5
+        ]
+      ],
+      "time": 3.75
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "space-science-pack-recycling",
+      "in": [
+        [
+          "space-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Space science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "space-science-pack"
+        }
+      ],
+      "time": 0.1875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "speed-module-2-recycling",
+      "in": [
+        [
+          "speed-module-2",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Speed module 2 recycling",
+      "out": [
+        [
+          "speed-module",
+          1
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "processing-unit",
+          1.25
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "speed-module-3-recycling",
+      "in": [
+        [
+          "speed-module-3",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Speed module 3 recycling",
+      "out": [
+        [
+          "speed-module-2",
+          1
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "processing-unit",
+          1.25
+        ],
+        [
+          "tungsten-carbide",
+          0.25
+        ]
+      ],
+      "time": 3.75
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "speed-module-recycling",
+      "in": [
+        [
+          "speed-module",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Speed module recycling",
+      "out": [
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "electronic-circuit",
+          1.25
+        ]
+      ],
+      "time": 0.9375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "spidertron-recycling",
+      "in": [
+        [
+          "spidertron",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Spidertron recycling",
+      "out": [
+        [
+          "exoskeleton-equipment",
+          1
+        ],
+        [
+          "fission-reactor-equipment",
+          0.5
+        ],
+        [
+          "rocket-turret",
+          0.25
+        ],
+        [
+          "radar",
+          0.5
+        ],
+        [
+          "raw-fish",
+          0.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "splitter-recycling",
+      "in": [
+        [
+          "splitter",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Splitter recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          1.25
+        ],
+        [
+          "iron-plate",
+          1.25
+        ],
+        [
+          "transport-belt",
+          1
+        ]
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "spoilage-recycling",
+      "in": [
+        [
+          "spoilage",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Spoilage recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "spoilage"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "stack-inserter-recycling",
+      "in": [
+        [
+          "stack-inserter",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Stack inserter recycling",
+      "out": [
+        [
+          "bulk-inserter",
+          0.25
+        ],
+        [
+          "processing-unit",
+          0.25
+        ],
+        [
+          "carbon-fiber",
+          0.5
+        ],
+        [
+          "jelly",
+          2.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "steam-engine-recycling",
+      "in": [
+        [
+          "steam-engine",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Steam engine recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          2
+        ],
+        [
+          "pipe",
+          1.25
+        ],
+        [
+          "iron-plate",
+          2.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "steam-turbine-recycling",
+      "in": [
+        [
+          "steam-turbine",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Steam turbine recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          12.5
+        ],
+        [
+          "copper-plate",
+          12.5
+        ],
+        [
+          "pipe",
+          5
+        ]
+      ],
+      "time": 0.1875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "steel-chest-recycling",
+      "in": [
+        [
+          "steel-chest",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Steel chest recycling",
+      "out": [
+        [
+          "steel-plate",
+          2
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "steel-furnace-recycling",
+      "in": [
+        [
+          "steel-furnace",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Steel furnace recycling",
+      "out": [
+        [
+          "steel-plate",
+          1.5
+        ],
+        [
+          "stone-brick",
+          2.5
+        ]
+      ],
+      "time": 0.1875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "steel-plate-recycling",
+      "in": [
+        [
+          "steel-plate",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Steel plate recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "steel-plate"
+        }
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "stone-brick-recycling",
+      "in": [
+        [
+          "stone-brick",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Stone brick recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "stone-brick"
+        }
+      ],
+      "time": 0.2
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "stone-furnace-recycling",
+      "in": [
+        [
+          "stone-furnace",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Stone furnace recycling",
+      "out": [
+        [
+          "stone",
+          1.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "stone-recycling",
+      "in": [
+        [
+          "stone",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Stone recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "stone"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "stone-wall-recycling",
+      "in": [
+        [
+          "stone-wall",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Wall recycling",
+      "out": [
+        [
+          "stone-brick",
+          1.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "storage-chest-recycling",
+      "in": [
+        [
+          "storage-chest",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Storage chest recycling",
+      "out": [
+        [
+          "steel-chest",
+          0.25
+        ],
+        [
+          "electronic-circuit",
+          0.75
+        ],
+        [
+          "advanced-circuit",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "storage-tank-recycling",
+      "in": [
+        [
+          "storage-tank",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Storage tank recycling",
+      "out": [
+        [
+          "iron-plate",
+          5
+        ],
+        [
+          "steel-plate",
+          1.25
+        ]
+      ],
+      "time": 0.1875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "submachine-gun-recycling",
+      "in": [
+        [
+          "submachine-gun",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Submachine gun recycling",
+      "out": [
+        [
+          "iron-gear-wheel",
+          2.5
+        ],
+        [
+          "copper-plate",
+          1.25
+        ],
+        [
+          "iron-plate",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "substation-recycling",
+      "in": [
+        [
+          "substation",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Substation recycling",
+      "out": [
+        [
+          "steel-plate",
+          2.5
+        ],
+        [
+          "advanced-circuit",
+          1.25
+        ],
+        [
+          "copper-cable",
+          1.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "sulfur-recycling",
+      "in": [
+        [
+          "sulfur",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Sulfur recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "sulfur"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "sulfuric-acid-barrel-recycling",
+      "in": [
+        [
+          "sulfuric-acid-barrel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Sulfuric acid barrel recycling",
+      "out": [
+        [
+          "barrel",
+          0.25
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "supercapacitor-recycling",
+      "in": [
+        [
+          "supercapacitor",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Supercapacitor recycling",
+      "out": [
+        [
+          "holmium-plate",
+          0.5
+        ],
+        [
+          "superconductor",
+          0.5
+        ],
+        [
+          "electronic-circuit",
+          1
+        ],
+        [
+          "battery",
+          0.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "superconductor-recycling",
+      "in": [
+        [
+          "superconductor",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Superconductor recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "superconductor"
+        }
+      ],
+      "time": 0.15625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "tank-recycling",
+      "in": [
+        [
+          "tank",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Tank recycling",
+      "out": [
+        [
+          "engine-unit",
+          8
+        ],
+        [
+          "steel-plate",
+          12.5
+        ],
+        [
+          "iron-gear-wheel",
+          3.75
+        ],
+        [
+          "advanced-circuit",
+          2.5
+        ]
+      ],
+      "time": 0.3125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "tesla-ammo-recycling",
+      "in": [
+        [
+          "tesla-ammo",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Tesla ammo recycling",
+      "out": [
+        [
+          "supercapacitor",
+          0.25
+        ],
+        [
+          "plastic-bar",
+          0.25
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "tesla-turret-recycling",
+      "in": [
+        [
+          "tesla-turret",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Tesla turret recycling",
+      "out": [
+        [
+          "teslagun",
+          0.25
+        ],
+        [
+          "supercapacitor",
+          2.5
+        ],
+        [
+          "processing-unit",
+          2.5
+        ],
+        [
+          "superconductor",
+          12.5
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "teslagun-recycling",
+      "in": [
+        [
+          "teslagun",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Tesla gun recycling",
+      "out": [
+        [
+          "holmium-plate",
+          2.5
+        ],
+        [
+          "superconductor",
+          2.5
+        ],
+        [
+          "plastic-bar",
+          7.5
+        ]
+      ],
+      "time": 1.875
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "thruster-recycling",
+      "in": [
+        [
+          "thruster",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Thruster recycling",
+      "out": [
+        [
+          "steel-plate",
+          2.5
+        ],
+        [
+          "processing-unit",
+          2.5
+        ],
+        [
+          "electric-engine-unit",
+          1.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "toolbelt-equipment-recycling",
+      "in": [
+        [
+          "toolbelt-equipment",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Toolbelt equipment recycling",
+      "out": [
+        [
+          "advanced-circuit",
+          0.75
+        ],
+        [
+          "carbon-fiber",
+          2.5
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "train-stop-recycling",
+      "in": [
+        [
+          "train-stop",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Train stop recycling",
+      "out": [
+        [
+          "electronic-circuit",
+          1.25
+        ],
+        [
+          "iron-plate",
+          1.5
+        ],
+        [
+          "iron-stick",
+          1.5
+        ],
+        [
+          "steel-plate",
+          0.75
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "transport-belt-recycling",
+      "in": [
+        [
+          "transport-belt",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Transport belt recycling",
+      "out": [
+        [
+          "iron-plate",
+          0.125
+        ],
+        [
+          "iron-gear-wheel",
+          0.125
+        ]
+      ],
+      "time": 0.015625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "tree-seed-recycling",
+      "in": [
+        [
+          "tree-seed",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Tree seed recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "tree-seed"
+        }
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "tungsten-carbide-recycling",
+      "in": [
+        [
+          "tungsten-carbide",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Tungsten carbide recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "tungsten-carbide"
+        }
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "tungsten-ore-recycling",
+      "in": [
+        [
+          "tungsten-ore",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Tungsten ore recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "tungsten-ore"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "tungsten-plate-recycling",
+      "in": [
+        [
+          "tungsten-plate",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Tungsten plate recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "tungsten-plate"
+        }
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "turbo-splitter-recycling",
+      "in": [
+        [
+          "turbo-splitter",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Turbo splitter recycling",
+      "out": [
+        [
+          "express-splitter",
+          0.25
+        ],
+        [
+          "tungsten-plate",
+          3.75
+        ],
+        [
+          "processing-unit",
+          0.5
+        ]
+      ],
+      "time": 0.125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "turbo-transport-belt-recycling",
+      "in": [
+        [
+          "turbo-transport-belt",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Turbo transport belt recycling",
+      "out": [
+        [
+          "tungsten-plate",
+          1.25
+        ],
+        [
+          "express-transport-belt",
+          0.25
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "turbo-underground-belt-recycling",
+      "in": [
+        [
+          "turbo-underground-belt",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Turbo underground belt recycling",
+      "out": [
+        [
+          "tungsten-plate",
+          5
+        ],
+        [
+          "express-underground-belt",
+          0.25
+        ]
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "underground-belt-recycling",
+      "in": [
+        [
+          "underground-belt",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Underground belt recycling",
+      "out": [
+        [
+          "iron-plate",
+          1.25
+        ],
+        [
+          "transport-belt",
+          0.625
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "uranium-235-recycling",
+      "in": [
+        [
+          "uranium-235",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Uranium-235 recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "uranium-235"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "uranium-238-recycling",
+      "in": [
+        [
+          "uranium-238",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Uranium-238 recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "uranium-238"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "uranium-cannon-shell-recycling",
+      "in": [
+        [
+          "uranium-cannon-shell",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Uranium cannon shell recycling",
+      "out": [
+        [
+          "cannon-shell",
+          0.25
+        ],
+        [
+          "uranium-238",
+          0.25
+        ]
+      ],
+      "time": 0.75
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "uranium-fuel-cell-recycling",
+      "in": [
+        [
+          "uranium-fuel-cell",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Uranium fuel cell recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "uranium-fuel-cell"
+        }
+      ],
+      "time": 0.0625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "uranium-ore-recycling",
+      "in": [
+        [
+          "uranium-ore",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Uranium ore recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "uranium-ore"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "uranium-rounds-magazine-recycling",
+      "in": [
+        [
+          "uranium-rounds-magazine",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Uranium rounds magazine recycling",
+      "out": [
+        [
+          "piercing-rounds-magazine",
+          0.25
+        ],
+        [
+          "uranium-238",
+          0.25
+        ]
+      ],
+      "time": 0.625
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "utility-science-pack-recycling",
+      "in": [
+        [
+          "utility-science-pack",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Utility science pack recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "utility-science-pack"
+        }
+      ],
+      "time": 0.4375
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "water-barrel-recycling",
+      "in": [
+        [
+          "water-barrel",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Water barrel recycling",
+      "out": [
+        [
+          "barrel",
+          0.25
+        ]
+      ],
+      "time": 0.0125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "wood-recycling",
+      "in": [
+        [
+          "wood",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Wood recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "wood"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "wooden-chest-recycling",
+      "in": [
+        [
+          "wooden-chest",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Wooden chest recycling",
+      "out": [
+        [
+          "wood",
+          0.5
+        ]
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "yumako-mash-recycling",
+      "in": [
+        [
+          "yumako-mash",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Yumako mash recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "yumako-mash"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "yumako-recycling",
+      "in": [
+        [
+          "yumako",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Yumako recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "yumako"
+        }
+      ],
+      "time": 0.03125
+    },
+    {
+      "attrs": {
+        "is_auto_recycling": true
+      },
+      "id": "yumako-seed-recycling",
+      "in": [
+        [
+          "yumako-seed",
+          1
+        ]
+      ],
+      "machines": [
+        "recycler"
+      ],
+      "name": "Yumako seed recycling",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.25,
+          "res": "yumako-seed"
+        }
+      ],
+      "time": 0.03125
+    }
+  ]
+}

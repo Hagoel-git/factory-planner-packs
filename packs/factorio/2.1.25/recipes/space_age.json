@@ -1,0 +1,3894 @@
+{
+  "recipes": [
+    {
+      "id": "accumulator",
+      "in": [
+        [
+          "iron-plate",
+          2
+        ],
+        [
+          "battery",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Accumulator",
+      "out": [
+        [
+          "accumulator",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "acid-neutralisation",
+      "in": [
+        [
+          "calcite",
+          1
+        ],
+        [
+          "sulfuric-acid",
+          100
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Acid neutralisation",
+      "out": [
+        [
+          "steam-500c",
+          1000
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "asteroid"
+      },
+      "id": "advanced-carbonic-asteroid-crushing",
+      "in": [
+        [
+          "carbonic-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "crusher"
+      ],
+      "name": "Advanced carbonic asteroid crushing",
+      "out": [
+        [
+          "carbon",
+          5
+        ],
+        [
+          "sulfur",
+          2
+        ],
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.1,
+          "res": "carbonic-asteroid-chunk"
+        }
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "advanced-circuit",
+      "in": [
+        [
+          "electronic-circuit",
+          2
+        ],
+        [
+          "plastic-bar",
+          2
+        ],
+        [
+          "copper-cable",
+          4
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Advanced circuit",
+      "out": [
+        [
+          "advanced-circuit",
+          1
+        ]
+      ],
+      "time": 6
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "asteroid"
+      },
+      "id": "advanced-metallic-asteroid-crushing",
+      "in": [
+        [
+          "metallic-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "crusher"
+      ],
+      "name": "Advanced metallic asteroid crushing",
+      "out": [
+        [
+          "iron-ore",
+          10
+        ],
+        [
+          "copper-ore",
+          4
+        ],
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.1,
+          "res": "metallic-asteroid-chunk"
+        }
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "asteroid"
+      },
+      "id": "advanced-oxide-asteroid-crushing",
+      "in": [
+        [
+          "oxide-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "crusher"
+      ],
+      "name": "Advanced oxide asteroid crushing",
+      "out": [
+        [
+          "ice",
+          3
+        ],
+        [
+          "calcite",
+          2
+        ],
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.1,
+          "res": "oxide-asteroid-chunk"
+        }
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "agricultural-science-pack",
+      "in": [
+        [
+          "bioflux",
+          1
+        ],
+        [
+          "pentapod-egg",
+          1
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Agricultural science pack",
+      "out": [
+        [
+          "agricultural-science-pack",
+          1
+        ]
+      ],
+      "time": 4
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "rocket-fuel"
+      },
+      "id": "ammonia-rocket-fuel",
+      "in": [
+        [
+          "solid-fuel",
+          10
+        ],
+        [
+          "water",
+          50
+        ],
+        [
+          "ammonia",
+          500
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Ammonia rocket fuel",
+      "out": [
+        [
+          "rocket-fuel",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "ammoniacal-solution-separation",
+      "in": [
+        [
+          "ammoniacal-solution",
+          50
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Ammoniacal solution separation",
+      "out": [
+        [
+          "ice",
+          5
+        ],
+        [
+          "ammonia",
+          50
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "battery",
+      "in": [
+        [
+          "sulfuric-acid",
+          20
+        ],
+        [
+          "iron-plate",
+          1
+        ],
+        [
+          "copper-plate",
+          1
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Battery",
+      "out": [
+        [
+          "battery",
+          1
+        ]
+      ],
+      "time": 4
+    },
+    {
+      "id": "beacon",
+      "in": [
+        [
+          "electronic-circuit",
+          20
+        ],
+        [
+          "advanced-circuit",
+          20
+        ],
+        [
+          "steel-plate",
+          10
+        ],
+        [
+          "copper-cable",
+          10
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Beacon",
+      "out": [
+        [
+          "beacon",
+          1
+        ]
+      ],
+      "time": 15
+    },
+    {
+      "id": "big-electric-pole",
+      "in": [
+        [
+          "iron-stick",
+          8
+        ],
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "copper-cable",
+          4
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Big electric pole",
+      "out": [
+        [
+          "big-electric-pole",
+          1
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "big-mining-drill",
+      "in": [
+        [
+          "electric-mining-drill",
+          1
+        ],
+        [
+          "molten-iron",
+          200
+        ],
+        [
+          "tungsten-carbide",
+          20
+        ],
+        [
+          "electric-engine-unit",
+          10
+        ],
+        [
+          "advanced-circuit",
+          10
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Big mining drill",
+      "out": [
+        [
+          "big-mining-drill",
+          1
+        ]
+      ],
+      "time": 30
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "biochamber",
+      "in": [
+        [
+          "nutrients",
+          5
+        ],
+        [
+          "pentapod-egg",
+          1
+        ],
+        [
+          "iron-plate",
+          20
+        ],
+        [
+          "electronic-circuit",
+          5
+        ],
+        [
+          "landfill",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "biochamber"
+      ],
+      "name": "Biochamber",
+      "out": [
+        [
+          "biochamber",
+          1
+        ]
+      ],
+      "time": 20
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "bioflux",
+      "in": [
+        [
+          "yumako-mash",
+          15
+        ],
+        [
+          "jelly",
+          12
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Bioflux",
+      "out": [
+        [
+          "bioflux",
+          4
+        ]
+      ],
+      "time": 6
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "biolubricant",
+      "in": [
+        [
+          "jelly",
+          60
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Biolubricant",
+      "out": [
+        [
+          "lubricant",
+          20
+        ]
+      ],
+      "time": 3
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "plastic"
+      },
+      "id": "bioplastic",
+      "in": [
+        [
+          "bioflux",
+          1
+        ],
+        [
+          "yumako-mash",
+          4
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Bioplastic",
+      "out": [
+        [
+          "plastic-bar",
+          3
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "biosulfur",
+      "in": [
+        [
+          "spoilage",
+          5
+        ],
+        [
+          "bioflux",
+          1
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Biosulfur",
+      "out": [
+        [
+          "sulfur",
+          2
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "id": "biter-egg",
+      "machines": [
+        "captive-biter-spawner"
+      ],
+      "name": "Biter egg",
+      "out": [
+        [
+          "biter-egg",
+          5
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "burnt-spoilage",
+      "in": [
+        [
+          "spoilage",
+          6
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Burnt spoilage",
+      "out": [
+        [
+          "carbon",
+          1
+        ]
+      ],
+      "time": 12
+    },
+    {
+      "id": "captive-biter-spawner",
+      "in": [
+        [
+          "biter-egg",
+          10
+        ],
+        [
+          "capture-robot-rocket",
+          1
+        ],
+        [
+          "uranium-235",
+          15
+        ],
+        [
+          "fluoroketone-cold",
+          100
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant"
+      ],
+      "name": "Captive biter spawner",
+      "out": [
+        [
+          "captive-biter-spawner",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "carbon",
+      "in": [
+        [
+          "coal",
+          2
+        ],
+        [
+          "sulfuric-acid",
+          20
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Carbon",
+      "out": [
+        [
+          "carbon",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "carbon-fiber",
+      "in": [
+        [
+          "yumako-mash",
+          10
+        ],
+        [
+          "carbon",
+          1
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Carbon fiber",
+      "out": [
+        [
+          "carbon-fiber",
+          1
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "asteroid"
+      },
+      "id": "carbonic-asteroid-crushing",
+      "in": [
+        [
+          "carbonic-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "crusher"
+      ],
+      "name": "Carbonic asteroid crushing",
+      "out": [
+        [
+          "carbon",
+          10
+        ],
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.3,
+          "res": "carbonic-asteroid-chunk"
+        }
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_quality": false
+      },
+      "id": "carbonic-asteroid-reprocessing",
+      "in": [
+        [
+          "carbonic-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "crusher"
+      ],
+      "name": "Carbonic asteroid reprocessing",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.4,
+          "res": "carbonic-asteroid-chunk"
+        },
+        [
+          "metallic-asteroid-chunk",
+          1,
+          0.2
+        ],
+        [
+          "oxide-asteroid-chunk",
+          1,
+          0.2
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "casting-copper",
+      "in": [
+        [
+          "molten-copper",
+          20
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Casting copper",
+      "out": [
+        [
+          "copper-plate",
+          2
+        ]
+      ],
+      "time": 3.2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "casting-copper-cable",
+      "in": [
+        [
+          "molten-copper",
+          5
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Casting copper cable",
+      "out": [
+        [
+          "copper-cable",
+          2
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "casting-iron",
+      "in": [
+        [
+          "molten-iron",
+          20
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Casting iron",
+      "out": [
+        [
+          "iron-plate",
+          2
+        ]
+      ],
+      "time": 3.2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "casting-iron-gear-wheel",
+      "in": [
+        [
+          "molten-iron",
+          10
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Casting iron gear wheel",
+      "out": [
+        [
+          "iron-gear-wheel",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "casting-iron-stick",
+      "in": [
+        [
+          "molten-iron",
+          20
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Casting iron stick",
+      "out": [
+        [
+          "iron-stick",
+          4
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "lds"
+      },
+      "id": "casting-low-density-structure",
+      "in": [
+        [
+          "molten-iron",
+          80
+        ],
+        [
+          "molten-copper",
+          250
+        ],
+        [
+          "plastic-bar",
+          5
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Casting low density structure",
+      "out": [
+        [
+          "low-density-structure",
+          1
+        ]
+      ],
+      "time": 15
+    },
+    {
+      "id": "casting-pipe",
+      "in": [
+        [
+          "molten-iron",
+          10
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Casting pipe",
+      "out": [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "id": "casting-pipe-to-ground",
+      "in": [
+        [
+          "molten-iron",
+          50
+        ],
+        [
+          "pipe",
+          10
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Casting pipe to ground",
+      "out": [
+        [
+          "pipe-to-ground",
+          2
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "steel"
+      },
+      "id": "casting-steel",
+      "in": [
+        [
+          "molten-iron",
+          30
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Casting steel",
+      "out": [
+        [
+          "steel-plate",
+          1
+        ]
+      ],
+      "time": 3.2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "concrete-from-molten-iron",
+      "in": [
+        [
+          "molten-iron",
+          20
+        ],
+        [
+          "water",
+          100
+        ],
+        [
+          "stone-brick",
+          5
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Concrete from molten iron",
+      "out": [
+        [
+          "concrete",
+          10
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "copper-bacteria",
+      "in": [
+        [
+          "yumako-mash",
+          3
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "biochamber"
+      ],
+      "name": "Copper bacteria",
+      "out": [
+        [
+          "copper-bacteria",
+          1,
+          0.1
+        ],
+        [
+          "spoilage",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "copper-bacteria-cultivation",
+      "in": [
+        [
+          "copper-bacteria",
+          1
+        ],
+        [
+          "bioflux",
+          1
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Copper bacteria cultivation",
+      "out": [
+        [
+          "copper-bacteria",
+          4
+        ]
+      ],
+      "time": 4
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "copper-cable",
+      "in": [
+        [
+          "copper-plate",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Copper cable",
+      "out": [
+        [
+          "copper-cable",
+          2
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "copper-ore-melting",
+      "in": [
+        [
+          "copper-ore",
+          50
+        ],
+        [
+          "calcite",
+          1
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Copper ore melting",
+      "out": [
+        [
+          "molten-copper",
+          500
+        ]
+      ],
+      "time": 32
+    },
+    {
+      "attrs": {
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "cryogenic-plant",
+      "in": [
+        [
+          "refined-concrete",
+          40
+        ],
+        [
+          "superconductor",
+          20
+        ],
+        [
+          "processing-unit",
+          20
+        ],
+        [
+          "lithium-plate",
+          20
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "cryogenic-plant"
+      ],
+      "name": "Cryogenic plant",
+      "out": [
+        [
+          "cryogenic-plant",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "cryogenic-science-pack",
+      "in": [
+        [
+          "ice",
+          3
+        ],
+        [
+          "lithium-plate",
+          1
+        ],
+        [
+          "fluoroketone-cold",
+          6
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant"
+      ],
+      "name": "Cryogenic science pack",
+      "out": [
+        [
+          "cryogenic-science-pack",
+          1
+        ],
+        {
+          "amount": 3,
+          "catalyst": 3,
+          "res": "fluoroketone-hot"
+        }
+      ],
+      "time": 20
+    },
+    {
+      "id": "discharge-defense-equipment",
+      "in": [
+        [
+          "processing-unit",
+          5
+        ],
+        [
+          "steel-plate",
+          20
+        ],
+        [
+          "laser-turret",
+          10
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Discharge defense",
+      "out": [
+        [
+          "discharge-defense-equipment",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "id": "efficiency-module",
+      "in": [
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "electronic-circuit",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Efficiency module",
+      "out": [
+        [
+          "efficiency-module",
+          1
+        ]
+      ],
+      "time": 15
+    },
+    {
+      "id": "efficiency-module-2",
+      "in": [
+        [
+          "efficiency-module",
+          4
+        ],
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "processing-unit",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Efficiency module 2",
+      "out": [
+        [
+          "efficiency-module-2",
+          1
+        ]
+      ],
+      "time": 30
+    },
+    {
+      "id": "efficiency-module-3",
+      "in": [
+        [
+          "efficiency-module-2",
+          4
+        ],
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "processing-unit",
+          5
+        ],
+        [
+          "spoilage",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Efficiency module 3",
+      "out": [
+        [
+          "efficiency-module-3",
+          1
+        ]
+      ],
+      "time": 60
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "electrolyte",
+      "in": [
+        [
+          "stone",
+          1
+        ],
+        [
+          "heavy-oil",
+          10
+        ],
+        [
+          "holmium-solution",
+          10
+        ]
+      ],
+      "machines": [
+        "electromagnetic-plant"
+      ],
+      "name": "Electrolyte",
+      "out": [
+        [
+          "electrolyte",
+          10
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "electromagnetic-plant",
+      "in": [
+        [
+          "holmium-plate",
+          150
+        ],
+        [
+          "steel-plate",
+          50
+        ],
+        [
+          "processing-unit",
+          50
+        ],
+        [
+          "refined-concrete",
+          50
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Electromagnetic plant",
+      "out": [
+        [
+          "electromagnetic-plant",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "electromagnetic-science-pack",
+      "in": [
+        [
+          "supercapacitor",
+          1
+        ],
+        [
+          "accumulator",
+          1
+        ],
+        [
+          "electrolyte",
+          25
+        ],
+        [
+          "holmium-solution",
+          25
+        ]
+      ],
+      "machines": [
+        "electromagnetic-plant"
+      ],
+      "name": "Electromagnetic science pack",
+      "out": [
+        [
+          "electromagnetic-science-pack",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "electronic-circuit",
+      "in": [
+        [
+          "iron-plate",
+          1
+        ],
+        [
+          "copper-cable",
+          3
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Electronic circuit",
+      "out": [
+        [
+          "electronic-circuit",
+          1
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "explosives",
+      "in": [
+        [
+          "sulfur",
+          1
+        ],
+        [
+          "coal",
+          1
+        ],
+        [
+          "water",
+          10
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Explosives",
+      "out": [
+        [
+          "explosives",
+          2
+        ]
+      ],
+      "time": 4
+    },
+    {
+      "id": "express-splitter",
+      "in": [
+        [
+          "fast-splitter",
+          1
+        ],
+        [
+          "iron-gear-wheel",
+          10
+        ],
+        [
+          "advanced-circuit",
+          10
+        ],
+        [
+          "lubricant",
+          80
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "foundry"
+      ],
+      "name": "Express splitter",
+      "out": [
+        [
+          "express-splitter",
+          1
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "id": "express-transport-belt",
+      "in": [
+        [
+          "iron-gear-wheel",
+          10
+        ],
+        [
+          "fast-transport-belt",
+          1
+        ],
+        [
+          "lubricant",
+          20
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "foundry"
+      ],
+      "name": "Express transport belt",
+      "out": [
+        [
+          "express-transport-belt",
+          1
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "id": "express-underground-belt",
+      "in": [
+        [
+          "iron-gear-wheel",
+          80
+        ],
+        [
+          "fast-underground-belt",
+          2
+        ],
+        [
+          "lubricant",
+          40
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "foundry"
+      ],
+      "name": "Express underground belt",
+      "out": [
+        [
+          "express-underground-belt",
+          2
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "id": "fast-splitter",
+      "in": [
+        [
+          "splitter",
+          1
+        ],
+        [
+          "iron-gear-wheel",
+          10
+        ],
+        [
+          "electronic-circuit",
+          10
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "foundry"
+      ],
+      "name": "Fast splitter",
+      "out": [
+        [
+          "fast-splitter",
+          1
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "id": "fast-transport-belt",
+      "in": [
+        [
+          "iron-gear-wheel",
+          5
+        ],
+        [
+          "transport-belt",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "foundry"
+      ],
+      "name": "Fast transport belt",
+      "out": [
+        [
+          "fast-transport-belt",
+          1
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "id": "fast-underground-belt",
+      "in": [
+        [
+          "iron-gear-wheel",
+          40
+        ],
+        [
+          "underground-belt",
+          2
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "foundry"
+      ],
+      "name": "Fast underground belt",
+      "out": [
+        [
+          "fast-underground-belt",
+          2
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_quality": false,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "fish-breeding",
+      "in": [
+        [
+          "raw-fish",
+          2
+        ],
+        [
+          "nutrients",
+          100
+        ],
+        [
+          "water",
+          100
+        ]
+      ],
+      "machines": [
+        "biochamber",
+        "chemical-plant"
+      ],
+      "name": "Fish breeding",
+      "out": [
+        {
+          "amount": 3,
+          "catalyst": 2,
+          "res": "raw-fish"
+        }
+      ],
+      "time": 6
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "fluoroketone",
+      "in": [
+        [
+          "fluorine",
+          50
+        ],
+        [
+          "ammonia",
+          50
+        ],
+        [
+          "solid-fuel",
+          1
+        ],
+        [
+          "lithium",
+          1
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant"
+      ],
+      "name": "Fluoroketone",
+      "out": [
+        [
+          "fluoroketone-hot",
+          50
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "id": "fluoroketone-cooling",
+      "in": [
+        [
+          "fluoroketone-hot",
+          10
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant"
+      ],
+      "name": "Cooling hot fluoroketone",
+      "out": [
+        {
+          "amount": 10,
+          "catalyst": 10,
+          "res": "fluoroketone-cold"
+        }
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "foundry",
+      "in": [
+        [
+          "tungsten-carbide",
+          50
+        ],
+        [
+          "steel-plate",
+          50
+        ],
+        [
+          "electronic-circuit",
+          30
+        ],
+        [
+          "refined-concrete",
+          20
+        ],
+        [
+          "lubricant",
+          20
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "foundry"
+      ],
+      "name": "Foundry",
+      "out": [
+        [
+          "foundry",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "fusion-generator",
+      "in": [
+        [
+          "tungsten-plate",
+          100
+        ],
+        [
+          "superconductor",
+          100
+        ],
+        [
+          "quantum-processor",
+          50
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant"
+      ],
+      "name": "Fusion generator",
+      "out": [
+        [
+          "fusion-generator",
+          1
+        ]
+      ],
+      "time": 30
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "fusion-power-cell",
+      "in": [
+        [
+          "lithium-plate",
+          5
+        ],
+        [
+          "holmium-plate",
+          1
+        ],
+        [
+          "ammonia",
+          100
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant"
+      ],
+      "name": "Fusion power cell",
+      "out": [
+        [
+          "fusion-power-cell",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "fusion-reactor",
+      "in": [
+        [
+          "tungsten-plate",
+          200
+        ],
+        [
+          "superconductor",
+          200
+        ],
+        [
+          "quantum-processor",
+          250
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant"
+      ],
+      "name": "Fusion reactor",
+      "out": [
+        [
+          "fusion-reactor",
+          1
+        ]
+      ],
+      "time": 60
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false
+      },
+      "id": "heavy-oil-cracking",
+      "in": [
+        [
+          "water",
+          30
+        ],
+        [
+          "heavy-oil",
+          40
+        ]
+      ],
+      "machines": [
+        "biochamber",
+        "chemical-plant"
+      ],
+      "name": "Heavy oil cracking to light oil",
+      "out": [
+        [
+          "light-oil",
+          30
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "holmium-plate",
+      "in": [
+        [
+          "holmium-solution",
+          20
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "foundry"
+      ],
+      "name": "Holmium plate",
+      "out": [
+        [
+          "holmium-plate",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "iron-bacteria",
+      "in": [
+        [
+          "jelly",
+          6
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "biochamber"
+      ],
+      "name": "Iron bacteria",
+      "out": [
+        [
+          "iron-bacteria",
+          1,
+          0.1
+        ],
+        [
+          "spoilage",
+          4
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "iron-bacteria-cultivation",
+      "in": [
+        [
+          "iron-bacteria",
+          1
+        ],
+        [
+          "bioflux",
+          1
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Iron bacteria cultivation",
+      "out": [
+        [
+          "iron-bacteria",
+          4
+        ]
+      ],
+      "time": 4
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "iron-ore-melting",
+      "in": [
+        [
+          "iron-ore",
+          50
+        ],
+        [
+          "calcite",
+          1
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Iron ore melting",
+      "out": [
+        [
+          "molten-iron",
+          500
+        ]
+      ],
+      "time": 32
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "jellynut-processing",
+      "in": [
+        [
+          "jellynut",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "biochamber"
+      ],
+      "name": "Jellynut processing",
+      "out": [
+        [
+          "jellynut-seed",
+          1,
+          0.02
+        ],
+        [
+          "jelly",
+          4
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false
+      },
+      "id": "light-oil-cracking",
+      "in": [
+        [
+          "water",
+          30
+        ],
+        [
+          "light-oil",
+          30
+        ]
+      ],
+      "machines": [
+        "biochamber",
+        "chemical-plant"
+      ],
+      "name": "Light oil cracking to petroleum gas",
+      "out": [
+        [
+          "petroleum-gas",
+          20
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "lightning-collector",
+      "in": [
+        [
+          "lightning-rod",
+          1
+        ],
+        [
+          "supercapacitor",
+          8
+        ],
+        [
+          "accumulator",
+          1
+        ],
+        [
+          "electrolyte",
+          80
+        ]
+      ],
+      "machines": [
+        "electromagnetic-plant"
+      ],
+      "name": "Lightning collector",
+      "out": [
+        [
+          "lightning-collector",
+          1
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "lightning-rod",
+      "in": [
+        [
+          "copper-cable",
+          12
+        ],
+        [
+          "steel-plate",
+          8
+        ],
+        [
+          "stone-brick",
+          4
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Lightning rod",
+      "out": [
+        [
+          "lightning-rod",
+          1
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "lithium",
+      "in": [
+        [
+          "holmium-plate",
+          1
+        ],
+        [
+          "lithium-brine",
+          50
+        ],
+        [
+          "ammonia",
+          50
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Lithium",
+      "out": [
+        [
+          "lithium",
+          5
+        ]
+      ],
+      "time": 20
+    },
+    {
+      "id": "medium-electric-pole",
+      "in": [
+        [
+          "iron-stick",
+          4
+        ],
+        [
+          "steel-plate",
+          2
+        ],
+        [
+          "copper-cable",
+          2
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Medium electric pole",
+      "out": [
+        [
+          "medium-electric-pole",
+          1
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "asteroid"
+      },
+      "id": "metallic-asteroid-crushing",
+      "in": [
+        [
+          "metallic-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "crusher"
+      ],
+      "name": "Metallic asteroid crushing",
+      "out": [
+        [
+          "iron-ore",
+          20
+        ],
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.3,
+          "res": "metallic-asteroid-chunk"
+        }
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_quality": false
+      },
+      "id": "metallic-asteroid-reprocessing",
+      "in": [
+        [
+          "metallic-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "crusher"
+      ],
+      "name": "Metallic asteroid reprocessing",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.4,
+          "res": "metallic-asteroid-chunk"
+        },
+        [
+          "carbonic-asteroid-chunk",
+          1,
+          0.2
+        ],
+        [
+          "oxide-asteroid-chunk",
+          1,
+          0.2
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "metallurgic-science-pack",
+      "in": [
+        [
+          "tungsten-carbide",
+          3
+        ],
+        [
+          "tungsten-plate",
+          2
+        ],
+        [
+          "molten-copper",
+          200
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Metallurgic science pack",
+      "out": [
+        [
+          "metallurgic-science-pack",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "molten-copper-from-lava",
+      "in": [
+        [
+          "lava",
+          500
+        ],
+        [
+          "calcite",
+          1
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Molten copper from lava",
+      "out": [
+        [
+          "molten-copper",
+          250
+        ],
+        [
+          "stone",
+          15
+        ]
+      ],
+      "time": 16
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "molten-iron-from-lava",
+      "in": [
+        [
+          "lava",
+          500
+        ],
+        [
+          "calcite",
+          1
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Molten iron from lava",
+      "out": [
+        [
+          "molten-iron",
+          250
+        ],
+        [
+          "stone",
+          10
+        ]
+      ],
+      "time": 16
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "nutrients-from-bioflux",
+      "in": [
+        [
+          "bioflux",
+          5
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Nutrients from bioflux",
+      "out": [
+        [
+          "nutrients",
+          40
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "allows_quality": false
+      },
+      "id": "nutrients-from-biter-egg",
+      "in": [
+        [
+          "biter-egg",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "biochamber"
+      ],
+      "name": "Nutrients from biter egg",
+      "out": [
+        [
+          "nutrients",
+          20
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_quality": false
+      },
+      "id": "nutrients-from-fish",
+      "in": [
+        [
+          "raw-fish",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "biochamber"
+      ],
+      "name": "Nutrients from fish",
+      "out": [
+        [
+          "nutrients",
+          20
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "nutrients-from-spoilage",
+      "in": [
+        [
+          "spoilage",
+          10
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "biochamber"
+      ],
+      "name": "Nutrients from spoilage",
+      "out": [
+        [
+          "nutrients",
+          1
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "nutrients-from-yumako-mash",
+      "in": [
+        [
+          "yumako-mash",
+          4
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Nutrients from yumako mash",
+      "out": [
+        [
+          "nutrients",
+          6
+        ]
+      ],
+      "time": 4
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "asteroid"
+      },
+      "id": "oxide-asteroid-crushing",
+      "in": [
+        [
+          "oxide-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "crusher"
+      ],
+      "name": "Oxide asteroid crushing",
+      "out": [
+        [
+          "ice",
+          5
+        ],
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.3,
+          "res": "oxide-asteroid-chunk"
+        }
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_quality": false
+      },
+      "id": "oxide-asteroid-reprocessing",
+      "in": [
+        [
+          "oxide-asteroid-chunk",
+          1
+        ]
+      ],
+      "machines": [
+        "crusher"
+      ],
+      "name": "Oxide asteroid reprocessing",
+      "out": [
+        {
+          "amount": 1,
+          "catalyst": 1,
+          "chance": 0.4,
+          "res": "oxide-asteroid-chunk"
+        },
+        [
+          "metallic-asteroid-chunk",
+          1,
+          0.2
+        ],
+        [
+          "carbonic-asteroid-chunk",
+          1,
+          0.2
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_nauvis": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "pentapod-egg",
+      "in": [
+        [
+          "pentapod-egg",
+          1
+        ],
+        [
+          "nutrients",
+          30
+        ],
+        [
+          "water",
+          60
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Pentapod egg",
+      "out": [
+        {
+          "amount": 2,
+          "catalyst": 1,
+          "res": "pentapod-egg"
+        }
+      ],
+      "time": 15
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "plastic"
+      },
+      "id": "plastic-bar",
+      "in": [
+        [
+          "petroleum-gas",
+          20
+        ],
+        [
+          "coal",
+          1
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Plastic bar",
+      "out": [
+        [
+          "plastic-bar",
+          2
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "processing-unit"
+      },
+      "id": "processing-unit",
+      "in": [
+        [
+          "electronic-circuit",
+          20
+        ],
+        [
+          "advanced-circuit",
+          2
+        ],
+        [
+          "sulfuric-acid",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "electromagnetic-plant"
+      ],
+      "name": "Processing unit",
+      "out": [
+        [
+          "processing-unit",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "id": "productivity-module",
+      "in": [
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "electronic-circuit",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Productivity module",
+      "out": [
+        [
+          "productivity-module",
+          1
+        ]
+      ],
+      "time": 15
+    },
+    {
+      "id": "productivity-module-2",
+      "in": [
+        [
+          "productivity-module",
+          4
+        ],
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "processing-unit",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Productivity module 2",
+      "out": [
+        [
+          "productivity-module-2",
+          1
+        ]
+      ],
+      "time": 30
+    },
+    {
+      "id": "productivity-module-3",
+      "in": [
+        [
+          "productivity-module-2",
+          4
+        ],
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "processing-unit",
+          5
+        ],
+        [
+          "biter-egg",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Productivity module 3",
+      "out": [
+        [
+          "productivity-module-3",
+          1
+        ]
+      ],
+      "time": 60
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_vulcanus": false
+      },
+      "id": "promethium-science-pack",
+      "in": [
+        [
+          "promethium-asteroid-chunk",
+          25
+        ],
+        [
+          "quantum-processor",
+          1
+        ],
+        [
+          "biter-egg",
+          10
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant"
+      ],
+      "name": "Promethium science pack",
+      "out": [
+        [
+          "promethium-science-pack",
+          10
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "id": "quality-module",
+      "in": [
+        [
+          "electronic-circuit",
+          5
+        ],
+        [
+          "advanced-circuit",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Quality module",
+      "out": [
+        [
+          "quality-module",
+          1
+        ]
+      ],
+      "time": 15
+    },
+    {
+      "id": "quality-module-2",
+      "in": [
+        [
+          "quality-module",
+          4
+        ],
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "processing-unit",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Quality module 2",
+      "out": [
+        [
+          "quality-module-2",
+          1
+        ]
+      ],
+      "time": 30
+    },
+    {
+      "id": "quality-module-3",
+      "in": [
+        [
+          "quality-module-2",
+          4
+        ],
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "processing-unit",
+          5
+        ],
+        [
+          "superconductor",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Quality module 3",
+      "out": [
+        [
+          "quality-module-3",
+          1
+        ]
+      ],
+      "time": 60
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_vulcanus": false
+      },
+      "id": "quantum-processor",
+      "in": [
+        [
+          "tungsten-carbide",
+          1
+        ],
+        [
+          "processing-unit",
+          1
+        ],
+        [
+          "superconductor",
+          1
+        ],
+        [
+          "carbon-fiber",
+          1
+        ],
+        [
+          "lithium-plate",
+          2
+        ],
+        [
+          "fluoroketone-cold",
+          10
+        ]
+      ],
+      "machines": [
+        "electromagnetic-plant"
+      ],
+      "name": "Quantum processor",
+      "out": [
+        [
+          "quantum-processor",
+          1
+        ],
+        {
+          "amount": 5,
+          "catalyst": 5,
+          "res": "fluoroketone-hot"
+        }
+      ],
+      "time": 30
+    },
+    {
+      "id": "railgun",
+      "in": [
+        [
+          "tungsten-plate",
+          10
+        ],
+        [
+          "superconductor",
+          10
+        ],
+        [
+          "quantum-processor",
+          20
+        ],
+        [
+          "fluoroketone-cold",
+          10
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant"
+      ],
+      "name": "Railgun",
+      "out": [
+        [
+          "railgun",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "id": "railgun-turret",
+      "in": [
+        [
+          "quantum-processor",
+          100
+        ],
+        [
+          "tungsten-plate",
+          30
+        ],
+        [
+          "superconductor",
+          50
+        ],
+        [
+          "carbon-fiber",
+          20
+        ],
+        [
+          "fluoroketone-cold",
+          100
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant"
+      ],
+      "name": "Railgun turret",
+      "out": [
+        [
+          "railgun-turret",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "rocket-fuel"
+      },
+      "id": "rocket-fuel",
+      "in": [
+        [
+          "solid-fuel",
+          10
+        ],
+        [
+          "light-oil",
+          10
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "biochamber"
+      ],
+      "name": "Rocket fuel",
+      "out": [
+        [
+          "rocket-fuel",
+          1
+        ]
+      ],
+      "time": 15
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "prod_tech": "rocket-fuel"
+      },
+      "id": "rocket-fuel-from-jelly",
+      "in": [
+        [
+          "water",
+          30
+        ],
+        [
+          "jelly",
+          30
+        ],
+        [
+          "bioflux",
+          2
+        ]
+      ],
+      "machines": [
+        "biochamber"
+      ],
+      "name": "Rocket fuel from jelly",
+      "out": [
+        [
+          "rocket-fuel",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "id": "small-electric-pole",
+      "in": [
+        [
+          "wood",
+          1
+        ],
+        [
+          "copper-cable",
+          2
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Small electric pole",
+      "out": [
+        [
+          "small-electric-pole",
+          2
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "id": "solar-panel",
+      "in": [
+        [
+          "steel-plate",
+          5
+        ],
+        [
+          "electronic-circuit",
+          15
+        ],
+        [
+          "copper-plate",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Solar panel",
+      "out": [
+        [
+          "solar-panel",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "solid-fuel-from-ammonia",
+      "in": [
+        [
+          "ammonia",
+          15
+        ],
+        [
+          "crude-oil",
+          6
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Solid fuel from ammonia",
+      "out": [
+        [
+          "solid-fuel",
+          1
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "id": "speed-module",
+      "in": [
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "electronic-circuit",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Speed module",
+      "out": [
+        [
+          "speed-module",
+          1
+        ]
+      ],
+      "time": 15
+    },
+    {
+      "id": "speed-module-2",
+      "in": [
+        [
+          "speed-module",
+          4
+        ],
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "processing-unit",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Speed module 2",
+      "out": [
+        [
+          "speed-module-2",
+          1
+        ]
+      ],
+      "time": 30
+    },
+    {
+      "id": "speed-module-3",
+      "in": [
+        [
+          "speed-module-2",
+          4
+        ],
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "processing-unit",
+          5
+        ],
+        [
+          "tungsten-carbide",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Speed module 3",
+      "out": [
+        [
+          "speed-module-3",
+          1
+        ]
+      ],
+      "time": 60
+    },
+    {
+      "id": "splitter",
+      "in": [
+        [
+          "electronic-circuit",
+          5
+        ],
+        [
+          "iron-plate",
+          5
+        ],
+        [
+          "transport-belt",
+          4
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "foundry"
+      ],
+      "name": "Splitter",
+      "out": [
+        [
+          "splitter",
+          1
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_quality": false
+      },
+      "id": "steam-condensation",
+      "in": [
+        {
+          "amount": 1000,
+          "resource_param": "steam_temp_500"
+        }
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Steam condensation",
+      "out": [
+        [
+          "water",
+          90
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "id": "substation",
+      "in": [
+        [
+          "steel-plate",
+          10
+        ],
+        [
+          "advanced-circuit",
+          5
+        ],
+        [
+          "copper-cable",
+          6
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "electromagnetic-plant"
+      ],
+      "name": "Substation",
+      "out": [
+        [
+          "substation",
+          1
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "sulfur",
+      "in": [
+        [
+          "water",
+          30
+        ],
+        [
+          "petroleum-gas",
+          30
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Sulfur",
+      "out": [
+        [
+          "sulfur",
+          2
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "sulfuric-acid",
+      "in": [
+        [
+          "sulfur",
+          5
+        ],
+        [
+          "iron-plate",
+          1
+        ],
+        [
+          "water",
+          100
+        ]
+      ],
+      "machines": [
+        "cryogenic-plant",
+        "chemical-plant"
+      ],
+      "name": "Sulfuric acid",
+      "out": [
+        [
+          "sulfuric-acid",
+          50
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "supercapacitor",
+      "in": [
+        [
+          "holmium-plate",
+          2
+        ],
+        [
+          "superconductor",
+          2
+        ],
+        [
+          "electronic-circuit",
+          4
+        ],
+        [
+          "battery",
+          1
+        ],
+        [
+          "electrolyte",
+          10
+        ]
+      ],
+      "machines": [
+        "electromagnetic-plant"
+      ],
+      "name": "Supercapacitor",
+      "out": [
+        [
+          "supercapacitor",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "superconductor",
+      "in": [
+        [
+          "holmium-plate",
+          1
+        ],
+        [
+          "copper-plate",
+          1
+        ],
+        [
+          "plastic-bar",
+          1
+        ],
+        [
+          "light-oil",
+          5
+        ]
+      ],
+      "machines": [
+        "electromagnetic-plant"
+      ],
+      "name": "Superconductor",
+      "out": [
+        [
+          "superconductor",
+          2
+        ]
+      ],
+      "time": 5
+    },
+    {
+      "id": "tesla-ammo",
+      "in": [
+        [
+          "supercapacitor",
+          1
+        ],
+        [
+          "plastic-bar",
+          1
+        ],
+        [
+          "electrolyte",
+          10
+        ]
+      ],
+      "machines": [
+        "electromagnetic-plant"
+      ],
+      "name": "Tesla ammo",
+      "out": [
+        [
+          "tesla-ammo",
+          1
+        ]
+      ],
+      "time": 30
+    },
+    {
+      "id": "tesla-turret",
+      "in": [
+        [
+          "teslagun",
+          1
+        ],
+        [
+          "supercapacitor",
+          10
+        ],
+        [
+          "processing-unit",
+          10
+        ],
+        [
+          "superconductor",
+          50
+        ],
+        [
+          "electrolyte",
+          500
+        ]
+      ],
+      "machines": [
+        "electromagnetic-plant"
+      ],
+      "name": "Tesla turret",
+      "out": [
+        [
+          "tesla-turret",
+          1
+        ]
+      ],
+      "time": 30
+    },
+    {
+      "id": "teslagun",
+      "in": [
+        [
+          "holmium-plate",
+          10
+        ],
+        [
+          "superconductor",
+          10
+        ],
+        [
+          "plastic-bar",
+          30
+        ],
+        [
+          "electrolyte",
+          100
+        ]
+      ],
+      "machines": [
+        "electromagnetic-plant"
+      ],
+      "name": "Tesla gun",
+      "out": [
+        [
+          "teslagun",
+          1
+        ]
+      ],
+      "time": 30
+    },
+    {
+      "id": "transport-belt",
+      "in": [
+        [
+          "iron-plate",
+          1
+        ],
+        [
+          "iron-gear-wheel",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "foundry"
+      ],
+      "name": "Transport belt",
+      "out": [
+        [
+          "transport-belt",
+          2
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "allows_productivity": true,
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_space": false,
+        "on_vulcanus": false
+      },
+      "id": "tree-seed",
+      "in": [
+        [
+          "wood",
+          2
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "biochamber"
+      ],
+      "name": "Tree seed",
+      "out": [
+        [
+          "tree-seed",
+          1
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "tungsten-plate",
+      "in": [
+        [
+          "tungsten-ore",
+          4
+        ],
+        [
+          "molten-iron",
+          10
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Tungsten plate",
+      "out": [
+        [
+          "tungsten-plate",
+          1
+        ]
+      ],
+      "time": 10
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "turbo-splitter",
+      "in": [
+        [
+          "express-splitter",
+          1
+        ],
+        [
+          "tungsten-plate",
+          15
+        ],
+        [
+          "processing-unit",
+          2
+        ],
+        [
+          "lubricant",
+          80
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Turbo splitter",
+      "out": [
+        [
+          "turbo-splitter",
+          1
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "turbo-transport-belt",
+      "in": [
+        [
+          "tungsten-plate",
+          5
+        ],
+        [
+          "express-transport-belt",
+          1
+        ],
+        [
+          "lubricant",
+          20
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Turbo transport belt",
+      "out": [
+        [
+          "turbo-transport-belt",
+          1
+        ]
+      ],
+      "time": 0.5
+    },
+    {
+      "attrs": {
+        "on_aquilo": false,
+        "on_fulgora": false,
+        "on_gleba": false,
+        "on_nauvis": false,
+        "on_space": false
+      },
+      "id": "turbo-underground-belt",
+      "in": [
+        [
+          "tungsten-plate",
+          40
+        ],
+        [
+          "express-underground-belt",
+          2
+        ],
+        [
+          "lubricant",
+          40
+        ]
+      ],
+      "machines": [
+        "foundry"
+      ],
+      "name": "Turbo underground belt",
+      "out": [
+        [
+          "turbo-underground-belt",
+          2
+        ]
+      ],
+      "time": 2
+    },
+    {
+      "id": "underground-belt",
+      "in": [
+        [
+          "iron-plate",
+          10
+        ],
+        [
+          "transport-belt",
+          5
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "foundry"
+      ],
+      "name": "Underground belt",
+      "out": [
+        [
+          "underground-belt",
+          2
+        ]
+      ],
+      "time": 1
+    },
+    {
+      "attrs": {
+        "allows_productivity": true
+      },
+      "id": "yumako-processing",
+      "in": [
+        [
+          "yumako",
+          1
+        ]
+      ],
+      "machines": [
+        "assembling-machine-2",
+        "assembling-machine-3",
+        "assembling-machine-1",
+        "biochamber"
+      ],
+      "name": "Yumako processing",
+      "out": [
+        [
+          "yumako-seed",
+          1,
+          0.02
+        ],
+        [
+          "yumako-mash",
+          2
+        ]
+      ],
+      "time": 1
+    }
+  ]
+}

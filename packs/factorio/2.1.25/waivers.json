@@ -1,0 +1,24 @@
+{
+  "waive_warnings": [
+    {
+      "match": "options/power_modes/*",
+      "reason": "Power mode Project Global options are text-only labels without game artwork",
+      "rule": "V-W-1"
+    },
+    {
+      "match": "options/research_speeds/*",
+      "reason": "Lab research speed tier presets are text-only labels without distinct tier icons",
+      "rule": "V-W-1"
+    },
+    {
+      "match": "options/research_presets/*",
+      "reason": "Lab technology presets are text-only dropdown labels",
+      "rule": "V-W-1"
+    },
+    {
+      "match": "options/surfaces/all",
+      "reason": "'All surfaces' filter entry is a text-only umbrella option",
+      "rule": "V-W-1"
+    }
+  ]
+}
